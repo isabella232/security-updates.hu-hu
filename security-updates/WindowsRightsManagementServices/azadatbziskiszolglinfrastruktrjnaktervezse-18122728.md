@@ -1,0 +1,39 @@
+---
+TOCTitle: 'Az adatbázis-kiszolgáló infrastruktúrájának tervezése'
+Title: 'Az adatbázis-kiszolgáló infrastruktúrájának tervezése'
+ms:assetid: 'b12354bd-3143-4d1f-b5aa-450c4550653c'
+ms:contentKeyID: 18122728
+ms:mtpsurl: 'https://technet.microsoft.com/hu-hu/library/Cc747731(v=WS.10)'
+---
+
+Az adatbázis-kiszolgáló infrastruktúrájának tervezése
+=====================================================
+
+Mivel az RMS adatbázisokat és tárolt eljárásokat használ a működéséhez, a szolgáltatás szervezeten belüli használatához adatbázis-infrastruktúra szükséges. Az adatbázis-kiszolgáló elhelyezkedhet az RMS rendszerrel azonos, de másik kiszolgálón is. Ha nincs külön adatbázis-kiszolgáló az RMS támogatásához, az RMS teszteléséhez a Microsoft SQL Server 2000 Desktop Engine (MSDE 2000) Release A használható adatbázis-kiszolgálóként.
+
+A Microsoft SQL Server Desktop Engine adatbázis-kezelőt csak tesztkörnyezetben ajánlott használni az RMS adatbázisaihoz, mivel a Microsoft SQL Server Desktop Engine nem tartalmazza a teljes vállalati rendszert átfogó adatbázisok működtetéséhez szükséges eszközöket. Emellett az MSDE nem támogatja a távoli hálózatkezelést sem, ezért az RMS szolgáltatással azonos kiszolgálóra kell telepíteni, és nem lehet további RMS kiszolgálókat felvenni az RMS fürtbe. A Microsoft SQL Server Desktop Engine használati feltételei megtiltják az SQL Server ügyféleszközeinek használatát a Microsoft SQL Server Desktop Engine adatbázisok kezeléséhez. E korlátozás miatt nem tudja elkészíteni az RMS konfigurációs adatbázisának biztonsági másolatát, illetve nem tudja azt visszaállítani, nem tudja megtekinteni a naplózott adatokat és közvetlenül módosítani a konfigurációs adatbázisban tárolt adatokat.
+
+Ha nem az RMS-telepítést tartalmazó kiszolgálón tervezi elhelyezni az adatbázisokat, ezek támogatásához teljes adatbázis-kiszolgáló termékre lesz szükség, ilyen az SQL Server. Ügyeljen arra, hogy az RMS szolgáltatásfiókja rendelkezzen a szükséges adatbázis-olvasási, -írási és -létrehozási engedélyekkel azon az adatbázis-kiszolgálón, amelyet az RMS támogatására használ.
+
+Bár az RMS szolgáltatást SQL Server 2000 kiszolgálót és MSDE kezelőt futtató adatbázis-kiszolgálókra tervezték, és ezeken tesztelték, és a Microsoft nem támogatja az RMS használatát az SQL Server 2000 vagy MSDE rendszertől eltérő adatbázis-szolgáltatóval, az RMS más, a Microsoft .NET keretrendszer által biztosított ADO.NET felületeket alkalmazó adatbázis-szolgáltatókon is futtatható. Ezért az RMS szolgáltatáshoz más adatbázisgyártók is kifejleszthettek kompatibilis adatbázis-szolgáltatókat. Az RMS szolgáltatással minden olyan adatbázis-szolgáltató használható, amelyben az adott adatbázis-kiszolgáló megfelel az alábbi feltételeknek:
+
+-   Az adatbázis-kiszolgálónak kompatibilisnek kell lennie a Transact-SQL nyelvvel, mert az RMS inicializáló parancsfájljai és tárolt eljárásai ezt használják.
+-   Az adatbázis-kiszolgálónak támogatnia kell a Microsoft SQL Server összes jellemző bővítményét.
+
+Az adatbázis-szolgáltatónak emellett képesnek kell lennie:
+
+-   Válaszolni a .NET-keretrendszer System.Data.SqlClient névterének metódushívásaira.
+-   A System.Data.SqlClient névtérnek megfelelő szolgáltatásokat nyújtani.
+-   Az SQL hitelesítés helyett a beépített Windows hitelesítést használni.
+
+Ha az RMS szolgáltatást ettől eltérő konfigurációban működteti, forduljon ahhoz az adatbázis-szolgáltatóhoz vagy megoldásszállítóhoz, akinek adatbázis-szolgáltatóját a testreszabott környezetben használja.
+
+| ![](images/Cc747731.Caution(WS.10).gif)Figyelmeztetés:                                                                                                                                                                                                                                                                                                                                                                                |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Az RMS adatbázisai alapértelmezés szerint a teljes helyreállíthatóság bekapcsolásával készülnek, de a tranzakciónaplók mentési feladatai nem jönnek létre. Ennek következtében megtelhet a kiszolgáló merevlemeze, ami az adatbázis-kiszolgáló hibájához vezethet. A teljes helyreállíthatóság a javasolt beállítás a DRMS\_configuration adatbázisnál, a többi DRMS adatbázisnál a szervezet igényeinek megfelelő, ettől eltérő helyreállítási típus használható. |
+
+A témakör tartalma:
+
+-   [Az adatbázis méretnövekedésének becslése](https://technet.microsoft.com/87652cc2-b886-4797-8d40-356669768089)
+-   [A címtár-szolgáltatási adatbázis karbantartása](https://technet.microsoft.com/911a62f2-c1d6-4091-99b0-b53211be27a7)
+-   [A naplózási adatbázis karbantartása](https://technet.microsoft.com/de55058b-0d1a-4997-8a45-e14678ddd13f)

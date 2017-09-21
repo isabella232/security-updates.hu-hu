@@ -1,0 +1,27 @@
+---
+TOCTitle: Az RMS szolgáltatásfiók megváltoztatása
+Title: Az RMS szolgáltatásfiók megváltoztatása
+ms:assetid: 'a3e522b0-e23d-49f2-b00a-cff90ac2c36a'
+ms:contentKeyID: 18122709
+ms:mtpsurl: 'https://technet.microsoft.com/hu-hu/library/Cc747713(v=WS.10)'
+---
+
+Az RMS szolgáltatásfiók megváltoztatása
+=======================================
+
+A művelet végrehajtásához helyben kell bejelentkeznie a felügyeleti webhelyre olyan tartományi felhasználói fiókkal, amely a Rendszergazdák csoport tagja az elérni kívánt számítógépen. A Tartománygazdák csoport tagjai is végrehajthatják ezt a műveletet. Biztonsági szempontból ajánlott a műveletet a **Futtatás másként** parancs segítségével végrehajtani.
+
+A **Globális felügyelet** lap megnyitásához kattintson a **Start** gombra, és válassza a **Minden program**, a **Windows RMS**, majd a **Windows RMS felügyeleti webhely** parancsot.
+
+Az RMS szolgáltatásfiókja nem egyezhet meg a Service Pack 1 javítócsomaggal kiegészített RMS telepítéséhez használt tartományi fiókkal.
+
+Az RMS szolgáltatásfiók megváltoztatása
+---------------------------------------
+
+#### Az RMS szolgáltatásfiók megváltoztatása
+
+1.  Nyissa meg a **Globális felügyelet** lapot, majd keresse meg azt a webhelyet, amelyen létesítve van az RMS szolgáltatás, és kattintson a mellette látható **Az RMS szolgáltatásfiókjának módosítása** hivatkozásra.
+
+2.  Adja meg az RMS futtatásához az esetek többségében használandó fiók nevét. Tartományi fiókoknál használja a *tartománynév*\\*felhasználónév* formát.
+
+3.  Írja be a jelszót, és kattintson a **Küldés** gombra.

@@ -1,0 +1,18 @@
+---
+TOCTitle: RMS géptanúsítványok
+Title: RMS géptanúsítványok
+ms:assetid: '1841d53e-d01b-47c3-9d43-3805ceefed5a'
+ms:contentKeyID: 18122503
+ms:mtpsurl: 'https://technet.microsoft.com/hu-hu/library/Cc720209(v=WS.10)'
+---
+
+RMS géptanúsítványok
+====================
+
+Az RMS-géptanúsítvány igazolja az RMS rendszer által megbízhatónak tekintett számítógép vagy eszköz azonosságát.
+
+Az ügyfél aktiválási folyamata során a számítógépek vagy az eszközök RMS-géptanúsítványt állítanak elő.
+
+A géptanúsítvány az aktivált számítógép nyilvános kulcsát tartalmazza. A tanúsítványt a Microsoft aktiválási kulcsával van aláírva, amely a Service Pack 1 csomaggal frissített RMS ügyfélszoftver része.
+
+A kulcstároló és a géptanúsítvány kiállításának nem feltétele, hogy a számítógép Active Directory-tartomány tagja legyen.

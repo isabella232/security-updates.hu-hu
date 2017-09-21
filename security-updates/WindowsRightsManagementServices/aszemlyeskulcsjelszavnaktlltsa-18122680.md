@@ -1,0 +1,16 @@
+---
+TOCTitle: A személyes kulcs jelszavának átállítása
+Title: A személyes kulcs jelszavának átállítása
+ms:assetid: 'ceba927e-a7fd-4b06-bb70-5e5d9d6d099c'
+ms:contentKeyID: 18122680
+ms:mtpsurl: 'https://technet.microsoft.com/hu-hu/library/Cc747675(v=WS.10)'
+---
+
+A személyes kulcs jelszavának átállítása
+========================================
+
+A kiszolgálók létesítésekor ki kell választani az RMS személyes kulcsának védelmére használandó módszert. Ha az alapértelmezés szerinti szoftveres védelmet választotta, nehezen feltörhető jelszót adott meg a kiszolgáló személyes kulcsának titkosításához a konfigurációs adatbázisban. Ha elveszíti vagy elfelejti a jelszót, a Felügyelők csoport tagja átállíthatja azt „[A személyes kulcs jelszavának átállítása](https://technet.microsoft.com/f71df255-fe19-4e07-810e-87309a5e8e88)” című témakörben leírtaknak megfelelően.
+
+Ha az RMS fürtözött környezetben fut, a személyes kulcsot a telepítésben található minden RMS előtét-kiszolgálón át kell állítania. Ha ezt nem teszi meg, a kiszolgálók működésképtelenek lesznek, mert nem tudják visszafejteni a konfigurációs adatbázisban található kiszolgálói kulcsot.
+
+A nehezen feltörhető jelszavak részletes ismertetése a Windows Server 2003 súgójában olvasható.

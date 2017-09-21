@@ -1,0 +1,19 @@
+---
+TOCTitle: 'Részletes útmutató a Microsoft Windows Server Update Services (WSUS) szolgáltatás használatba vételéhez'
+Title: 'Részletes útmutató a Microsoft Windows Server Update Services (WSUS) szolgáltatás használatba vételéhez'
+ms:assetid: '29733254-b3e2-43d6-aaa6-4ba5df50e961'
+ms:contentKeyID: 18129563
+ms:mtpsurl: 'https://technet.microsoft.com/hu-hu/library/Cc720481(v=WS.10)'
+---
+
+Részletes útmutató a Microsoft Windows Server Update Services (WSUS) szolgáltatás használatba vételéhez
+=======================================================================================================
+
+A WSUS szolgáltatás átfogó és hatékony megoldást kínál a frissítések hálózaton belüli kezeléséhez. Ez a dokumentáció részletes ismertetést nyújt a WSUS szolgáltatás hálózatra történő központi telepítésével összefüggő alapfeladatokról, és segítségével az alábbi feladatok hajthatók végre.
+
+-   A WSUS szolgáltatás telepítése Microsoft Windows Server 2003 operációs rendszert futtató kiszolgálókra
+-   A WSUS szolgáltatás beállítása a Microsoft által kiadott frissítések letöltéséhez
+-   Ügyfélszámítógépek beállítása a WSUS-kiszolgálóról letöltött frissítések telepítéséhez
+-   Frissítések jóváhagyása, tesztelése és ügyfélszámítógépekre másolása
+
+Noha a WSUS alkalmazás szolgáltatásokban bővelkedő frissítéskezelési megoldás is egyben, ez az útmutató csupán egyetlen lehetőséget ír le a feladatok végrehajtásának ismertetésekor. Ha egy adott feladat végrehajtására más módszer is kínálkozik, megjegyzés hívja fel erre a figyelmet – ilyen esetben célszerű tanulmányozni a „Deploying Microsoft Windows Server Update Services” (A Microsoft Windows Server Update Services szolgáltatás központi telepítése) és a „Microsoft Windows Server Update Services Operations Guide” (Használati útmutató a Microsoft Windows Server Update Services szolgáltatáshoz) című (angol nyelvű) szakmai dokumentációt. E két dokumentáció legújabb kiadása a [Microsoft Windows Server Update Services webhelyről](http://go.microsoft.com/fwlink/?linkid=47374) (http://go.microsoft.com/fwlink/?LinkId=47374) tölthető le.

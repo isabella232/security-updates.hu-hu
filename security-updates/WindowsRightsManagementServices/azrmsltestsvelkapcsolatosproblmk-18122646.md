@@ -1,0 +1,73 @@
+---
+TOCTitle: Az RMS létesítésével kapcsolatos problémák
+Title: Az RMS létesítésével kapcsolatos problémák
+ms:assetid: 'b0e6ef48-ab38-4426-be5b-811cf64c45c0'
+ms:contentKeyID: 18122646
+ms:mtpsurl: 'https://technet.microsoft.com/hu-hu/library/Cc747638(v=WS.10)'
+---
+
+Az RMS létesítésével kapcsolatos problémák
+==========================================
+
+Az RMS létesítésekor sor kerül az RMS működésének alapjául szolgáló erőforrásfájlok és az összetevők közötti kapcsolatok konfigurálására és kialakítására. Ha hiba fordul elő, amikor az RMS megkísérel beállítani egy erőforrást, a létesítés hibaüzenet megjelenítésével megszakad. A témakör az ilyen hibák leggyakoribb okait ismerteti, és segítséget nyújt az RMS létesítését megakadályozó váratlan helyzetek hibaelhárításában.
+
+Nem létesíthető a legfelső szintű tanúsítási kiszolgáló
+-------------------------------------------------------
+
+Valószínűleg azért nem létesíthető a legfelső szintű tanúsítási kiszolgáló, mert nem jelennek meg a létesítéshez szükséges lapok. Ez akkor fordulhat elő, amikor a Globális felügyelet weblapon az RMS létesítése a webhelyen hivatkozásra kattint, hogy létesítse az első legfelső szintű tanúsítási kiszolgálót. Ekkor azonban a legfelső szintű tanúsítási kiszolgáló létesítésére szolgáló lapok helyett a licenckiszolgáló létesítésére szolgáló lapok jelennek meg.
+
+Ez a hiba akkor fordul elő, ha nem szüntette meg az utolsó legfelső szintű tanúsítási kiszolgálót az adott Active Directory-erdőben, mielőtt eltávolította a kiszolgálóról az RMS szolgáltatást, és ezt követően próbálja létesíteni a legfelső szintű tanúsítási kiszolgálót. Amikor egy Active Directory-erdő egyetlen legfelső szintű tanúsítási kiszolgálójának megszünteti, eltávolítja az Active Directoryból a szolgáltatás kapcsolódási pontját. Ha az RMS eltávolítása előtt nem szünteti meg az utolsó legfelső szintű tanúsítási kiszolgálót, csak akkor tud újra legfelső szintű tanúsítási kiszolgálót létesíteni az adott erdőben, ha kézzel törli az Active Directoryból a szolgáltatás kapcsolódási pontját.
+
+Ha licenckiszolgáló létesítésére szolgáló lapok jelennek meg, amikor egy Active Directory-erdő első legfelső szintű tanúsítási kiszolgálóját próbálja meg létesíteni, az alábbiak szerint törölje az Active Directoryból a szolgáltatás kapcsolódási pontját:
+
+**Az RMS szolgáltatáskapcsolódási pontjának eltávolítása**
+1.  Ha szükséges, telepítse a Windows Server támogatási eszközeit:
+
+    A Windows Server 2003 rendszeren futtassa a telepítési CD-lemez \\Support\\Tools mappájában található Suptools.msi fájlt.
+
+    A Windows 2000 Server rendszeren futtassa a telepítési CD-lemez \\Support Tools mappájában található Setup.exe programot.
+
+2.  Jelentkezzen be a Tartománygazdák csoportba tartozó fiókkal a legfelső szintű tanúsítási kiszolgálót is tartalmazó tartomány tartományvezérlőjébe.
+
+3.  Írja be a parancssorba a következő parancsot, majd nyomja meg az ENTER billentyűt:
+
+    **ldp**
+
+4.  Kattintson a **Kapcsolat**, majd a **Csatlakozás** elemre.
+
+5.  Nyomja meg az ENTER billentyűt. Ne írjon be semmit.
+
+6.  Kattintson a **Kapcsolat**, majd a **Kötés** elemre.
+
+7.  Nyomja meg az ENTER billentyűt. Ne írjon be semmit.
+
+8.  Válassza a **Nézet** menü **Fa** parancsát.
+
+9.  Nyomja meg az ENTER billentyűt. Ne írjon be semmit.
+
+    A bal oldali ablaktáblában a **dc=Tartománynév,dc=com** felirat jelenik meg.
+
+10. Bontsa ki a **dc=Tartománynév,dc=com** tárolót.
+
+11. Bontsa ki a **Konfiguráció** elemet.
+
+12. Bontsa ki a **Szolgáltatások** pontot.
+
+13. Törölje a **RightsManagementServices**. tárolót.
+
+vagy
+
+1.  Töltse le és telepítse az RMS Administration Toolkit eszközkészletet. Az eszközkészlet letölthető a [Microsoft webhelyéről](http://go.microsoft.com/fwlink/?linkid=33841).
+2.  Nyissa meg a parancssori ablakot: ehhez válassza a **Start** menü **Futtatás** parancsát. A **Futtatás** párbeszédpanelen írja be **cmd** parancsot, majd kattintson az **OK** gombra.
+3.  A parancssori ablakban írja be a következő parancsot:
+    **ADSCPRegister.exeunregisterscp** &lt;*törlendő\_URL*&gt;
+4.  A &lt;*törlendő\_URL*&gt; helyére az RMS szolgáltatáskapcsolódási pontjának URL-címét írja, például https://ez\_a\_tart/\_wmcs/Certification.
+
+A fenti lépések végrehajtása után létesítheti a legfelső szintű tanúsítási kiszolgálót.
+
+Nem állítható elő SSPI-környezet
+--------------------------------
+
+A létesítés során erre vonatkozó hibaüzenet is kaphat, ha nem sikerül hitelesíteni az RMS szolgáltatásfiókját a legfelső szintű tanúsítási kiszolgálónak a Microsoft Igénylés szolgáltatásnál történő bejegyzésekor.
+
+Ekkor ellenőrizze, hogy érvényes tartományi fiók-e az RMS szolgáltatásfiókja. Ha a fiók csoportfiók, ellenőrizze, hogy naprakész-e a csoporttagok listája, hogy a csoportban szereplő minden felhasználói fiók megtalálható-e a tartományban, és hogy mindegyik fióknak vannak-e jogai az SQL adatbázisokhoz.

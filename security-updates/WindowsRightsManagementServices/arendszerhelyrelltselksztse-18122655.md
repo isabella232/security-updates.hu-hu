@@ -1,0 +1,71 @@
+---
+TOCTitle: 'A rendszer-helyreállítás előkészítése'
+Title: 'A rendszer-helyreállítás előkészítése'
+ms:assetid: '885c047f-1e3b-4bf5-8248-3a4505759cbb'
+ms:contentKeyID: 18122655
+ms:mtpsurl: 'https://technet.microsoft.com/hu-hu/library/Cc747659(v=WS.10)'
+---
+
+A rendszer-helyreállítás előkészítése
+=====================================
+
+Az RMS rendszer bármely összetevőjének hibája, beleértve az RMS kiszolgáló internet- és intranetkapcsolatát, az RMS tanúsítási kiszolgálóját, az aligényléssel létesített bármelyik RMS licenckiszolgálót és az RMS konfigurációs adatbázisát kezelő adatbázis-kiszolgálókat, a szolgáltatás váratlan kiesését okozhatja. Az RMS rendszer kialakításakor fontos felmérni az RMS rendszer kiesésének lehetséges hatásait az informatikai rendszerekre és a bizalmas adatokra, és a lehető leghatékonyabban elő kell készíteni az összetevő helyreállítását.
+
+Az RMS konfigurációs adatbázisait kezelő adatbázis-kiszolgálók hibája az egyik olyan jelentős ok, amely miatt nem érhetők el az RMS-védelemmel ellátott adatok. Ez a szakasz a rendszer helyreállításának előkészítésében fontos szerepet játszó tényezőket ismerteti, így többek között a következőkről lesz szó:
+
+-   [Internetkapcsolat](#bkmk_1)
+-   [Intranetkapcsolat](#bkmk_2)
+-   [Tanúsítási és licencelési szolgáltatások](#bkmk_3)
+-   [Adatbázis-kiszolgálók](#bkmk_4)
+-   [Active Directory](#bkmk_5)
+
+<span id="BKMK_1"></span>
+Internetkapcsolat
+-----------------
+
+Ha a kiszolgálónál on-line igénylést használ, a létesítés során az RMS kiszolgálónak csatlakoznia kell az internetre a kiszolgálói licencelői tanúsítvány (SCL) beszerzéséhez, amelyet évente meg kell újítani. A lejárat közeledtével a tanúsítási kiszolgáló a rendszer eseménynaplójába írt bejegyzésekkel figyelmeztet a tanúsítás megújítására. Események naplózására kerül sor egy hónappal az SLC lejáratának dátuma előtt (16-os eseményazonosító), egy héttel az SLC lejáratának dátuma előtt (17-es eseményazonosító), valamint az SLC lejáratakor (18-as eseményazonosító). Az RMS felügyeleti webhelyének Globális felügyelet weblapján is megjelenik figyelmeztetés az SLC lejáratának dátumára. Ha a Microsoft Operations Manager (MOM) RMS kezelési csomagját használja, a lejárati események riasztást indítanak el. Ha az RMS kiszolgálón nem áll rendelkezésre internetkapcsolat, a kiszolgálói licencelői tanúsítvány nem újítható meg az RMS felügyeleti webhelyén a **Megújítás** gombbal, és a kapcsolat nélküli igénylési eljárással kell beszerezni a frissített tanúsítványt.
+
+Gyakorlati tanács: az SLC megújítását célszerű jóval a lejárati dátum előtt végrehajtani, mert így elkerülhetők az internetkapcsolat esetleges hiányából származó problémák, amikor lejár a tanúsítvány. Az RMS kiszolgáló érvényes SLC nélkül nem tud RMS szolgáltatásokat nyújtani, azaz a felhasználók ekkor nem tudnak RMS-védelemmel ellátott adatokat közzétenni, illetve nem tudnak használati licenceket és tartalomvédelmi fióktanúsítványokat (RAC) szerezni az RMS-védelemmel ellátott adatok olvasásához. A korábban már használati licencet és tartalomvédelmi fióktanúsítványt szerzett felhasználók az adott, RMS-védelemmel ellátott tartalmat a használati licenc vagy a RAC lejárati dátumáig tovább használhatják.
+
+<span id="BKMK_2"></span>
+Intranetkapcsolat
+-----------------
+
+Az RMS olyan ügyfél-kiszolgáló technológia, amely a kapcsolódó infrastruktúrára támaszkodik. Működő intranet hálózat nélkül az RMS kiszolgálói nem tudnak kapcsolódni a vállalaton belüli kívánt szolgáltatásokhoz, illetve a szolgáltatások nyújtásához a felhasználókhoz. Intranetkapcsolat nélkül a felhasználók nem tudják megszerezni az RMS kiszolgálóitól a tartalomvédelmi fióktanúsítványokat (RAC), az ügyfél-licencelői tanúsítványokat (CLC) és a használati licenceket.
+
+Gyakorlati tanács: a szervezeteknek érdemes megfontolniuk redundáns útválasztási architektúrák és távoli helyek feladatátvételi kapcsolatainak kialakítását az RMS kiszolgálói helyeihez.
+
+Miután a felhasználó ügyfél-licencelői tanúsítványt szerzett az adott számítógéphez, RMS-védelemmel ellátott tartalmat tehet közzé kapcsolat nélkül is, azaz az RMS kiszolgáló elérése nélkül. Egyes RMS-kompatibilis levelezőalkalmazásokat úgy állítottak be, hogy a postafiók szinkronizálásakor automatikusan letöltsék a használati licenceket a kapcsolódó, RMS-védelemmel ellátott e-mail üzenetekhez, így a felhasználók intranetkapcsolat nélkül is elolvashatják az RMS-védelemmel ellátott e-mail üzeneteket.
+
+<span id="BKMK_3"></span>
+Tanúsítási és licencelési szolgáltatások
+----------------------------------------
+
+Az RMS rendszer működése alapvetően függ az Internet Information Services (IIS) 6.0 két virtuális könyvtárától, amelyek a tanúsítási és a licencelési szolgáltatást támogatják. Ezek a szolgáltatások lehetővé teszik a felhasználóknak és számítógépeiknek, hogy igényléseket nyújtsanak be az RMS környezetbe, valamint az RMS-kompatibilis alkalmazásoknak, hogy RMS-védelemmel ellátott adatokat tegyenek közzé és használjanak. Ha elérhetetlenné válnak ezek a szolgáltatások, helyreállításukig a felhasználók sem használhatják ezeket.
+
+A lehetséges szolgáltatáskiesés felmérésénél érdemes megfontolni a tanúsítási kiszolgáló és az aligénylési licenckiszolgáló fürtben való létrehozását, így a fürt valamelyik csomópontjának hibája nem befolyásolja a szolgáltatás rendelkezésre állását.
+
+Gyakorlati tanács: a fürtöket többletkapacitással célszerű kialakítani, így a teljes rendszer teljesítménye változatlan marad, bármelyik csomópont hibásodik is meg. A fürtben az első tanúsítási kiszolgáló és az egyes aligénylési licenckiszolgálók, illetve az első aligénylési licenckiszolgáló telepítésekor fel kell jegyezni a létesítéskor megadott konfigurációs beállításokat és adatokat.
+
+<span id="BKMK_4"></span>
+Adatbázis-kiszolgálók
+---------------------
+
+Az RMS rendszer legfontosabb összetevői a konfigurációs adatbázisokat tartalmazó adatbázis-kiszolgálók. Valamennyi RMS kiszolgáló, illetve kiszolgálófürt adatbázisokban tárolja a konfigurációs és a naplózási adatokat. A konfigurációs adatok nélkülözhetetlenek az RMS működéséhez. Ezek az adatbázisok tartalmazzák a kiszolgálói licencelői tanúsítványt, az előállított jogmegadási sablonokat és az RMS rendszernek igénylést benyújtó felhasználók listáját, valamint az RMS kiszolgáló személyes és nyilvános kulcsát is, ha nem hardveres biztonsági modullal védik a kulcsokat. Az RMS adatbázisainak biztonsági másolatából új kiszolgálón visszaállítható az RMS előző telepítése, és újból létrehozható az RMS rendszer. Az adatbázisok kiesésének hatása adatbázisonként változó. A következő felsorolás az egyes adatbázisok hibájának következményeit ismerteti:
+
+-   **Konfigurációs adatbázis**. Ha ez az adatbázis elérhetetlenné válik az RMS kiszolgáló működése során, az RMS szolgáltatásai tovább használhatók, mivel az RMS helyi gyorsítótárból biztosítja a kívánt adatokat. Ha viszont olyan esemény következik be, amelynél az RMS szolgáltatásának szüksége van a konfigurációs adatbázisra, ilyen például egy új felhasználói igénylés, az RMS szolgáltatása hibát észlel, és az új felhasználó nem tud dolgozni az RMS-védelemmel ellátott tartalommal. Ha olyan műveletre kerül sor, amikor az RMS kiszolgálójának figyelmen kívül kell hagynia a gyorsítótár adatait, ilyen például az IIS szolgáltatás újraindítása vagy a helyi gyorsítótár ütemezett frissítése, az RMS működése leáll. Az RMS kiszolgáló mindaddig nem tud visszatérni a normál működéshez, míg elérhetővé nem válik a konfigurációs adatbázis.
+    Ha a konfigurációs adatbázis megsérül vagy végérvényesen elérhetetlenné válik, az RMS kiszolgálóinak működése leáll.
+-   **Címtár-szolgáltatási adatbázis**. A globáliskatalógus-kiszolgálóból beszerzett, csoportnevekre és a tagságra vonatkozó, gyorsítótárban elhelyezett adatokat tartalmazza. Az RMS szolgáltatásaira nincs észrevehető hatása, ha rövid ideig nem áll rendelkezésre ez a tábla. Elsődleges szerepe a redundancia biztosítása és a globáliskatalógus-kiszolgáló tehermentesítése.
+-   **Naplózási adatbázis**. Ha engedélyezték a naplózást az RMS kiszolgálón, a rendszer ebben az adatbázisban tárolja a naplót. Ha az adatbázis elérhetetlenné válik, a naplóbejegyzések a Message Queuing (más néven MSMQ) szolgáltatásban gyűlnek fel, és az összes rendelkezésre álló lemezterületet felhasználják (kivéve, ha ezt a konfigurálásnál tiltották).
+
+Gyakorlati tanács: az adatbázis-kiszolgálók fürtözésével aktív-készenléti feladatátvételes védelem alakítható ki. Emellett rendszeres időközönként célszerű elkészíteni az RMS tanúsítási kiszolgálóihoz, valamint a licenckiszolgálókhoz és a licencelési fürtökhöz tartozó adatbázisok biztonsági másolatát.
+
+Egy további gyakorlati tanács szerint a megfelelő biztonsági másolat kezeléséhez érdemes a tranzakciónapló szállítását használni. Bár ehhez kiegészítő hardverre lehet szükség, de az adatbázisok jóval gyorsabb visszaállítását teszi lehetővé. Ezt a módszert a Microsoft IT megvalósította az RMS konfigurációs adatbázisának visszaállításához. Ennek végrehajtásához az RMS létesítésekor jelölje ki a virtuális SQL-nevet. A virtuális SQL-név lehetővé teszi a valóságos SQL-névre való leképezést a DNS (Domain Name System) használatával. Ha leáll az eredeti SQL Server működése, egyszerűen átkapcsolhat a biztonsági másolati SQL Server kiszolgálóra a DNS-név leképezésének megváltoztatásával az eredeti kiszolgálóról a tartalék kiszolgálóra. A fenti megoldás belső megvalósításáról a további tudnivalókat lásd a Microsoft Corporation esettanulmányában a [Microsoft webhelyén](http://go.microsoft.com/fwlink/?linkid=42070) (http://go.microsoft.com/fwlink/?LinkId=42070).
+
+<span id="BKMK_5"></span>
+Active Directory
+----------------
+
+Az RMS két fontos szolgáltatáshoz használja az Active Directoryt: felhasználóhitelesítés és globális katalógus. Ha az Active Directory nem érhető el, nem hajtható végre a felhasználóhitelesítés, így a felhasználók és számítógépeik nem nyújthatnak be igényléseket az RMS rendszernek. A tartalomvédelmi fióktanúsítvány megszerzésének előfeltétele a tanúsítási adatcsatorna, és ez az adatcsatorna hitelesítést igényel. Ha a felhasználó rendelkezik már a tartalomvédelmi fióktanúsítvánnyal, további hitelesítés nélkül használati licencet szerezhet, mivel a licencelési adatcsatorna alapértelmezés szerint névtelen.
+
+Mivel a vállalati entitások az Active Directoryban meglévő csoporttagságot használhatják annak megadására, hogy ki érheti el az RMS-védelemmel ellátott adatokat, az Active Directory kiesése megakadályozhatja a használati licencek megszerzését. Alapértelmezés szerint a csoporttagságra vonatkozó adatok 15 percenként az RMS kiszolgáló gyorsítótárába kerülnek, így a globális katalógus ideiglenes kiesése nem okoz nagyobb problémát. A gyorsítótár frissítésének gyakorisága a megfelelő rendszerleíró kulcs értékének módosításával beállítható. A további tudnivalókat lásd a dokumentumgyűjtemény „RMS kiszolgáló működtetése” részében „Az Active Directory-gyorsítótár beállításainak módosítása” témakörben.

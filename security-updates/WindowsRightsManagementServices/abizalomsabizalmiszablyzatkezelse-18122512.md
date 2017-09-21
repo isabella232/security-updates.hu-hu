@@ -1,0 +1,18 @@
+---
+TOCTitle: A bizalom és a bizalmi szabályzat kezelése
+Title: A bizalom és a bizalmi szabályzat kezelése
+ms:assetid: '1c96ee74-fd28-4511-be21-087e2b04c3ee'
+ms:contentKeyID: 18122512
+ms:mtpsurl: 'https://technet.microsoft.com/hu-hu/library/Cc720214(v=WS.10)'
+---
+
+A bizalom és a bizalmi szabályzat kezelése
+==========================================
+
+Megbízható felhasználói tartomány létrehozásával érheti el, hogy az RMS megbízhatónak nyilvánítsa a különböző Active Directory erdőkbe tartozó felhasználók vagy csoportok tartalomvédelmi fióktanúsítványait, és feldolgozza a tőlük érkező kérelmeket. RMS kiszolgálókat is beállíthat az adott telepítéshez tartozó egyéb kiszolgálóktól származó közzétételi licencek megbízhatóvá nyilvánításához és a megfelelő licencek kiállításához. Ezeket a bizalmi szabályzatokat az RMS-telepítés minden kiszolgálóján és fürtjén megadhatja.
+
+A témakör tartalma:
+
+-   [Bizalmi szabályzatok megadása](https://technet.microsoft.com/e8d78300-4b26-4f15-9e4f-5ae9eb827ef9)
+-   [Megbízható felhasználói tartományok hozzáadása és eltávolítása](https://technet.microsoft.com/7c440b15-01c4-49f1-b43c-00f67f3388c1)
+-   [Megbízható közzétételi tartományok hozzáadása és eltávolítása](https://technet.microsoft.com/d87b502d-5497-4ccd-badf-f6807d587cee)

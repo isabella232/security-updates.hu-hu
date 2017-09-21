@@ -1,0 +1,65 @@
+---
+TOCTitle: A visszavonási listák alkalmazása
+Title: A visszavonási listák alkalmazása
+ms:assetid: 'e331338b-66d4-45e4-8d3f-acccf2302ac4'
+ms:contentKeyID: 18122706
+ms:mtpsurl: 'https://technet.microsoft.com/hu-hu/library/Cc747702(v=WS.10)'
+---
+
+A visszavonási listák alkalmazása
+=================================
+
+A visszavonás megvalósításához visszavonási listákat kell alkalmazni. A visszavonási listák felsorolják a visszavont érvényességű tartalmat, alkalmazásokat, felhasználókat és más résztvevőket. Alkalmazhat egyszerre szervezeti, illetve a Microsofttól származó visszavonási listákat is.
+
+Szervezeti visszavonási listák alkalmazása
+------------------------------------------
+
+Ha visszavonási listát előíró jogmegadási sablont szeretne használni, a visszavonási listát hozzáférhetővé kell tennie a szervezet ügyfélszámítógépei számára. A visszavonási listák létrehozásáról lásd: „A visszavonás megvalósítása”.
+
+Szervezeti visszavonási lista bevezetését a következő lépésekkel hajthatja végre:
+
+1.  Másolja a visszavonási listát nyilvánosan elérhető webkiszolgálóra. Mivel a felhasználók a védett tartalmat a szervezeten kívül is használhatják, a választott helynek elérhetőnek kell lennie minden felhasználó számára, a hálózaton belülről és kívülről is.
+    A visszavonási lista fájlnak az ügyfélszámítógépekre történő eljuttatása némi időt vesz igénybe. Így előfordulhat, hogy a felhasználók ügyfélszámítógépén még nem érhető el a visszavonási lista, amikor visszavonási listát igénylő dokumentumot kísérel meg megnyitni. Ha a visszavonási lista nem áll rendelkezésre az ügyfélszámítógépen, az RMS-kompatibilis alkalmazás letöltheti azt a használati licencben megadott helyről.
+    Az ideális megoldás olyan parancsfájl készítése, amely naponta automatikusan aláírja és a megfelelő webhelyre másolja a visszavonási listát. Ezzel lehetőség szerint biztosítható, hogy a felhasználók lejárt visszavonási listájuk miatt ne legyenek elzárva a tartalom használatától. Ilyen parancsfájlra mutat be példát „A Visszavonási lista aláírása eszköz használata” című pont.
+2.  A jogmegadási sablonban adjon meg nullánál nagyobb értékű frissítési időközt a szervezeti visszavonási lista számára. Ez biztosítja a visszavonási lista kötelező használatát. Ha a lista frissítését csak alkalomszerűen, például biztonsági problémák felmerülésekor kívánja végrehajtani, a frissítési időközre nagyobb értéket választhat, így a parancsfájl és a házirend beállításainak megfelelően a visszavonási listát szükség szerint küldheti el az ügyfélszámítógépekre. A frissítési időköz beállításáról a „Visszavonási szabályzatok definiálása” című pontban olvashat. A jogmegadási sablonok konfigurálásáról a további tudnivalókat lásd: „A jogmegadási sablonok létrehozása és módosítása”.
+3.  A jogmegadási sablonban adja meg a visszavonási lista letöltési URL-címét.
+4.  A visszavonási listát a Csoportházirend, a Systems Management Server (SMS) vagy hasonló automatikus módszer segítségével is bevezetheti az ügyfélszámítógépeken.
+
+A Microsofttól származó visszavonási listák alkalmazása
+-------------------------------------------------------
+
+Az RMS-ügyfél akkor tudja használni a Microsofttól származó visszavonási listákat, ha azokat bevezeti az ügyfélszámítógépeken. Ez a témakör Microsofttól származó visszavonási lista bevezetését ismerteti a következő helyzetekben:
+
+-   A szervezet saját visszavonási listát és a Microsofttól származó visszavonási listát kíván alkalmazni.
+-   A szervezet csak a Microsofttól származó visszavonási listát kívánja alkalmazni.
+
+Amikor a Microsoft visszavonási listát ad ki, a következő helyekről töltheti le azt:
+
+-   Az RMS kiszolgálók a Windows Update szolgáltatás használatával tölthetik le a visszavonási listát.
+-   A Microsoft visszavonási listája emellett a Microsoft letöltőközpontjában is elérhető, ha az RMS kiszolgáló csatlakozik az internethez.
+
+Ha RMS kiszolgálóra tölti le a visszavonási listát, a csomag mentési helye a %systemdrive%\\Program Files\\Windows Rights Management Services Revocation List mappa. Ha más típusú számítógépre hajtja végre a letöltést, megadhatja a csomag helyét. A csomag tartalmaz egy programfájlt (CRL\_Update.exe), amellyel az ügyféllicenctár összes visszavonási listáját telepítheti, valamint egy visszavonásilista-fájlt (Msrl.xml), amelyet webhelyre vagy megosztott mappába másolhat.
+
+**Saját szervezeti visszavonási lista és a Microsofttól származó visszavonási lista alkalmazása**
+1.  Vezesse be a szervezeti visszavonási listát „[A visszavonási listák alkalmazása](https://technet.microsoft.com/e331338b-66d4-45e4-8d3f-acccf2302ac4)” című pontban bemutatott lépésekkel.
+
+2.  Töltse le a Microsoft visszavonásilista-csomagot, és a Csoportházirend vagy az SMS (Systems Management Server) segítségével vagy más módszerrel telepítse azt a szervezet minden ügyfélszámítógépére. Azt is megteheti, hogy a Microsoft visszavonási listájából átmásolja a megfelelő bejegyzéseket a szervezeti visszavonási listába, és csak a szervezeti visszavonási listát alkalmazza.
+
+| ![](images/Cc747702.Caution(WS.10).gif)Figyelmeztetés:                                                                                                                                                                                                                                                                                                                                       |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| A Microsoft résztvevőként szerepel az RMS által kiállított minden tanúsítvány és licenc bizalmi láncában. Éppen ezért a Microsoft által kiállított visszavonási lista minden olyan kötési kérelemnél érvényre jut, amelyhez a használati licencet a szervezeti visszavonási listát megkövetelő jogmegadási sablon alapján szerezték be. Emellett a Microsoft visszavonási listája regisztrálva van az ügyfélszámítógépen. |
+
+**Microsofttól származó visszavonási lista alkalmazása**
+1.  Töltse le a Microsoft visszavonásilista-csomagot.
+
+2.  Módosítsa úgy a meglévő jogmegadási sablonokat, hogy megköveteljék a visszavonást, illetve ha nincs jogmegadási sablon, hozzon létre egyet, amely megköveteli a visszavonást. A visszavonási feltétel megadásakor használja a Microsoft nyilvános kulcsát.
+
+3.  A frissítési időközre adjon meg egy nagyon nagy értéket, például 50000. Ez biztosítja, hogy a Microsoft által kiállított visszavonási lista sose járjon le. Éppen ezért a közzétett használati licencek nem fogják a Microsoft visszavonási lista új verzióját kérni, amikor az nem érhető el.
+
+4.  Másolja a visszavonási listát nyilvánosan elérhető webkiszolgálóra. Mivel a felhasználók a védett tartalmat a szervezeten kívül is használhatják, a választott helynek elérhetőnek kell lennie minden felhasználó számára, a hálózaton belülről és kívülről is.
+
+5.  Azért kell hozzáférhetővé tenni a visszavonási listát, mert a visszavonásilista-fájlnak a ügyfélszámítógépekre történő eljuttatása némi időt vesz igénybe. Így előfordulhat, hogy egy felhasználó számítógépén helyileg még nem érhető el a visszavonási lista, amikor visszavonást igénylő közzétételi licenccel rendelkező dokumentumot kísérel meg megnyitni. Ha a visszavonási lista nem áll rendelkezésre az ügyfélszámítógépen, az RMS-kompatibilis alkalmazás letöltheti azt a megadott helyről.
+
+6.  A jogmegadási sablonban adja meg a visszavonási lista letöltési URL-címét. A jogmegadási sablonok konfigurálásáról a további tudnivalókat lásd: „[A jogmegadási sablonok létrehozása és módosítása](https://technet.microsoft.com/6014176f-ef71-4d29-b3e3-da129c18563d)”.
+
+7.  A visszavonásilista-csomagot a Csoportházirend, az SMS vagy hasonló módszer segítségével is telepítheti az ügyfélszámítógépekre. A felhasználók ekkor a visszavonási listákat megkövetelő RMS-védelemmel ellátott tartalmat akkor is megnyithatják, ha nem kapcsolódnak a hálózathoz.

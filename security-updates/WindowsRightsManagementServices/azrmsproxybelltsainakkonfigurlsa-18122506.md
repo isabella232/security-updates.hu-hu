@@ -1,0 +1,14 @@
+---
+TOCTitle: Az RMS proxybeállításainak konfigurálása
+Title: Az RMS proxybeállításainak konfigurálása
+ms:assetid: '179d2970-62e9-4487-aa5b-f4334234991e'
+ms:contentKeyID: 18122506
+ms:mtpsurl: 'https://technet.microsoft.com/hu-hu/library/Cc720207(v=WS.10)'
+---
+
+Az RMS proxybeállításainak konfigurálása
+========================================
+
+Ha az RMS telepítésével proxykiszolgálót kell használni, az RMS szolgáltatást be kell állítani a proxykiszolgáló használatára, és meg kell adni egy felhasználói fiókot, amelyet akkor használhat, amikor a proxykiszolgáló hitelesítő adatokat kér.
+
+Az RMS kiszolgálók létesítésekor megadhatja azok proxybeállításait. A hálózatba a létesítés után is felvehet proxykiszolgálót, vagy az is előfordulhat, hogy az infrastruktúra bővítése során változik a proxykiszolgáló. A létesítés után a felügyeleti kezdőlapon módosíthatja a proxykiszolgáló beállításait.

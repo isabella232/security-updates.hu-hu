@@ -1,0 +1,27 @@
+---
+TOCTitle: A naplózási adatbázis áthelyezése
+Title: A naplózási adatbázis áthelyezése
+ms:assetid: '34ea8045-dc94-422e-9601-29927cfc1534'
+ms:contentKeyID: 18122462
+ms:mtpsurl: 'https://technet.microsoft.com/hu-hu/library/Cc720238(v=WS.10)'
+---
+
+A naplózási adatbázis áthelyezése
+=================================
+
+Az RMS alapértelmezett konfigurációjában a konfigurációs adatbázis és a naplózási adatbázis ugyanazon a kiszolgálón található. Rendszeres időközönként ellenőrizze, hogy az SQL Server rendelkezik-e megfelelő mennyiségű szabad területtel a két adatbázis számára.
+
+Ha a naplózási adatbázis túl nagy méretűre növekszik, bármikor áthelyezheti másik kiszolgálóra. A naplózási adatbázis nem helyezhető át a felügyeleti webhely használatával. A műveletet kézzel kell végrehajtania a következők szerint:
+
+1.  Kapcsolja ki a naplózást „[A naplózás be- és kikapcsolása](https://technet.microsoft.com/8e672f95-566f-4070-9a2a-2f70f087148f)” című pontban leírtak szerint.
+2.  Az SQL Server Enterprise Manager segítségével másolja át a naplózási adatbázist a forráskiszolgálóról a célkiszolgálóra. Ellenőrizze, hogy az új adatbázisban létrejöttek-e a táblák és a tárolt eljárások. Az adatbázis átmásolásához igénybe veheti az SQL Server Enterprise Manager adatbázis-másoló varázslóját.
+3.  A konfigurációs adatbázisban adja meg az új kiszolgáló és az adatbázisok nevét. Az áthelyezett adatbázishoz tartozó fürt konfigurációs adatbázisának DRMS\_ClusterPolicies táblájában hajtsa végre a következőket:
+    -   A LoggingDatabaseServer szabályzat értékét változtassa az új adatbázis-kiszolgáló nevére.
+    -   A LoggingDatabaseName szabályzat értékét változtassa az új adatbázis nevére.
+
+    | ![](images/Cc720238.note(WS.10).gif)Megjegyzés:                                                                                                                                                                                                            |
+    |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+    | Az SQL Server Enterprise Manager nem kezeli a db\_variant mezőket, így ezt a programot nem használhatja a fenti művelet végrehajtásához. Az adatbázis áthelyezését az SQL Server egyik összetevőjével, a Query Analyzer eszközzel vagy más adatbázis-szerkesztő eszközzel végezheti el. |
+
+4.  Indítsa újra az IIS szolgáltatást a fürtbe tartozó valamennyi kiszolgálón.
+5.  Kapcsolja vissza a naplózást.

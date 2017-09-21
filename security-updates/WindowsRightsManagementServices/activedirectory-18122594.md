@@ -1,0 +1,16 @@
+---
+TOCTitle: Active Directory
+Title: Active Directory
+ms:assetid: '9589127d-19b3-44f1-b7a1-01992e78218a'
+ms:contentKeyID: 18122594
+ms:mtpsurl: 'https://technet.microsoft.com/hu-hu/library/Cc747604(v=WS.10)'
+---
+
+Active Directory
+================
+
+Az RMS a következő célokra használja az Active Directoryt:
+
+-   **A felhasználóhitelesítés biztosítása.**Az Active Directory biztosítja az RMS felhasználóinak hitelesítésére használt címtárszolgáltatásokat. A hitelesítés és az RMS kapcsolatáról a további tudnivalókat lásd: „[Az RMS biztonsági modellje](https://technet.microsoft.com/665db831-366d-4dca-9bb3-cc2912481fe1)”.
+-   **A csoporttagság és az egyes felhasználói fiókok identitásának megállapítása.**Az Active Directory tájékoztatást nyújt a felhasználók csoporttagságáról, amelyet az RMS használati licencek megadásához használ az RMS-védelemmel ellátott tartalomhoz, amikor a közzétételi licenc nem egyes felhasználói fiókoknak, hanem csoportoknak ad jogokat. Az Active Directorynak küldött LDAP-lekérdezések számának csökkentése érdekében az RMS helyi gyorsítótárban, valamint egy központi címtár-szolgáltatási adatbázisban tárolja az így megszerzett adatokat. A további tudnivalókat lásd: „[Az RMS Active Directory-gyorsítótára](https://technet.microsoft.com/c721a2eb-2fe9-4346-b426-3cc169b97265)” és „[Az RMS címtár-szolgáltatási adatbázisa](https://technet.microsoft.com/6f6b8586-5d17-4a40-94a3-4dc738195301)”.
+-   **Az RMS szolgáltatásészlelési pontjának tárolása.**A szolgáltatási kérelmeket (például használati és közzétételi licenc, valamint licenckiszolgáló aligénylési kérelmei) a kérelmet teljesítő webszolgáltatás végrehajtható moduljának URL-címére kell elküldeni. Valamennyi szolgáltatási kérelem az Active Directorynak a kiszolgáló webszolgáltatás (Server.asmx) URL-címére irányuló lekérdezésével kezdődik. Ez válaszul megadja a megfelelő URL-címet. A további tudnivalókat lásd: „[A szolgáltatások közzététele és észlelése](https://technet.microsoft.com/336c0d55-fd7f-4aa9-b3e6-bfd6565b1086)”.

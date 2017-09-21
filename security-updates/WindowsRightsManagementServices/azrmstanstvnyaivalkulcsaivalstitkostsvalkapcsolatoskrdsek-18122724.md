@@ -1,0 +1,103 @@
+---
+TOCTitle: 'Az RMS tanúsítványaival, kulcsaival és titkosításával kapcsolatos kérdések'
+Title: 'Az RMS tanúsítványaival, kulcsaival és titkosításával kapcsolatos kérdések'
+ms:assetid: 'ad8cc088-1dea-44c2-be68-9091129f0f12'
+ms:contentKeyID: 18122724
+ms:mtpsurl: 'https://technet.microsoft.com/hu-hu/library/Cc747725(v=WS.10)'
+---
+
+Az RMS tanúsítványaival, kulcsaival és titkosításával kapcsolatos kérdések
+==========================================================================
+
+Az RMS tanúsítványaival, kulcsaival és titkosításával kapcsolatos kérdések
+--------------------------------------------------------------------------
+
+-   [Milyen titkosítási algoritmusokat használ az RMS?](#bkmk_10)
+-   [Használ-e az RMS FIPS–kompatibilis titkosítást?](#bkmk_11)
+-   [A tagok dinamikus kiértékeléséhez másképpen kell-e kezelni a használati licenceket az olyan közzétételi licenceknél vagy sablonoknál, amelyek egyedi felhasználók helyett terjesztési listáknak adnak jogokat?](#bkmk_12)
+-   [Az RMS kioszkból való használatakor ideiglenes tartalomvédelmi fióktanúsítvány (RAC) kiadására kerül sor. Mennyiben különbözik ez a szokásos tartalomvédelmi fióktanúsítványtól? Hogyan érzékeli az RMS a kioszkból való használatot?](#bkmk_13)
+-   [Mikor kell ideiglenes tartalomvédelmi fióktanúsítványt használni?](#bkmk_14)
+-   [Kiállít-e az RMS X.509v3 tanúsítványokat?](#bkmk_15)
+-   [Hol tárolja a rendszer az XrML tanúsítványokat?](#bkmk_16)
+-   [Hol tárolja a rendszer a gép személyes/nyilvános kulcspárját?](#bkmk_17)
+-   [Hol tárolja a rendszer az ügyfél személyes/nyilvános kulcspárját?](#bkmk_18)
+-   [Az AES szimmetrikus algoritmus. Hogyan továbbíthatók a kulcsok biztonságosan a kiszolgáló és a felhasználó között?](#bkmk_19)
+
+<span id="BKMK_10"></span>
+#### Milyen titkosítási algoritmusokat használ az RMS?
+
+Az RMS 2048 bites RSA-kulcsokat használ az RMS kiszolgáló, illetve 1024 bites RSA-kulcsokat a felhasználó és a gép kulcspárjához.
+
+<span id="BKMK_11"></span>
+#### Használ-e az RMS FIPS–kompatibilis titkosítást?
+
+A Service Pack 1 vagy újabb csomaggal frissített RMS rendszerben az RMS ügyfélalkalmazással előállított kulcstárolók a FIPS kiértékelési eljárásnak megfelelő AES titkosítást használják, ha az ügyfélszoftvert Windows XP vagy Windows Server 2003 rendszerű számítógépre telepítették. A Windows 2000 rendszerű számítógépre azonban nem települ a FIPS szabvány szerinti AES függvénytár, így az itteni kulcstárolók nem FIPS-kompatibilisek.
+
+<span id="BKMK_12"></span>
+#### A tagok dinamikus kiértékeléséhez másképpen kell-e kezelni a használati licenceket az olyan közzétételi licenceknél vagy sablonoknál, amelyek egyedi felhasználók helyett terjesztési listáknak adnak jogokat?
+
+A használati licenceket mindig egyedi felhasználóknak állítja ki a rendszer. Ha egy közzétételi licenc vagy sablon csoportot nevez meg, az RMS a használati licenc kiadásakor értékeli ki a csoporttagságot. Ha a licencet kérelmező felhasználó tagja a megnevezett csoportnak, a rendszer kiállítja a licencet a felhasználói identitásnak.
+
+<span id="BKMK_13"></span>
+#### Az RMS kioszkból való használatakor ideiglenes tartalomvédelmi fióktanúsítvány (RAC) kiadására kerül sor. Mennyiben különbözik ez a szokásos tartalomvédelmi fióktanúsítványtól? Hogyan érzékeli az RMS a kioszkból való használatot?
+
+Az RMS-kompatibilis alkalmazásnak meg kell határoznia, hogy az RMS ügyféltől ideiglenes vagy szokásos tartalomvédelmi fióktanúsítványt kell-e igényelni. Erre a helyzetre nincs érzékelési módszer. A Microsoft Office 2003 például olyan RMS-kompatibilis alkalmazás, amely lehetővé teszi a felhasználónak a megfelelő tartalomvédelmi fióktanúsítvány kiválasztását.
+
+Az ideiglenes és a szokásos tartalomvédelmi fióktanúsítvány közötti alapvető különbség a felhasználó biztonsági azonosítójának jelenlétében és az érvényességi időtartam megadásában van. Az ideiglenes tartalomvédelmi fióktanúsítványok nem tartalmazzák a felhasználó biztonsági azonosítóját, és az érvényességi időtartam percben adható meg. Az érvényességi időtartam alapértelmezett értéke itt 15 perc. A szokásos tartalomvédelmi fióktanúsítványok tartalmazzák a felhasználó biztonsági azonosítóját, és az érvényességi időtartam napban adható meg. Az érvényességi időtartam alapértelmezett értéke itt 365 nap.
+
+<span id="BKMK_14"></span>
+#### Mikor kell ideiglenes tartalomvédelmi fióktanúsítványt használni?
+
+Az ideiglenes tartalomvédelmi fióktanúsítvány olyan felhasználóknak engedélyezi az RMS-védelemmel ellátott tartalom használatát, akik a következő feltételek valamelyikének megfelelő számítógépen dolgoznak:
+
+-   A számítógép nem tagja azon RMS telepítés erdőjének, amelyből a tartalomvédelmi fióktanúsítványt szerezte.
+-   A számítógép nem tagja annak az erdőnek, amelyben a felhasználói fiók található.
+-   A felhasználónak nincs biztosítva, hogy később is ezt a számítógépet használhatja.
+
+Ezeknek a feltételeknek megfelelnek például a repülőtereken, a nyilvános könyvtárakban és az internetkávézókban elhelyezett számítógépek.
+
+<span id="BKMK_15"></span>
+#### Kiállít-e az RMS X.509v3 tanúsítványokat?
+
+Nem. Az RMS rendszerben kiállított XrML tanúsítványok felhasználók vagy szabályzat képviseletére szolgálnak, ami túlmutat az X.509v3 tanúsítványok hatókörén.
+
+<span id="BKMK_16"></span>
+#### Hol tárolja a rendszer az XrML tanúsítványokat?
+
+Az RMS a következő XrML formátumú tanúsítványokat és licenceket tárolja az ügyfélszámítógépen.
+
+-   Géptanúsítvány
+    Fájlnév: CERT-Machine.drm fájl
+    Hely: %USERPROFILE%\\Local Settings\\Application Data\\Microsoft\\DRM\\
+-   Tartalomvédelmi fióktanúsítvány
+    Fájlnév előtagja: GIC
+    Hely: %USERPROFILE%\\Local Settings\\Application Data\\Microsoft\\DRM
+-   Ügyfél-licencelői tanúsítvány
+    Fájlnév előtagja: CLC
+    Hely: %USERPROFILE%\\Local Settings\\Application Data\\Microsoft\\DRM
+-   Használati licenc
+    Fájlnév előtagja: EUL
+    Hely: %USERPROFILE%\\Local Settings\\Application Data\\Microsoft\\DRM
+
+| ![](images/Cc747725.note(WS.10).gif)Megjegyzés:                                                                  |
+|-----------------------------------------------------------------------------------------------------------------------------------------------|
+| Minden felhasználói fiókhoz egyetlen géptanúsítvány, GIC-fájl és CLC-fájl tartozik, de az elért egyes tartalmaknak megfelelően több EUL-fájl. |
+
+| ![](images/Cc747725.note(WS.10).gif)Megjegyzés:                               |
+|------------------------------------------------------------------------------------------------------------|
+| A Windows Vista® rendszerbe beépített RMS ügyfélnél a hely: %USERPROFILE%\\AppData\\Local\\Microsoft\\DRM. |
+
+<span id="BKMK_17"></span>
+#### Hol tárolja a rendszer a gép személyes/nyilvános kulcspárját?
+
+A gép személyes kulcsának tárolása biztonságos, a felhasználó bejelentkezési hitelesítő adataival és a gép konfigurációjával kapcsolatos kriptográfiai kulcsok védik.
+
+<span id="BKMK_18"></span>
+#### Hol tárolja a rendszer az ügyfél személyes/nyilvános kulcspárját?
+
+A felhasználói fiókhoz tartozó kulcspárt a tartalomvédelmi fióktanúsítvány tárolja.
+
+<span id="BKMK_19"></span>
+#### Az AES szimmetrikus algoritmus. Hogyan továbbíthatók a kulcsok biztonságosan a kiszolgáló és a felhasználó között?
+
+Szimmetrikus és nyilvános/személyes kulcsok egyaránt előfordulnak a rendszerben. A tartalom titkosítása szimmetrikus kulccsal történik, de az egyéb, felhasználóra, gépre és kiszolgálóra vonatkozó kulcsok nyilvános/személyes RSA-kulcsok. A szimmetrikus tartalomkulcs mindig titkosítva van a különböző licencekben: az RMS kiszolgáló nyilvános RSA-kulcsával a közzétételi licencekben, illetve a felhasználó nyilvános RSA-kulcsával a használati licencekben.

@@ -1,0 +1,51 @@
+---
+TOCTitle: A teljesítmény optimalizálása
+Title: A teljesítmény optimalizálása
+ms:assetid: '24dc9ca4-652b-41a6-9a99-95fdeca9120b'
+ms:contentKeyID: 18122516
+ms:mtpsurl: 'https://technet.microsoft.com/hu-hu/library/Cc720220(v=WS.10)'
+---
+
+A teljesítmény optimalizálása
+=============================
+
+Ez a rész az RMS rendszer teljesítményének optimalizálásával foglalkozik.
+
+A címtárszolgáltatás teljesítményének optimalizálása
+----------------------------------------------------
+
+Figyelheti az RMS címtár-szolgáltatási teljesítményszámlálóit. Ha szükséges, a rendszerleíró adatbázisban az Active Directory-gyorsítótár attribútumait vezérlő beállítások módosításával optimalizálhatja a teljesítményt.
+
+A rendszerleíró beállítások az Active Directory gyorsítótár következő attribútumait vezérlik:
+
+-   A gyorsítótárba kerülő résztvevők maximális száma
+-   A résztvevőkről a gyorsítótárban tárolt adatok érvényességi időtartama
+-   A gyorsítótárba kerülő csoportok maximális száma
+-   A csoportokról a gyorsítótárban tárolt adatok érvényességi időtartama
+-   A csoporttagsági bejegyzések maximális száma
+-   A csoporttagságról a gyorsítótárban tárolt adatok érvényességi időtartama
+
+Általában igaz, hogy minél nagyobb a gyorsítótárba helyezett adatok érvényességi időtartama, illetve minél több bejegyzés kerül a gyorsítótárba, annál gyorsabban válaszolja meg az RMS a címtár-szolgáltatási adatok beszerzését igénylő kérelmeket. Ha az adatok megtalálhatók az Active Directory gyorsítótárában, keresés végrehajtásához nem kell az Active Directoryhoz fordulni. Ez lerövidíti a kérelem kiszolgálási idejét.
+
+Az Active Directory gyorsítótárában elhelyezett sok adat azzal a hátránnyal jár, hogy több rendszermemória szükséges. A rendszerleíró beállítások megadásánál a másik megfontolandó szempont, hogy adott elemnél minél nagyobb az érvényességi időtartam, annál valószínűbb, hogy az Active Directory gyorsítótárából visszaadott eredmény érvénytelen. Ez akkor fordulhat elő, ha az adat megváltozott az Active Directoryban, de ez a módosítás még nem jelent meg az Active Directory gyorsítótárában. Ha az Active Directory adatai gyakran változnak, érdemes ehhez igazodva a gyorsítótárba helyezett adatok érvényességi időtartamára kisebb értéket megadni.
+
+A címtár-szolgáltatási teljesítményszámlálók ismertetését lásd: „[Az RMS: DirectoryServices teljesítményszámlálók](https://technet.microsoft.com/37afea1d-f320-4040-96d8-57c0b45e6d46)”. Használatukról „[A teljesítményszámlálók használata](https://technet.microsoft.com/096c3b17-c082-46c4-939c-4373af0c9dec)” című pontban olvashat. A figyelhető számlálók a „találatokat” és a „tévesztéseket” jelzik. Az RMS rendszernek minden tévesztésnél keresnie kell az Active Directoryban.
+
+A rendszerleíró beállításokról és módosításukról a témakör „[Az Active Directory-gyorsítótár beállításainak módosítása](https://technet.microsoft.com/8789a7a5-2065-4fae-9104-e0a70f1f2fb6)” című pontja tartalmaz további ismertetést.
+
+Az Active Directory-kapcsolatkészlet beállításainak optimalizálása
+------------------------------------------------------------------
+
+A rendszer teljesítményének javításához felvehet és módosíthat az Active Directory LDAP-kapcsolatkészlet beállításait vezérlő rendszerleíró kulcsokat. A rendszerleíró kulcsok beállítását lásd: „[A kapcsolatkészlet rendszerleíró beállításainak módosítása](https://technet.microsoft.com/c61d91db-a1ad-4ca5-a492-015da629afbc)”.
+
+Az RMS rendszert az LDAP-kapcsolatok optimalizálására tervezték. Az Active Directory minden globális katalógusához egy kapcsolatot létesít, és minden kapcsolat több szálat szolgálhat ki. A hatékonyság érdekében a kérelmek kiszolgálásához kapcsolatkészletet használ. Az egyes globális katalógusok nagy terhelésének elkerülése érdekében az RMS algoritmust használ a kérelmek szétosztásához. Ezt a lekérdezendő globális katalógusok listáján szereplő globális katalógusok közötti terheléselosztás végrehajtásával valósítja meg. Automatikusan kezeli az LDAP-hibákat, és szükség szerint másik globális katalógusba irányítja át a kérelmeket.
+
+Az RMS a topológiaészlelési algoritmus használatával létrehozza a lekérdezendő globális katalógusok listáját. Megadhatja a rendelkezésre álló globális katalógusok azon minimális és maximális számát, amelyet a topológiaészlelési algoritmusnak meg kell találnia az RMS szolgáltatásainak elindítása előtt. A topológiaészlelés először az aktuális helyen lévő globális katalógusokat keresi meg. Ha további globális katalógusokra van szükség, ezeket más helyeken keresi. Megadhatja azt is, hogy legfeljebb hány kapcsolat válhat elérhetetlenné, mielőtt az RMS leállítja a kérelmek fogadását. Ha a lekérdezéslistán szereplő egy vagy több globális katalógus elérhetetlenné válik, a topológiaészlelés helyettesítő globális katalógusokat keres, amelyeket felvehet a lekérdezéslistára.
+
+Másik megoldásként felsorolhatja az RMS rendszerben használni kívánt globális katalógusokat. Ebben az esetben a topológiaészlelés nem keres globális katalógusokat a lekérdezéslistára.
+
+A beállítások között azt is megadhatja, hogy az RMS hogyan hajtsa végre a globális katalógusok közötti terheléselosztást. Adott kérelem adott globális katalógusba küldésének eldöntéséhez megadhatja a következő szempontok egymáshoz viszonyított fontosságát.
+
+-   **Ciklikus multiplexelés (WtRoundRobin)**. Ez a paraméter a ciklikus multiplexelést használó terheléselosztás relatív fontosságát adja meg. A súlyozás alapértelmezett beállítása 1. Ez azt jelenti, hogy ezt a szempontot veszi a legkevésbé figyelembe a kiszolgáló globális katalógus választásakor.
+-   **Kapcsolatonkénti szálak száma (WtThreadCount)**. Ez a paraméter a kapcsolatokhoz kiosztott szálak számának relatív fontosságát adja meg. A súlyozás alapértelmezett beállítása 100. Ez azt jelenti, hogy a kiválasztandó kapcsolat esetén a globális katalógus szálainak alacsony száma százszor fontosabb, mint a ciklikus multiplexelés szerinti terheléselosztás.
+-   **Lassú kapcsolat (WtSlow)**. Ez a paraméter a lassú kapcsolatok relatív fontosságát adja meg. A súlyozás alapértelmezett beállítása 1000 Ez azt jelenti, hogy egy globális katalógus kapcsolatának kiválasztásakor a kapcsolat gyorsasága tízszer olyan fontos, mint a szálak alacsony száma.

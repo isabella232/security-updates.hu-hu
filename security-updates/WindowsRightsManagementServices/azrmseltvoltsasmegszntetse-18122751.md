@@ -1,0 +1,24 @@
+---
+TOCTitle: Az RMS eltávolítása és megszüntetése
+Title: Az RMS eltávolítása és megszüntetése
+ms:assetid: 'cae1ed5b-f716-41f0-8e14-7cbfef405331'
+ms:contentKeyID: 18122751
+ms:mtpsurl: 'https://technet.microsoft.com/hu-hu/library/Cc747753(v=WS.10)'
+---
+
+Az RMS eltávolítása és megszüntetése
+====================================
+
+Számos oka lehet annak, hogy el kell távolítani az RMS-szolgáltatást egy kiszolgálóról. Ha legfelső szintű tanúsítási kiszolgálóról van szó, az első lépés a kiszolgálón található RMS megszüntetése. Ezt az adott kiszolgálóhoz tartozó **Globális felügyelet** lapon található **A webhelyen működő RMS eltávolítása** hivatkozásra kattintva hajthatja végre. A licenckiszolgálókat nem kell megszüntetni az RMS eltávolítása előtt.
+
+| ![](images/Cc747753.note(WS.10).gif)Megjegyzés:                                                                                                                                                                                                                                                                                                                                             |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Egy Active Directory-erdő utolsó legfelső szintű tanúsítási kiszolgálójának megszüntetése azt eredményezi, hogy törlődik az Active Directoryból a szolgáltatás kapcsolódási pontja. Ha az RMS eltávolítása előtt nem szünteti meg ezt a kiszolgálót, az adott erdőben csak akkor létesíthet új legfelső szintű tanúsítási kiszolgálót, ha kézzel eltávolítja a szolgáltatás kapcsolódási pontját az Active Directoryból. |
+
+Ezután távolítsa el az RMS-szolgáltatást.
+
+Amikor különálló kiszolgálóról vagy a fürt utolsó kiszolgálójáról távolítja el az RMS-szolgáltatást, a címtár-szolgáltatási adatbázis is törlődik. A művelet nem törli a konfigurációs és a naplózási adatbázist, ha viszont frissíti vagy újratelepíti az RMS-szolgáltatást a kiszolgálón, az új naplózási adatbázis felülírja a régi naplózási adatbázist.
+
+Amikor fürtben lévő kiszolgálón szünteti meg és távolítja el az RMS-szolgáltatást, a program nem távolítja el a fürt konfigurációs adatbázisát, naplózási adatbázisát és címtár-szolgáltatási adatbázisát. A konfigurációs adatbázis DRMS\_ClusterServer táblája azonban frissül: a program rögzíti benne, hogy eltávolította a kiszolgálót a fürtből.
+
+A kiszolgálók üzemen kívül helyezéséről és az ezzel kapcsolatos kérdésekről „[A kiszolgálók üzemen kívül helyezése](https://technet.microsoft.com/52005e2e-9563-4ba0-906c-3cc76f9c378f)” című témakör tartalmaz további tájékoztatást.

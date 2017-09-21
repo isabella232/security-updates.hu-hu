@@ -1,0 +1,88 @@
+---
+TOCTitle: '1. lépés: A WSUS 3.0 szolgáltatásra vonatkozó telepítési követelmények áttekintése'
+Title: '1. lépés: A WSUS 3.0 szolgáltatásra vonatkozó telepítési követelmények áttekintése'
+ms:assetid: '912b37d7-021e-4c95-b317-49dd15b4611c'
+ms:contentKeyID: 18129709
+ms:mtpsurl: 'https://technet.microsoft.com/hu-hu/library/Cc708484(v=WS.10)'
+---
+
+1. lépés: A WSUS 3.0 szolgáltatásra vonatkozó telepítési követelmények áttekintése
+==================================================================================
+
+Ez az útmutató a WSUS 3.0 telepítését ismerteti. A szoftverkövetelmények és a WSUS 3.0 által támogatott platformok ellenőrzéséhez tekintse át a kibocsátási megjegyzéseket ([http://go.microsoft.com/fwlink/?LinkId=71220](http://go.microsoft.com/fwlink/?linkid=71220)). a Windows Server 2003 Service Pack 1 és Windows Server® 2008 operációs rendszerben.
+
+Szoftverkövetelmények a WSUS 3.0 szolgáltatás Windows Server 2003 Service Pack 1 rendszeren való telepítéséhez
+--------------------------------------------------------------------------------------------------------------
+
+A WSUS 3.0 szolgáltatás Windows Server 2003 Service Pack 1 rendszeren való telepítéséhez számítógépén telepítve kell lennie az alábbi szoftvereknek. Ha az itt említett frissítések bármelyike a számítógép újraindítását kéri a telepítés végeztével, akkor az újraindítást a WSUS 3.0 telepítése előtt kell végrehajtani.
+
+-   Microsoft Internet Information Services (IIS) 6.0.
+-   A Háttérben futó intelligens átviteli szolgáltatás (BITS) 2.0-s és a WinHTTP 5.1-es verziójának frissítőcsomagja Windows Server 2003 rendszerhez. A csomag letöltéséhez látogasson el a Microsoft letöltőközpontjába ([http://go.microsoft.com/fwlink/?LinkID=47251](http://go.microsoft.com/fwlink/?linkid=47251)).
+-   Újraterjeszthető csomag a Microsoft .NET-keretrendszer 2.0-s verziójához (x86). A szoftvert a Microsoft letöltőközpontjából töltheti le ([http://go.microsoft.com/fwlink/?LinkID=68935](http://go.microsoft.com/fwlink/?linkid=68935)). (A 64 bites platformhoz készült verziót is megtalálhatja a letöltőközpontban \[[http://go.microsoft.com/fwlink/?LinkID=70637](http://go.microsoft.com/fwlink/?linkid=70637)\].)
+-   Microsoft Report Viewer Redistributable 2005. A szoftvert a Microsoft letöltőközpontjából töltheti le ([http://go.microsoft.com/fwlink/?LinkID=70410](http://go.microsoft.com/fwlink/?linkid=70410)).
+-   Microsoft Management Console 3.0 a Windows Server 2003 rendszerhez (KB907265). A szoftvert a Microsoft letöltőközpontjából töltheti le ([http://go.microsoft.com/fwlink/?LinkID=70412](http://go.microsoft.com/fwlink/?linkid=70412)). (A 64 bites platformhoz készült verziót is megtalálhatja a letöltőközpontban \[[http://go.microsoft.com/fwlink/?LinkID=70638](http://go.microsoft.com/fwlink/?linkid=70638)\].)
+
+Szoftverkövetelmények a WSUS 3.0 szolgáltatás Windows Server 2008 rendszeren való telepítéséhez
+-----------------------------------------------------------------------------------------------
+
+A WSUS 3.0 szolgáltatás Windows Server 2008 rendszeren való telepítéséhez telepítve kell lennie az alábbi szoftvereknek. Ha az itt említett frissítések bármelyike a számítógép újraindítását kéri a telepítés végeztével, akkor az újraindítást a WSUS 3.0 telepítése előtt kell végrehajtani.
+
+-   Microsoft Internet Information Services (IIS) 7.0. Győződjön meg arról, hogy az alábbi összetevők engedélyezve vannak:
+    -   Windows-hitelesítés
+    -   ASP.NET
+    -   Kompatibilitás az IIS 6 kezelésével
+    -   Kompatibilitás az IIS 6 metabázisával
+-   Microsoft Report Viewer Redistributable 2005. A szoftvert a Microsoft letöltőközpontjából töltheti le ([http://go.microsoft.com/fwlink/?LinkID=70410](http://go.microsoft.com/fwlink/?linkid=70410)).
+-   Microsoft SQL Server™ 2005 Service Pack 1. A szoftvert a Microsoft letöltőközpontjából töltheti le ([http://go.microsoft.com/fwlink/?LinkID=66143](http://go.microsoft.com/fwlink/?linkid=66143)).
+
+A .NET-keretrendszer 2.0 és a BITS 2.0 frissítése gyárilag megtalálható a Windows Server 2008 operációs rendszerben.
+
+Merevlemezekkel kapcsolatos követelmények és ajánlások
+------------------------------------------------------
+
+A WSUS 3.0 szolgáltatás telepítéséhez a kiszolgáló fájlrendszerének meg kell felelnie az alábbi követelményeknek:
+
+-   Mind a rendszerpartíciót, mind pedig a WSUS 3.0 szolgáltatást tároló partíciót NTFS fájlrendszerrel kell formázni.
+-   A rendszerpartíciónak legalább 1 gigabájt (GB) szabad lemezterületet kell biztosítani.
+-   A WSUS által tartalomtárolásra használt köteten legalább 20 GB szabad lemezterület szükséges; 30 GB szabad lemezterület ajánlott.
+-   Legalább 2 GB szabad lemezterület ajánlott azon a köteten, amelyen a WSUS telepítője a(z) Windows® Internal Database programot telepíti.
+
+Követelmények csak a konzol telepítése esetén
+---------------------------------------------
+
+A WSUS 3.0 lehetővé teszi, hogy a WSUS felügyeleti konzolját távoli rendszereken, a WSUS-kiszolgálótól elkülönítve telepítse. A konzol külön történő telepítéséhez az alábbi operációs rendszerek egyike szükséges:
+
+-   Windows Server® 2008
+-   Windows Vista®
+-   Windows Server 2003 Service Pack 1
+-   Windows XP Service Pack 2
+
+A csak konzolos telepítés szoftverkövetelményei
+
+-   Újraterjeszthető csomag a Microsoft .NET-keretrendszer 2.0-s verziójához (x86), mely beszerezhető a Microsoft letöltőközpontjából ([http://go.microsoft.com/fwlink/?LinkId=68935](http://go.microsoft.com/fwlink/?linkid=68935)). 64 bites platformokhoz keresse a következőt: Újraterjeszthető csomag a Microsoft .NET-keretrendszer 2.0-s verziójához (x64) ([http://go.microsoft.com/fwlink/?LinkId=70637](http://go.microsoft.com/fwlink/?linkid=70637)).
+-   Microsoft Management Console 3.0 a Windows Server 2003 rendszerhez (KB907265), mely beszerezhető a Microsoft letöltőközpontjából ([http://go.microsoft.com/fwlink/?LinkId=70412](http://go.microsoft.com/fwlink/?linkid=70412)). 64 bites platform esetén keresse a következőt: Microsoft Management Console 3.0 a Windows Server 2003 x64 Edition rendszerhez (KB907265) ([http://go.microsoft.com/fwlink/?LinkId=70638](http://go.microsoft.com/fwlink/?linkid=70638)).
+-   Microsoft Report Viewer Redistributable 2005, mely beszerezhető a Microsoft letöltőközpontjából ([http://go.microsoft.com/fwlink/?LinkId=70410](http://go.microsoft.com/fwlink/?linkid=70410)).
+
+Az Automatikus frissítések szolgáltatással kapcsolatos követelmények
+--------------------------------------------------------------------
+
+Az Automatikus frissítések segédprogram a WSUS 3.0 szolgáltatás ügyfélszámítógépeken futó egyik összetevője, melynek egyetlen hardverkövetelménye, hogy legyen működő hálózati kapcsolat. A WSUS 3.0 szolgáltatás és az Automatikus frissítések összetevő a következő operációs rendszereken használható együtt:
+
+-   Windows Vista.
+-   Windows Server® 2008.
+-   Microsoft Windows® Server 2003, összes verzió és szervizcsomag
+-   Microsoft Windows XP Professional, Service Pack 1 vagy Service Pack 2
+-   Microsoft Windows 2000 Professional Service Pack 4, Windows 2000 Server Service Pack 4 vagy Windows 2000 Advanced Server Service Pack 4
+
+Engedély
+--------
+
+Az alábbi lemezengedélyeket kell beállítania az adott felhasználóknak az adott könyvtárakhoz:
+
+1.  Vagy a Felhasználók beépített csoportnak vagy az NT Authority\\Hálózati szolgáltatás fióknak (Windows Server 2003 rendszeren) olvasási engedéllyel kell rendelkeznie annak a meghajtónak a gyökérmappájához, amelyen a WSUS tartalomkönyvtára található. Ha ez az engedély hiányzik, a BITS-letöltések sikertelenek lesznek.
+2.  Az NT Authority\\Hálózati szolgáltatás fióknak „Teljes hozzáférés” engedéllyel kell rendelkeznie a WSUS tartalomkönyvtárához, mely általában a &lt;Rendszermeghajtó&gt;:WSUS\\WsusContent. Ezt az engedélyt a WSUS-kiszolgáló telepítője beállítja a könyvtár létrehozásakor, de előfordulhat, hogy bizonyos biztonsági szoftverek visszaállítják. Ha ez az engedély hiányzik, a BITS-letöltések sikertelenek lesznek.
+3.  Az NT Authority\\Hálózati szolgáltatás fióknak „Teljes hozzáférés” engedéllyel kell rendelkeznie az alábbi mappákhoz annak érdekében, hogy a WSUS felügyeleti beépülő modulja megfelelően jelenjen meg:
+    -   %windir%\\Microsoft .NET\\Framework\\v2.0.50727\\Temporary ASP.NET Files
+    -   %windir%\\Temp
+
+Az engedélyek beállításáról további tájékoztatást „A DCPROMO nem őrzi meg bizonyos IIS-mappák engedélyeit” című cikkben találhat, a következő címen: [http://go.microsoft.com/fwlink/?LinkID=76332](http://go.microsoft.com/fwlink/?linkid=76332).

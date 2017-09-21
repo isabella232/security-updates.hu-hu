@@ -1,0 +1,111 @@
+---
+TOCTitle: '4. lépés: A frissítések konfigurálása és a szinkronizálás beállítása'
+Title: '4. lépés: A frissítések konfigurálása és a szinkronizálás beállítása'
+ms:assetid: '734cc2ed-98be-4772-a42c-8fd38b39d864'
+ms:contentKeyID: 18129659
+ms:mtpsurl: 'https://technet.microsoft.com/hu-hu/library/Cc708447(v=WS.10)'
+---
+
+4. lépés: A frissítések konfigurálása és a szinkronizálás beállítása
+====================================================================
+
+A frissítések letöltése előtt meg kell határoznia, hogy mely frissítéseket kíván letölteni. Ez a szakasz bemutatja, hogyan lehet konfigurálni a letöltendő frissítéseket.
+
+Az ebben a lépésben leírtak az alábbi teendőket mutatják be:
+
+-   A felsőbb rétegbeli kiszolgáló és a proxykiszolgáló adatainak mentése és letöltése
+-   A kívánt frissítések nyelvének kiválasztása
+-   Azoknak a termékeknek a kiválasztása, amelyekhez frissítéseket szeretne letölteni
+-   A kívánt frissítések besorolásának kiválasztása
+-   A kiszolgáló szinkronizálási ütemezésének meghatározása
+
+A következő öt művelet bemutatja, hogyan lehet konfigurálni a frissítéseket a konfigurálási varázsló segítségével, az utána következők pedig azt, hogy hogyan lehet elvégezni ezt a konfigurálást a WSUS felügyeleti konzolról bizonyos beállítások kiválasztásával.
+
+**A felsőbb rétegbeli kiszolgáló és a proxykiszolgáló adatainak mentése és letöltése**
+1.  Ennek a műveletnek az elvégzéséhez már túl kell lennie a felsőbb rétegbeli kiszolgáló és a proxykiszolgálónak a konfigurálás varázslóval történő konfigurálásán, és a **Kapcsolódás felsőbb rétegbeli kiszolgálóhoz** oldalt kell látnia.
+
+2.  Kattintson a **Kapcsolódás indítása** gombra. Ezzel menti és feltölti a beállításokat, és adatokat kap a rendelkezésre álló frissítésekről.
+
+3.  A kapcsolódás alatt elérhető a **Kapcsolódás leállítása** gomb. Ha probléma merülne fel a kapcsolódással, kattintson a **Kapcsolódás leállítása** gombra, végezze el a szükséges javítást, majd indítsa újra a kapcsolódást.
+
+4.  Amikor sikeresen befejeződött a letöltés, a **Tovább** gombra kattintva továbbléphet a **Nyelvek kiválasztása** oldalra, vagy választhat egy másik oldalt a bal oldali panelen.
+
+**A frissítések nyelvének kiválasztása**
+1.  A **Nyelvek kiválasztása** oldalon beállíthatja, hogy minden nyelven le kívánja tölteni a frissítéseket, vagy csak bizonyos nyelveken. Ha csak a nyelvek egy részét választja ki, azzal lemezterületet takaríthat meg; fontos azonban, hogy minden olyan nyelvet kiválasszon, amelyre az adott WSUS-kiszolgáló bármelyik ügyfelének szüksége lehet.
+
+2.  Ha csak bizonyos nyelvű frissítéseket szeretne letölteni, kattintson a **Csak az ilyen nyelvű frissítések letöltése** lehetőségre, és válassza ki azokat a nyelveket, amelyeken le kívánja tölteni a frissítéseket. A **Termékek kiválasztása** oldalra történő továbblépéshez kattintson a **Tovább** gombra, vagy válasszon egy másik oldalt a bal oldali panelen.
+
+**A frissített termékek kiválasztása**
+1.  A **Termékek kiválasztása** oldalon kiválaszthatja azokat a termékeket, amelyekhez frissítéseket szeretne letölteni
+
+2.  Bejelölheti a kívánt termékkategóriákat (például Windows) vagy konkrét termékeket (például Windows Server 2003). Ha kiválaszt egy termékkategóriát, az minden, a kategóriába tartozó termék kiválasztását eredményezi. A **Besorolások kiválasztása** oldalra történő továbblépéshez kattintson a **Tovább** gombra, vagy válasszon egy másik oldalt a bal oldali panelen.
+
+**A frissítésbesorolások kiválasztása**
+1.  A **Besorolások kiválasztása** oldalon kiválaszthatja, hogy milyen besorolású frissítéseket kíván letölteni. Kiválaszthatja az összes besorolást vagy a besorolások egy részhalmazát.
+
+2.  A **Szinkronizálási ütemezés konfigurálása** oldalra történő továbblépéshez kattintson a **Tovább** gombra, vagy válasszon egy másik oldalt a bal oldali panelen.
+
+**A szinkronizálás ütemezésének beállítása**
+1.  Megjelenik a **Szinkronizálási ütemezés beállítása** oldal, ahol kiválaszthatja, hogy manuális vagy automatikus szinkronizálást szeretne.
+
+2.  Ha a manuális szinkronizálást választja ezen a kiszolgálón, a szinkronizálási folyamatot a WSUS felügyeleti konzolról kell elindítani.
+
+3.  Ha az automatikus szinkronizálást választja, a WSUS-kiszolgáló indítja el a szinkronizálást a megadott időközönként. Adja meg a kiszolgáló által végzendő első szinkronizálás idejét és a napi szinkronizálások számát. Ha például azt állítja be, hogy naponta négy szinkronizálás legyen, és az első 3:00 órakor kezdődjön, a következő időpontokban történik szinkronizálás: 3:00, 9:00, 15:00 és 21:00.
+
+Amikor befejezett minden, fent ismertetett konfigurálási műveletet, válassza a konfigurálás varázsló **Befejeződött** oldalát. Ha nem törli a jelet **A Windows Server Update Services felügyeleti beépülő moduljának elindítása** jelölőnégyzetből, elindíthatja a WSUS felügyeleti konzolt, továbbá elindíthatja az első szinkronizálást, ha bejelölve hagyja az **Első szinkronizálás elindítása** jelölőnégyzetet.
+
+| ![](images/Cc708447.note(WS.10).gif)Megjegyzés:                                                                                                         |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Miközben a kiszolgáló szinkronizálást végez, nem lehet konfigurációs módosításokat végezni. Várjon, amíg a szinkronizálás be nem fejeződik, és csak utána módosítsa a beállításokat. |
+
+![](images/Cc708447.3f774fd1-af87-47d8-8f50-a5d585687d70(WS.10).gif)
+
+A következő műveletek bemutatják, hogyan lehet a fenti konfigurálási lépéseket elvégezni a WSUS felügyeleti konzol **Beállítások** oldalán.
+
+-   Termékek és besorolások kiválasztása
+-   Frissítésfájlok és nyelvek
+
+**Termékek és besorolások kiválasztása**
+1.  A WSUS felügyeleti konzol elindítása: Mutasson a **Start** menü **Minden program**, majd **Felügyeleti eszközök** pontjára, végül kattintson a **Microsoft Windows Server Update Services** parancsra.
+
+2.  Válassza a **Beállítások** lehetőséget a WSUS-kiszolgáló alatt a bal oldali ablaktáblán.
+
+3.  Válassza a **Termékek és besorolások** lehetőséget a középső ablaktáblában.
+
+4.  Ekkor a következő két panellapot tartalmazó párbeszédpanel jelenik meg: **Termékek** és **Besorolások**.
+
+5.  A **Termékek** lapon jelölje be azt a termékcsaládot vagy konkrét terméket, amelyhez frissítéseket kíván letölteni, vagy válassza a **Minden termék** lehetőséget.
+
+6.  Jelölje be a kívánt frissítésbesorolásokat a **Besorolások** lapon, vagy válassza a **Minden besorolás** lehetőséget.
+
+7.  A beállítások mentéséhez kattintson az **OK** gombra.
+
+**Frissítésfájlok és nyelvek**
+1.  Válassza a **Beállítások** lapon a **Frissítésfájlok és nyelvek** lehetőséget.
+
+2.  Ekkor a következő két panellapot tartalmazó párbeszédpanel jelenik meg: **Frissítésfájlok** és **Frissítések nyelve**.
+
+3.  A **Frissítésfájlok** lapon kiválaszthatja, hogy helyben kívánja-e tárolni a frissítésfájlokat, vagy azt szeretné, hogy minden ügyfélszámítógép frissítése közvetlenül a Microsoft Update webhelyről történjen. Ha úgy dönt, hogy a kiszolgálón tárolja a frissítésfájlokat, azt is megadhatja, hogy csak a jóváhagyott frissítéseket tölti le, illetve hogy letölti-e a gyorstelepítő fájlokat.
+
+4.  A **Frissítések nyelve** lapon megadhatja, hogy minden frissítést le kíván-e tölteni (ez az alapértelmezés), vagy csak bizonyos nyelvűeket. Ha vannak alsóbb rétegbeli kiszolgálói a WSUS-kiszolgálónak, azok csak a felsőbb rétegbeli kiszolgálón megadott nyelveken fognak frissítéseket kapni.
+
+5.  A beállítások mentéséhez kattintson az **OK** gombra.
+
+A hálózati kapcsolat beállítását követően letölthetők a szükséges frissítések a WSUS-kiszolgáló szinkronizálásával.
+
+A szinkronizálás során a kiszolgáló kapcsolatot létesít a Microsoft Update webhellyel, majd megállapítja, hogy közzétettek-e új frissítéseket a legutóbbi szinkronizálás óta. Mivel most először szinkronizálja a WSUS-kiszolgálót, valamennyi frissítés letölthetőként jelenik meg, így jóvá is hagyható telepítésre. Az első szinkronizálás meglehetősen hosszú ideig is tarthat.
+
+| ![](images/Cc708447.note(WS.10).gif)Megjegyzés:                                                                                                           |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Ebben a dokumentumban az alapbeállításokkal történő szinkronizálásról lesz szó, ám a WSUS megfelelő beállításaival minimalizálható például a szinkronizáláshoz szükséges sávszélesség. |
+
+**A WSUS-kiszolgáló szinkronizálása**
+1.  A WSUS felügyeleti konzolon válassza a **Szinkronizálások** lehetőséget.
+
+2.  Kattintson a jobb gombbal, vagy lépjen a jobb oldalon látható **Műveletek** ablaktáblára, majd kattintson a **Szinkronizálás most** parancsra.
+
+| ![](images/Cc708447.note(WS.10).gif)Megjegyzés:                                                                                                                                            |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Ha nem látható a **Műveletek** ablaktábla a konzol jobb oldalán, kattintson az eszköztáron a **Nézet** menüre, majd a **Testreszabás** parancsra, és ellenőrizze, hogy be van-e jelölve a **Munkaablak** jelölőnégyzet. |
+
+A szinkronizálás befejezését követően a frissítések listájának megtekintéséhez kattintson a bal oldali ablaktábla **Frissítések** elemére.

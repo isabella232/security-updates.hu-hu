@@ -1,0 +1,27 @@
+---
+TOCTitle: Intelligens kártya használata ügyfelek hitelesítéséhez
+Title: Intelligens kártya használata ügyfelek hitelesítéséhez
+ms:assetid: '5caacd67-fb16-46f1-b1ad-4aef0a632bf0'
+ms:contentKeyID: 18122638
+ms:mtpsurl: 'https://technet.microsoft.com/hu-hu/library/Cc747579(v=WS.10)'
+---
+
+Intelligens kártya használata ügyfelek hitelesítéséhez
+======================================================
+
+Ha a szervezeten belül intelligens kártyákkal fokozzák a biztonságot és ellenőrzik a felhasználók hitelesítő adatait, ezeket az intelligens kártyákat is felhasználhatják az RMS-kiszolgálóról tartalomvédelmi fióktanúsítványok és használati licencek beszerezésére. Annak beállításához, hogy az RMS-kiszolgáló megkövetelje az ügyfél-hitelesítést, az RMS-szolgáltatást tartalmazó webhelyen engedélyeznie kell az SSL (Secure Sockets Layer) protokollt, és az IIS (Internet Information Services) szolgáltatásban konfigurálnia kell a hitelesítési módszert. Ezt a műveletet az alábbi lépésekkel hajthatja végre:
+
+1.  Nyissa meg az **Internet Information Services kezelőjét**.
+2.  Bontsa ki a kiszolgáló ágát, jobb gombbal kattintson a webhely mappájára, és válassza a **Tulajdonságok** parancsot.
+3.  Jelenítse meg a **Könyvtárbiztonság** lapot, majd **Biztonságos kommunikáció** csoportban jelölje be a **Windows könyvtárszolgáltatás leképezésének engedélyezése** négyzetet.
+4.  Bontsa ki a webhely mappáját, nyissa meg a **\_wmcs** virtuális könyvtárat, majd bontsa ki azt a virtuális könyvtárat (**Licencelés** vagy **Tanúsítás**), amelynél be szeretné állítani a hitelesítést.
+    -   Ha be szeretné állítani a hitelesítést arra az esetre, amikor a felhasználó használati licencet kér, jobb gombbal kattintson a license.asmx fájlra, és válassza a **Tulajdonságok** parancsot.
+    -   Ha be szeretné állítani a hitelesítést arra az esetre, amikor a felhasználó felhasználói tanúsítványt kér, jobb gombbal kattintson a certification.asmx fájlra, és válassza a **Tulajdonságok** parancsot.
+5.  Kattintson a **Fájlbiztonság** fülre, majd a **Biztonságos kommunikáció** terület **Szerkesztés** elemére kattintva nyissa meg a **Biztonságos kommunikáció** párbeszédpanelt.
+6.  Válassza a **Biztonságos csatorna (SSL) szükséges** lehetőséget, majd kattintson:
+    -   az **Ügyféltanúsítvány szükséges** elemre, ekkor csak az ügyféloldali tanúsítvánnyal, például intelligens kártyákkal rendelkező ügyfelek fognak tudni a szolgáltatáshoz kapcsolódni,
+    -   vagy a **Fogadja el az ügyfél tanúsítványokat** elemre, ekkor az ügyfelek választhatnak, hogy intelligens kártya tanúsítvánnyal vagy felhasználónévvel és jelszóval adják meg hitelesítő adataikat.
+7.  Válassza az **Ügyféltanúsítvány-leképezés engedélyezése** beállítás, és kattintson az **OK** gombra.
+8.  Ha a tanúsításnál és a licencelésnél is használni kívánja az ügyfél-hitelesítést, ismételje meg a műveletet, másodszorra a másodlagos virtuális könyvtárat kiválasztva.
+
+A fenti beállítások megadása után az adott kiszolgáló által közzétett, RMS-védelemmel ellátott tartalomhoz csatlakozni kívánó felhasználóknak hitelesítési adatokat kell megadniuk ahhoz, hogy a kiszolgálótól tartalomvédelmi fióktanúsítványt vagy használati licencet kapjanak.

@@ -1,0 +1,36 @@
+---
+TOCTitle: A kiszolgálók üzemen kívül helyezése
+Title: A kiszolgálók üzemen kívül helyezése
+ms:assetid: '52005e2e-9563-4ba0-906c-3cc76f9c378f'
+ms:contentKeyID: 18122601
+ms:mtpsurl: 'https://technet.microsoft.com/hu-hu/library/Cc747568(v=WS.10)'
+---
+
+A kiszolgálók üzemen kívül helyezése
+====================================
+
+Előfordulhatnak olyan helyzetek, amikor szükségessé válhat az RMS-kiszolgálók üzemen kívül helyezése. Ilyen helyzetek lehetnek a következők:
+
+-   Meghatározott kiszolgálók cseréjét igénylő berendezéshiba vagy frissítés.
+-   A licencelési és a közzétételi adatforgalom csökkenése, ami néhány kiszolgáló leszerelését teszi indokolttá.
+-   Kiszolgálók eltávolítása meghatározott helyekről a törvényi követelményeknek megfelelően, ami egy egész fürt leszerelését eredményezi.
+-   A szervezet osztályainak vagy más egységeinek egyesítése vagy eladása, ami a tárgyi eszközök átadását eredményezi.
+-   Teljes szervezet egyesítése egy másik, szintén az RMS-szolgáltatást használó szervezettel, ami feleslegessé teszi az egyik RMS-telepítést.
+
+Kiszolgáló üzemen kívül helyezése előtt feltétlenül készítsen biztonsági másolat a kiszolgáló által használt RMS-adatbázisokról, különös tekintettel a konfigurációs adatbázisra. Az adatbázisok biztonsági mentéséről a további tudnivalókat lásd a dokumentumgyűjtemény „RMS bevezetésének tervezése” részében „Az RMS rendszer biztonsági mentése és visszaállítása” témakörben. .
+
+Az adatbázisok biztonsági mentését követően eltávolíthatja a kiszolgálót. Az RMS kiszolgálók eltávolításának követelményeit a kiszolgálók szerepe és az RMS-telepítés topológiája határozza meg:
+
+-   **Egy kiszolgáló eltávolítása fürtből**. Ha az üzemen kívül helyezni kívánt RMS-kiszolgáló olyan fürt tagja, amelyben a többi RMS-kiszolgáló aktív marad, az adott RMS-kiszolgáló fürtből való eltávolításához előbb szüntesse meg, és távolítsa el az RMS-szolgáltatást az üzemen kívül helyezendő kiszolgálón, majd távolítsa el a hardvert a fürtből, végül archiválja az adatbázisokat.
+    | ![](images/Cc747568.note(WS.10).gif)Megjegyzés:                                                                                            |
+    |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+    | Az RMS eltávolítása előtt csak a legfelső szintű telepítési fürtben lévő kiszolgálókat kell megszüntetni. A licenckiszolgálóknál nem kell végrehajtani ezt a műveletet. |
+
+-   **Különálló kiszolgáló üzemen kívül helyezése**. Ha az üzemen kívül helyezni kívánt RMS-kiszolgáló különálló RMS-kiszolgáló (vagyis nem tagja egy több kiszolgálóból álló fürtnek), amelyet új kiszolgálóval kíván helyettesíteni, hajtsa végre a következő műveletet: szüntesse meg és távolítsa el a meglévő RMS-kiszolgálót, távolítsa el a hálózatból, majd ezt követően telepítse és létesítse az RMS-szolgáltatást az új kiszolgálón. Az új RMS-kiszolgálón adja meg azt az URL-címet és konfigurációs adatbázist, amelyet az üzemen kívül helyezett RMS-kiszolgáló használt. Ne feledkezzen el arról, hogy az új kiszolgáló telepítéséig és létesítéséig a felhasználók nem érhetik el az üzemen kívül helyezett kiszolgáló által közzétett tartalmat.
+    | ![](images/Cc747568.Important(WS.10).gif)Fontos:                                                                                                                                                                                                                |
+    |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+    | Ha a lecserélt RMS-kiszolgálón hardveres biztonsági modul működik, a biztonsági környezetet még az előtt át kell helyezni az új kiszolgálóra, mielőtt telepítené és létesítené rajta az RMS-szolgáltatást. Erről a hardveres biztonsági modulhoz mellékelt dokumentáció nyújt tájékoztatást. |
+
+-   **RMS-telepítés felváltása másik meglévő RMS-telepítéssel**. Egyes esetekben előfordulhat, hogy üzemen kívül kell helyeznie egy RMS-telepítést, és egy meglévő RMS-telepítéssel kell felváltania, például vállalategyesítésnél, ha mindkét vállalat futtatja az RMS szolgáltatást.
+
+A kiszolgálók megszüntetésekor és eltávolításakor a program eltávolítja az adott kiszolgálót a konfigurációs adatbázis ClusterServer táblájából, és törli a címtárszolgáltatások adatbázisát az SQL Server kiszolgálóról. Az RMS megszüntetésének és eltávolításának lépéseit „[Az RMS megszüntetése](https://technet.microsoft.com/9fa63daa-5fb9-4afd-8371-b38248619857)” és „[Az RMS eltávolítása](https://technet.microsoft.com/885e3b4f-ea32-466f-9f7f-d8440b0f7c28)” pont tartalmazza.

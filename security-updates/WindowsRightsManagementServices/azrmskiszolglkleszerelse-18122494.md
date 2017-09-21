@@ -1,0 +1,25 @@
+---
+TOCTitle: Az RMS kiszolgálók leszerelése
+Title: Az RMS kiszolgálók leszerelése
+ms:assetid: '11badb02-62c1-455c-96b7-935bbcb496bc'
+ms:contentKeyID: 18122494
+ms:mtpsurl: 'https://technet.microsoft.com/hu-hu/library/Cc720200(v=WS.10)'
+---
+
+Az RMS kiszolgálók leszerelése
+==============================
+
+Az RMS leszerelése megváltoztatja az RMS kiszolgáló működését, így a kiszolgáló olyan kulcsot tud szolgáltatni, amellyel visszafejthető a kiszolgáló által korábban közzétett, RMS-védelemmel ellátott tartalom. Ez a kulcs lehetővé teszi a tartalom RMS-védelem nélküli mentését. Ez abban az esetben hasznos, ha úgy döntött, hogy megszünteti az RMS-védelem használatát a szervezeten belül.
+
+A kiszolgálót elegendő hosszúságú ideig kell futtatnia leszerelt állapotban ahhoz, hogy a felhasználók RMS-védelem nélkül menthessék a kívánt tartalmat, illetve a hálózati rendszergazdák és a rendszergazdák letilthassák a szolgáltatás használatát az RMS-kompatibilis ügyfeleknél.
+
+A leszerelési szolgáltatás a felügyeleti webhely **Biztonsági beállítások** lapján engedélyezhető. A leszerelés engedélyezését követően a kiszolgáló nem állítható vissza a normál RMS-konfiguráció szerinti működésre. Ha a telepítés megbízható közzétételi tartományokat is tartalmaz, ezek leszerelése is megtörténik.
+
+A leszerelés engedélyezését követően a felügyeleti webhelyen csak a **Leszerelt kiszolgáló adatai** lap érhető el, felügyeleti műveletek végrehajtására nincs lehetőség. A kiszolgáló leszerelésének befejezéséhez a következő műveletet kell végrehajtania:
+
+1.  Adjon Olvasás és Végrehajtás engedélyt az **RMS szolgáltatás csoportnak** a leszerelt virtuális gyökérhez.
+2.  Vegye fel a **Mindenki** csoportot a decommissioning.asmx fájl tulajdonosi hozzáférés-szabályozási listájába olvasási jogokkal.
+3.  Tájékoztassa a felhasználókat az RMS-telepítés leszereléséről, és javasolja nekik, hogy a kiszolgálóhoz való kapcsolódás után mentsék az általuk használt tartalmat RMS-védelem nélkül.
+4.  Állítsa be a szervezeten belül futó RMS-kompatibilis alkalmazásokat a decommissioning.asmx oldalhoz történő kapcsolódásra. Az RMS-kompatibilis alkalmazástól függően ez a rendszerleíró adatbázisban vagy a Csoportházirend beállításával adható meg.
+5.  Ha a szervezetben olyan RMS-kompatibilis alkalmazásokat is használnak, amelyek automatikusan használják fel a telepítést a közzétételhez, a Csoportházirend segítségével be kell állítania egy kulcsot az adott számítógépek rendszerleíró adatbázisában, amelynek hatására ezek az alkalmazások igénybe vehetik a leszerelési szolgáltatást.
+6.  Ha úgy véli, hogy minden tartalom védelmét megszüntette, készítsen biztonsági másolatot a kiszolgáló személyes kulcsáról, majd távolítsa el az RMS szolgáltatást a kiszolgálóról.

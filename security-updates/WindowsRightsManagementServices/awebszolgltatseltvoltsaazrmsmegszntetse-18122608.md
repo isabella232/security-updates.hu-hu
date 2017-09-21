@@ -1,0 +1,20 @@
+---
+TOCTitle: 'A webszolgáltatás eltávolítása (az RMS megszüntetése)'
+Title: 'A webszolgáltatás eltávolítása (az RMS megszüntetése)'
+ms:assetid: '68b4e2b0-b1b7-4b0a-8c1a-82ac27c1f12e'
+ms:contentKeyID: 18122608
+ms:mtpsurl: 'https://technet.microsoft.com/hu-hu/library/Cc747602(v=WS.10)'
+---
+
+A webszolgáltatás eltávolítása (az RMS megszüntetése)
+=====================================================
+
+Az RMS kiszolgáló leszerelése és az összes RMS-védelem eltávolítása után a webszolgáltatás a következő lépésekkel távolítható el:
+
+-   A **Globális felügyelet** lapon kattintson **A webhelyen működő RMS eltávolítása** elemre.
+
+A következő lépés az eltávolítani kívánt kiszolgáló típusától függ, bár az RMS eltávolítása minden esetben az IIS szolgáltatásról történik.
+
+-   Ha a kiszolgáló egy fürt része (és a fürtön nem az utolsó kiszolgáló), nincs szükség további lépésekre.
+-   Ha licenckiszolgálóról van szó, távolítsa el a címtár-szolgáltatási adatbázist, de tartsa meg a konfigurációs és a naplózási adatbázist (ezeket a továbbra is működő tanúsítási kiszolgáló használja).
+-   Ha ez az utolsó RMS kiszolgáló a szervezetben, tartsa meg a konfigurációs és a naplózási adatbázist, de távolítsa el a szolgáltatás kapcsolódási pontját (SCP) az Active Directoryból.

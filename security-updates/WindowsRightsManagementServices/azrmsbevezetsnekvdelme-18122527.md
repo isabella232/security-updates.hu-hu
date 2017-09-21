@@ -1,0 +1,42 @@
+---
+TOCTitle: Az RMS bevezetésének védelme
+Title: Az RMS bevezetésének védelme
+ms:assetid: '6de8b636-a824-4844-aefc-f26347abfc14'
+ms:contentKeyID: 18122527
+ms:mtpsurl: 'https://technet.microsoft.com/hu-hu/library/Cc720291(v=WS.10)'
+---
+
+Az RMS bevezetésének védelme
+============================
+
+A rendszerbe állított RMS a szervezet olyan vagyontárgya, amely a többi fontos kiszolgálóhoz hasonló fizikai és hálózati védelmet igényli. A bevezetés részeként fel kell mérnie a lehetséges veszélyeket, és meg kell hoznia a megfelelő óvintézkedéseket.
+
+Az RMS megvalósítása webszolgáltatásként történik, így az RMS szolgáltatáshoz való hozzáférés az egyéb webszolgáltatásokhoz hasonlóan szabályozható hozzáférés-szabályozási listák és a Secure Sockets Layer (SSL) használatával.
+
+**Az RMS webszolgáltatásaihoz való hozzáférés korlátozása ACL használatával**
+
+A RMS szolgáltatásainak elérését hozzáférés-szabályozási listák használatával korlátozhatja. Az RMS webhelyen való létesítésekor létrehozott valamennyi virtuális gyökér megfelelő mappastruktúrával rendelkezik, ami védhető. A mappastruktúra alapértelmezésben a &lt;rendszermeghajtó&gt;:\\&lt;*web\_gyökérmappa*&gt;\\\_wmcs útvonalon található, ahol *web\_gyökérmappa* ahhoz a webhelyhez hozzárendelt mappa neve, amelyen az RMS rendszert létesítette. Némelyik webszolgáltatás, például aligénylés, a mobil eszköz tanúsítási szolgáltatása és a kiszolgálószolgáltatás tanúsítási szolgáltatása, alapértelmezés szerint korlátozva van, és ha engedélyezni szeretné a szolgáltatás használatát, a kívánt felhasználókat és csoportokat kifejezetten fel kell vennie a hozzáférés-szabályozási listára.
+
+A kiszolgálószolgáltatás tanúsítási szolgáltatása tartalomvédelmi fióktanúsítványokat (RAC) nyújt, amelyek RMS-védelemmel ellátott szolgáltatások eléréséhez használhatók, ilyenek a webes csoportmunka-szolgáltatások, a levelezőkiszolgálók és dokumentumkezelő kiszolgálók, és így az alábbi módokon kiterjeszthető az RMS rendszer:
+
+-   A dokumentumok végzett csoportmunka kiszolgálójára a felhasználók nem védett dokumentumokat tölthetnek fel, de a letöltött dokumentumok automatikusan RMS-védelmet kapnak a tartalom típusának megfelelő jogmegadás szerint. Egy példa lehet erre a Microsoft Office SharePoint Server 2007.
+-   A dokumentumkezelő rendszer általános adattárként működhet, amely védett vagy nem védett dokumentumok archiválására használható. A rendszer képes a tartalomvédelemmel ellátott dokumentumok indexelésére, amely meggyorsítja a keresést, de továbbra is betartja a tartalom létrehozója által előírt jogmegadási szabályzatot.
+-   A levelezőkiszolgáló engedélyezésével gyorsan megnyitható a tartalomvédelemmel ellátott tartalom a vírusok és a kéretlen levelek kiszűréséhez, illetve a törvényi vagy a vállalati levelezési előírások teljesítéséhez.
+
+Mivel ezek a forgatókönyvek a felhasználóik részéről licenc meglétét igénylik, meg kell követelni, hogy a jogkezelési fióktanúsítványokat (RAC) kapó kiszolgálók körét azokra a szervezeten belüli kiszolgálókra lehessen korlátozni, amelyek az ilyen funkcióra jóvá lettek hagyva és megfelelően biztonságosak.
+
+**Az RMS webszolgáltatásaihoz való hozzáférés korlátozása SSL használatával**
+
+Ajánlott, hogy az RMS webszolgáltatások mindegyik fájlján engedélyezze és követelje meg a 128 bites titkosítású Secure Sockets Layer (SSL) protokollt. Ezeknek a fájloknak .asmx a kiterjesztése, és a Licensing, a Certification és az Admin virtuális könyvtárban találhatók. Az SSL használatához a kiszolgálónak a webhelyhez telepített érvényes SSL-tanúsítvánnyal kell rendelkeznie. Ha az SSL szolgáltatást az RMS telepítésének \_wmcs mappájára alkalmazza, az almappák és a fájlok öröklik a beállítást. A webszolgáltatások fájljairól és a virtuális könyvtárakról a további tudnivalók a dokumentumgyűjtemény „RMS műszaki források” részében az „Internet Information Services” témakörben találhatók.
+
+| ![](images/Cc720291.note(WS.10).gif)Megjegyzés:                                                                                                                                                                                                                                                                                                                                                  |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Ha távoli számítógépen lévő böngészőből szeretné megnyitni az RMS felügyeleti weblapjait, engedélyeznie kell az SSL szolgáltatást. A **Globális felügyelet** lapot azonban még az SSL engedélyezésekor sem nyithatja meg távoli számítógépről. Az RMS távoli felügyeletéről a további tudnivalók a dokumentumgyűjtemény „RMS kiszolgáló működtetése” részében „A felügyeleti kezdőlap használata” című témakörben találhatók. |
+
+**A titkos kulcs jelszava erős védelmének beállítása**
+
+A titkos kulcs jelszava használható a titkos kulcs generálására és az RMS konfigurációs adatbázisban történő tárolására. Az erősen védett jelszó használata a maximális biztonság érdekében ajánlott. Ha szükség van a jelszó leírására, gondoskodni kell arról, hogy ezt fizikailag biztonságos helyen tárolják.
+
+| ![](images/Cc720291.Caution(WS.10).gif)Figyelmeztetés:                                                                                                                                                                       |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Ha a titkos kulcs jelszava elvész vagy ismeretlen, és az RMS kiszolgáló váratlanul leáll, az összes RMS dokumentumot titkosítatlanná kell tenni, az RMS környezetet pedig újra ki kell alakítani, és mindent újra titkosítani kell az új titkos kulccsal. |

@@ -1,0 +1,19 @@
+---
+TOCTitle: Az RMS rendszerrel kapcsolatos biztonsági mentések
+Title: Az RMS rendszerrel kapcsolatos biztonsági mentések
+ms:assetid: 'c29894da-ee00-428c-8d48-80d8e5a83678'
+ms:contentKeyID: 18122745
+ms:mtpsurl: 'https://technet.microsoft.com/hu-hu/library/Cc747746(v=WS.10)'
+---
+
+Az RMS rendszerrel kapcsolatos biztonsági mentések
+==================================================
+
+Az infrastruktúra előkészítése és az RMS telepítése előtt készítsen szükség szerint biztonsági másolatot az alábbi összetevőkről:
+
+-   Ha meglévő SQL Server adatbázist fog használni a konfigurációs és a naplózási adatbázis kezeléséhez, készítsen biztonsági másolatot az összes adatbázisról és beállításról. Ha az RMS egy korábbi verzióját frissíti, vagy újratelepíti az RMS szolgáltatást, készítsen biztonsági másolatot az előző konfigurációs és naplózási adatbázisról.
+-   Készítsen biztonsági másolatot annak a kiszolgálónak a rendszerállapotáról, amelyre az RMS telepítését tervezi. Ez a biztonsági másolat a kiszolgáló helyreállításához szükséges rendszerleíró kulcsokat és értékeket tartalmazza.
+-   A Tanúsítványok beépülő modul segítségével exportálja fájlba a tanúsítványokat. A Tanúsítványok beépülő modul az RMS személyes kulcsának PKCS \#12 fájlba mentéséhez is használható, amely jelszóval védett. Ha frissíti vagy újratelepíti az RMS szolgáltatást, és az alapértelmezett szoftveres titkosítással védte az RMS személyes kulcsát, a személyes kulcs titkosított formában bekerült konfigurációs adatbázis biztonsági másolatába.
+-   Ha hardveres biztonsági modullal védi a személyes kulcsot, akkor a gyártó által javasolt módszerek szerint készítsen biztonsági másolatot annak konfigurációjáról.
+
+A biztonsági mentés fájljait és a személyes kulcs titkosítására használt jelszót biztonságos helyen kell tárolni.

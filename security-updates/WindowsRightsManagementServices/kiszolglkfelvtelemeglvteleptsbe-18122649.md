@@ -1,0 +1,40 @@
+---
+TOCTitle: Kiszolgálók felvétele meglévő telepítésbe
+Title: Kiszolgálók felvétele meglévő telepítésbe
+ms:assetid: '7f3598ff-cd19-4daa-aa65-877f7f95a8ec'
+ms:contentKeyID: 18122649
+ms:mtpsurl: 'https://technet.microsoft.com/hu-hu/library/Cc747648(v=WS.10)'
+---
+
+Kiszolgálók felvétele meglévő telepítésbe
+=========================================
+
+Az RMS-telepítésbe kiszolgálókat vehet fel a megnövekedett igények kielégítésének érdekében, illetve lecserélheti a kivonni kívánt kiszolgálókat. Minden RMS-telepítésnek tartalmaznia kell legalább egy legfelső szintű tanúsítási kiszolgálót, de szükség szerint további legfelső szintű tanúsítási kiszolgálókat is tartalmazhat a fürtökben. Az RMS-telepítések ezenkívül tartalmazhatnak különálló vagy fürtbe szervezett licenckiszolgálókat is.
+
+Az RMS-telepítésbe a következő módszerekkel vehet fel kiszolgálókat:
+
+-   Egy vagy több RMS kiszolgáló felvétele legfelső szintű tanúsítási fürtbe.
+-   Új különálló licenckiszolgáló felvétele.
+-   Egy vagy több RMS kiszolgáló felvétele licencelési fürtbe.
+
+**Legfelső szintű tanúsítási kiszolgálók felvétele**
+
+Az esetek többségében egy vagy több RMS kiszolgáló legfelső szintű tanúsítási fürtbe való felvétele a legmegfelelőbb megoldás a rendszer elérhetőségének és redundanciájának növelésére. A legfelső szintű tanúsítási fürt egy vagy több legfelső szintű tanúsítási kiszolgálóból áll. A csak licencelési és közzétételi szolgáltatásokat nyújtó licenckiszolgálókkal ellentétben a legfelső szintű tanúsítási kiszolgálókon az RMS minden szolgáltatása rendelkezésre áll.
+
+A telepítési és a létesítési művelet során a megfelelő beállítás választásával fürtbe veheti fel a kiszolgálókat. Ekkor a program automatikusan fürttagként állítja be az új RMS kiszolgálót. A legfelső szintű tanúsítási fürtbe felvenni kívánt RMS kiszolgálók telepítésének és létesítésének lépésenkénti ismertetését „[A Service Pack 1 csomaggal frissített RMS telepítése](https://technet.microsoft.com/dab20175-a690-43f8-b943-768d289daa0d)” és a „[Kiszolgáló felvétele fürtbe](https://technet.microsoft.com/db635238-5528-4bec-9cc6-8244e2b3d733)” című pont tartalmazza.
+
+Ha első alkalommal hoz létre fürtöt, a létesítési műveleten kívül megfelelően be kell állítania a szoftvert vagy a hardvert a fürtözéshez és a terheléselosztáshoz. Ha már létrehozta a fürtöt, a terheléselosztó szoftvert vagy hardvert be kell állítania az új fürttag kezelésére.
+
+**Licenckiszolgálók felvétele**
+
+Az RMS összes szolgáltatását kezelő legfelső szintű tanúsítási kiszolgálóval ellentétben a licenckiszolgáló csak a licencelési és a közzétételi feladatokat látja el.
+
+A licenckiszolgálók használata igényfüggő, és leggyakrabban a különféle licencelési követelmények megvalósítására alkalmazzák ezeket a kiszolgálókat, például a következő helyzetekben:
+
+-   Az egyes osztályok egyedi jogkezelési igényeinek teljesítésére. Előfordulhat például, hogy a szervezet egyik csoportjánál más biztonsági követelmények szükségesek a jogkezeléshez, mint a többi csoportnál, és teljes körűen felügyelni kívánják a csoporton belüli licenckezelés megvalósítását. Mivel egy erdőben csak egy legfelső szintű tanúsítási kiszolgáló használata lehetséges, egy újabb legfelső szintű tanúsítási kiszolgáló üzembe helyezése nem jelent megoldást ebben a helyzetben. Az adott csoport igényeihez igazodva licenckiszolgáló vagy licencelési fürt helyezhető üzembe. Ezután kialakíthatja a szükséges jogkezelési szabályzatot az új licenckiszolgálóra vagy a licencelési fürtre vonatkozóan.
+-   Adott üzleti partnerek erőforrásainak elkülönítését és nyilvántartását igénylő extranetes külső üzleti partnerek jogkezelési követelményeinek teljesítésére. A további tudnivalókat lásd: „[Extranetes URL-cím beállítása](https://technet.microsoft.com/88fec9ff-c96c-4d20-8856-0485e7507572)”.
+-   A legfelső szintű tanúsítási kiszolgáló tehermentesítésére a licencelési feladatok átadásával. Ezzel teljesítménynövekedés érhető el az olyan szervezetekben, amelyeknél csak egy legfelső szintű tanúsítási kiszolgáló működik (vagyis nem használnak legfelső szintű tanúsítási fürtöt).
+
+Az esetek többségében megfelelő megoldás, ha a RMS kiszolgálókat felveszi a legfelső szintű tanúsítási fürtbe, hogy a rendszert alkotó kiszolgálókon beállíthassa a redundanciát és a terheléselosztást. Bár a licenckiszolgálók is igénybe vehetők a licencelési és közzétételi kérelmek feldolgozásából adódó terhelés mérséklésére, a legfelső szintű tanúsítási fürt terheléselosztásába nem vonhatók be. Hacsak az adott helyzetben nincs igény külön licenckiszolgálók alkalmazására, célszerű az összes RMS kiszolgáló között elosztani a terhelést úgy, hogy felveszi őket a legfelső szintű tanúsítási fürtbe.
+
+Az RMS licenckiszolgálók telepítésének és létesítésének lépésenkénti ismertetését „[A Service Pack 1 csomaggal frissített RMS telepítése](https://technet.microsoft.com/dab20175-a690-43f8-b943-768d289daa0d)” és a „[Licenckiszolgáló létesítése](https://technet.microsoft.com/4d67b898-0ba9-4eef-ab7d-ee0ca55a688e)” című pont tartalmazza.

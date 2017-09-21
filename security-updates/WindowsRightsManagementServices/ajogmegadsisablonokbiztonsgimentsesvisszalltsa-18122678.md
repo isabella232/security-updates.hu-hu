@@ -1,0 +1,24 @@
+---
+TOCTitle: A jogmegadási sablonok biztonsági mentése és visszaállítása
+Title: A jogmegadási sablonok biztonsági mentése és visszaállítása
+ms:assetid: 'a6ed3328-4128-45e8-9236-3de484b460de'
+ms:contentKeyID: 18122678
+ms:mtpsurl: 'https://technet.microsoft.com/hu-hu/library/Cc747625(v=WS.10)'
+---
+
+A jogmegadási sablonok biztonsági mentése és visszaállítása
+===========================================================
+
+Az értékes jogmegadási sablonok védelme érdekében a konfigurációs adatbázisban lévő sablonok adatait rendszeres időközönként cserélhető adathordozóra kell menteni, és azt biztonságos helyen kell tárolni. Így rendszerhiba esetén a biztonsági másolatból visszaállíthatók a jogmegadási sablonok.
+
+Hajtsa végre a megfelelő műveletet:
+
+-   Készítse el a jogmegadási sablonokat tartalmazó teljes konfigurációs adatbázis biztonsági másolatát. Az SQL Server adatbázisok biztonsági mentésének végrehajtását az SQL Server dokumentációja ismerteti.
+    vagy
+-   Készítse el csak a jogmegadási sablonok biztonsági másolatát a konfigurációs adatbázisból. Ezt a DRMS\_RightsTemplate tábla GUID és TemplateData adatainak szövegfájlba exportálásával hajthatja végre. Az SQL Server adatbázisok adatainak exportálását az SQL Server dokumentációja ismerteti.
+
+Ha a konfigurációs adatbázisban helyre kell állítani a jogmegadási sablonok adatait, a konfigurációs adatbázis biztonsági másolatának DRMS\_RightsTemplate táblájából kinyerheti a GUID és a TemplateData adatait, vagy ezeket egyszerűen importálhatja a szövegfájlból. Ezeknek a műveleteknek a végrehajtásáról az SQL Server dokumentációjában olvashat.
+
+| ![](images/Cc747625.note(WS.10).gif)Megjegyzés:                                |
+|-------------------------------------------------------------------------------------------------------------|
+| A jogmegadási sablonok biztonsági mentési tervét az SQL Server rendszergazdájával közösen kell kialakítani. |

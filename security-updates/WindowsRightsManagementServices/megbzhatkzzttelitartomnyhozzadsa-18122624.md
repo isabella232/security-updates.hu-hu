@@ -1,0 +1,33 @@
+---
+TOCTitle: Megbízható közzétételi tartomány hozzáadása
+Title: Megbízható közzétételi tartomány hozzáadása
+ms:assetid: '731416d8-ddf4-4d4a-9f1a-bbd1ea48fe3c'
+ms:contentKeyID: 18122624
+ms:mtpsurl: 'https://technet.microsoft.com/hu-hu/library/Cc747624(v=WS.10)'
+---
+
+Megbízható közzétételi tartomány hozzáadása
+===========================================
+
+A művelet végrehajtásához helyben kell bejelentkeznie a felügyeleti webhelyre olyan tartományi felhasználói fiókkal, amely a Rendszergazdák csoport tagja az elérni kívánt számítógépen. A Tartománygazdák csoport tagjai is végrehajthatják ezt a műveletet. Biztonsági szempontból ajánlott a műveletet a **Futtatás másként** parancs segítségével végrehajtani.
+
+A **Globális felügyelet** lap megnyitásához kattintson a **Start** gombra, és válassza a **Minden program**, a **Windows RMS**, majd a **Windows RMS felügyeleti webhely** parancsot.
+
+Ha az RMS személyes kulcsának védelméhez hardveres biztonsági modult használ, és olyan RMS-telepítésből importál kiszolgálói licencelői tanúsítványt, amely szoftveres megoldást alkalmaz a személyes kulcs védelméhez, a tanúsítvány importálása előtt a fürtbe tartozó összes RMS-kiszolgáló **Biztonsági beállítások** lapján meg kell adnia a személyes kulcs jelszavát.
+
+Megbízható közzétételi tartomány hozzáadása
+-------------------------------------------
+
+#### Megbízható közzétételi tartomány hozzáadása
+
+1.  Nyissa meg a **Globális felügyelet** lapot, majd keresse meg azt a webhelyet, amelyhez megbízható közzétételi tartományt szeretne hozzáadni, és kattintson a mellette látható **A webhelyen működő RMS felügyelete** hivatkozásra.
+
+2.  A **Felügyeleti hivatkozások** csoportban kattintson a **Bizalmi szabályzatok** hivatkozásra.
+
+3.  A **Megbízható közzétételi tartományok** csoportban kattintson **Tallózás** gombra. Keresse meg a hozzáadni kívánt közzétételi tartomány tanúsítványát, és kattintson rá duplán. **Az importált fájl visszafejtéséhez szükséges jelszó** mezőbe írja be a fájl visszafejtéséhez szükséges jelszót, és kattintson az **Importálás** gombra.
+
+    A jelszóval titkosított fájl a licencelői tanúsítványt, a személyes kulcsot (ha a kulcsot a szoftver tárolja), valamint a jogmegadási sablonokat tartalmazza.
+
+4.  A tartomány neve megjelenik a **Megbízható közzétételi tartományok** listában.
+
+Az eljárás végrehajtásáról a további tudnivalókat lásd: „[Megbízható közzétételi tartományok hozzáadása és eltávolítása](https://technet.microsoft.com/d87b502d-5497-4ccd-badf-f6807d587cee)”.

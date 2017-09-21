@@ -1,0 +1,20 @@
+---
+TOCTitle: A licenckiszolgáló aligénylési folyamata
+Title: A licenckiszolgáló aligénylési folyamata
+ms:assetid: '7bc63397-9186-464c-8824-867038adce9b'
+ms:contentKeyID: 18122637
+ms:mtpsurl: 'https://technet.microsoft.com/hu-hu/library/Cc747640(v=WS.10)'
+---
+
+A licenckiszolgáló aligénylési folyamata
+========================================
+
+A licenckiszolgálók létesítése során automatikusan megtörténik a kiszolgálók tanúsítványigénylése az aligénylésnek nevezett folyamat keretében. Ha viszont licenckiszolgálói fürtbe vesz fel egy új kiszolgálót, nem kerül sor az új kiszolgáló aligénylésére, mivel az új kiszolgáló is a fürt kiszolgálói licencelői tanúsítványát és konfigurációs adatbázisát használja.
+
+A licenckiszolgáló nem a Microsoft igénylési szolgáltatásának küldi az aligénylési kérelmet, hanem a legfelső szintű tanúsítási kiszolgálónak. A licenckiszolgáló aligénylési kérelme megegyezik a legfelső szintű tanúsítási kiszolgáló igénylési kérelmével.
+
+Amikor a legfelső szintű tanúsítási kiszolgáló aligénylési kérelmet kap, meggyőződik a kérelem formátumának helyességéről, majd visszaküld egy tanúsítványláncot, amely tartalmazza a legfelső szintű tanúsítási kiszolgáló licencelői tanúsítványláncát, valamint egy tanúsítványt, amelyet a legfelső szintű tanúsítási kiszolgáló írt alá. A tanúsítvány tartalmazza a kiszolgáló nyilvános kulcsát, aláírva a legfelső szintű tanúsítási kiszolgáló személyes kulcsával. Ez feljogosítja a licenckiszolgálót arra, hogy használati és közzétételi licenceket bocsásson ki.
+
+A kiszolgálói licencelői tanúsítvány egy évig érvényes. Az érvényességi időtartam a tanúsítvány kiállításakor veszi kezdetét. Az érvényességi időtartam lejáratakor megújítható a tanúsítvány. A kiszolgáló által kiállított tanúsítványok és licencek hét évig érvényesek. Az érvényességi időtartam a tanúsítvány vagy a licenc kiállításakor veszi kezdetét.
+
+Az a szolgáltatás (SubEnrollService.asmx), amely a legfelső szintű tanúsítási kiszolgálón feldolgozza az aligénylési kérelmeket, alapértelmezés szerint minden hozzáférési kísérletet megtagad. Csak azt követően tud kérelmet feldolgozni, ha a tulajdonosi hozzáférési-szabályozási listájának (DACL) módosításával hozzáférési jogosultságot kap az RMS rendszergazdája.

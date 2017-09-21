@@ -1,0 +1,374 @@
+---
+TOCTitle: RMS kiszolgáló működtetése
+Title: RMS kiszolgáló működtetése
+ms:assetid: '1533426b-89c2-43e0-8068-ca97ddab8606'
+ms:contentKeyID: 18122502
+ms:mtpsurl: 'https://technet.microsoft.com/hu-hu/library/Cc720205(v=WS.10)'
+---
+
+RMS kiszolgáló működtetése
+==========================
+
+Az RMS kiszolgáló működtetése az RMS bevezetése utáni kezelési feladatokat jelenti. Ez a rész segítséget nyújt az RMS kiszolgálók kezeléséhez, bemutatja a szokásos felügyeleti feladatok eljárásait, közli a további tudnivalók forrásait, valamint gyakorlati tanácsokkal szolgál.
+
+A témakör tartalma
+
+-   [Az RMS kezelése](https://technet.microsoft.com/9b573c55-c14c-436c-b3c5-7ba445de1562)
+-   [RMS – Útmutató](https://technet.microsoft.com/82032075-f361-438f-a2c4-93ab29ae6cff)
+-   [Az RMS forrásai](https://technet.microsoft.com/d91221cf-e38e-4add-b7b9-50e63aad9a28)
+
+A dokumentációban használt terminológia
+---------------------------------------
+
+**fióktanúsítás**  
+Az a folyamat, amely összerendeli a felhasználói fiókokat és a tartalomvédelmi fióktanúsítványban (RAC) lévő kulcspárokat.
+
+<!-- -->
+
+**fióktanúsítási szolgáltatás**  
+Az RMS webszolgáltatása, amely tartalomvédelmi fióktanúsítványok létrehozására és kiadására használható. Lásd még: fióktanúsítás.
+
+<!-- -->
+
+**aktiválási proxy szolgáltatás**  
+Az RMS 1.0-s verziójú ügyfélgépek aktiválását kezelő RMS webszolgáltatás. Használatával a Microsoft aktiválási szolgáltatáshoz továbbíthatók a gépaktiválási kérelmek. Az aktiválási szolgáltatás egyedi kulcstárolót és megfelelő RMS-géptanúsítványt állít elő az ügyfélszámítógépnek. Ezeket azután az RMS kiszolgálón működő aktiválási proxy szolgáltatás visszaküldi a kérelmező ügyfélnek. Lásd még: kulcstároló.
+
+<!-- -->
+
+**felügyeleti szolgáltatás**  
+Az RMS egyik webszolgáltatása, amely futtatja a felügyeleti webhelyet, lehetővé teszi az RMS kezelését, valamint frissíti a fürt konfigurációs adatbázisát.
+
+<!-- -->
+
+**alkalmazás jegyzékfájlja**  
+XML-dokumentum, amely leírja a hozzá tartozó RMS-kompatibilis alkalmazás moduljait, valamint azt, hogy mi futhat az alkalmazási környezetben. Az RMS-ügyfél alkalmazásprogramozási felületére az RMS-védelemmel ellátott információ létrehozása vagy felhasználása céljából író alkalmazásoknak futás közben meg kell adniuk a jegyzékfájljukat.
+
+<!-- -->
+
+**attribútum**  
+Az Active Directoryban az objektumok tulajdonsága. Az egyes objektumosztályokban a séma határozza meg, hogy az osztály példányaihoz milyen attribútumok szükségesek, és milyen további kiegészítő attribútumok adhatók meg.
+
+<!-- -->
+
+**kötés**  
+Az a mechanizmus, amely az RMS-rendszerekben a jogokat gyakorolja, úgy, hogy az RMS-ügyfél összeveti a használati licencben foglalt feltételeket a kérelmezett jogokkal. Ha teljesülnek a feltételek, megadja a jogokat.
+
+<!-- -->
+
+**tanúsítvány**  
+Digitális dokumentum, amely hitelesítésre és a nyílt hálózatokon továbbított adatok védelmére használható. A megfelelő személyes kulccsal rendelkező entitáshoz tanúsítvány kapcsol nyilvános kulcsot biztonságos módon. A tanúsítványokat a kibocsátó hitelesítésszolgáltató (CA) látja el digitális aláírással; kiadhatók felhasználónak, számítógépnek vagy szolgáltatásnak. Lásd még: személyes kulcs; nyilvános kulcs.
+
+<!-- -->
+
+**ügyféligénylés**  
+Az ügyfél licencelői tanúsítványt létrehozó folyamat, amely lehetővé teszi a felhasználó számítógépe vagy eszköze számára, hogy olyan közzétételi licenceket hozzon létre, amelyeket elfogadnak a licenckiszolgálók.
+
+<!-- -->
+
+**ügyfél licencelői tanúsítvány**  
+Az RMS kiszolgáló által létrehozott, az RMS ügyfélszámítógépeken elhelyezett tanúsítvány, amely lehetővé teszi a felhasználók számára, hogy offline módban, RMS-kompatibilis hálózattal fennálló kapcsolat nélkül tehessenek közzé tartalmat. Az ügyfél licencelői tanúsítványa tartalmazza azt a kulcsot, amelyet az RMS-ügyfél a kiadott licencek digitális aláírásához használ.
+
+<!-- -->
+
+**feltétel**  
+Meghatározott megszorítások és paraméterek csoportja, amelyek az egy közzétételi licencbe foglalt jogcsoport részét alkotják. A feltételek betartatására a tartalom használata alkalmával kerül sor. Az időfeltétel olyan általános feltétel, amely lehetővé teszi a felhasználók számára lejárati dátum beállítását az RMS-védelemmel ellátott tartalomhoz.
+
+<!-- -->
+
+**konfigurációs adatbázis**  
+Az az adatbázis, amely a kiszolgáló vagy fürt konfigurációs adatait tartalmazza.
+
+<!-- -->
+
+**tartalom felhasználása**  
+Védett tartalom titkosítása és használati jogainak gyakorlása.
+
+<!-- -->
+
+**tartalomkulcs**  
+A védett tartalom közzétételekor tikosításra, felhasználásakor visszafejtésre használt kulcs. Más néven szimmetrikus kulcs. Az RMS 128 bites AES tartalmi kulcsokat használ.
+
+<!-- -->
+
+**tartalomtulajdonos**  
+Az a személy vagy szervezet, aki vagy amely a védett tartalom hozzáférési szabályzatát összeállítja.
+
+<!-- -->
+
+**visszafejtés**  
+A titkosított adatok olvasható tételének folyamata, amely a kódolt szöveget egyszerű szöveggé alakítja át.
+
+<!-- -->
+
+**digitális aláírás**  
+Olyan eszköz, amellyel az üzenetek, a fájlok vagy egyéb digitálisan kódolt adatok küldői, illetve készítői az információhoz kapcsolhatják az azonosítójukat. Az információ digitális aláírása az információ átalakítását, valamint a küldőtől származó néhány titkos adat meghatározott kódba, vagyis az aláírásba foglalását jelenti. A digitális aláírások a nyilvános kulcsos környezetekben használatosak, az adatok épségét biztosítják.
+
+<!-- -->
+
+**DRMRemote szolgáltatás**  
+Az RMS egyik webszolgáltatása, amely a különböző RMS kiszolgálók közötti kommunikációra használatos .NET Remoting segítségével teszi elérhetővé szolgáltatásait.
+
+<!-- -->
+
+**titkosítás**  
+Az információ átalakítása olyan formára, amelyet csak a meghatározott címzett tud olvasni. A titkosítás hatékony módszer az adatok biztonságának megőrzéséhez. A titkosított fájlok visszafejtéséhez a fogadónak rendelkeznie kell a megfelelő titkos kulccsal vagy jelszóval, amely a visszaalakításhoz szükséges. Lásd még: nyilvános kulcsos titkosítás.
+
+<!-- -->
+
+**igénylés**  
+Az a folyamat, amelynek során a legfelső szintű tanúsítási kiszolgáló a Microsoft igénylési szolgáltatása által aláírt kiszolgálói licencelői tanúsítványt szerez.
+
+<!-- -->
+
+**igénylési kérelem**  
+A legfelső szintű RMS tanúsítási kiszolgáló által a Microsoft igénylési szolgáltatás részére, kiszolgálói licencelői tanúsítvány iránt elküldött kérelem.
+
+<!-- -->
+
+**kizárás**  
+Az a folyamat, amellyel az RMS-kiszolgáló a kizárási szabályzat alapján elutasítja egy ügyfél használati licencre irányuló kérelmét. Lásd még: kizárási lista.
+
+<!-- -->
+
+**kizárási lista**  
+Azoknak a résztvevőknek a listája, akiktől az RMS licencelési szolgáltatásnak meg kell tagadnia a licencet.
+
+<!-- -->
+
+**kizárási szabályzat**  
+Az RMS konfigurációs adatbázisának beállításai, amelyek a kizárásnak a szervezeten belüli alkalmazási módját szabályozzák.
+
+<!-- -->
+
+**eXtensible rights Markup Language (XrML)**  
+XML alapú formátum, amelyet az RMS az összes támogatott licenchez használ: ilyenek a géptanúsítványok, a tartalomvédelmi fióktanúsítványok, a használati licencek, a közzétételi licencek és a kiszolgálói licencelői tanúsítványokat. Ezek a dokumentumok határozzák meg a védett tartalomra vonatkozó RMS-szabályzatot.
+
+<!-- -->
+
+**kiállítási licenc**  
+A védett tartalomra alkalmazandó RMS-szabályzatot meghatározó adatok.
+
+<!-- -->
+
+**licencelési fürt**  
+A legfelső szintű tanúsítási fürtön kívüli, az RMS licencelési és közzétételi szolgáltatását futtató egy vagy több kiszolgáló. Ezek a kiszolgálók azonos adatbázist és kapcsolódási URL-címet használnak, és több kiszolgáló használata esetén szoftveres vagy hardveres terheléselosztó mögött kell üzembe helyezni azokat. A tanúsítási vagy a legfelső szintű fürtökkel ellentétben a licencelési fürtben található RMS kiszolgálók nem hajthatnak végre felhasználótanúsítást.
+
+<!-- -->
+
+**licencelési szolgáltatás**  
+Az RMS használati licenceket kiállító webszolgáltatása.
+
+<!-- -->
+
+**licenckiszolgáló**  
+Használati licenceket kiadó RMS webszolgáltatás.
+
+<!-- -->
+
+**kulcstároló**  
+A védett tartalom jogosult felhasználásának ellenőrzéséért, titkosításáért és visszafejtéséért felelős szoftvermodul. Feladata továbbá, hogy megóvja a megbízható szoftverfeldolgozást a módosítással és a megfigyeléssel szemben. Más néven biztonságos tároló.
+
+<!-- -->
+
+**naplózási szolgáltatás**  
+Az RMS egyik figyelőszolgáltatása, amely továbbítja az üzenetsorban lévő naplózott adatokat az RMS kiszolgáló vagy fürt naplózási adatbázisába.
+
+<!-- -->
+
+**gépaktiválás**  
+Az a folyamat, amellyel egyedi kulcstároló és géptanúsítvány szerezhető be a számítógépekhez az RMS 1.0-s verziójában. Az RMS SP1 verziójában a gépaktiválás az a folyamat, amellyel géptanúsítvány szerezhető be az adott gép egyes felhasználói számára.
+
+<!-- -->
+
+**jegyzékfájl**  
+Az az aláírt XML-dokumentum, amely azonosítja azokat a függvénytárakat és programokat, amelyek az alkalmazás feldolgozási területébe betölthetők, nem tölthetők be, és amelyek esetleg betölthetők.
+
+<!-- -->
+
+**Microsoft aktiválási szolgáltatás**  
+A Microsoft által működtetett webszolgáltatás, amely az RMS 1.0-s verziójú ügyfelek kérelmére RMS géptanúsítványokat és kulcstárolókat állít ki.
+
+<!-- -->
+
+**Microsoft igénylési szolgáltatás**  
+A Microsoft által működtetett webszolgáltatás, amely kiállítja a kiszolgálói licencelői tanúsítványt az RMS telepítések legfelső szintű tanúsítási kiszolgálójának.
+
+<!-- -->
+
+**előtanúsítás**  
+Az RMS tanúsítási szolgáltatásának egy funkciója, amely lehetővé teszi, hogy az alkalmazások a felhasználók nevében tartalomvédelmi fióktanúsítványt kérelmezzenek az RMS-kiszolgálótól. Az előtanúsítás keretében megszerzett tartalomvédelmi fióktanúsítványok csak a felhasználó nyilvános kulcsát tartalmazzák.
+
+<!-- -->
+
+**résztvevő**  
+Olyan entitás (felhasználó, csoport vagy védett tartalom kezelője), amelynek meghatározott szerepe van az RMS biztonsági sémájában, és amelyhez objektumok biztonsági viszonyban hozzárendelhetők.
+
+<!-- -->
+
+**személyes kulcs**  
+A nyilvános kulcs algoritmusával használt kriptográfiai kulcspár titkos része. A személyes kulcsok rendszerint a szimmetrikus munkamenetkulcsok visszafejtéséhez, az adatok digitális aláírásához, illetve a megfelelő nyilvános kulccsal titkosított adatok visszafejtéséhez használhatók. Lásd még: nyilvános kulcs; nyilvános kulcsos titkosítás.
+
+<!-- -->
+
+**létesítés**  
+Az RMS szolgáltatásnak egy adott szervezeten belüli működésre történő beállítása.
+
+<!-- -->
+
+**nyilvános kulcs**  
+A nyilvános kulcs algoritmusával használt kriptográfiai kulcspár nem titkos része. A nyilvános kulcsok rendszerint a munkamenetkulcsok titkosításához, a digitális aláírások ellenőrzéséhez, illetve a megfelelő személyes kulccsal titkosított adatok visszafejtéséhez használhatók. Lásd még: személyes kulcs; nyilvános kulcsos titkosítás.
+
+<!-- -->
+
+**nyilvános kulcsos titkosítás**  
+Olyan titkosítási módszer, amely két, matematikailag összefüggő titkosítási kulcsot alkalmaz. Az egyik kulcs neve személyes kulcs, ez a kulcspár titkos része. A másik neve nyilvános kulcs, amely szabadon átadható az összes lehetséges partnernek. A legtöbb esetben a küldő fél a fogadó fél nyilvános kulcsát használja az üzenet titkosításához. Csak a fogadó fél rendelkezik az üzenet visszafejtéséhez szükséges személyes kulccsal. A nyilvános kulcs és a személyes kulcs közötti kapcsolat összetettségéből adódóan számítási módszerekkel nem lehet elkülöníteni a két kulcsot, feltéve hogy megfelelő hosszúságúak. Aszimmetrikus titkosításnak is nevezik. Lásd még: személyes kulcs; nyilvános kulcs.
+
+<!-- -->
+
+**közzétételi licenc**  
+Az RMS-védelemmel ellátott tartalom közzétételekor létrehozott licenc. Megadja, hogy ki érheti el a tartalmat, milyen jogokat kap a felhasználó, és milyen feltételek mellett érthető el a tartalom. Más néven kiállítási licenc.
+
+<!-- -->
+
+**közzétételi szolgáltatás**  
+Az RMS egyik szolgáltatása, amely aláírja a közzétételi licenceket, és kiállítja a kiszolgálói licencelői tanúsítványokat. Lásd még: ügyfél-licencelői tanúsítvány; közzétételi licenc.
+
+<!-- -->
+
+**RAC**  
+Lásd: tartalomvédelmi fióktanúsítvány.
+
+<!-- -->
+
+**visszavonás**  
+Folyamat, amely felsorolja azokat az entitásoknak, amelyeknek érvénytelen a licence.
+
+<!-- -->
+
+**visszavonási lista**  
+XrML alapú dokumentum, amely felsorolja a kiállító által visszavont tanúsítványokat és licenceket. Lásd még: visszavonás.
+
+<!-- -->
+
+**jog**  
+Az RMS technológiával védett tartalom meghatározott használói számára megengedett művelet. A jogok feltételek segítségével tovább korlátozhatók.
+
+<!-- -->
+
+**tartalomvédelmi fióktanúsítvány (RAC)**  
+Az a tanúsítvány, amely az RMS aktiválási szolgáltatásától származó géptanúsítvány használatával kapcsolja meghatározott számítógéphez vagy számítógépcsoporthoz a felhasználói fiókot és kulcsot. A tanúsítvány összetevői segítségével engedélyezhető a személyeknek a védett tartalom használata. Más néven csoportazonosító tanúsítvány (GIC) az RMS SDK készletben.
+
+<!-- -->
+
+**tartalomvédelem**  
+Olyan technológia, amely titkosítás, tanúsítványok és hitelesítés segítségével tartós védelmet nyújt a digitális tartalomnak. A jogosult felhasználóknak vagy címzetteknek licencet kell szerezniük ahhoz, hogy használhassák a védett fájlokat, a tartalom tulajdonosa által beállított jogok vagy üzleti szabályok szerint.
+
+<!-- -->
+
+**tartalomvédelmi szolgáltatások ügyfele**  
+Az RMS API-k egy csoportja, amelyet az RMS rendszerbe tartozó minden ügyfélszámítógépre telepíteni kell. Előfeltétele a gépaktiválásnak, szükséges az RMS-kompatibilis alkalmazások használatához.
+
+<!-- -->
+
+**jogmegadási sablon**  
+Az RMS-védelemmel ellátott tartalomra alkalmazható felhasználók, jogok és feltételek szokásos csoportját írja le. Ha egy felhasználó jogmegadási sablont alkalmaz valamely tartalomra, akkor a sablonban leírt jogok és feltételek részévé válnak a közzétételi licencnek.
+
+<!-- -->
+
+**RMS-aktiválás**  
+Az a folyamat, amellyel kulcstároló helyezhető el a végfelhasználó számítógépén az RMS 1.0-s verziójában. Ezt csak az RMS aktiválási szolgáltatás képes biztosítani, és nélkülözhetetlen feltétele az RMS technológia használatának. Az RMS SP1 verziójában ez az a folyamat, amellyel géptanúsítvány szerezhető be az adott gép felhasználója számára. Ez nem igényli a kapcsolódást az RMS aktiválási szolgáltatásához. Más néven aktiválás.
+
+<!-- -->
+
+**RMS tanúsítási szolgáltatás**  
+A Microsoft által működtetett webszolgáltatás, amely tartalomvédelmi fióktanúsítványokat állít ki a felhasználók részére, azok Microsoft .NET Passport hitelesítő adatai alapján.
+
+<!-- -->
+
+**RMS ügyfél**  
+Az RMS API-k egy csoportja, amelyet az RMS rendszerbe tartozó minden ügyfélszámítógépre telepíteni kell. Előfeltétele a gépaktiválásnak, szükséges az RMS-kompatibilis alkalmazások használatához.
+
+<!-- -->
+
+**RMS-gépaktiválás**  
+Az RMS-aktiválás során a végfelhasználó számítógépére kerülő tanúsítvány. A tanúsítványban található nyilvános kulccsal titkosítható a felhasználó tartalomvédelmi fióktanúsítványában található személyes kulcs.
+
+<!-- -->
+
+**RMS-kompatibilis alkalmazás**  
+Az RMS SDK készlete segítségével kiegészített alkalmazás, amely így lehetővé teszi a felhasználók számára az általuk létrehozott tartalomra vonatkozó jogok megadását.
+
+<!-- -->
+
+**RMS-kompatibilis számítógép**  
+Olyan számítógép, amelyre telepítve van az RMS ügyfél, és amely átesett az RMS-gépaktiváláson, így képes az RMS segítségével védett tartalom feldolgozására.
+
+<!-- -->
+
+**RMS-védelemmel ellátott tartalom**  
+Az RMS technológia segítségével védelemben részesített tartalom.
+
+<!-- -->
+
+**legfelső szintű tanúsítási fürt**  
+Egy RMS-telepítés egy vagy több kiszolgálója, amelyen felügyeleti, igénylési, fióktanúsítási, aktiválási proxy, licencelési és közzétételi szolgáltatás fut. Ezek a kiszolgálók azonos adatbázist és kapcsolódási URL-címet használnak, szoftveres vagy hardveres terheléselosztó mögött kell őket üzembe helyezni. Active Directory-erdőnként csak egy legfelső szintű tanúsítási fürt létezhet.
+
+<!-- -->
+
+**legfelső szintű tanúsítási kiszolgáló**  
+Az RMS-telepítés első számú kiszolgálója, amelyen felügyeleti, igénylési, fióktanúsítási, aktiválási proxy, licencelési és közzétételi szolgáltatás fut. Active Directory-erdőnként csak egy legfelső szintű tanúsítási kiszolgáló létezhet.
+
+<!-- -->
+
+**bizalomforrás**  
+Megbízható entitás, amely a többi megbízható tanúsítvány alapját szolgáltatja. Ebben az entitásban minden tanúsítványszolgáltatónak és végfelhasználónak meg kell bíznia.
+
+<!-- -->
+
+**biztonsági azonosító (SID)**  
+A Windows olyan adatstruktúrája, amely a Windows egyes felhasználói, csoport- és számítógépfiókjait azonosítja. A hálózatban található valamennyi fiók egyedi biztonsági azonosítót kap a létrehozásakor. A Windows belső folyamatai a fiókok felhasználónevének vagy csoportnevének használata helyett a biztonsági azonosítókra hivatkoznak.
+
+<!-- -->
+
+**kiszolgálói licencelői tanúsítvány**  
+Az RMS-kiszolgáló hitelesítő adatait tartalmazó tanúsítvány. A kiszolgáló ennek köszönhetően válik érvényes tanúsítási és licencelési szolgáltatássá, és ez teszi lehetővé a működését. A licencelői tanúsítvány tartalmazza a közzétételi licencekben tárolt tartalmi kulcsok titkosításához használt nyilvános kulcsot.
+
+<!-- -->
+
+**kiszolgáló szolgáltatás**  
+Az RMS webes szolgáltatása, amelyet más szolgáltatások használhatnak.
+
+<!-- -->
+
+**szolgáltatás kapcsolódási pontja (SCP)**  
+Active Directory-objektum, amely az RMS-telepítés legfelső szintű tanúsítási fürtjének URL-címére hivatkozik. A RMS-ügyfél ennek alapján keresi meg az RMS szolgáltatásait.
+
+<!-- -->
+
+**aligénylés**  
+A licenckiszolgáló létesítési folyamatának a része, amelynek révén a licenckiszolgáló kiszolgálói licencelői tanúsítványt szerez a legfelső szintű tanúsítási fürttől.
+
+<!-- -->
+
+**aligénylési kérelem**  
+Az egy licenckiszolgáló által a legfelső szintű tanúsítási fürtnek kiszolgálói licencelői tanúsítvány iránt elküldött kérelem.
+
+<!-- -->
+
+**aligénylési szolgáltatás**  
+Az RMS egyik webszolgáltatása, amely a legfelső szintű tanúsítási kiszolgálón fut, és amely válaszol a létesítés során a licenckiszolgálók által a kiszolgálói licencelői tanúsítvány iránt benyújtott kérelemre.
+
+<!-- -->
+
+**felügyelő**  
+A felügyelő csoport tagja.
+
+<!-- -->
+
+**felügyelő csoport**  
+Az egyes RMS fürtök rendszergazdai szinten meghatározott választható csoportja; tagjainak tulajdonosi licencet állít ki az RMS kiszolgáló, amikor az adott kiszolgáló által közzétett tartalmat nyitnak meg.
+
+<!-- -->
+
+**használati licenc**  
+Ez a licenc sorolja fel azokat a jogokat és feltételeket, amelyek birtokában a végfelhasználók felhasználhatják a védett tartalmat. Más néven végfelhasználói licenc (EUL).

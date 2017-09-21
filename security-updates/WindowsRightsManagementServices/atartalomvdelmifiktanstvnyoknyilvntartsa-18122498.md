@@ -1,0 +1,12 @@
+---
+TOCTitle: A tartalomvédelmi fióktanúsítványok nyilvántartása
+Title: A tartalomvédelmi fióktanúsítványok nyilvántartása
+ms:assetid: '5bb0f3cf-fc44-4e60-a93f-c789d6f8a902'
+ms:contentKeyID: 18122498
+ms:mtpsurl: 'https://technet.microsoft.com/hu-hu/library/Cc720277(v=WS.10)'
+---
+
+A tartalomvédelmi fióktanúsítványok nyilvántartása
+==================================================
+
+Az RMS telepítésekor a Végfelhasználói licencszerződés (EULA) feltételeinek elfogadásával beleegyezett abba, hogy az RMS telepítéséhez használt ügyféllicencek (CAL) számától függő licencdíjat fizet a Microsoftnak. A kiállított licencek számának megállapításában segítséget nyújt, hogy a Windows RMS nyilvántartja azon felhasználók számát, akik fióktanúsítványt kaptak az RMS adott telepítéséről. Ez a szám közelítőleg megegyezik a kiadott tartalomvédelmi fióktanúsítványok összesített számával. Ha az adatbázis frissítésével nem törölte a már nem aktív felhasználókat, a szám nem a valós állapotot tükrözi. Ha viszont egyes felhasználóknak több licencet adtak ki több erdőben, a megjelenített érték tartalmazza ezeket a licenceket is. Ebben az esetben azonban nem kell többszörös licencdíjat fizetni.

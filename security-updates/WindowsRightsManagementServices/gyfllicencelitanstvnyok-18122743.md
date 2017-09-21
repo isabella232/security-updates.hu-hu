@@ -1,0 +1,16 @@
+---
+TOCTitle: 'Ügyfél-licencelői tanúsítványok'
+Title: 'Ügyfél-licencelői tanúsítványok'
+ms:assetid: 'bfb36387-3e15-4cde-8b8f-482219569a64'
+ms:contentKeyID: 18122743
+ms:mtpsurl: 'https://technet.microsoft.com/hu-hu/library/Cc747744(v=WS.10)'
+---
+
+Ügyfél-licencelői tanúsítványok
+===============================
+
+Az ügyfél-licencelői tanúsítvány feljogosítja a szerzőket, hogy a vállalati hálózattal fennálló kapcsolat nélkül is közzétehessenek RMS-védelemmel ellátott tartalmat.
+
+A szerző úgy juthat ügyfél licencelői tanúsítványhoz, hogy ügyféligénylési kérelmet küld egy ügyfélszámítógépről a legfelső szintű tanúsítási kiszolgálónak vagy egy licenckiszolgálónak. A kiszolgáló válaszul elküldi a számítógének az ügyfél licencelői tanúsítványt.
+
+Az ügyfél licencelői tanúsítvány tartalmazza az ügyfél licencelő nyilvános kulcsát, valamint az ügyfél licencelő személyes kulcsát, amely a tanúsítványt kérelmező szerző nyilvános kulcsával van titkosítva. Tartalmazza továbbá a tanúsítványt kiállító kiszolgáló nyilvános kulcsát is, amely alá van írva a tanúsítványt kiállító kiszolgáló személyes kulcsával. Az ügyfél licencelő személyes kulcsa a szerző által létrehozott közzétételi licencek aláírására szolgál.

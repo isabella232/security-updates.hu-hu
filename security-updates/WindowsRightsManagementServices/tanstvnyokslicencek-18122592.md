@@ -1,0 +1,26 @@
+---
+TOCTitle: Tanúsítványok és licencek
+Title: Tanúsítványok és licencek
+ms:assetid: '91916ecb-9e5d-49e8-ab65-ef2c56339b83'
+ms:contentKeyID: 18122592
+ms:mtpsurl: 'https://technet.microsoft.com/hu-hu/library/Cc747600(v=WS.10)'
+---
+
+Tanúsítványok és licencek
+=========================
+
+Az RMS-telepítés különböző összetevői tanúsítványok által megvalósított bizalmi kapcsolatokban állnak egymással. A tanúsítványok érvényességének megkövetelése az RMS technológia alapvető funkciói közé tartozik. Az RMS-védelemmel ellátott tartalomhoz licenc tartozik, amely leírja a tartalom használati szabályait. A tartalom minden felhasználója egyedi licencet kap, amely beolvassa, értelmezi és betartatja ezeket a használati szabályokat. A licenc ebben az értelemben tehát egy sajátos tanúsítványnak tekinthető.
+
+Az RMS egy XML nyelvű szókészlet segítségével írja le az RMS-védelemmel ellátott tartalom használati jogait. Erre az XrML (eXtensible rights Markup Language) 1.2.1-es verzióját használja. A további tudnivalók „Az XrML” című pontban olvashatók.
+
+Az RMS részét alkotó tanúsítványok és licencek hierarchikusan kapcsolódnak egymáshoz, így az RMS minden esetben végig tud haladni egy adott tanúsítványtól vagy licenctől kezdve a megbízható tanúsítványok láncolatán keresztül egészen egy megbízható kulcspárig. A további tudnivalókat lásd: „[Bizalmi hierarchia](https://technet.microsoft.com/2d44182f-a653-4383-aba1-dade53f7cf9a)”.
+
+A szakasz tartalma:
+
+-   [Az RMS tanúsítványainak és licenceinek áttekintése](https://technet.microsoft.com/637ccfca-318e-4346-85b5-0945b058fb9c)
+-   [Kiszolgálói licencelői tanúsítványok](https://technet.microsoft.com/0b35fbcd-25a9-4587-898d-9a30fd1d3c5b)
+-   [Ügyfél-licencelői tanúsítványok](https://technet.microsoft.com/bfb36387-3e15-4cde-8b8f-482219569a64)
+-   [RMS géptanúsítványok](https://technet.microsoft.com/1841d53e-d01b-47c3-9d43-3805ceefed5a)
+-   [Tartalomvédelmi fióktanúsítványok](https://technet.microsoft.com/2ff315cc-211d-4e6e-85e8-56867c2abd94)
+-   [Közzétételi licencek](https://technet.microsoft.com/187228fc-370b-4e23-a53a-21bb296b84a1)
+-   [Használati licencek](https://technet.microsoft.com/6e609db3-49b3-4cac-a34c-8a96da627067)

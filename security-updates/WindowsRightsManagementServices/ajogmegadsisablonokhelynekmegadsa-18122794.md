@@ -1,0 +1,39 @@
+---
+TOCTitle: A jogmegadási sablonok helyének megadása
+Title: A jogmegadási sablonok helyének megadása
+ms:assetid: 'e1bee46d-33db-424f-ba45-1dcedcb883ab'
+ms:contentKeyID: 18122794
+ms:mtpsurl: 'https://technet.microsoft.com/hu-hu/library/Cc747781(v=WS.10)'
+---
+
+A jogmegadási sablonok helyének megadása
+========================================
+
+A művelet végrehajtásához helyben kell bejelentkeznie a felügyeleti webhelyre olyan tartományi felhasználói fiókkal, amely a Rendszergazdák csoport tagja az elérni kívánt számítógépen. A Tartománygazdák csoport tagjai is végrehajthatják ezt a műveletet. Biztonsági szempontból ajánlott a műveletet a **Futtatás másként** parancs segítségével végrehajtani.
+
+A **Globális felügyelet** lap megnyitásához kattintson a **Start** gombra, és válassza a **Minden program**, a **Windows RMS**, majd a **Windows RMS felügyeleti webhely** parancsot.
+
+Ha a jogmegadási sablonokat megosztott mappában tárolja, és később megváltoztatja a megosztás helyét, kézzel kell átmásolnia a sablonokat a régi helyről az új helyre.
+
+A jogmegadási sablonok bekerülnek a konfigurációs adatbázisba is. A jogmegadási sablonok kiosztásáról „[A jogmegadási sablonok kiosztása](https://technet.microsoft.com/ae6fa26f-d744-4ac9-9eb1-728ffab87bfe)” című témakör tartalmaz további tájékoztatást.
+
+Ha a Microsoft Office 2003 programot használja RMS-kompatibilis alkalmazásként, a jogmegadási sablonok helyét az `AdminTemplatePath` rendszerleíró kulcs határozza meg, és az RMS-ügyfél a rendszerleíró kulcs által megadott helyen keresi a sablonokat, más helyen nem.
+
+A jogmegadási sablonok helyének megadása
+----------------------------------------
+
+#### A jogmegadási sablonok helyének megadása
+
+1.  Nyissa meg a **Globális felügyelet** lapot, majd keresse meg azt a webhelyet, amelyen meg szeretné adni a jogmegadási sablonok helyét, és kattintson a mellette látható **A webhelyen működő RMS felügyelete** hivatkozásra.
+
+2.  A **Felügyeleti hivatkozások** csoportban kattintson a **Jogmegadási sablonok** hivatkozásra.
+
+3.  A **Sablon helye** csoportban adja meg annak a megosztott mappának az univerzális elnevezési konvenció (UNC) szerinti címét a \\\\*kiszolgálónév*\\*megosztásnév* formában, amelyen a fürt jogmegadási sablonjait tárolja. Az **Admin** alkalmazáskészletet futtató fióknak írási engedéllyel kell rendelkezni az adott megosztott mappához. A sablonok tárolására feltétlenül olyan, hálózatról is elérhető helyet válasszon, amely eleget tesz a szervezet biztonsági előírásainak. A sablonokat tároló megosztott mappákat ne az RMS által használt alapmappákban (ilyen például a Program Files mappa vagy az IISRoot mappa) hozza létre.
+
+4.  Kattintson a **Mentés** gombra.
+
+5.  Miután létrehozta és a választott helyre mentette a jogmegadási sablonokat, a felhasználók számára elérhetővé kell tennie őket. Az RMS-ügyfél alapértelmezés szerint a helyi számítógép következő mappájában keresi a jogmegadási sablonokat:
+
+    %HOMEPATH%\\Local Settings\\Application Data\\Microsoft\\DRM\\templates
+
+    A jogmegadási sablonokat a 3. lépésben megadott helyről erre a helyre kell átmásolni minden, az RMS-szolgáltatást használó összes felhasználó számítógépén.

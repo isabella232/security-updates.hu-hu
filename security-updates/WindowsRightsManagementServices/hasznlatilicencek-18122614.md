@@ -1,0 +1,16 @@
+---
+TOCTitle: Használati licencek
+Title: Használati licencek
+ms:assetid: '6e609db3-49b3-4cac-a34c-8a96da627067'
+ms:contentKeyID: 18122614
+ms:mtpsurl: 'https://technet.microsoft.com/hu-hu/library/Cc747612(v=WS.10)'
+---
+
+Használati licencek
+===================
+
+Az RMS-védelemmel ellátott tartalom használatához használati licenc szükséges. A használati licenc megadja, hogy adott felhasználónak milyen jogai vannak az RMS-védelemmel ellátott tartalomhoz. A használati licencet az a kiszolgáló állítja ki, amely a tartalom közzétételi licencét kiállította.
+
+Minden olyan felhasználó, aki RMS-védelemmel ellátott tartalmat kap, és meg van nevezve annak a közzétételi licencében, kérelmezhet használati licencet. Az RMS-kompatibilis alkalmazások az RM technológia szolgáltatásai segítségével képesek ezeknek, a tartalommal egy fájlba foglalt, engedélyeknek a beolvasására, értelmezésére és betartatására.
+
+A használati licenc tartalmazza a tartalom visszafejtéséhez szükséges szimmetrikus tartalomkulcsot, és a felhasználó személyes kulcsával van titkosítva. Ez biztosítja, hogy csak a kérelmező felhasználó használhassa az RMS-védelemmel ellátott tartalmat. A használati licencet annak a kiszolgálónak a személyes kulcsa írja alá, amely kibocsátja a használati licencet.

@@ -1,0 +1,98 @@
+---
+TOCTitle: Az RMS rendszer áttekintése
+Title: Az RMS rendszer áttekintése
+ms:assetid: 'cbd14635-e17e-42b8-9fd8-6fdce42ffe07'
+ms:contentKeyID: 18122676
+ms:mtpsurl: 'https://technet.microsoft.com/hu-hu/library/Cc747671(v=WS.10)'
+---
+
+Az RMS rendszer áttekintése
+===========================
+
+Ez a témakör bemutatja, hogy az RMS rendszeren belül hogyan működnek együtt az RMS webszolgáltatásai és az RMS ügyféltechnológiái.
+
+A következő táblázat az RMS rendszereket alkotó kiszolgálótípusokat sorolja fel, valamint leírja ezek funkcióját. A rendszer bevezetésének részletes ismertetését lásd: „RMS rendszer bevezetése”.
+
+###  
+
+<p> </p>
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Kiszolgáló vagy fürt</th>
+<th>Funkciója</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="border:1px solid black;"><p>Legfelső szintű tanúsítási</p></td>
+<td style="border:1px solid black;"><p>Az RMS következő szolgáltatásai futnak ezen:</p>
+<ul>  
+<li><strong>Aligénylés</strong>. Teljesíti a licenckiszolgálók aligénylési kérelmeit.<br />  
+<br />  
+</li>  
+<li><strong>Aktiválási proxy</strong>. Internetes proxyként működik a kulcstárolók és RMS-géptanúsítványok iránti ügyfélkérelmek számára.<br />  
+<br />  
+</li>  
+<li><strong>Tanúsítás</strong>. Kiállítja a tartalomvédelmi fióktanúsítványokat.<br />  
+<br />  
+</li>  
+<li><strong>Közzététel</strong>. Kiállítja a közzétételi licenceket.<br />  
+<br />  
+</li>  
+<li><strong>Licencelés</strong>. Kiállítja a használati licenceket.<br />  
+<br />  
+</li>  
+</ul>
+<p>Minden bevezetésben legalább egy legfelső szintű tanúsítási kiszolgálónak vagy fürtnek működnie kell. Active Directory-erdőnként csak egy legfelső szintű tanúsítási fürt létezhet.</p></td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;"><p>Licencelési (nem kötelező)</p></td>
+<td style="border:1px solid black;"><p>Az RMS következő szolgáltatásai futnak ezen:</p>
+<ul>  
+<li><strong>Közzététel</strong>. Kiállítja a közzétételi licenceket.<br />  
+<br />  
+</li>  
+<li><strong>Licencelés</strong>. Kiállítja a használati licenceket.<br />  
+<br />  
+</li>  
+</ul>
+<p>A licenckiszolgálók bevezetésének általában az a célja, hogy egyes osztályokat külön szolgáljanak ki, vagy hogy csökkentsék a legfelső szintű tanúsítási szintre beérkező kérelmek okozta terhelést. Licenckiszolgálókat nem kötelező létesíteni.</p></td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;"><p>Adatbázis-kiszolgáló, például SQL Server</p></td>
+<td style="border:1px solid black;"><ul>
+<li>Az RMS konfigurációs, címtár-szolgáltatási és naplózási adatbázisát kezeli.<br />  
+<br />  
+</li>  
+<li>A legfelső szintű tanúsítási fürt konfigurációs adatbázisában tárolja a tartalomvédelmi fióktanúsítványokat.<br />  
+<br />  
+</li>
+</ul></td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;"><p>Tartományvezérlő és globális katalógus</p></td>
+<td style="border:1px solid black;"><ul>
+<li>A felhasználóhitelesítési és a címtárszolgáltatást biztosítja.<br />  
+<br />  
+</li>  
+<li>Tárolja a legfelső szintű tanúsítási fürt szolgáltatásészlelési pontját.<br />  
+<br />  
+</li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+
+A RMS a Microsoft által működtetett igénylési és aktiválási szolgáltatást használja arra, hogy közös bizalomforrást biztosítson a rendszer számára. A további tudnivalókat lásd: „[Bizalmi hierarchia](https://technet.microsoft.com/2d44182f-a653-4383-aba1-dade53f7cf9a)”.
+
+A következő ábra az RM rendszer különböző összetevőit és ezek rendszerben betöltött szerepét mutatja be. A különböző összetevők között közlekedő kérelmeket és válaszokat nyilak jelölik.
+
+![](images/Cc747671.29138741-d45c-459b-8ead-b9bc3f708dd5(WS.10).gif)
+
+Az egyes összetevőkről a további tudnivalókat lásd: „[Az RMS szoftveres összetevői](https://technet.microsoft.com/e38a840e-f390-48fd-8354-50108a64f5ca)”.

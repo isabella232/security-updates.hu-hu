@@ -1,0 +1,27 @@
+---
+TOCTitle: A személyes kulcs jelszavának átállítása
+Title: A személyes kulcs jelszavának átállítása
+ms:assetid: 'f71df255-fe19-4e07-810e-87309a5e8e88'
+ms:contentKeyID: 18122787
+ms:mtpsurl: 'https://technet.microsoft.com/hu-hu/library/Cc747800(v=WS.10)'
+---
+
+A személyes kulcs jelszavának átállítása
+========================================
+
+A művelet végrehajtásához helyben kell bejelentkeznie a felügyeleti webhelyre olyan tartományi felhasználói fiókkal, amely a Rendszergazdák csoport tagja az elérni kívánt számítógépen. A Tartománygazdák csoport tagjai is végrehajthatják ezt a műveletet. Biztonsági szempontból ajánlott a műveletet a **Futtatás másként** parancs segítségével végrehajtani.
+
+A **Globális felügyelet** lap megnyitásához kattintson a **Start** gombra, és válassza a **Minden program**, a **Windows RMS**, majd a **Windows RMS felügyeleti webhely** parancsot.
+
+A személyes kulcs jelszavának átállítása
+----------------------------------------
+
+#### A személyes kulcs jelszavának átállítása
+
+1.  Nyissa meg a **Globális felügyelet** lapot, majd keresse meg azt a webhelyet, amelyen át szeretné állítani a személyes kulcs jelszavát, és kattintson a mellette látható **A webhelyen működő RMS felügyelete** hivatkozásra.
+
+2.  A **Felügyeleti hivatkozások** csoportban kattintson a **Biztonsági beállítások** hivatkozásra.
+
+3.  A **Jelszó átállítása** csoport **A személyes kulcsot védő új jelszó** mezőjébe írja be a kiszolgáló személyes kulcsához tartozó új jelszót, írja be ismét az új jelszót, és kattintson a **Jelszó átállítása** elemre.
+
+Az eljárás végrehajtásáról a további tudnivalókat lásd: „[A személyes kulcs jelszavának átállítása](https://technet.microsoft.com/ceba927e-a7fd-4b06-bb70-5e5d9d6d099c)”.

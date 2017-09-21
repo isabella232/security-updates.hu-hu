@@ -1,0 +1,21 @@
+---
+TOCTitle: Az RMS biztonságának tervezése
+Title: Az RMS biztonságának tervezése
+ms:assetid: 'eb0fa784-1246-44aa-be31-2c332db7d09c'
+ms:contentKeyID: 18122718
+ms:mtpsurl: 'https://technet.microsoft.com/hu-hu/library/Cc747719(v=WS.10)'
+---
+
+Az RMS biztonságának tervezése
+==============================
+
+A szervezet többi kiszolgálójához hasonlóan a bevezetés tervezésének részeként a biztonsággal kapcsolatos kérdésekre itt is gondolni kell. Az RMS megvalósítása webszolgáltatásként történik, így az RMS szolgáltatáshoz való hozzáférés az egyéb webszolgáltatásokhoz hasonlóan szabályozható hozzáférés-szabályozási listák és a Secure Sockets Layer (SSL) használatával.
+
+Az RMS megvalósítható szabályozott hozzáférésű tartomány részeként is, ha a bevezetés kéri, hogy az RMS egy további szabályozási réteget biztosítson a bizalmas adatok számára.
+
+Mivel az RMS személyes kulcsok rendszerét használja a tartalom titkosításához, a biztonsági terv részeként el kell készíteni az RMS személyes kulcsának biztonsági másolatát.
+
+A témakör tartalma:
+
+-   [A hozzáférési követelmények meghatározása](https://technet.microsoft.com/eb2ce9a5-0430-4811-bd40-4a94a84426a8)
+-   [A kulcskezelési követelmények meghatározása](https://technet.microsoft.com/f0e08fb8-bf5e-4278-a09f-daa57696e786)

@@ -1,0 +1,31 @@
+---
+TOCTitle: 'Elosztott RMS-topológia tervezése'
+Title: 'Elosztott RMS-topológia tervezése'
+ms:assetid: '8773a1e0-6ac3-41f5-9866-5890cef08d04'
+ms:contentKeyID: 18122654
+ms:mtpsurl: 'https://technet.microsoft.com/hu-hu/library/Cc747657(v=WS.10)'
+---
+
+Elosztott RMS-topológia tervezése
+=================================
+
+Vannak helyzetek, amikor egy vagy több licenckiszolgálót is üzembe kell helyezni, amely nem tagja a legfelső szintű tanúsítási fürtnek. Ez jellemzően olyan részlegeknél kerül szóba, amelyeknek közvetlen szabályozási lehetőségekre van szükségük a közzétételi és a használati licencek kiállításánál. Ilyen lehet például a jogi osztály, amelynek biztonsági követelményei részlegszintű szabályozást tesznek szükségessé. A licenckiszolgálók számára a legfelső szintű tanúsítási fürt nyújtja a fióktanúsítási szolgáltatást. A legfelső szintű tanúsítási fürt és legalább egy licenckiszolgáló kombinációját elosztott topológiának nevezzük.
+
+Megjegyzendő, hogy a legfelső szintű tanúsítási kiszolgálókhoz hasonlóan a licenckiszolgálók is üzembe helyezhetők fürtben. Emellett a legfelső szintű tanúsítási kiszolgálóhoz hasonlóan a licencelési fürt is saját terheléselosztási szolgáltatást használhat. Minden licenckiszolgáló vagy licencelési fürt az SQL Server külön példányát használja az adott kiszolgáló vagy fürt konfigurációs és naplózási adatbázisának biztosítására.
+
+Az RMS telepítése kialakítható úgy, hogy csak a tanúsítási szolgáltatások fussanak legfelső szintű telepítésen, illetve hogy a teljes licencelési szolgáltatás egy vagy több licenckiszolgálón vagy licencelési fürtön fusson, mindazonáltal nem ez a jellemző konfiguráció. Általánosságban az a célravezető módszer, ha a legfelső szintű tanúsítási fürtben növelik a fizikai kiszolgálók számát, és így elégítik ki a teljesítmény- és redundanciakövetelményeket, nem pedig külön licenckiszolgálók üzembe helyezésével (ez csak részlegszintű licencelési szükséglet kiszolgálása céljából indokolt). A következő ábrán ez a fajta kialakítás látható.
+
+![](images/Cc747657.01fa5a85-5711-41aa-932a-124049d34186(WS.10).gif)
+
+Az elosztott topológia kiépítése nagyobb felügyeleti költségeket jelenthet a szervezetnek, mert az elosztott topológia természeténél fogva összetettebb. Ha a szervezetnél több licencelési fürt és több erdő létezik, az RMS ügyfélszámítógépein szükségessé válhat egyes rendszerleíró értékek módosítása, hogy minden számítógép a megfelelő RMS kiszolgálóhoz küldje a licenckérelmeit. Több tartományt átfogó telepítés esetén bizalmi gondok is jelentkezhetnek. Ez a tartományok további konfigurálását követeli meg, csak így lehet RMS-védelemmel ellátott tartalmat használni.
+
+Az elosztott topológia szolgáltatáskapcsolódási pontjai
+-------------------------------------------------------
+
+RMS kiszolgáló létlétesítésekor az Active Directory-erdőbe bekerül a fürt URL-címe mint a szolgáltatás kapcsolódási pontja (SCP). Minden, az erdőben létesített legfelső szintű tanúsítási fürtnek és licencelési fürtnek van szolgáltatáskapcsolódási pontja. A licencelési fürt létesítésének feltétele, hogy már regisztrálva legyen a legfelső szintű tanúsítási fürt szolgáltatáskapcsolódási pontja. A licencelési fürt létesítésekor az aligénylési folyamat ezt az URL-címet használja a legfelső szintű tanúsítási fürt kereséséhez a hálózaton és a kiszolgálói licencelői tanúsítvány beszerzéséhez.
+
+Ha nem különálló legfelső szintű tanúsítási kiszolgálót, hanem legfelső szintű tanúsítási fürtöt vezet be, a fürt minden kiszolgálójának elérhetőnek kell lennie a közös URL-cím mögötti virtuális címzéssel.
+
+A virtuális címzés többféleképpen megvalósítható, ilyen például ciklikus multiplexeléses DNS, a hálózati terheléselosztási szolgáltatás, a hardveres megoldás stb. A virtuális címzés elosztja a terhelést a kiszolgálók között, valamint felszámolja a licencelés és a közzététel terén az egyetlen kiszolgálótól való függőséget.
+
+Az RMS ezt a közös URL-címet használja licencbeszerzési URL-címként, valamint közzétett értékként is, amelyet a végfelhasználók számítógépe használ, amikor az Active Directoryban vagy a rendszerleíró adatbázisban keresi az RMS fürtöt. A végfelhasználók számítógépének nem kell közvetlenül hozzáférnie a fürt egyetlen kiszolgálójához sem.

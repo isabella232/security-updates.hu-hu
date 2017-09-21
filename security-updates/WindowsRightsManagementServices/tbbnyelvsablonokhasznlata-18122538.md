@@ -1,0 +1,18 @@
+---
+TOCTitle: Többnyelvű sablonok használata
+Title: Többnyelvű sablonok használata
+ms:assetid: '349eb457-9c0f-423d-97ff-2e40b714a4eb'
+ms:contentKeyID: 18122538
+ms:mtpsurl: 'https://technet.microsoft.com/hu-hu/library/Cc720241(v=WS.10)'
+---
+
+Többnyelvű sablonok használata
+==============================
+
+Jogmegadási sablon létrehozásakor kiválaszthatja, hogy az adott sablon milyen nyelvű legyen. A jogmegadási sablonok alapértelmezés szerint a kiszolgáló operációs rendszerének megfelelő nyelvi beállításokat használják.
+
+Ha olyan RMS-kompatibilis ügyfelekkel rendelkezik, amelyek operációs rendszereinek különbözik a nyelvi beállítása, jogmegadási sablon létrehozásakor ezek nyelvi beállításának kiválasztásával a sablon tükrözni fogja az ügyfél preferált nyelvi beállítását.
+
+Ha már létrehozott egy jogmegadási sablont, az alapján létrehozhat más nyelvűt is. Ehhez jelölje ki a kívánt nyelvet, majd mentse a sablont. A sablon mentésekor a rendszer hozzáadja a kijelölt nyelv azonosítóját a sablonfájlhoz. A sablonok nevében célszerű szerepeltetni a nyelv nevét, így könnyebb megállapítani, hogy az egyes sablonok mely nyelvazonosítóval rendelkeznek.
+
+Adott nyelv kiválasztásának előfelvétele, hogy a nyelv telepítve legyen a kiszolgálón. Ellenőrizheti, hogy minden nyelvi beállítás elérhető-e a kiszolgálón. Ehhez nyissa meg a **VezérlőpultTerületi és nyelvi beállítások** segédprogramját. Jelenítse meg a **Nyelv** panellapot, és ha nincs bejelölve mindkét **Kiegészítő nyelvi támogatás** négyzet, jelölje be ezeket.

@@ -1,0 +1,20 @@
+---
+TOCTitle: 'Alapszintű RMS-topológia tervezése'
+Title: 'Alapszintű RMS-topológia tervezése'
+ms:assetid: 'fec3201e-201f-4faf-910e-fa44132af83d'
+ms:contentKeyID: 18122738
+ms:mtpsurl: 'https://technet.microsoft.com/hu-hu/library/Cc747755(v=WS.10)'
+---
+
+Alapszintű RMS-topológia tervezése
+==================================
+
+Az RMS alapszintű topológiája egy vagy több fizikai kiszolgálóból áll, amelyek a legfelső szintű tanúsítási fürt szerepét töltik be. Ez a fürt szolgál a szervezeten belül a tanúsításra, a licencelésre és a közzétételre. A legkisebb rendszerek kivételével az a jellemző, hogy több fizikai kiszolgáló fürtként konfigurálva, egyetlen URL-cím mögött működik. A fürt létrehozása úgy történik, hogy az első kiszolgáló létesítésével létrejön a legfelső szintű tanúsítási kiszolgáló, majd további kiszolgálóknak a fürtbe való felvételével elérhető a legfelső szintű tanúsítási kiszolgálóknak az a száma, amely az előre jelzett tevékenységek kezeléséhez szükséges. A következő ábrán ez a topológia látható.
+
+![](images/Cc747755.a3332719-4d25-4694-a89a-7c31fd97ca3b(WS.10).gif)
+
+A fürtbe felvett kiszolgálók ugyanazt a konfigurációs és naplózási adatbázist használják, amelyet SQL Server adatbázisok. Az SQL Server a legfelső szintű tanúsítási kiszolgálóra, illetve külön kiszolgálóra lehet telepítve.
+
+A terheléselosztás a legfelső szintű tanúsítási fürtbe tartozó kiszolgálók egészét átfogóan működik. Az összes, tanúsítvány és licenc iránti kérelmet a legfelső szintű tanúsítási fürt kap meg a közös URL-címen keresztül, amelyet a fürt első kiszolgálójának konfigurálásakor kell megadni.
+
+Ha kevés ügyfelet kell kiszolgálni, elegendő egyetlen kiszolgálón helyi adatbázissal konfigurálni az RMS szolgáltatást. Ennek a kiszolgálónak a feladata a szervezet minden tanúsítási és licencelési művelete. Ez a konfiguráció egyetlen elem meghibásodása esetén is működésképtelenné válik, ezért ajánlatos rendszeres biztonsági másolatot készíteni a konfigurációról.

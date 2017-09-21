@@ -1,0 +1,16 @@
+---
+TOCTitle: Az RMS ügyfélszoftvere
+Title: Az RMS ügyfélszoftvere
+ms:assetid: '03294fa2-8350-430d-b4b0-03d5169937c2'
+ms:contentKeyID: 18122481
+ms:mtpsurl: 'https://technet.microsoft.com/hu-hu/library/Cc720186(v=WS.10)'
+---
+
+Az RMS ügyfélszoftvere
+======================
+
+Az RMS ügyfélszoftvere különböző alkalmazási felületek összessége, amelyek segítségével RMS-kompatibilis alkalmazások készíthetők. Az RMS-kompatibilis alkalmazások RMS-védelemmel ellátott tartalom közzétételére és használatra egyaránt használhatók. Az RMS rendszerbe tartozó valamennyi ügyfélgépre telepíteni kell az RMS ügyfélszoftverét. Az RMS ügyfélszoftvere nélkülözhetetlen az RMS-kompatibilis alkalmazások használatához.
+
+A Service Pack 1 csomaggal frissített RMS ügyfélszoftver „önaktiváló”. A telepítés részeként létrehozza a kulcstárolót és a géptanúsítványt. A számítógépen lévő egyes fiókok akkor aktiválják az RMS ügyfélszoftverét, amikor a felhasználó először kísérli meg az RMS valamelyik szolgáltatásának használatát.
+
+Az RMS-védelemmel ellátott tartalmat használó asztali számítógépekhez, mobil eszközökhöz és kiszolgálószolgáltatásokhoz egyedi telepítési eljárás tartozik.

@@ -1,0 +1,41 @@
+---
+TOCTitle: Az RMS proxybeállításainak módosítása
+Title: Az RMS proxybeállításainak módosítása
+ms:assetid: '8f50bd4d-26b1-4996-b361-722ee21607f3'
+ms:contentKeyID: 18122591
+ms:mtpsurl: 'https://technet.microsoft.com/hu-hu/library/Cc747594(v=WS.10)'
+---
+
+Az RMS proxybeállításainak módosítása
+=====================================
+
+A művelet végrehajtásához helyben kell bejelentkeznie a felügyeleti webhelyre olyan tartományi felhasználói fiókkal, amely a Rendszergazdák csoport tagja az elérni kívánt számítógépen. A Tartománygazdák csoport tagjai is végrehajthatják ezt a műveletet. Biztonsági szempontból ajánlott a műveletet a **Futtatás másként** parancs segítségével végrehajtani.
+
+A proxykiszolgáló által használt hitelesítési módszerekről, valamint azok Windows Server 2003 rendszerben működéséről az Internet Information Services súgójában tájékozódhat.
+
+Az RMS proxybeállításainak módosítása
+-------------------------------------
+
+#### Az RMS proxybeállításainak módosítása
+
+1.  A **Globális felügyelet** weblapon kattintson **A webhelyen működő RMS felügyelete** hivatkozásra.
+
+2.  A **Fürtfelügyelet** csoportban kattintson a **Biztonsági beállítások** hivatkozásra.
+
+3.  Ha korábban nem használt proxykiszolgálót az RMS-szolgáltatással, jelölje be az **Ez a számítógép proxykiszolgálón keresztül kapcsolódik az internethez** jelölőnégyzetet. A következő oldalon további beállításokat kell megadnia.
+
+4.  Írja be a **Cím** mezőbe a használni kívánt proxykiszolgáló IP-címét vagy DNS-nevét.
+
+5.  Írja be a **Port** mezőbe annak a portnak a számát, amelyen keresztül a proxykiszolgáló az internethez kapcsolódik.
+
+6.  Ha a helyi erőforrásokhoz nem a proxykiszolgálón keresztül kapcsolódik, jelölje be a **Proxykiszolgáló figyelmen kívül hagyása helyi címeknél** négyzetet.
+
+7.  Amennyiben szükséges, jelölje be **A proxykiszolgálóhoz hitelesítés szükséges** négyzetet.
+
+    -   Válassza ki a listából a hitelesítés típusát: **Alapszintű**, **Kivonat alapú** és **Beépített Windows**.
+    -   Írja be a **Felhasználónév** mezőbe azt a felhasználónevet, amelyet a proxykiszolgáló kérésére válaszul meg kell adni.
+    -   Írja be a **Jelszó** mezőbe azt a jelszót, amelyet a proxykiszolgáló kérésére válaszul meg kell adni.
+    -   A **Jelszó megerősítése** mezőbe írja be újra az előzőleg megadott jelszót, hogy ne fordulhasson elő gépelési hiba.
+    -   Ha a proxykiszolgáló a beépített Windows hitelesítést használja, írja be a **Tartomány** mezőbe azt a tartományt, amelybe a felhasználó tartozik.
+
+8.  Kattintson a **Küldés** gombra.

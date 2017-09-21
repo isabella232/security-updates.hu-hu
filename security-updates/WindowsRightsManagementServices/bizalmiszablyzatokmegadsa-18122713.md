@@ -1,0 +1,17 @@
+---
+TOCTitle: Bizalmi szabályzatok megadása
+Title: Bizalmi szabályzatok megadása
+ms:assetid: 'e8d78300-4b26-4f15-9e4f-5ae9eb827ef9'
+ms:contentKeyID: 18122713
+ms:mtpsurl: 'https://technet.microsoft.com/hu-hu/library/Cc747711(v=WS.10)'
+---
+
+Bizalmi szabályzatok megadása
+=============================
+
+A megbízható felhasználói és közzétételi tartományokat a következőképpen adhatja meg:
+
+-   **Megbízható felhasználói tartományok**. Felhasználói tartomány felvételekor az RMS fel tudja dolgozni a használati licencekre irányuló kérelmeket, amelyek más Active Directory-erdőben, azaz más legfelső szintű tanúsítási fürtben található RMS-telepítés által kiadott RMS-fióktanúsítvánnyal rendelkező felhasználóktól érkeztek. Megbízható felhasználói tartományt a megbízhatónak nyilvánítandó telepítés kiszolgálói licencelői tanúsítványának importálásával vehet fel.
+-   **Megbízható közzétételi tartományok**. Közzétételi tartomány felvételével lehetővé teheti egyetlen RMS kiszolgáló számára használati licencek kiadását a többi RMS kiszolgáló által kiadott közzétételi licencek ellenében. Megbízható közzétételi tartományt a megbízhatónak nyilvánítandó kiszolgáló személyes kulcsának és kiszolgálói licencelői tanúsítványának importálásával vehet fel.
+
+További tudnivalók: „[Megbízható felhasználói tartományok hozzáadása és eltávolítása](https://technet.microsoft.com/7c440b15-01c4-49f1-b43c-00f67f3388c1)” és „[Megbízható közzétételi tartományok hozzáadása és eltávolítása](https://technet.microsoft.com/d87b502d-5497-4ccd-badf-f6807d587cee)”. A lépésenkénti utasítások a „[Bizalmi szabályzatok kialakítása](https://technet.microsoft.com/6c2be3c2-1837-4de4-a72e-3ba3eec3321d)” pontban olvashatók.

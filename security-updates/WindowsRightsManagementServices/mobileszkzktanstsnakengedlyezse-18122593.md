@@ -1,0 +1,29 @@
+---
+TOCTitle: Mobil eszközök tanúsításának engedélyezése
+Title: Mobil eszközök tanúsításának engedélyezése
+ms:assetid: '93ec088e-9056-4c3c-bd97-1173fb194578'
+ms:contentKeyID: 18122593
+ms:mtpsurl: 'https://technet.microsoft.com/hu-hu/library/Cc747603(v=WS.10)'
+---
+
+Mobil eszközök tanúsításának engedélyezése
+==========================================
+
+A művelet végrehajtásához helyben kell bejelentkeznie a felügyeleti webhelyre olyan tartományi felhasználói fiókkal, amely a Rendszergazdák csoport tagja az elérni kívánt számítógépen. A Tartománygazdák csoport tagjai is végrehajthatják ezt a műveletet. Biztonsági szempontból ajánlott a műveletet a **Futtatás másként** parancs segítségével végrehajtani.
+
+Ez a művelet csak a legfelső szintű tanúsítási fürtre vonatkozóan hajtható végre.
+
+A művelet előfeltétele egy olyan felhasználócsoport létrehozása, amely azokat a felhasználói fiókokat tartalmazza, amelyekkel a hordozható eszközökkel dolgozó felhasználók az RMS-védelemmel ellátott tartalmat elérik.
+
+Mobil eszközök tanúsításának engedélyezése
+------------------------------------------
+
+#### Mobil eszközök tanúsításának engedélyezése
+
+1.  A legfelső szintű tanúsítási kiszolgálón indítsa el a fájlkezelő programot, és lépjen a &lt;rendszerlemezegység&gt;:\\Inetpub\\wwwroot\\\_wmcs\\Certification mappába.
+
+2.  Ha engedélyezni szeretné, hogy a hordozható eszközök tartalomvédelmi fióktanúsítványt (RAC) kapjanak, az egér jobb gombjával kattintson a MobileDeviceCertification.asmx fájlra, és válassza a **Tulajdonságok** parancsot.
+
+3.  A **Biztonság** lapon kattintson a **Hozzáadás** gombra, és vegye fel az adott felhasználókategóriához létrehozott csoportot és az **RMS-szolgáltatáscsoportot**.
+
+4.  A csoportok **Engedélyek** listájában jelölje be az **Engedélyezés** négyzetet mind az **Olvasás**, mind az **Olvasás & Végrehajtás** engedélynél, majd kattintson az **OK** gombra.

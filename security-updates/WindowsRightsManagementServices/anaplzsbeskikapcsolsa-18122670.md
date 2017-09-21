@@ -1,0 +1,31 @@
+---
+TOCTitle: 'A naplózás be- és kikapcsolása'
+Title: 'A naplózás be- és kikapcsolása'
+ms:assetid: '8e672f95-566f-4070-9a2a-2f70f087148f'
+ms:contentKeyID: 18122670
+ms:mtpsurl: 'https://technet.microsoft.com/hu-hu/library/Cc747674(v=WS.10)'
+---
+
+A naplózás be- és kikapcsolása
+==============================
+
+A művelet végrehajtásához helyben kell bejelentkeznie a felügyeleti webhelyre olyan tartományi felhasználói fiókkal, amely a Rendszergazdák csoport tagja az elérni kívánt számítógépen. A Tartománygazdák csoport tagjai is végrehajthatják ezt a műveletet. Biztonsági szempontból ajánlott a műveletet a **Futtatás másként** parancs segítségével végrehajtani.
+
+A **Globális felügyelet** lap megnyitásához kattintson a **Start** gombra, és válassza a **Minden program**, a **Windows RMS**, majd a **Windows RMS felügyeleti webhely** parancsot.
+
+A naplózás bekapcsolása előtt ellenőrizze, hogy az RMS-kiszolgáló kapcsolódik-e az adatbázis-kiszolgálóhoz, és hogy az adatbázis szolgáltatás el van-e indítva. Ha az üzenetsor-kezelés szolgáltatás nem tudja a naplózási adatbázisba küldeni a naplófájlokat, az RMS-kiszolgáló merevlemez-várólistáján fogja tárolni az adatokat. Egészen addig, amíg a kiszolgáló tárolóhelye meg nem telik. A RMS erről az állapotról nem jelenít meg hibaüzenetet, mivel ennek a működési módnak az a célja, hogy lehetővé tegye a naplózást olyankor, amikor megszakad a kapcsolat az SQL-kiszolgálóval.
+
+A naplózás be- és kikapcsolása
+------------------------------
+
+#### A naplózás be- és kikapcsolása
+
+1.  Nyissa meg a **Globális felügyelet** lapot, majd keresse meg azt a webhelyet, amelyen be vagy ki szeretné kapcsolni a naplózást, és kattintson a mellette látható **A webhelyen működő RMS felügyelete** hivatkozásra.
+
+2.  A **Felügyeleti hivatkozások** csoportban kattintson a **Naplózási beállítások** hivatkozásra.
+
+3.  A **Naplózási kiszolgáló és adatbázis** csoportban jelölje be a **Naplózás bekapcsolása** négyzetet, és kattintson a **Frissítés** gombra.
+
+    A naplózás kikapcsolásához törölje a négyzet jelölését, és kattintson a **Frissítés** gombra.
+
+Az eljárás végrehajtásáról a további tudnivalókat lásd: „[A naplózás be- és kikapcsolása](https://technet.microsoft.com/50ccd827-2d39-41e7-a395-3d5f5836869b)”.

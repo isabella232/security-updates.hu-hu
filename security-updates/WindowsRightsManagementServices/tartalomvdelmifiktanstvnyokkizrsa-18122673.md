@@ -1,0 +1,18 @@
+---
+TOCTitle: Tartalomvédelmi fióktanúsítványok kizárása
+Title: Tartalomvédelmi fióktanúsítványok kizárása
+ms:assetid: 'cba5e901-942c-4d06-9865-e6c4648c95e6'
+ms:contentKeyID: 18122673
+ms:mtpsurl: 'https://technet.microsoft.com/hu-hu/library/Cc747670(v=WS.10)'
+---
+
+Tartalomvédelmi fióktanúsítványok kizárása
+==========================================
+
+Ha a felhasználó megbízható, de hitelesítő adatai megsérültek, akkor nyilvános kulcsának kizárásával kizárhatja a felhasználó tartalomvédelmi fióktanúsítványát. Ennek végrehajtása után az RMS elutasítja az adott tartalomvédelmi fióktanúsítványt tartalmazó új használati licenckérelmeket. Amikor tartalomvédelmi fióktanúsítvány kizárása után az adott felhasználó legközelebb megkísérel használati licencet szerezni új tartalomhoz, a kérelem el lesz utasítva. Használati licenc beszerzéséhez a felhasználónak új kulcspár használatával új tartalomvédelmi fióktanúsítványt kell lekérnie.
+
+A tartalomvédelmi fióktanúsítványok kizárása a felügyeleti webhely **Kizárási szabályzatok** lapján hajtható végre. A felhasználó tartalomvédelmi fióktanúsítványának kizárásakor az RMS a kizárt kulcsot, a felhasználó fióknevét, valamint a kizárás dátumát és időpontját felveszi a legfelső szintű tanúsítási fürt konfigurációs adatbázisának DRMS\_GicExclusionList táblájába. Ezek az adatok megjelennek a felügyeleti webhely **Kizárási szabályzatok** lapján is. Emellett az RMS törli a kizárt fióktanúsítványhoz tartozó nyilvános és személyes kulcsot a konfigurációs adatbázis UD\_Users táblájából.
+
+A legfelső szintű tanúsítási kiszolgálón vagy fürtben lévő tartalomvédelmi fióktanúsítvány kizárásához a legfelső szintű tanúsítási kiszolgáló **Kizárási szabályzatok** lapján adja meg felhasználó tartományi fiókját. A tartalomvédelmi fióktanúsítvány kizárását a felügyeleti webhely minden egyes kiszolgálójának aligénylési kiszolgálóján végre kell hajtani. Aligénylési licenckiszolgálón vagy fürtben lévő felhasználó kizárásához a tartalomvédelmi fióktanúsítvány nyilvános kulcsát adja meg a licenckiszolgáló felügyeleti webhelyének **Kizárási szabályzatok** lapján. Ez az érték a legfelső szintű tanúsítási fürt felügyeleti webhelyének **Kizárási szabályzatok** lapjáról szerezhető be.
+
+Több fürtön bevezetett RMS szolgáltatásnál a tartalomvédelmi fióktanúsítványok kizárásának egyszerűsítésére a legfelső szintű tanúsítási fürt konfigurációs adatbázisának DRMS\_GicExclusionList tábláját többszörözéssel az egyes licencelési fürtök konfigurációs adatbázisába másolhatja. Ha ezt végrehajtja, akkor nem kell minden kiszolgálón kézzel beírnia a nyilvános kulcs értékét.

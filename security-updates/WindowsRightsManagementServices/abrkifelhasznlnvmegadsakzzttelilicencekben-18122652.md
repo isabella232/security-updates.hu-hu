@@ -1,0 +1,16 @@
+---
+TOCTitle: A Bárki felhasználónév megadása közzétételi licencekben
+Title: A Bárki felhasználónév megadása közzétételi licencekben
+ms:assetid: '86f1db8b-5cbc-4c0c-955d-810c20375758'
+ms:contentKeyID: 18122652
+ms:mtpsurl: 'https://technet.microsoft.com/hu-hu/library/Cc747654(v=WS.10)'
+---
+
+A Bárki felhasználónév megadása közzétételi licencekben
+=======================================================
+
+Nagyon sok vállalat számára jó megoldás, ha megnevezett személyek részére teszik közzé az RMS-védelemmel ellátott tartalmat, de lehetnek olyan helyzetek is, amikor a szerzőnek nem áll szándékában a terjesztést a felhasználók meghatározott csoportjára korlátozni. Ebben a helyzetben a szerző mindenkinek engedélyezheti a tartalom használatát, és megadhatja az erre vonatkozó engedélyeket.
+
+Ha a közzétételi licencben „Bárki” van megadva felhasználóként, minden felhasználó licenckérelme feldolgozható, aki olyan érvényes tartalomvédelmi fióktanúsítvánnyal rendelkezik, amelyet a licenckiszolgáló megbízható felhasználói tartományai között szereplő RMS-telepítés bocsátott ki.
+
+A személyzeti vezető például „Bárki” részére megadhatja a belső szabályzatot tartalmazó kézikönyvhöz hasonló dokumentumokhoz a Csak olvasás jogosultságot. Így a szervezet minden tagja kérhet használati licencet a dokumentum elolvasásához.

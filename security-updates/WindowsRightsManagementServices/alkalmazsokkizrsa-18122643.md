@@ -1,0 +1,24 @@
+---
+TOCTitle: Alkalmazások kizárása
+Title: Alkalmazások kizárása
+ms:assetid: 'b68ae4b2-b9ba-44ae-90cb-c88df600ec86'
+ms:contentKeyID: 18122643
+ms:mtpsurl: 'https://technet.microsoft.com/hu-hu/library/Cc747644(v=WS.10)'
+---
+
+Alkalmazások kizárása
+=====================
+
+Megadhatja az RMS-kompatibilis alkalmazások azon verzióját, amelyet az összes licenckérelemnél vizsgálni fog a rendszer. Az alkalmazáskizárás olyan feltételt helyez el minden használati licencben, amely szerint a licenc csak olyan RMS-védelemmel ellátott tartalomhoz kapcsolható, amelyhez kiadták, ha a licencet kérő alkalmazás nincs a kizártak listáján.
+
+Ez például akkor lehet hasznos, ha egy vállalat biztonsági frissítést vezet be egy alkalmazáshoz. A rendszergazdák a szokásos eljárás használatával érhetik el, hogy az ügyfélszámítógépek telepítsék a biztonsági frissítést. Ezután alkalmazáskizárási szabályzatokat adhatnak meg, amelyeket a felügyeleti webhelyét használó alkalmazás verzióadatai alapján állítanak össze. Az ilyen kizárási szabályzat szerint az RMS nem ad ki licencet az olyan ügyfeleknek, amelyeken a szoftver korábbi verziói futnak.
+
+Az RMS-kompatibilis alkalmazások kizárása a fájlnév és a verziószám alapján történik. Erre akkor lehet szükség, ha biztosítani szeretné, hogy a felhasználók telepítsék az alkalmazás újabb, biztonságosabb verzióját, amikor az megjelenik. A szervezetnél lehet például egy olyan RMS-kompatibilis alkalmazás bevezetve, amelynek verziószáma 1.0.4.2315. Az alkalmazás fejlesztője biztonsági problémát fedez fel, és ennek javításaként kiadja az 1.0.4.4200-as verziót. Az alkalmazás új verziójának terjesztése mellett felállíthat egy kizárási szabályzatot is, amely megakadályozza, hogy a felhasználók az alkalmazás korábbi verzióját használva hozzájussanak a védett tartalomhoz.
+
+A kizárás többi típusához hasonlóan az alkalmazáskizárást is az összes olyan fürtön be kell állítani, amelyen érvénybe kívánja léptetni.
+
+Ha a kiszolgálón alkalmazza ezt a kizárási szabályzatot, az ügyfelek nem használhatják a kizárt alkalmazást új használati licenc kéréséhez és hozzákapcsolásához az RMS-védelemmel ellátott tartalomhoz. A korábban licencelt fájlok eléréséhez azonban az ügyfelek továbbra is használhatják a kizárt alkalmazást.
+
+| ![](images/Cc747644.note(WS.10).gif)Megjegyzés:                                                                                                                                                                                                                        |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Az RMS négy számjegyű, pontokkal elválasztott verziószámot (\#.\#.\#.\# ) igényel. Egyes alkalmazások azonban két vagy három számjegyből álló, ponttal elválasztott verziószámot adnak meg. Ilyenkor a .0 karakterek hozzáfűzésével alakíthatja át a verziószámot az RMS által igényelt formátumra. |

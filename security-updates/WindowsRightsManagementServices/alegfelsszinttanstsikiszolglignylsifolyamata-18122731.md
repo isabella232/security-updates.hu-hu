@@ -1,0 +1,25 @@
+---
+TOCTitle: A legfelső szintű tanúsítási kiszolgáló igénylési folyamata
+Title: A legfelső szintű tanúsítási kiszolgáló igénylési folyamata
+ms:assetid: 'f08bc919-f090-4843-b2ce-b40d558012ce'
+ms:contentKeyID: 18122731
+ms:mtpsurl: 'https://technet.microsoft.com/hu-hu/library/Cc747734(v=WS.10)'
+---
+
+A legfelső szintű tanúsítási kiszolgáló igénylési folyamata
+===========================================================
+
+Az RMS bevezetésének első kiszolgálója számára tanúsítványt kell igényelni a Microsoft igénylési szolgáltatásától. Ennek a kiszolgálónak, amely a legfelső szintű tanúsítási kiszolgáló, az igénylési eljárása automatikusan megtörténik a létesítés során, ha rendelkezik internetkapcsolattal, ellenkező esetben ezt kézzel kell végrehajtani. A kézi igénylésről a további tudnivalókat lásd a dokumentumgyűjtemény „RMS kiszolgáló működtetése” részében a „Legfelső szintű tanúsítási kiszolgáló kézi igénylése” témakörben.
+
+Az igénylési kérelem a következő bemeneti paramétereket használja:
+
+-   Egy 1024 bites nyilvános kulcs. Ez az RMS nyilvános kulcsa.
+-   Az igénylést küldő RMS kiszolgáló verziószáma, neve és URL-címe.
+
+A Microsoft igénylési szolgáltatása csak a kiszolgáló licencelői tanúsítványának létrehozásához használja ezeket az adatokat, és csak azért tárolja őket, hogy az esetleges visszavonáskor rendelkezésre álljanak.
+
+A Microsoft igénylési szolgáltatása visszaküld egy tanúsítványláncot, amely tartalmazza az igénylési kiszolgáló licencelői tanúsítványláncát, valamint egy, az igénylési kiszolgáló által aláírt tanúsítványt. A tanúsítvány a kiszolgáló nyilvános kulcsát tartalmazza (aláírva az igénylés személyes kulcsával), valamint a tanúsítvánnyal ellátott kiszolgáló verziószámát és URL-címét. Ez a tanúsítvány feljogosítja a legfelső szintű tanúsítási kiszolgálót, hogy kiszolgálói licencelői tanúsítványt állítson ki a licenckiszolgálóknak, valamint hogy tartalomvédelmi fióktanúsítványt, ügyfél-licencelői tanúsítványt, közzétételi, illetve használati licencet állítson ki.
+
+A kiszolgálói licencelői tanúsítvány egy évig érvényes. Az érvényességi időtartam a tanúsítvány kiállításakor veszi kezdetét. Az érvényességi időtartam lejáratakor megújítható a tanúsítvány. A kiszolgáló által kiállított tanúsítványok és licencek hét évig érvényesek. Az érvényességi időtartam a tanúsítvány vagy a licenc kiállításakor veszi kezdetét.
+
+A kiszolgálói licencelői tanúsítványba bekerülnek a tanúsítvány visszavonására vonatkozó információk is, az igénylési kérelemben megadottaknak megfelelően. Visszavonási kulcsként bekerül a tanúsítványba a Microsoft igénylési szolgáltatás nyilvános kulcsa. Ha emellett egy külső féltől származó visszavonási kulcs is meg van adva, visszavonási kulcsként az is bekerül a tanúsítványba.

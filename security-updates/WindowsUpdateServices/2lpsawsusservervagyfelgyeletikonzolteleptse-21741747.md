@@ -1,0 +1,78 @@
+---
+TOCTitle: '2. lépés: A WSUS Server vagy felügyeleti konzol telepítése'
+Title: '2. lépés: A WSUS Server vagy felügyeleti konzol telepítése'
+ms:assetid: '6db6fcb0-c55d-43b9-9b07-4040c6267759'
+ms:contentKeyID: 21741747
+ms:mtpsurl: 'https://technet.microsoft.com/hu-hu/library/Dd939859(v=WS.10)'
+---
+
+2. lépés: A WSUS Server vagy felügyeleti konzol telepítése
+==========================================================
+
+Ha meggyőződött arról, hogy a kiszolgáló megfelel a minimális rendszerkövetelményeknek, és hogy rendelkezésre állnak a szükséges fiókengedélyek, készen áll a Windows Server Upgrade Services 3.0 Service Pack 2 (WSUS 3.0 SP2) telepítésére. Kezdje a WSUS 3.0 SP2 telepítését a számítógépen futó operációs rendszernek megfelelő eljárással és telepítési móddal (a Kiszolgálókezelő vagy a WUSSetup.exe fájl segítségével).
+
+A Kiszolgálókezelő használata esetén
+------------------------------------
+
+**A WSUS 3.0 SP2 telepítésének megkezdése a Kiszolgálókezelő használata esetén**
+1.  Egy, a helyi Rendszergazdák csoportba tartozó felhasználói fiókkal jelentkezzen be arra a kiszolgálóra, amelyen a WSUS 3.0 SP2 szolgáltatást telepíteni szeretné.
+
+2.  Mutasson a **Start** menü **Felügyeleti eszközök** pontjára, majd kattintson a **Kiszolgálókezelő** parancsra.
+
+3.  A Kiszolgálókezelő ablakának jobb oldali ablaktáblájában, a Szerepkörök összegzése csoportban kattintson a **Szerepkör hozzáadása** hivatkozásra.
+
+4.  Ha megjelenik az alapismereteket ismertető lap, kattintson a **Tovább** gombra.
+
+5.  A Kiszolgálói szerepkörök kiválasztása lapon válassza a **Windows Server Update Services** lehetőséget.
+
+6.  A Windows Server Update Services lapon kattintson a **Tovább** gombra.
+
+7.  A Telepítendők megerősítése lapon kattintson a **Telepítés** gombra.
+
+8.  Ha elindul a WSUS 3.0 SP2 telepítővarázslója, hagyja ki a következő lépést, és ugorjon „A WSUS 3.0 SP2 telepítésének folytatása” című részhez.
+
+A WUSSetup.exe fájl használata esetén
+-------------------------------------
+
+**A WSUS 3.0 SP2 Server vagy a WSUS 3.0 SP2 felügyeleti konzol telepítésének megkezdése a WUSSetup.exe fájl használata esetén**
+1.  Egy, a helyi Rendszergazdák csoportba tartozó felhasználói fiókkal jelentkezzen be arra a kiszolgálóra, amelyen a WSUS 3.0 SP2 szolgáltatást telepíteni szeretné.
+
+2.  Kattintson duplán a **WSUSSetup.exe** nevű telepítőfájlra.
+
+3.  Ha elindul a Windows Server Update Services 3.0 SP2 telepítővarázslója, ugorjon „A WSUS 3.0 SP2 telepítésének folytatása” című részhez.
+
+A WSUS 3.0 SP2 telepítővarázslójának használata
+-----------------------------------------------
+
+A WSUS telepítővarázslója a Kiszolgálókezelőből vagy a WUSSetup.exe fájlból indítható el.
+
+**A WSUS 3.0 SP2 telepítésének folytatása**
+1.  A Windows Server Update Services 3.0 telepítővarázslójának üdvözlőképernyőjén kattintson a **Tovább** gombra.
+
+2.  A telepítési mód kiválasztása lapon válassza **A teljes kiszolgáló telepítése a felügyeleti konzollal együtt** lehetőséget, ha a WSUS Server szolgáltatást kívánja telepíteni a számítógépen, vagy a **Csak a felügyeleti konzol** lehetőséget, ha csak a felügyeleti konzolt telepíti.
+
+3.  Olvassa el figyelmesen a licencszerződést a Licencszerződés lapon, jelölje be az **Elfogadom a licencszerződés feltételeit** választógombot, majd kattintson a **Tovább** gombra.
+
+4.  A telepítővarázsló Frissítés forrásának kijelölése lapján megadhatja, hogy az ügyfélszámítógépek honnan szerezzék be a frissítéseket. Alapértelmezés szerint a **Frissítések helyi tárolása** jelölőnégyzet be van jelölve, és így a frissítések tárolása a WSUS-kiszolgálón, a felhasználó által megadott helyen történik. Ha törli a **Frissítések helyi tárolása** jelölőnégyzet jelölését, az ügyfélszámítógépek a Microsoft Update szolgáltatáshoz kapcsolódva szerzik be a jóváhagyott frissítéseket. Adja meg a kívánt beállítást, majd kattintson a **Tovább** gombra.
+
+5.  Az Adatbázis-beállítások lapon a WSUS 3.0 szolgáltatás adatbázisának kezelésére használt szoftvert kell megadni. A varázsló alapértelmezés szerint a belső Windows-adatbázis telepítését ajánlja fel.
+
+    Ha nem szeretné használni a belső Windows-adatbázist, adja meg az SQL Server egy példányát a WSUS általi használathoz az **Egy ezen a számítógépen lévő létező adatbázis-kiszolgáló használata** vagy az **Egy távoli számítógépen futó meglévő adatbázis-kiszolgáló használata** lehetőséget választva. Írja be a példány nevét a megfelelő mezőbe. A példány nevét a &lt;*kiszolgálónév*&gt;\\&lt;*példánynév*&gt; alakban kell megadni. A *kiszolgálónév* helyére a kiszolgáló nevét kell beírni, a *példánynév* helyére az SQL-példányét. Adja meg a kívánt beállítást, majd kattintson a **Tovább** gombra.
+
+6.  Ha az egy SQL-kiszolgálópéldányhoz való kapcsolódást választotta, a **Kapcsolódás SQL-kiszolgálópéldányhoz** lapon, a WSUS megkísérel kapcsolódni az SQL Server megadott példányához. A sikeres kapcsolódást követően a folytatáshoz kattintson a **Tovább** gombra.
+
+7.  A WSUS által használandó webhelyet a Webhely kijelölése lapon adhatja meg. Ha az alapértelmezett webhelyet a 80-as porton szeretné használni, válassza **A meglévő alapértelmezett IIS-webhely használata** lehetőséget. Ha a 80-as porthoz már tartozik egy webhely, létrehozhat egy másik webhelyet a 8530-as porton a **Windows Server Update Services 3.0 SP2-webhely létrehozása** lehetőséget választva. Kattintson a **Tovább** gombra.
+
+8.  Tekintse át a megadott beállításokat a **Kezdődhet a Microsoft Windows Server Update Services telepítése** lapon, majd kattintson a **Tovább** gombra.
+
+9.  A telepítővarázsló utolsó lapja arról tájékoztatja, hogy a WSUS telepítése sikeresen megtörtént-e. Amikor rákattint a **Befejezés** gombra, elindul a konfigurálási varázsló.
+
+Következő lépés
+---------------
+
+[3. lépés: A hálózati kapcsolatok konfigurálása](https://technet.microsoft.com/42a144c5-f08e-4a6e-b360-47ddea77bd24)
+
+További források
+----------------
+
+[Részletes útmutató a Windows Server Update Services 3.0 SP2 telepítéséhez](https://technet.microsoft.com/4b504edc-93b3-45b0-a7e8-d0107f1a4442)

@@ -1,0 +1,52 @@
+---
+TOCTitle: '6. lépés: Számítógépcsoport létrehozása frissítésekhez'
+Title: '6. lépés: Számítógépcsoport létrehozása frissítésekhez'
+ms:assetid: 'fe219654-eae8-45ca-a44b-c1e05c3c3e93'
+ms:contentKeyID: 18129945
+ms:mtpsurl: 'https://technet.microsoft.com/hu-hu/library/Cc708629(v=WS.10)'
+---
+
+6. lépés: Számítógépcsoport létrehozása frissítésekhez
+======================================================
+
+A számítógépcsoportok még az egyszerű felépítésű környezetekben is fontos részét képezik a Windows Server Update Services (WSUS) programpéldányok működésének, hiszen segítségükkel megadott számítógépekre telepíthetők a frissítések. Két alapértelmezett számítógépcsoport különböztethető meg: Az összes számítógép csoport és a Hozzá nem rendelt számítógépek csoport. A WSUS-kiszolgálóval létesített első kapcsolat során a kiszolgáló alapértelmezés szerint minden egyes ügyfélszámítógépet mindkét csoportba felveszi.
+
+Szükség esetén egyéni számítógépcsoportok is létrehozhatók: ennek egyik előnye, hogy a frissítések több számítógépre történő telepítését megelőzően lehetőség nyílik a frissítések tesztelésére. Ha a tesztelés eredménye kielégítő, a frissítések kiterjeszthetők Az összes számítógép csoportra. A létrehozható egyéni csoportok száma nem korlátozott.
+
+**Számítógépcsoportok megadása**
+1.  Határozza meg, hogy miként történjen a számítógépek számítógépcsoportokba rendezése. Két lehetőség választható: kiszolgálóoldali célcsoport-meghatározás és ügyféloldali célcsoport-meghatározás. Az első módszerrel saját kezűleg kell hozzáadni az egyes számítógépeket a választott csoporthoz a WSUS szolgáltatással, míg a második módszer alkalmazásával automatikusan, csoportházirenddel vagy rendszerleíró kulccsal történik a hozzáadás.
+
+2.  Hozza létre a számítógépcsoportot a WSUS-konzolon.
+
+3.  Helyezze a számítógépeket csoportokba az első lépésben választott módszerrel.
+
+Ez a szakasz a kiszolgálóoldali célcsoport-meghatározást, valamint a számítógépeknek a WSUS felügyeleti konzolon, manuálisan való csoportba sorolását mutatja be. Ha több ügyfélszámítógépet szeretne számítógépcsoportokba sorolni, célszerű az ügyféloldali célcsoport-meghatározást alkalmazni, hiszen annak segítségével automatizálható a csoportba helyezés.
+
+A 6. lépés végrehajtásával legalább egy számítógépet tartalmazó tesztcsoportot hozhat létre.
+
+**A 6. lépésben a következő műveleteket kell végrehajtani:**
+
+-   Csoport létrehozása
+-   Számítógép hozzáadása a csoporthoz
+
+**Csoport létrehozása**
+1.  A WSUS felügyeleti konzolon bontsa ki a **Számítógépek** elemet, és válassza **Az összes számítógép**lehetőséget.
+
+2.  Kattintson a jobb gombbal **Az összes számítógép** csomópontra, vagy lépjen a **Műveletek** ablaktáblára, majd kattintson a **Számítógépcsoport hozzáadása** parancsra.
+
+3.  Megjelenik a **Számítógépcsoport hozzáadása** párbeszédpanel. Adja meg az új csoport nevét.
+
+A következő műveletsort végrehajtva rendeljen hozzá egy ügyfélszámítógépet a tesztcsoporthoz. A tesztelésre bármely olyan ügyfélszámítógép alkalmas, amelyen a hálózati környezetre jellemző hardver- és szoftverállomány működik, de arra ügyelni kell, hogy a számítógép ne töltsön be nélkülözhetetlen szerepet. Ezzel a megoldással megállapítható, hogy a tesztszámítógéphez hasonló számítógépek hogyan működnek együtt a jóváhagyott frissítésekkel.
+
+**Számítógép hozzáadása a csoporthoz**
+1.  A WSUS felügyeleti konzolon kattintson a **Számítógépek** lehetőségre.
+
+2.  Jelölje ki az áthelyezendő számítógépcsoportot.
+
+3.  A számítógépeket felsoroló listában jelölje ki az áthelyezendő számítógépet.
+
+4.  Kattintson a jobb gombbal a **Tagság módosítása** parancsra.
+
+5.  Megjelenik a **Számítógépcsoport-tagság beállítása** párbeszédpanel, amelyen a csoportok listája látható.
+
+6.  Jelölje be azt a csoportot, ahová át kívánja helyezni a számítógépet, majd kattintson az **OK** gombra.

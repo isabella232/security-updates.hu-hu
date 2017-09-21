@@ -1,0 +1,18 @@
+---
+TOCTitle: A leszerelési eljárás működése
+Title: A leszerelési eljárás működése
+ms:assetid: '57bd9949-9433-437b-93ed-ffb2dff9992e'
+ms:contentKeyID: 18122495
+ms:mtpsurl: 'https://technet.microsoft.com/hu-hu/library/Cc720276(v=WS.10)'
+---
+
+A leszerelési eljárás működése
+==============================
+
+Az RMS számos szolgáltatását az Internet Information Services (IIS) használatával teszi elérhetővé. Például a tanúsítási szolgáltatás a felhasználói és a kiszolgálói igényléseket teljesíti, míg a licencelési szolgáltatás tartalmat tesz közzé, és hozzáférést biztosít az RMS-védelemmel ellátott adatokhoz. Egy további, leszerelésnek nevezett szolgáltatást a leszerelési eljárás elindítása előtt kell engedélyezni az RMS kiszolgálón. Amikor a leszerelési szolgáltatás engedélyezve van, a szolgáltató összes több RMS szolgáltatása tiltva lesz.
+
+Ha az RMS kiszolgálót engedélyezték a leszereléshez, az alkalmazások olyan tartalomkulcsot szerezhetnek, amellyel véglegesen visszafejthetik az RMS-védelemmel ellátott tartalmat.
+
+Amikor az RMS kiszolgáló leszerelési üzemmódban működik, az összes felhasználó, függetlenül attól, hogy rendelkezett-e jogokkal az eredeti, RMS-védelemmel ellátott tartalomhoz, tartalomkulcsot, és így a tartalomra teljes jogosultságot szerezhet.
+
+A tartalom visszafejtése után a felhasználónak RMS-védelem nélkül mentenie kell a tartalmat. Ügyelni kell arra, hogy a leszerelési szolgáltatást csak azok használhatják, akik az RMS infrastruktúráján belül nyújtottak be igénylést. Aktivált RMS ügyfél nélkül a leszerelési szolgáltatás nem használható az RMS-védelemmel ellátott tartalom eléréséhez.

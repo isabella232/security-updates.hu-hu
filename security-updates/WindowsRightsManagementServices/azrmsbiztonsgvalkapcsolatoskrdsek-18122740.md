@@ -1,0 +1,108 @@
+---
+TOCTitle: Az RMS biztonságával kapcsolatos kérdések
+Title: Az RMS biztonságával kapcsolatos kérdések
+ms:assetid: 'ff433834-79aa-481f-bd39-3393be12a26f'
+ms:contentKeyID: 18122740
+ms:mtpsurl: 'https://technet.microsoft.com/hu-hu/library/Cc747757(v=WS.10)'
+---
+
+Az RMS biztonságával kapcsolatos kérdések
+=========================================
+
+Az RMS biztonságával kapcsolatos kérdések
+-----------------------------------------
+
+-   [Mi az a felügyelői csoport?](#bkmk_43)
+-   [Az RMS biztonsági megoldás?](#bkmk_44)
+-   [Milyen módszerekkel akadályozható meg, hogy a címzettek az ügyfélszámítógépen az óra visszaállításával a használati licencük lejárata után is hozzáférjenek a tartalomvédelemmel ellátott dokumentumhoz?](#bkmk_45)
+-   [Elolvashatják-e a Tartománygazdák csoport tagjai az adott tartomány más felhasználójának szánt dokumentumokat?](#bkmk_46)
+-   [Az érthető, hogy minden kulcstároló hitelesítheti a rendszerben előállított egyes tanúsítványokat vagy licenceket, hiszen a Microsoftnál bejegyzett szolgáltatásból származnak. Milyen fenyegetés érheti ezt a védelmet?](#bkmk_47)
+-   [Miután valakinek erőszakos támadással sikerült megnyitnia egy dokumentumot, ennek kulcsával más dokumentumokhoz is hozzáférhet?](#bkmk_48)
+-   [A titkosítási technológiákat érintő exportálási korlátozások következtében a kulcsok bármely része kikerül-e a bevezetést megvalósító vállalaton kívülre?](#bkmk_49)
+-   [Hogyan védhető ki, hogy rosszindulatú támadok a távolból bekapcsolják a leszerelési szolgáltatást?](#bkmk_50)
+-   [Készíthet-e a felhasználó képernyőfelvételt a védelemmel ellátott tartalomról?](#bkmk_51)
+-   [Az RMS fájljainak biztonsági másolatát készítő rendszergazdák hozzáférhetnek-e a-védelemmel ellátott tartalomhoz?](#bkmk_52)
+-   [A Windows által használt lapozófájl tartalmaz-e valahol titkosítatlan tartalmat potenciálisan „nyitva” hagyva így a védett dokumentumot?](#bkmk_53)
+-   [Lehetséges-e korlátozni, hogy az egyes rendszergazdák az RMS mely felügyeleti szolgáltatásához férjenek hozzá?](#bkmk_54)
+-   [Képes-e védelemmel ellátni az RMS egyedi dokumentumokat létrehozásuktól kezdve a felhasználó merevlemezén vagy egy megosztott mappában?](#bkmk_55)
+-   [Fájl megnyitásakor az automatikus mentési és az ideiglenes fájlok is titkosítva vannak?](#bkmk_56)
+-   [Tartalomvédelemmel ellátott e-mail fogadásakor úgy tűnik, hogy az üzenet mellékletet tartalmaz. Ez a melléklet annak ellenére menthető, hogy az üzenet feltehetőleg nem. Rosszul működik az RMS?](#bkmk_562)
+
+<span id="BKMK_43"></span>
+#### Mi az a felügyelői csoport?
+
+Az RMS támogatja egy különleges felügyelői csoport használatát, amely teljes hozzáféréssel rendelkezik az összes, védelemmel ellátott tartalomhoz. A felügyelői csoport tagjai teljes körű tulajdonosi jogosultságot kapnak minden olyan használati licencben, amelyet az az RMS fürt adott ki, amelyhez a felügyelői csoport tartozik. Ez azt jelenti, hogy a csoport tagjai visszafejthetik a védett fájlok bármelyikét, és megszüntethetik azok védelmét. A felügyelői csoport tagjai például megszüntethetik az olyan fájlok védelmét, amelyeket egy elbocsátott alkalmazott tett közzé, hogy a fájlok új tulajdonosa közzétehesse és kezelhesse a fájlokat.
+
+<span id="BKMK_44"></span>
+#### Az RMS biztonsági megoldás?
+
+Nem, az RMS nem biztonsági megoldás. RMS-kompatibilis alkalmazással használva, ilyen például az Office 2007, „szabályzat betartatására szolgáló megoldásnak” nevezhető. Ha a felhasználó nem jogosult az adatok megtekintésére, erőszakos támadással megkísérelheti feltörni a titkosítást. Bár a titkosítás, a többi szoftvertitkosítási sémához hasonlóan meglehetősen hatékony, végül is feltörhető. Ha viszont a felhasználó jogosult az adatok megtekintésére, kézzel másolatot vagy digitális felvételt készíthet azokról, és ezt átadhatja jogosulatlan felhasználóknak.
+
+<span id="BKMK_45"></span>
+#### Milyen módszerekkel akadályozható meg, hogy a címzettek az ügyfélszámítógépen az óra visszaállításával a használati licencük lejárata után is hozzáférjenek a tartalomvédelemmel ellátott dokumentumhoz?
+
+Az RMS érzékelni fogja, hogy az ügyfélrendszeren átállították az órát, és megakadályozza a tartalom használatát. Emellett az RMS azt is érzékeli, ha mérhető eltérés van a kiszolgáló és az ügyfél órája között.
+
+<span id="BKMK_46"></span>
+#### Elolvashatják-e a Tartománygazdák csoport tagjai az adott tartomány más felhasználójának szánt dokumentumokat?
+
+A Tartománygazdák csoport tagjai akkor olvashatják el egy felhasználói fióknak címzett védett tartalmat, ha tagjai az RMS felügyelői csoportjának, illetve ha a felhasználói fiók megszemélyesített elemei. Mivel a Tartománygazdák csoport tagjai kezelik a tartomány felhasználói fiókjait, a Tartománygazdák csoport megbízhatatlan tagjának káros tevékenysége nem akadályozható meg.
+
+Gyakorlati tanács: a Tartománygazdák csoport tagjait csak akkor vegye fel a felügyelői csoportba, ha hozzá kell férniük a-védelemmel ellátott tartalomhoz. Amikor licenc megadása történik a felügyelői csoport valamelyik tagjának, egy 49-es azonosítójú esemény naplózására kerül sor az RMS kiszolgáló alkalmazások eseménynaplójába. A 49-es azonosítójú esemény leírása a következő: **„A felügyelői csoport valamelyik felhasználójának licencet adott ki a rendszer. A felhasználó e-mail címe a következő: &lt;Hivatkozási név&gt;”** ahol a **Hivatkozási név** helyén a felhasználó e-mail fiókja szerepel.
+
+A többi csoporthoz hasonlóan az erőforrások elérésének korlátozásához itt is riasztásokat kell definiálni, és biztonsági ellenőrzéseket kell végrehajtani annak megelőzésére, hogy valaki jogosulatlanul csatlakozzon a felügyelői csoporthoz.
+
+<span id="BKMK_47"></span>
+#### Az érthető, hogy minden kulcstároló hitelesítheti a rendszerben előállított egyes tanúsítványokat vagy licenceket, hiszen a Microsoftnál bejegyzett szolgáltatásból származnak. Milyen fenyegetés érheti ezt a védelmet?
+
+A tanúsítványok épségének ellenőrzési képessége nélkül is a felhasználók kijátszhatják a más felhasználónak kiállított tartalomvédelmi fióktanúsítványt, és használati licencet szerezhetnek a tartalomhoz, illetve létrehozhatnak olyan alkalmazást, amely eltávolítja a dokumentum védelmét.
+
+<span id="BKMK_48"></span>
+#### Miután valakinek erőszakos támadással sikerült megnyitnia egy dokumentumot, ennek kulcsával más dokumentumokhoz is hozzáférhet?
+
+Az egyes dokumentumok védelme véletlenszerűen előállított, különböző szimmetrikus kulcsokkal történik. Így minden dokumentum kulcsa egyedi, amely nem használható más dokumentumok visszafejtéséhez.
+
+<span id="BKMK_49"></span>
+#### A titkosítási technológiákat érintő exportálási korlátozások következtében a kulcsok bármely része kikerül-e a bevezetést megvalósító vállalaton kívülre?
+
+A Microsoft legfelső szintjére bejelentkezett alkalmazásokra a Microsoft kulcsaláírása vonatkozik, de ettől a ponttól kezdve egyetlen kulcsot sem hoz nyilvánosságra sem a Microsoft, sem a szervezeti bevezetés.
+
+<span id="BKMK_50"></span>
+#### Hogyan védhető ki, hogy rosszindulatú támadok a távolból bekapcsolják a leszerelési szolgáltatást?
+
+A támadónak ehhez az RMS fürthöz rendszergazdai jogokkal rendelkező felhasználói fiók hitelesítő adataira lenne szüksége. Alapértelmezés szerint az RMS felügyeleti felülete csak helyileg, az RMS kiszolgálóról érhető el. Feltéve, hogy az RDP (Remote Desktop Protocol) protokoll tiltva marad, és a kiszolgáló fizikailag biztonságos, mindez segít a kockázat csökkentésében.
+
+<span id="BKMK_51"></span>
+#### Készíthet-e a felhasználó képernyőfelvételt a védelemmel ellátott tartalomról?
+
+Ha a megadott jogok között nem szerepel a másolás, az RMS tiltja a Windows Alt+PrtScr billentyűkombinációjának működését. Felügyelet nélküli környezetben azonban a felhasználó más termékeket is használhat a képernyőtartalom rögzítéséhez.
+
+<span id="BKMK_52"></span>
+#### Az RMS fájljainak biztonsági másolatát készítő rendszergazdák hozzáférhetnek-e a-védelemmel ellátott tartalomhoz?
+
+Nem, ők végrehajthatják a biztonsági mentést, de a védett fájlokhoz nem férhetnek hozzá.
+
+<span id="BKMK_53"></span>
+#### A Windows által használt lapozófájl tartalmaz-e valahol titkosítatlan tartalmat potenciálisan „nyitva” hagyva így a védett dokumentumot?
+
+Amikor az RMS ügyfél visszaküldi a visszafejtett tartalmat az alkalmazásnak, ez megjelenhet a lapozófájlban. A tartalomvédelmi szolgáltatások (RMS) Software Development Kit (SDK) készletében az alkalmazásfejlesztési ajánlások között megtalálhatók az ennek elkerülését biztosító lépések, de a végrehajtás az RMS-kompatibilis alkalmazásra marad.
+
+<span id="BKMK_54"></span>
+#### Lehetséges-e korlátozni, hogy az egyes rendszergazdák az RMS mely felügyeleti szolgáltatásához férjenek hozzá?
+
+Igen. Az Active Directoryban létrehozhat különböző rendszergazdai csoportokat, ezekbe felveheti a kívánt felhasználókat, majd elkészítheti a megfelelő hozzáférés-szabályozási listát (ACL) a felügyeleti lapokhoz. Például az RMS felügyeleti webhelyének alapértelmezés szerinti konfigurációja szerint a Biztonsági beállítások laphoz csak a kiszolgálót létesítő rendszergazda férhet hozzá.
+
+<span id="BKMK_55"></span>
+#### Képes-e védelemmel ellátni az RMS egyedi dokumentumokat létrehozásuktól kezdve a felhasználó merevlemezén vagy egy megosztott mappában?
+
+Bár az RMS használható a helyi számítógépen tárolt dokumentumok védelmére, célszerűbb azonban a fájlrendszer titkosítása (EFS) házirendet választani. Az EFS felhasználói közreműködés nélkül védi a dokumentumokat, míg az RMS kézi beavatkozást (néhány egérkattintás) igényel ehhez.
+
+<span id="BKMK_56"></span>
+#### Fájl megnyitásakor az automatikus mentési és az ideiglenes fájlok is titkosítva vannak?
+
+Igen, az összes ideiglenes fájl is titkosítva van.
+
+<span id="BKMK_562"></span>
+#### Tartalomvédelemmel ellátott e-mail fogadásakor úgy tűnik, hogy az üzenet mellékletet tartalmaz. Ez a melléklet annak ellenére menthető, hogy az üzenet feltehetőleg nem. Rosszul működik az RMS?
+
+Nem. Ez a várható viselkedés. Az itt látható melléklet a titkosított üzenet abban az állapotban, mielőtt az RMS ügyfélszoftvere visszafejtette volna. Ez továbbra is védett, és visszafejtése után már nem menthető.
