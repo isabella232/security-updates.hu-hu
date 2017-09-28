@@ -29,18 +29,18 @@ A következő táblázat az RMS kiszolgálók futtatásához szükséges és aj�
 <tr class="odd">
 <td style="border:1px solid black;"><p>Személyi számítógép 800 MHz-es vagy gyorsabb Pentium III processzorral</p></td>
 <td style="border:1px solid black;"><p>Személyi számítógép, amely két 1500 MHz-es vagy gyorsabb Pentium 4 processzort tartalmaz</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>256 MB RAM</p></td>
 <td style="border:1px solid black;"><p>512 MB RAM</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>20 GB szabad merevlemez-terület</p></td>
 <td style="border:1px solid black;"><p>40 GB szabad merevlemez-terület</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Egy hálózati kártya</p></td>
 <td style="border:1px solid black;"><p>Egy hálózati kártya</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>

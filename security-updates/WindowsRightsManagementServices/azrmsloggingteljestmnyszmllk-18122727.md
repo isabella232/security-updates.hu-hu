@@ -29,14 +29,14 @@ A következő táblázat az RMS: Logging teljesítményobjektumra vonatkozó tel
 <tr class="odd">
 <td style="border:1px solid black;"><p>Logging Failures</p></td>
 <td style="border:1px solid black;"><p>A nem teljesen feldolgozott naplózási kísérletek összesített száma.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Logging Processing Time</p></td>
 <td style="border:1px solid black;"><p>A naplózási kérelmek feldolgozására fordított idő (mikroszekundum).</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Logging Requests</p></td>
 <td style="border:1px solid black;"><p>A naplózási szolgáltatás által fogadott naplózási kérelmek összesített száma.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>

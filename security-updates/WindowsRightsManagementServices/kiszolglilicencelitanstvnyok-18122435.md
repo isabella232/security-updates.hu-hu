@@ -36,28 +36,28 @@ Az alábbi táblázat azokat a jogokat tartalmazza, amelyeket a kiszolgálók sz
 <td style="border:1px solid black;"><p>Tartalomvédelmi fióktanúsítványok</p></td>
 <td style="border:1px solid black;"><p>Igen</p></td>
 <td style="border:1px solid black;"><p>Nem</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Közzétételi licencek</p></td>
 <td style="border:1px solid black;"><p>Igen</p></td>
 <td style="border:1px solid black;"><p>Igen</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Használati licencek</p></td>
 <td style="border:1px solid black;"><p>Igen</p></td>
 <td style="border:1px solid black;"><p>Igen</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Alsóbb szintű kiszolgálói licencelői tanúsítványok</p></td>
 <td style="border:1px solid black;"><p>Igen</p></td>
 <td style="border:1px solid black;"><p>Nem</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Ügyfél licencelői tanúsítványok</p></td>
 <td style="border:1px solid black;"><p>Igen</p></td>
 <td style="border:1px solid black;"><p>Igen</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 | ![](images/Cc720184.note(WS.10).gif)Megjegyzés:                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |  

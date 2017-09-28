@@ -29,11 +29,11 @@ Ha fürtben vezeti be az RMS szolgáltatást, feltétlenül gondolja át, hogyan
 <tr class="odd">
 <td style="border:1px solid black;"><p>Nagy számú asztali gép használja az RMS szolgáltatást.</p></td>
 <td style="border:1px solid black;"><p>A Windows Update, parancsfájl vagy szoftverterjesztő módszer, például a Systems Management Server (SMS) vagy a Csoportházirend segítségével telepítheti és aktiválhatja a Microsoft Windows tartalomvédelmi szolgáltatások ügyfélszoftverét.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Az ügyfelek sok kérelmet nyújtanak be.</p></td>
 <td style="border:1px solid black;"><p>Ossza el a terhelést a fürt számítógépei között egy terheléselosztó kiszolgáló, a hálózati terheléselosztási szolgáltatás (NLB) vagy hardveres terheléselosztás segítségével.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Két olyan hálózati kártya, amelyek virtuális IP-címzés segítségével az extranetes és az intranetes kérelmeket egyaránt kiszolgálják.</p></td>
 <td style="border:1px solid black;"><p>Ügyeljen arra, hogy minden olyan DNS-regisztráció, amely az extranet irányában közzéteszi a virtuális IP-címet, megtörténjen az intranet irányában is.</p>

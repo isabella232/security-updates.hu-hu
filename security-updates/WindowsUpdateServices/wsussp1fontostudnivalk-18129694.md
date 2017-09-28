@@ -230,22 +230,22 @@ A következő táblázat ismerteti, hogy az egyes támogatott operációs rendsz
 <td style="border:1px solid black;"><p>Windows Server 2003</p></td>
 <td style="border:1px solid black;"><p>A Microsoft SQL kiterjesztésével teljesen kompatibilis adatbázisszoftver</p></td>
 <td style="border:1px solid black;"><p>N/A</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Windows 2000 Server</p></td>
 <td style="border:1px solid black;"><p>A Microsoft SQL kiterjesztésével teljesen kompatibilis adatbázisszoftver</p></td>
 <td style="border:1px solid black;"><p>Ha a Microsoft SQL Server 2000 nincs telepítve, telepítheti a Microsoft SQL Server 2000 Desktop Engine (MSDE 2000) verziót. Ez több lépésből áll. A további tudnivalókat lásd alább Az MSDE telepítése Windows 2000 rendszerre című részt.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Windows 2000 Server</p></td>
 <td style="border:1px solid black;"><p>Microsoft Internet Explorer 6.0 Service Pack 1 szervizcsomaggal</p></td>
 <td style="border:1px solid black;"><p><a href="http://go.microsoft.com/fwlink/?linkid=47359">Internet Explorer 6 Service Pack 1</a></p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Windows 2000 Server</p></td>
 <td style="border:1px solid black;"><p>Újraterjeszthető csomag a Microsoft .NET-keretrendszer 1.1-es verziójához</p></td>
 <td style="border:1px solid black;"><p><a href="http://go.microsoft.com/fwlink/?linkid=47369">Újraterjeszthető csomag a Microsoft .NET-keretrendszer 1.1-es verziójához</a></p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Windows 2000 Server</p></td>
 <td style="border:1px solid black;"><p>Microsoft .NET-keretrendszer 1.1 1. szervizcsomag</p></td>

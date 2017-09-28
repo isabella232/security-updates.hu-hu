@@ -110,12 +110,12 @@ Mivel az RMS SP2 számos javítást és teljesítménynövelő továbbfejleszté
 <p>Kiszolgáló kapcsolat nélküli beiktatása.</p>
 <p>Nem önaktiváló ügyfelek.</p></td>
 <td style="border:1px solid black;"><p>Valamennyi SP1 szolgáltatás.</p>
-<p>Kiszolgáló kapcsolat nélküli beiktatása.</p>  
-<p>Önaktiváló ügyfelek.</p>  
+<p>Kiszolgáló kapcsolat nélküli beiktatása.</p>
+<p>Önaktiváló ügyfelek.</p>
 <p>Kiszolgálói kulcstároló.</p>
 <p>A Microsoft SQL Server™ 2005 közvetlen támogatása.</p></td>
 <td style="border:1px solid black;"><p>Valamennyi előző szolgáltatás az SP2 szolgáltatásaival kiegészítve.</p>
-<p>Kiszolgáló kapcsolat nélküli beiktatása.</p>  
+<p>Kiszolgáló kapcsolat nélküli beiktatása.</p>
 <p>SP2 ügyfeleknél ezek önaktiválóak.</p>
 <p>1.0-s ügyfeleknél ezeket az interneten keresztül kell aktiválni.</p></td>
 </tr>

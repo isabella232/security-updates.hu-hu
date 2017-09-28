@@ -39,28 +39,28 @@ A következő táblázat bemutatja, hogy milyen entitások vehetők fel a vissza
 <tr class="odd">
 <td style="border:1px solid black;"><p>Licencek vagy tanúsítványok egy csoportja</p></td>
 <td style="border:1px solid black;"><p>A kiállító azonosítója vagy nyilvános kulcsa</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Alkalmazási jegyzékfájlok egy csoportja</p></td>
 <td style="border:1px solid black;"><p>A kiállító azonosítója vagy nyilvános kulcsa</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Egy bizonyos licenc vagy tanúsítvány</p></td>
 <td style="border:1px solid black;"><p>A licenc azonosítója vagy kivonata</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Egy bizonyos alkalmazási jegyzékfájl</p></td>
 <td style="border:1px solid black;"><p>A licenc azonosítója vagy kivonata</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Egy bizonyos résztvevő</p></td>
 <td style="border:1px solid black;"><p>A résztvevő azonosítója vagy nyilvános kulcsa</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Egy bizonyos tartalom</p></td>
 <td style="border:1px solid black;"><p>A tartalom azonosítója</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 | ![](images/Cc720287.note(WS.10).gif)Megjegyzés:                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |  
@@ -72,33 +72,33 @@ A visszavonási listák XrML fájlok, a következő paramétereket adják meg.
 ###  
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th>Paraméter</th>  
-<th>Leírás</th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Paraméter</th>
+<th>Leírás</th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>ISSUEDTIME</p></td>
 <td style="border:1px solid black;"><p>Az XrML fájl létrehozásakor érvényes rendszeridő. Ezt a használati licencekben szereplő REFRESH feltétel használja visszavonási lista korának megállapítására.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>ISSUER</p></td>
 <td style="border:1px solid black;"><p>A visszavonási lista kiállítójának neve, azonosítója és címe.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>PUBLICKEY</p></td>
 <td style="border:1px solid black;"><p>A visszavonási lista kiállítójának nyilvános kulcsa.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>REVOCATIONLIST</p></td>
 <td style="border:1px solid black;"><p>A visszavont entitások nevének, típusának és azonosítójának felsorolása.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>

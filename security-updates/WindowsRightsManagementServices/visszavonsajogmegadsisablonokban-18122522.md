@@ -31,20 +31,20 @@ Az alábbi táblázatban a REFRESH címkében használat paraméterek olvasható
 <tr class="odd">
 <td style="border:1px solid black;"><p>ID</p></td>
 <td style="border:1px solid black;"><p>A visszavonási lista azonosítója.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>ADDRESS</p></td>
 <td style="border:1px solid black;"><p>Az az URL-cím vagy UNC elérési út, ahonnan a visszavonási lista megszerezhető.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>PUBLICKEY</p></td>
 <td style="border:1px solid black;"><p>A visszavonási lista kiállítójának nyilvános kulcsa. A nyilvános kulcs megfelel a visszavonási lista aláírására használt személyes kulcsnak.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>INTERVALTIME</p></td>
 <td style="border:1px solid black;"><p>A visszavonási lista maximális kora, napokban megadva. Ha a gyorsítótárban lévő visszavonási lista régebbi, mint az INTERVALTIME érték által megengedett időtartam, az RMS ügyfélszámítógépe beszerzi a visszavonási lista legfrissebb változatát az ADDRESS bejegyzésben megadott címről. Ez garantálja, hogy a használt visszavonási lista naprakész legyen.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 A jogmegadási sablonok létrehozásáról a további tudnivalókat lásd a dokumentumgyűjtemény „RMS kiszolgáló működtetése” részében „A jogmegadási sablonok létrehozása és módosítása” témakörben.

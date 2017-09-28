@@ -34,16 +34,16 @@ Az RMS három eseményt jegyez be a Rendszer eseménynaplóba, ezeket figyelemme
 <td style="border:1px solid black;"><p>16</p></td>
 <td style="border:1px solid black;"><p>LicensorCertExpiresInOneMonthEvent</p></td>
 <td style="border:1px solid black;"><p>Figyelem! A szolgáltatás rendben folytatja a működést.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>17</p></td>
 <td style="border:1px solid black;"><p>LicensorCertExpiresInOneWeekEvent</p></td>
 <td style="border:1px solid black;"><p>Figyelem! A szolgáltatás rendben folytatja a működést.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>18</p></td>
 <td style="border:1px solid black;"><p>LicensorCertExpiredEvent</p></td>
 <td style="border:1px solid black;"><p>Hiba. A szolgáltatás nem áll rendelkezésre.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>

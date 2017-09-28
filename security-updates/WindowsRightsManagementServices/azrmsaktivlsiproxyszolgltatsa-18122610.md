@@ -33,18 +33,18 @@ A fióktanúsítási szolgáltatás alkalmazásfájlja, az Activation.asmx, az I
 <tr class="odd">
 <td style="border:1px solid black;"><p>Rendszergazdák</p></td>
 <td style="border:1px solid black;"><p>Teljes hozzáférés</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Vendégek</p></td>
 <td style="border:1px solid black;"><p>Olvasás és végrehajtás</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>RMS szolgáltatáscsoport</p></td>
 <td style="border:1px solid black;"><p>Olvasás és végrehajtás</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>RENDSZER</p></td>
 <td style="border:1px solid black;"><p>Teljes hozzáférés</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>

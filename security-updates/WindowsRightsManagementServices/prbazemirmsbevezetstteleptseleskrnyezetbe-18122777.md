@@ -70,12 +70,12 @@ A következő lépések példaként szolgálnak, és az áttelepítési terv né
 <td style="border:1px solid black;"><p>Éles környezet</p></td>
 <td style="border:1px solid black;"><p>HSM használatakor telepítse a HSM modult, és állítsa vissza konfigurációját a próbaüzemi kiszolgálónál létrehozott biztonsági másolatból.</p></td>
 <td style="border:1px solid black;"><p>Hozza létre az RMS személyes kulcsának visszafejtéséhez szükséges hitelesítő adatokat.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Éles környezet</p></td>
 <td style="border:1px solid black;"><p>Telepítse az RMS rendszert.</p></td>
 <td style="border:1px solid black;"><p>Az RMS ellenőrzi az összes szükséges szolgáltatás megfelelő telepítését és konfigurálását.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Éles környezet</p></td>
 <td style="border:1px solid black;"><p>Új személyes kulcs megadásával létesítsen RMS szolgáltatást. Ha on-line igénylést használ, a létesítési eljárás során az interneten keresztül a Microsoft igénylési szolgáltatásához kapcsolódva megtörténik a kiszolgáló tanúsítványigénylése. Ha a kiszolgálóról nem létesíthető internetkapcsolat, off-line igénylést kell használni.</p></td>
@@ -92,17 +92,17 @@ A következő lépések példaként szolgálnak, és az áttelepítési terv né
 <td style="border:1px solid black;"><p>Éles környezet</p></td>
 <td style="border:1px solid black;"><p>Importálja a 3. lépésben exportált megbízható közzétételi tartományhoz tartozó fájlt.</p></td>
 <td style="border:1px solid black;"><p>A fájl sikeres importálásához az RMS-szolgáltatásfióknak olvasási engedéllyel kell rendelkeznie a fájl tárolási helyéhez.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Éles környezet</p></td>
 <td style="border:1px solid black;"><p>Írja újból alá a megbízható közzétételi tartománnyal importált sablonokat.</p></td>
 <td style="border:1px solid black;"><p>A sablonok aláírása a kiszolgáló személyes kulcsával történik. Mivel a kiszolgáló új személyes kulccsal rendelkezik, az érvényességhez újból alá kell írni a sablonokat. A további tudnivalókat lásd a dokumentumgyűjtemény „RMS kiszolgáló működtetése” részében a „Jogmegadási sablon újbóli aláírása” témakörben.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Éles környezet</p></td>
 <td style="border:1px solid black;"><p>Ossza ki a sablonokat a próbaüzemben használt ügyfélszámítógépeknek.</p></td>
 <td style="border:1px solid black;"><p>A régi sablonokat el kell távolítani, és ezeket az ezzel a kiszolgálóval aláírt sablonokkal kell helyettesíteni.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Éles környezet</p></td>
 <td style="border:1px solid black;"><p>Importálja a 4. lépésben exportált megbízható felhasználói tartományt.</p></td>

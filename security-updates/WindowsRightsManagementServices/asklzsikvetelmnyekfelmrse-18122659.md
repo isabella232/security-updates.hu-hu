@@ -43,20 +43,20 @@ Az alábbi számadatok segítséget nyújtanak az RMS rendszerrel szembeni felha
 <td style="border:1px solid black;"><p>Felhasználónként és védeni kívánt anyagonként egyszer</p></td>
 <td style="border:1px solid black;"><p>64</p></td>
 <td style="border:1px solid black;"><p>18</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Tartalomvédelmi fióktanúsítvány</p></td>
 <td style="border:1px solid black;"><p>Csak az RMS inicializálásakor</p></td>
 <td style="border:1px solid black;"><p>12</p></td>
 <td style="border:1px solid black;"><p>16</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Az ügyfelek igénylési folyamata</p></td>
 <td style="border:1px solid black;"><p>Csak az RMS inicializálásakor</p></td>
 <td style="border:1px solid black;"><p>17</p></td>
 <td style="border:1px solid black;"><p>16</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Ezenkívül az Active Directory-lekérdezésekkel járó forgalom is hatással van a hálózat átbocsátóképességére. Ez azonban általában nem jelentős tényező, ha a globáliskatalógus-kiszolgálók közvetlen közelében telepítik az RMS kiszolgálókat. Ez alól az az eset jelent kivételt, ha adott hely valamennyi globáliskatalógus-kiszolgálója leáll, így feladatátvétellel másik hely kiszolgálóit kell használni olyan kapcsolaton keresztül, amelynek kapacitása nem éri el az előzőét.
@@ -66,31 +66,31 @@ A következő táblázatban az RMS-tranzakciók sávszélesség-felhasználásra
 ###  
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th>Tranzakció</th>  
-<th>Az RMS szolgáltatástól a globális katalógus felé irányuló sávszélesség-felhasználás (bájt)</th>  
-<th>A globális katalógus felől az RMS felé irányuló sávszélesség-felhasználás (bájt)</th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Tranzakció</th>
+<th>Az RMS szolgáltatástól a globális katalógus felé irányuló sávszélesség-felhasználás (bájt)</th>
+<th>A globális katalógus felől az RMS felé irányuló sávszélesség-felhasználás (bájt)</th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Az RMS kapcsolatlétesítése (ldap_bind)</p></td>
 <td style="border:1px solid black;"><p>1600</p></td>
 <td style="border:1px solid black;"><p>200</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Az RMS csoporttagság-vizsgálata (ldap_search)</p></td>
 <td style="border:1px solid black;"><p>200</p></td>
 <td style="border:1px solid black;"><p>100</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 A táblázatok adatainak használatánál ügyeljen arra, hogy az értékeket az adott bevezetés környezetének megfelelően alkalmazza. Ha például egy felhasználó 15 csoportnak tagja, az RMS keresési kérelme 200 bájtot vesz igénybe, a globális katalógus válasza pedig 1500 (100 x 15) bájtot.

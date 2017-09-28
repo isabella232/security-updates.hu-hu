@@ -34,34 +34,34 @@ A létesítés során az RMS a következő táblázatban bemutatott felhasznál�
 <td style="border:1px solid black;"><p>A bejelentkezett felhasználó fiókja</p></td>
 <td style="border:1px solid black;"><p>Létrehozza a virtuális könyvtárakat és az alkalmazáskészleteket. Az IIS megköveteli a Windows-hitelesítést, az RMS pedig megszemélyesíti a bejelentkezett felhasználót, akinek helyben kell bejelentkezve lennie.</p></td>
 <td style="border:1px solid black;"><p>Teljes hozzáférés (a bejelentkezett felhasználónak helyi rendszergazdának kell lennie).</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Rendszerfiók</p></td>
 <td style="border:1px solid black;"><p>Összeállítja a sorba rendezéshez szükséges ideiglenes programkódot.</p></td>
 <td style="border:1px solid black;"><p>Olvasási és írási engedély a Windows ideiglenes mappájához (C:\Windows\Temp).</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>ASPNET fiók</p></td>
 <td style="border:1px solid black;"><p>Összeállítja a *.aspx fájlok ideiglenes programkódját.</p></td>
 <td style="border:1px solid black;"><p>Hozzáférési jogosultság az átmeneti programkód gyorsítótáraként használt könyvtárhoz (ez alapértelmezés szerint a C:\Windows\Microsoft.NET\Framework\v1.1.4322\Temporary ASP.NET Files könyvtár).</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Hálózati szolgáltatásfiók</p></td>
 <td style="border:1px solid black;"><p>Regisztrálja az Active Directoryban a szolgáltatás kapcsolódási pontját.</p></td>
 <td style="border:1px solid black;"><ul>
-<li>Csak olvasási engedély a létesítő helyhez (általában a C:\Inetpub\Wwwroot\Provisioning mappához).<br />  
-<br />  
-</li>  
-<li>Olvasási és írási engedély a <strong>DRMS</strong> rendszerleíró kulcshoz. Az engedélyeket az RMS telepítője adja, és ez hozza létre a következő rendszerleíró kulcsot is.<br />  
-<br />  
-A Windows Server 2003 rendszer 32 bites verziójával működő számítógépeken:<br />  
-<br />  
-<code>HKEY_LOCAL_MACHINE\Software\Microsoft\DRMS\1.0</code><br />  
-<br />  
-A Windows Server 2003 rendszer 64 bites verziójával működő számítógépeken:<br />  
-<br />  
-<code>HKEY_LOCAL_MACHINE\Software\WOW6432Node\Microsoft\DRMS\1.0</code><br />  
-<br />  
+<li>Csak olvasási engedély a létesítő helyhez (általában a C:\Inetpub\Wwwroot\Provisioning mappához).<br />
+<br />
+</li>
+<li>Olvasási és írási engedély a <strong>DRMS</strong> rendszerleíró kulcshoz. Az engedélyeket az RMS telepítője adja, és ez hozza létre a következő rendszerleíró kulcsot is.<br />
+<br />
+A Windows Server 2003 rendszer 32 bites verziójával működő számítógépeken:<br />
+<br />
+<code>HKEY_LOCAL_MACHINE\Software\Microsoft\DRMS\1.0</code><br />
+<br />
+A Windows Server 2003 rendszer 64 bites verziójával működő számítógépeken:<br />
+<br />
+<code>HKEY_LOCAL_MACHINE\Software\WOW6432Node\Microsoft\DRMS\1.0</code><br />
+<br />
 </li>
 </ul></td>
 </tr>

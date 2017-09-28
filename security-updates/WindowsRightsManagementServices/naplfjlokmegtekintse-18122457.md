@@ -31,70 +31,70 @@ A naplóbejegyzések átlagos mérete 300 bájt. Az alábbi táblázat a naplób
 <tr class="odd">
 <td style="border:1px solid black;"><p>HostMachineName</p></td>
 <td style="border:1px solid black;"><p>A kérelmet kezelő számítógép.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>HostMachineRequestId</p></td>
 <td style="border:1px solid black;"><p>Egyedien azonosítja az adott kérelmet az adott számítógépen. A HostMachineName és a HostMachineRequestId érték együttesen egyedien azonosítja a kérelmet a fürtön belül.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>RequestTime</p></td>
 <td style="border:1px solid black;"><p>A kérelem fogadásának ideje az egyetemes koordinált idő (greenwich-i idő) szerint.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>RequestPath</p></td>
 <td style="border:1px solid black;"><p>Az .asmx fájl relatív URL-címe, például: /_wmcs/licensing/License.asmx.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>RequestType</p></td>
 <td style="border:1px solid black;"><p>A hívott webes metódus neve, például: AcquireLicense.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>RequestUserAddress</p></td>
 <td style="border:1px solid black;"><p>A kérelmező forrás IP-címe.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>RequestUserAgent</p></td>
 <td style="border:1px solid black;"><p>A HTTP-fejrész felhasználói ügynök értéke.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>AuthenticatedState</p></td>
 <td style="border:1px solid black;"><p>A HTTP-kapcsolat hitelesítettségéről tájékoztat (True/False).</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>SecureConnectionState</p></td>
 <td style="border:1px solid black;"><p>Megadja, hogy a kapcsolat SSL-kapcsolat-e (True/False).</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>AuthenticatedId</p></td>
 <td style="border:1px solid black;"><p>A hitelesített kérelmek bejelentkezési neve. Üres, ha AuthenticatedState=False.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>ReceivedXrMLDocument</p></td>
 <td style="border:1px solid black;"><p>A kérelmezőtől érkezett XrML-dokumentum.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>ReceivedXrMLDocumentIssuerChain</p></td>
 <td style="border:1px solid black;"><p>A fogadott XrML-dokumentum kiállítói lánca.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>IssuedXrMLDocument</p></td>
 <td style="border:1px solid black;"><p>A kérelmezőnek visszaküldött XrML-dokumentum.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>IssuedXrMLDocumentIssuerChain</p></td>
 <td style="border:1px solid black;"><p>A kiadott XrML-dokumentum kiállítói lánca.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>SuccessOrFailure</p></td>
 <td style="border:1px solid black;"><p>Megadja, hogy sikeres volt-e a kérelem (Succeeded/Failed).</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Metaadat</p></td>
 <td style="border:1px solid black;"><p>A metaadatok mezője.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>ErrorInformation</p></td>
 <td style="border:1px solid black;"><p>Hiba esetén a hibát leíró üzenet.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>

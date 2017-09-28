@@ -31,57 +31,57 @@ A következő táblázat az RMS rendszereket alkotó kiszolgálótípusokat soro
 <tr class="odd">
 <td style="border:1px solid black;"><p>Legfelső szintű tanúsítási</p></td>
 <td style="border:1px solid black;"><p>Az RMS következő szolgáltatásai futnak ezen:</p>
-<ul>  
-<li><strong>Aligénylés</strong>. Teljesíti a licenckiszolgálók aligénylési kérelmeit.<br />  
-<br />  
-</li>  
-<li><strong>Aktiválási proxy</strong>. Internetes proxyként működik a kulcstárolók és RMS-géptanúsítványok iránti ügyfélkérelmek számára.<br />  
-<br />  
-</li>  
-<li><strong>Tanúsítás</strong>. Kiállítja a tartalomvédelmi fióktanúsítványokat.<br />  
-<br />  
-</li>  
-<li><strong>Közzététel</strong>. Kiállítja a közzétételi licenceket.<br />  
-<br />  
-</li>  
-<li><strong>Licencelés</strong>. Kiállítja a használati licenceket.<br />  
-<br />  
-</li>  
+<ul>
+<li><strong>Aligénylés</strong>. Teljesíti a licenckiszolgálók aligénylési kérelmeit.<br />
+<br />
+</li>
+<li><strong>Aktiválási proxy</strong>. Internetes proxyként működik a kulcstárolók és RMS-géptanúsítványok iránti ügyfélkérelmek számára.<br />
+<br />
+</li>
+<li><strong>Tanúsítás</strong>. Kiállítja a tartalomvédelmi fióktanúsítványokat.<br />
+<br />
+</li>
+<li><strong>Közzététel</strong>. Kiállítja a közzétételi licenceket.<br />
+<br />
+</li>
+<li><strong>Licencelés</strong>. Kiállítja a használati licenceket.<br />
+<br />
+</li>
 </ul>
 <p>Minden bevezetésben legalább egy legfelső szintű tanúsítási kiszolgálónak vagy fürtnek működnie kell. Active Directory-erdőnként csak egy legfelső szintű tanúsítási fürt létezhet.</p></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Licencelési (nem kötelező)</p></td>
 <td style="border:1px solid black;"><p>Az RMS következő szolgáltatásai futnak ezen:</p>
-<ul>  
-<li><strong>Közzététel</strong>. Kiállítja a közzétételi licenceket.<br />  
-<br />  
-</li>  
-<li><strong>Licencelés</strong>. Kiállítja a használati licenceket.<br />  
-<br />  
-</li>  
+<ul>
+<li><strong>Közzététel</strong>. Kiállítja a közzétételi licenceket.<br />
+<br />
+</li>
+<li><strong>Licencelés</strong>. Kiállítja a használati licenceket.<br />
+<br />
+</li>
 </ul>
 <p>A licenckiszolgálók bevezetésének általában az a célja, hogy egyes osztályokat külön szolgáljanak ki, vagy hogy csökkentsék a legfelső szintű tanúsítási szintre beérkező kérelmek okozta terhelést. Licenckiszolgálókat nem kötelező létesíteni.</p></td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Adatbázis-kiszolgáló, például SQL Server</p></td>
 <td style="border:1px solid black;"><ul>
-<li>Az RMS konfigurációs, címtár-szolgáltatási és naplózási adatbázisát kezeli.<br />  
-<br />  
-</li>  
-<li>A legfelső szintű tanúsítási fürt konfigurációs adatbázisában tárolja a tartalomvédelmi fióktanúsítványokat.<br />  
-<br />  
+<li>Az RMS konfigurációs, címtár-szolgáltatási és naplózási adatbázisát kezeli.<br />
+<br />
+</li>
+<li>A legfelső szintű tanúsítási fürt konfigurációs adatbázisában tárolja a tartalomvédelmi fióktanúsítványokat.<br />
+<br />
 </li>
 </ul></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Tartományvezérlő és globális katalógus</p></td>
 <td style="border:1px solid black;"><ul>
-<li>A felhasználóhitelesítési és a címtárszolgáltatást biztosítja.<br />  
-<br />  
-</li>  
-<li>Tárolja a legfelső szintű tanúsítási fürt szolgáltatásészlelési pontját.<br />  
-<br />  
+<li>A felhasználóhitelesítési és a címtárszolgáltatást biztosítja.<br />
+<br />
+</li>
+<li>Tárolja a legfelső szintű tanúsítási fürt szolgáltatásészlelési pontját.<br />
+<br />
 </li>
 </ul></td>
 </tr>

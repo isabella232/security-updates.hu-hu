@@ -29,12 +29,12 @@ Az RMS rendszert kiszolgálói és ügyfél-technológiák alkotják. A követke
 <tr class="odd">
 <td style="border:1px solid black;"><p>Az RMS webszolgáltatásai</p></td>
 <td style="border:1px solid black;"><p>Ezek biztosítják a kiszolgáló alapfunkcióit, valamint kezelik az RMS fióktanúsítási, licencelési, aligénylési és felügyeleti funkcióit.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Az RMS ügyfél-technológiái</p></td>
 <td style="border:1px solid black;"><p>Lehetővé teszik a felhasználók számára RMS-védelemmel ellátott tartalom létrehozását, közzétételét és használatát.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Ez a rész bemutatja ezeket a technológiákat, valamint ismerteti az együttműködésüket.

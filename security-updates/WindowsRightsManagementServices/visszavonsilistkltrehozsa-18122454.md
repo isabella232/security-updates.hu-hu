@@ -183,20 +183,20 @@ A parancs paramétereit az alábbiak alapján adja meg:
 <tr class="odd">
 <td style="border:1px solid black;"><p><em>bemeneti_fájl</em></p></td>
 <td style="border:1px solid black;"><p>A korábban elkészített, a visszavonási listát tartalmazó XrML-kompatibilis fájl neve</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><em>kulcsfájl</em></p></td>
 <td style="border:1px solid black;"><p>A korábban előállított, a nyilvános és a személyes kulcsot tartalmazó fájl neve</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><em>tároló_neve</em></p></td>
 <td style="border:1px solid black;"><p>A kulcstároló neve</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><em>kimeneti_fájl</em></p></td>
 <td style="border:1px solid black;"><p>A programmal előállított, az aláírt visszavonási listát tartalmazó fájl neve</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 | ![](images/Cc720208.note(WS.10).gif)Megjegyzés:           |  
@@ -215,47 +215,47 @@ Az RLsigner.exe program visszatérési kódja a sikeres végrehajtást, illetve 
 ###  
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th>Visszatérési kód</th>  
-<th>Leírás</th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Visszatérési kód</th>
+<th>Leírás</th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>0</p></td>
 <td style="border:1px solid black;"><p>Sikeres végrehajtás</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>-1</p></td>
 <td style="border:1px solid black;"><p>Nem olvasható a forrásfájl</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>-2</p></td>
 <td style="border:1px solid black;"><p>Nem olvasható a kulcsfájl</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>-3</p></td>
 <td style="border:1px solid black;"><p>Érvénytelen kulcsfájl</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>-4</p></td>
 <td style="border:1px solid black;"><p>Érvénytelen forrásfájl</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>-5</p></td>
 <td style="border:1px solid black;"><p>Nem írható a kimeneti fájl</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>-6</p></td>
 <td style="border:1px solid black;"><p>Ismeretlen hiba</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Szükségessé válhat a visszavonási listák aláírásának ütemezése a kiszolgálóhoz megadott frissítési gyakoriság alapján.

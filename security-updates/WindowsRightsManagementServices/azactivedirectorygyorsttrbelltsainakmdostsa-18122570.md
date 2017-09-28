@@ -45,38 +45,38 @@ Az alábbi táblázat a memóriabeli gyorsítótár működését szabályozó b
 <td style="border:1px solid black;"><p>DWORD</p></td>
 <td style="border:1px solid black;"><p>1,000</p></td>
 <td style="border:1px solid black;"><p>A gyorsítótárban tárolható résztvevők (hozzájuk tartozó e-mail címek és SID azonosítók) száma.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>PrincipalCacheExpireMinutes</p></td>
 <td style="border:1px solid black;"><p>DWORD</p></td>
 <td style="border:1px solid black;"><p>12</p></td>
 <td style="border:1px solid black;"><p>A résztvevőkről a gyorsítótárban tárolt adatok érvényességének időtartama.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>GroupIDCacheMax</p></td>
 <td style="border:1px solid black;"><p>DWORD</p></td>
 <td style="border:1px solid black;"><p>1,000</p></td>
 <td style="border:1px solid black;"><p>A gyorsítótárban tárolható csoportok (hozzájuk tartozó e-mail címek és SID azonosítók) száma.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>GroupIDCacheExpireMinutes</p></td>
 <td style="border:1px solid black;"><p>DWORD</p></td>
 <td style="border:1px solid black;"><p>12</p></td>
 <td style="border:1px solid black;"><p>A csoporttagságról a gyorsítótárban tárolt adatok érvényességének időtartama.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>GroupMembershipCacheMax</p></td>
 <td style="border:1px solid black;"><p>DWORD</p></td>
 <td style="border:1px solid black;"><p>1,000</p></td>
 <td style="border:1px solid black;"><p>A gyorsítótárban maximálisan tárolható olyan kapcsolatok száma, amelyek csoport tagjai.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>GroupMembershipCacheExpireMinutes</p></td>
 <td style="border:1px solid black;"><p>DWORD</p></td>
 <td style="border:1px solid black;"><p>12</p></td>
 <td style="border:1px solid black;"><p>A csoporttagkapcsolatok gyorsítótárban tárolt adatainak érvényességi időtartama.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 | ![](images/Cc747586.Caution(WS.10).gif)Figyelmeztetés:                                                                                                                        |  

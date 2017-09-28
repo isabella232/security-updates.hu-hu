@@ -29,7 +29,7 @@ A következő táblázatban azok a felhasználói jogok és engedélyek szerepel
 <tr class="odd">
 <td style="border:1px solid black;"><p>Az RMS telepítése</p></td>
 <td style="border:1px solid black;"><p>Olyan fiókkal kell bejelentkezni, amely tagja a helyi Rendszergazdák csoportnak.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Az RMS létesítése</p></td>
 <td style="border:1px solid black;"><p>Olyan fiókkal kell bejelentkezni, amely tagja a helyi Rendszergazdák csoportnak. Emellett a fióknak olyan SQL bejelentkezési nevet kell használnia, amely az SQL Server adatbázisnál rendelkezik a System Administrator (Rendszergazda) szerepkörrel, hogy az RMS elő tudja készíteni a szükséges adatbázisokat.</p>
@@ -39,8 +39,8 @@ A következő táblázatban azok a felhasználói jogok és engedélyek szerepel
 <tr class="odd">
 <td style="border:1px solid black;"><p>Az RMS felügyelete</p></td>
 <td style="border:1px solid black;"><p>Olyan fiókkal kell bejelentkezni, amely tagja a helyi Rendszergazdák csoportnak. A biztonsági beállítások testreszabásával kezelhető a felügyeleti weblapokhoz való hozzáférés.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 | ![](images/Cc720178.note(WS.10).gif)Megjegyzés:                                                                                                                                                                                                                                                                                                                       |  

@@ -57,23 +57,23 @@ A becslés működésének érzékeléséhez vegyünk egy 5000 felhasználót ta
 <td style="border:1px solid black;"><p>RMS kiszolgáló sikeres létesítése</p></td>
 <td style="border:1px solid black;"><p>1,7 MB</p></td>
 <td style="border:1px solid black;"><p>1,7 MB</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>5000 felhasználói igénylés (5000*0,06)</p></td>
 <td style="border:1px solid black;"><p>300 MB</p></td>
 <td style="border:1px solid black;"><p>301,7 MB</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Hozzáférés védett e-mail üzenetekhez (25000*0,19)</p></td>
 <td style="border:1px solid black;"><p>4750 MB</p></td>
 <td style="border:1px solid black;"><p>5051,7 MB</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Hozzáférés védett dokumentumokhoz (15000*0,19)</p></td>
 <td style="border:1px solid black;"><p>2850 MB</p></td>
 <td style="border:1px solid black;"><p>7901,7 MB</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 A fentiek szerint az igénylés után a naplózási adatbázis mérete rögzített, ez mintegy 300 MB. A példa szerinti napi növekmény azonban 7,6 GB, amely megközelíti a Message Queuing alapértelmezés szerinti telepítésének 8 GB-os határértékét. Ha a naplózási adatbázis egy napnál hosszabb ideig elérhetetlenné válik, elkezdődhet a naplóbejegyzések elvesztése.

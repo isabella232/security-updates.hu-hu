@@ -62,13 +62,13 @@ A következő táblázat azokat a bejegyzéseket tartalmazza, amelyek létrehoz�
 <td style="border:1px solid black;"><p>SubEnrollmentURL</p></td>
 <td style="border:1px solid black;"><p>Karakterlánc</p></td>
 <td style="border:1px solid black;"><p>http(vagy https)://<em>kiszolgálónév</em>/_wmcs/certification/subenrollservice.asmx</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>GicURL</p></td>
 <td style="border:1px solid black;"><p>Karakterlánc</p></td>
 <td style="border:1px solid black;"><p>http(vagy https)://<em>kiszolgálónév</em>/_wmcs/certification/certification.asmx</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Az ügyféloldali szolgáltatásészlelés felülbírálása közzétételhez  
@@ -99,36 +99,36 @@ A következő táblázat az RMS ügyfélszámítógépeken a szolgáltatásészl
 ###  
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th>Név</th>  
-<th>Típus</th>  
-<th>Érték</th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Név</th>
+<th>Típus</th>
+<th>Érték</th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Activation</p></td>
 <td style="border:1px solid black;"><p>Karakterlánc</p></td>
 <td style="border:1px solid black;"><p>http(vagy https)://<em>RMS_fürt_neve</em>/_wmcs/Certification ahol <em>RMS_fürt_neve</em> az adott RMS fürt neve.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>EnterprisePublishing</p></td>
 <td style="border:1px solid black;"><p>Karakterlánc</p></td>
 <td style="border:1px solid black;"><p>http(vagy https)://<em>RMS_fürt_neve</em>/_wmcs/Licensing ahol <em>RMS_fürt_neve</em> az adott RMS fürt neve.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>CloudPublishing</p></td>
 <td style="border:1px solid black;"><p>Karakterlánc</p></td>
 <td style="border:1px solid black;"><p>http(vagy https)://<em>FQDN_fürt_neve</em>/_wmcs/Licensing ahol <em>FQDN_fürt_neve</em> az RMS fürt teljesen megadott tartományneve.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Azt javasoljuk, hogy a beállításkulcsok megadását a Systems Management Server vagy a Csoportházirend segítségével hajtsa végre annak biztosításához, hogy a vállalatnál az összes ügyfél a megfelelő közzétételi kiszolgálókat használja.

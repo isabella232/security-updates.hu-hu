@@ -29,14 +29,14 @@ A következő táblázat az RMS: Enrollment teljesítményobjektumra vonatkozó 
 <tr class="odd">
 <td style="border:1px solid black;"><p>SubEnroll Failures</p></td>
 <td style="border:1px solid black;"><p>A nem teljesen feldolgozott aligénylési kérelmek összesített száma.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>SubEnroll Processing Time</p></td>
 <td style="border:1px solid black;"><p>Az aligénylési kérelmekre fordított átlagos feldolgozási idő (mikroszekundum).</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>SubEnroll Requests</p></td>
 <td style="border:1px solid black;"><p>Az igénylési szolgáltatás által fogadott aligénylési kérelmek összesített száma.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>

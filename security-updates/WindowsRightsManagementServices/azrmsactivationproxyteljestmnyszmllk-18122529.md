@@ -29,18 +29,18 @@ A következő táblázat az RMS: ActivationProxy teljesítményobjektumra vonatk
 <tr class="odd">
 <td style="border:1px solid black;"><p>Activation Failure Processing Time</p></td>
 <td style="border:1px solid black;"><p>A sikertelen aktiválási események által elhasznált idő (mikroszekundum).</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Activation Failures</p></td>
 <td style="border:1px solid black;"><p>A sikertelen aktiválási kérelmek száma.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Activation Requests</p></td>
 <td style="border:1px solid black;"><p>Az aktiválási szolgáltatáshoz benyújtott összes kérelem száma.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Activation Total Processing Time</p></td>
 <td style="border:1px solid black;"><p>Az aktiválási szolgáltatás által elhasznált feldolgozási idő (mikroszekundum).</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>

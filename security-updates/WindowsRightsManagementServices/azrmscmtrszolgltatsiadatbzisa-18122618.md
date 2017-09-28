@@ -33,70 +33,70 @@ A következő táblázat a címtár-szolgáltatási adatbázis tábláiban táro
 <tr class="odd">
 <td style="border:1px solid black;"><p>GroupAliases</p></td>
 <td style="border:1px solid black;"><ul>
-<li>GroupName: a csoport aliasneve<br />  
-<br />  
-</li>  
-<li>GroupID: a csoport egyedi azonosítója<br />  
-<br />  
+<li>GroupName: a csoport aliasneve<br />
+<br />
+</li>
+<li>GroupID: a csoport egyedi azonosítója<br />
+<br />
 </li>
 </ul></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>GroupIdentifiers</p></td>
 <td style="border:1px solid black;"><ul>
-<li>GroupDN: a csoport Active Directory szerinti megkülönböztető neve<br />  
-<br />  
-</li>  
-<li>GroupID: a csoport egyedi azonosítója<br />  
-<br />  
-</li>  
-<li>Expiration: a csoportra vonatkozóan tárolt információk érvényessége lejáratának dátuma és időpontja<br />  
-<br />  
+<li>GroupDN: a csoport Active Directory szerinti megkülönböztető neve<br />
+<br />
+</li>
+<li>GroupID: a csoport egyedi azonosítója<br />
+<br />
+</li>
+<li>Expiration: a csoportra vonatkozóan tárolt információk érvényessége lejáratának dátuma és időpontja<br />
+<br />
 </li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>GroupMembership</p></td>
 <td style="border:1px solid black;"><ul>
-<li>GroupID: a csoport egyedi azonosítója<br />  
-<br />  
-</li>  
-<li>ParentID: annak a csoportnak az egyedi azonosítója, amelynek ez a csoport a tagja<br />  
-<br />  
+<li>GroupID: a csoport egyedi azonosítója<br />
+<br />
+</li>
+<li>ParentID: annak a csoportnak az egyedi azonosítója, amelynek ez a csoport a tagja<br />
+<br />
 </li>
 </ul></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>PrincipalAliases</p></td>
 <td style="border:1px solid black;"><ul>
-<li>PrincipalName: az adott résztvevő aliasneve<br />  
-<br />  
-</li>  
-<li>PrincipalID: a résztvevő egyedi azonosítója<br />  
-<br />  
+<li>PrincipalName: az adott résztvevő aliasneve<br />
+<br />
+</li>
+<li>PrincipalID: a résztvevő egyedi azonosítója<br />
+<br />
 </li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>PrincipalIdentifiers</p></td>
 <td style="border:1px solid black;"><ul>
-<li>PrincipalID: a résztvevő egyedi azonosítója<br />  
-<br />  
-</li>  
-<li>Expiration: a résztvevőre vonatkozóan tárolt információk érvényessége lejáratának dátuma és időpontja<br />  
-<br />  
+<li>PrincipalID: a résztvevő egyedi azonosítója<br />
+<br />
+</li>
+<li>Expiration: a résztvevőre vonatkozóan tárolt információk érvényessége lejáratának dátuma és időpontja<br />
+<br />
 </li>
 </ul></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>PrincipalMembership</p></td>
 <td style="border:1px solid black;"><p>A tábla mindegyik sorában egy résztvevő egyedi azonosítója, és az annak tagjai közé tartozó csoport egyedi azonosítója szerepel.</p>
-<ul>  
-<li>PrincipalID: a résztvevő egyedi azonosítója<br />  
-<br />  
-</li>  
-<li>ParentID: annak a csoportnak az egyedi azonosítója, amelynek ez a résztvevő tagja<br />  
-<br />  
+<ul>
+<li>PrincipalID: a résztvevő egyedi azonosítója<br />
+<br />
+</li>
+<li>ParentID: annak a csoportnak az egyedi azonosítója, amelynek ez a résztvevő tagja<br />
+<br />
 </li>
 </ul></td>
 </tr>

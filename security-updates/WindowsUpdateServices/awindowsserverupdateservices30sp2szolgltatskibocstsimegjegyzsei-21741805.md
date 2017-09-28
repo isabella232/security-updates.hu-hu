@@ -103,7 +103,7 @@ A szakasz a WSUS 3.0 SP2 telepítésének szoftver- és hardverkövetelményeit 
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;">A Windows Server 2008 R2 rendszerhez a WSUS 3.0 SP2 szükséges. Windows Server 2008 R2 rendszer telepítése esetén a WSUS 3.0 SP2 verziót ajánlott telepítenie. A WSUS 3.0 SP1 verzióját ne telepítse Windows Server 2008 R2 rendszeren.
-<p></p>  
+<p></p>
 A WSUS 3.0 SP2 távoli SQL-konfigurációban nem támogatja az előtér-kiszolgálón futó terminálszolgáltatáson keresztüli használatot.
 <p></p></td>
 </tr>
@@ -182,7 +182,7 @@ Előfordulhat, hogy a WSUS 3.0 SP2 telepítésekor le kell tiltani a víruskeres
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;">Ez a megkerülő megoldás sérülékenyebbé teheti a számítógépet vagy a hálózatot a rosszindulatú felhasználók és a kártevő szoftverek, például vírusok támadásával szemben. Nem javasoljuk ezt a megoldást, de tájékoztatásul közöljük, hogy saját belátása szerint szükség esetén alkalmazni tudja, ezt azonban csak saját felelősségére teheti.
-<p></p>  
+<p></p>
 A víruskereső szoftverek abban segítenek, hogy megvédhesse számítógépét a vírusoktól. Amíg a víruskereső program le van tiltva, ne töltsön le és ne nyisson meg fájlokat nem megbízhatónak vélt forrásból, ne látogasson nem megbízható webhelyekre, és ne nyisson meg e-mail mellékleteket.
 <p></p></td>
 </tr>
@@ -334,24 +334,24 @@ A WSUS 3.0 SP2 telepítését felügyelet nélküli üzemmódban is elvégezheti
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>/q</strong></p></td>
 <td style="border:1px solid black;"><p>Csendes telepítés.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>/u</strong></p></td>
 <td style="border:1px solid black;"><p>Eltávolítás.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>/p</strong></p></td>
 <td style="border:1px solid black;"><p>Előfeltételek ellenőrzése. A rendszer vizsgálata és a hiányzó előfeltételek jelentése.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>/?, /h</strong></p></td>
 <td style="border:1px solid black;"><p>A parancssori paraméterek és leírások megjelenítése.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>/g</strong></p></td>
 <td style="border:1px solid black;"><p>Frissítés a WSUS korábbi verziójáról. (Az SUS 1.0 frissítése nem támogatott.) Ezzel a kapcsolóval csak a /q (csendes telepítés) kapcsoló használható együtt. A kapcsoló egyetlen érvényes tulajdonsága a DEFAULT_WEBSITE.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 A táblázat a WSUS 3.0 SP2 parancssori tulajdonságait tartalmazza.
@@ -359,79 +359,79 @@ A táblázat a WSUS 3.0 SP2 parancssori tulajdonságait tartalmazza.
 ###  
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th>Tulajdonság</th>  
-<th>Leírás</th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Tulajdonság</th>
+<th>Leírás</th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>CONTENT_LOCAL</p></td>
 <td style="border:1px solid black;"><p>0=a tartalom helyben van tárolva, 1=tárolás a Microsoft Update webhelyen</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>CONTENT_DIR</p></td>
 <td style="border:1px solid black;"><p>A tartalomkönyvtár elérési útja. Az alapértelmezett érték a <em>WSUS_telepítési_meghajtó\WSUS\WSUSContent</em>, ahol a <em>WSUS_telepítési_meghajtó</em> a legtöbb szabad lemezterülettel rendelkező helyi meghajtó.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>WYUKON_DATA_DIR</p></td>
 <td style="border:1px solid black;"><p>A belső Windows-adatbázis adatkönyvtárának elérési útja.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>SQLINSTANCE_NAME</p></td>
 <td style="border:1px solid black;"><p>A nevet a <em>Kiszolgálónév</em>\<em>SQL_példány_neve</em> formátumban kell megadni. Ha az adatbázispéldány a helyi gépen található, használja a %COMPUTERNAME% környezeti változót. Ha nincs jelen egy már létező példány, akkor a %COMPUTERNAME%\WSUS az alapértelmezés.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>DEFAULT_WEBSITE</p></td>
 <td style="border:1px solid black;"><p>1=80-as port, 0=8530-as port</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>PREREQ_CHECK_LOG</p></td>
 <td style="border:1px solid black;"><p>A naplófájl elérési útja és neve</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>CONSOLE_INSTALL</p></td>
 <td style="border:1px solid black;"><p>0=a WSUS-kiszolgáló telepítése, 1=csak a konzol telepítése</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>ENABLE_INVENTORY</p></td>
 <td style="border:1px solid black;"><p>0=nem telepíti a leltárszolgáltatásokat, 1=telepíti a leltárszolgáltatásokat</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>DELETE_DATABASE</p></td>
 <td style="border:1px solid black;"><p>0=az adatbázis megőrzése, 1=az adatbázis eltávolítása</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>DELETE_CONTENT</p></td>
 <td style="border:1px solid black;"><p>0=a tartalomfájlok megőrzése, 1=a tartalomfájlok eltávolítása</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>DELETE_LOGS</p></td>
 <td style="border:1px solid black;"><p>0=naplófájlok megőrzése, 1=naplófájlok eltávolítása (a /u kapcsolóval használva)</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>CREATE_DATABASE</p></td>
 <td style="border:1px solid black;"><p>0=a jelenlegi adatbázis használata, 1=adatbázis létrehozása</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>PROGRESS_WINDOW_HANDLE</p></td>
 <td style="border:1px solid black;"><p>A Windows Installer állapotüzeneteinek visszaadására szolgáló ablakleíró</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>MU_ROLLUP</p></td>
 <td style="border:1px solid black;"><p>1=részvétel a Microsoft Update szolgáltatásainak javítását célzó programban, 0=a a Microsoft Update szolgáltatásainak javítását célzó programban való részvétel mellőzése</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>FRONTEND_SETUP</p></td>
 <td style="border:1px solid black;"><p>1=ne írja a tartalom helyét az adatbázisba, 0=írja be a tartalom helyét az adatbázisba (hálózati terheléselosztáshoz)</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 ### Példa
@@ -440,16 +440,16 @@ A táblázat a WSUS 3.0 SP2 parancssori tulajdonságait tartalmazza.
 WSUSSetup.exe /q DEFAULT\_WEBSITE=0 (telepítés csendes üzemmódban a 8530-as porton) WSUSSetup.exe /q /u (a WSUS eltávolítása)  
 ```
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="100%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><img src="images/Dd939886.Important(WS.10).gif" />Fontos</th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><img src="images/Dd939886.Important(WS.10).gif" />Fontos</th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;">Ha csendes üzemmódban (/q) telepíti a WSUS 3.0 SP2 szolgáltatást, és a gépre nincs telepítve minden előfeltétel, a telepítő létrehoz egy WSUSPreReqCheck.xml nevű fájlt, amelyet a %TEMP% könyvtárban helyez el.
 <p></p></td>

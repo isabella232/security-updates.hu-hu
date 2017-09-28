@@ -66,7 +66,7 @@ Egyetlen RMS kiszolgáló bevezetéséhez a következő feladatlista használhat
 <tr class="odd">
 <td style="border:1px solid black;"><p>Ismerkedjen meg az alapfogalmakkal és a tervezéssel kapcsolatos tudnivalókkal.</p></td>
 <td style="border:1px solid black;"><p>„Felkészülés az RMS bevezetésére” témakör, <a href="http://go.microsoft.com/fwlink/?linkid=42494">RMS rendszer bevezetése</a> rész.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Nézze át a rendszerkövetelményeket, és ellenőrizze, hogy az összes szükséges hardver és szoftver rendelkezésre áll.</p></td>
 <td style="border:1px solid black;"><p>„Az RMS infrastrukturális előfeltételei” témakör, <a href="http://go.microsoft.com/fwlink/?linkid=37537">RMS bevezetésének tervezése</a> rész.</p>
@@ -75,23 +75,23 @@ Egyetlen RMS kiszolgáló bevezetéséhez a következő feladatlista használhat
 <tr class="odd">
 <td style="border:1px solid black;"><p>Alakítsa ki az infrastruktúrát, teremtse meg a hardveres és szoftveres előfeltételeket, hozza létre a felügyeleti fiókokat, illetve igény szerint az SMS- vagy a Csoportházirend-támogatást.</p></td>
 <td style="border:1px solid black;"><p>„Felkészülés az RMS bevezetésére” témakör, <a href="http://go.microsoft.com/fwlink/?linkid=42494">RMS rendszer bevezetése</a> rész.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Telepítse a kiszolgálóra az RMS szolgáltatást, és hajtsa végre konfigurálását.</p></td>
 <td style="border:1px solid black;"><p>„A tanúsítási és a licencelési szolgáltatás beállítása az első kiszolgálón” témakör, <a href="http://go.microsoft.com/fwlink/?linkid=42494">RMS rendszer bevezetése</a> rész.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Tesztelje a bevezetett rendszert.</p></td>
 <td style="border:1px solid black;"><p>„Tesztkörnyezet kialakítása” témakör, <a href="http://go.microsoft.com/fwlink/?linkid=42494">RMS rendszer bevezetése</a> rész.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Helyezze üzembe az RMS szolgáltatást az éles környezetben.</p></td>
 <td style="border:1px solid black;"><p>„Az RMS rendszer hatókörének meghatározása” témakör, <a href="http://go.microsoft.com/fwlink/?linkid=42494">RMS rendszer bevezetése</a> rész.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
-<span id="BKMK_12"></span>  
+<span id="BKMK_12"></span>
 Legfelső szintű tanúsítási fürt és licencelési fürt bevezetése  
 --------------------------------------------------------------
   
@@ -100,22 +100,22 @@ A legfelső szintű tanúsítási és licencelési fürt bevezetéséhez a köve
 ###  
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th>Lépés</th>  
-<th>Források</th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Lépés</th>
+<th>Források</th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Ismerkedjen meg az alapfogalmakkal és a tervezéssel kapcsolatos tudnivalókkal.</p></td>
 <td style="border:1px solid black;"><p>„Felkészülés az RMS bevezetésére” témakör, <a href="http://go.microsoft.com/fwlink/?linkid=42494">RMS rendszer bevezetése</a> rész.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Nézze át a rendszerkövetelményeket, és ellenőrizze, hogy az összes szükséges hardver és szoftver rendelkezésre áll.</p></td>
 <td style="border:1px solid black;"><p>„Az RMS infrastrukturális előfeltételei” témakör, <a href="http://go.microsoft.com/fwlink/?linkid=37537">RMS bevezetésének tervezése</a> rész.</p>
@@ -124,11 +124,11 @@ A legfelső szintű tanúsítási és licencelési fürt bevezetéséhez a köve
 <tr class="odd">
 <td style="border:1px solid black;"><p>A bevezetési terv végiggondolásával döntsön a topológiáról és a telepítendő összetevőkről.</p></td>
 <td style="border:1px solid black;"><p>„Az RMS topológiájának meghatározása” témakör, <a href="http://go.microsoft.com/fwlink/?linkid=37537">RMS bevezetésének tervezése</a> rész.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Alakítsa ki az infrastruktúrát, teremtse meg a hardveres és szoftveres előfeltételeket, hozza létre a felügyeleti fiókokat, illetve igény szerint az SMS- vagy a Csoportházirend-támogatást.</p></td>
 <td style="border:1px solid black;"><p>„Felkészülés az RMS bevezetésére” témakör, <a href="http://go.microsoft.com/fwlink/?linkid=42494">RMS rendszer bevezetése</a> rész.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Telepítse és konfigurálja az RMS szolgáltatást a legfelső szintű tanúsítási fürtbe tartozó kiszolgálókon.</p></td>
 <td style="border:1px solid black;"><p>„A tanúsítási és a licencelési szolgáltatás beállítása az első kiszolgálón” témakör, <a href="http://go.microsoft.com/fwlink/?linkid=42494">RMS rendszer bevezetése</a> rész.</p>
@@ -142,19 +142,19 @@ A legfelső szintű tanúsítási és licencelési fürt bevezetéséhez a köve
 <tr class="odd">
 <td style="border:1px solid black;"><p>Állítsa be a terheléselosztást.</p></td>
 <td style="border:1px solid black;"><p>„Az alapvető infrastruktúra kiterjesztése a fürtözés támogatására” témakör, <a href="http://go.microsoft.com/fwlink/?linkid=42494">RMS rendszer bevezetése</a> rész.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Tesztelje a bevezetett rendszert.</p></td>
 <td style="border:1px solid black;"><p>„Tesztkörnyezet kialakítása” témakör, <a href="http://go.microsoft.com/fwlink/?linkid=42494">RMS rendszer bevezetése</a> rész.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Helyezze üzembe az RMS szolgáltatást az éles környezetben.</p></td>
 <td style="border:1px solid black;"><p>„Az RMS rendszer hatókörének meghatározása” témakör, <a href="http://go.microsoft.com/fwlink/?linkid=42494">RMS rendszer bevezetése</a> rész.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
-<span id="BKMK_13"></span>  
+<span id="BKMK_13"></span>
 Az RMS bevezetése több erdőben  
 ------------------------------
   
@@ -163,34 +163,34 @@ Az RMS több erdőben való bevezetéséhez a következő feladatlista használh
 ###  
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th>Lépés</th>  
-<th>Források</th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Lépés</th>
+<th>Források</th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Ismerkedjen meg az alapfogalmakkal és a tervezéssel kapcsolatos tudnivalókkal.</p></td>
 <td style="border:1px solid black;"><p>„Felkészülés az RMS bevezetésére” témakör, <a href="http://go.microsoft.com/fwlink/?linkid=42494">RMS rendszer bevezetése</a> rész.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>A bizalmi modell alapján állítsa be a szükséges engedélyeket.</p></td>
 <td style="border:1px solid black;"><p>„Az RMS bevezetése több erdőben” témakör, <a href="http://go.microsoft.com/fwlink/?linkid=42494">RMS rendszer bevezetése</a> rész.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Állítsa be az erdők megfelelő Active Directory-attribútumait.</p></td>
 <td style="border:1px solid black;"><p>„Az RMS bevezetése több erdőben” témakör, <a href="http://go.microsoft.com/fwlink/?linkid=42494">RMS rendszer bevezetése</a> rész.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
-<span id="BKMK_14"></span>  
+<span id="BKMK_14"></span>
 Az RMS felügyeleti feladatlistái  
 --------------------------------
   
@@ -203,7 +203,7 @@ Ez a szakasz a következő felügyeleti műveletekhez kínál feladatlistát:
   
 Az RMS kezeléséről a további tudnivalókat lásd a dokumentumgyűjtemény [RMS kiszolgáló működtetése](http://go.microsoft.com/fwlink/?linkid=42495) című részében.
   
-<span id="BKMK_15"></span>  
+<span id="BKMK_15"></span>
 Jogmegadási sablon alkalmazása  
 ------------------------------
   
@@ -212,26 +212,26 @@ Jogmegadási sablon megvalósításához a következő feladatlista használhat�
 ###  
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th>Lépés</th>  
-<th>Források</th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Lépés</th>
+<th>Források</th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Ismerkedjen meg az idevágó fogalmakkal.</p></td>
 <td style="border:1px solid black;"><p>„Jogmegadási sablonok” témakör, <a href="http://go.microsoft.com/fwlink/?linkid=42496">RMS műszaki források</a> rész.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Adja meg a jogmegadási sablon helyét.</p></td>
 <td style="border:1px solid black;"><p>„A jogmegadási sablonok helyének megadása” témakör, <a href="http://go.microsoft.com/fwlink/?linkid=42495">RMS kiszolgáló működtetése</a> rész.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Hozza létre a jogmegadási sablont.</p></td>
 <td style="border:1px solid black;"><p>„A jogmegadási sablonok létrehozása és módosítása” témakör, <a href="http://go.microsoft.com/fwlink/?linkid=42495">RMS kiszolgáló működtetése</a> rész.</p>
@@ -240,11 +240,11 @@ Jogmegadási sablon megvalósításához a következő feladatlista használhat�
 <tr class="even">
 <td style="border:1px solid black;"><p>Juttassa el a felhasználókhoz a jogmegadási sablont.</p></td>
 <td style="border:1px solid black;"><p>„Jogmegadási sablonok terjesztése” témakör, <a href="http://go.microsoft.com/fwlink/?linkid=42495">RMS kiszolgáló működtetése</a> rész.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
-<span id="BKMK_16"></span>  
+<span id="BKMK_16"></span>
 Új RMS ügyfél bevezetése  
 ------------------------
   
@@ -253,18 +253,18 @@ Az RMS ügyfél új verziójának bevezetéséhez a következő feladatlista has
 ###  
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th>Lépés</th>  
-<th>Források</th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Lépés</th>
+<th>Források</th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Ismerkedjen meg az idevágó fogalmakkal.</p></td>
 <td style="border:1px solid black;"><p>„Az ügyfél terjesztésének megtervezése” témakör, <a href="http://go.microsoft.com/fwlink/?linkid=42494">RMS rendszer bevezetése</a> rész.</p>
@@ -273,11 +273,11 @@ Az RMS ügyfél új verziójának bevezetéséhez a következő feladatlista has
 <tr class="even">
 <td style="border:1px solid black;"><p>A régi kulcstároló-verzió kizárásával tegye kötelezővé minden ügyfélnek, hogy a legújabb ügyfélverzióra frissítsen.</p></td>
 <td style="border:1px solid black;"><p>„Kulcstároló-verziók kizárása” témakör, <a href="http://go.microsoft.com/fwlink/?linkid=42495">RMS kiszolgáló működtetése</a> rész.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
-<span id="BKMK_17"></span>  
+<span id="BKMK_17"></span>
 Megbízható felhasználói tartomány felvétele  
 -------------------------------------------
   
@@ -286,18 +286,18 @@ Megbízható felhasználói tartomány felvételéhez a következő feladatlista
 ###  
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th>Lépés</th>  
-<th>Források</th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Lépés</th>
+<th>Források</th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Ismerkedjen meg az idevágó fogalmakkal.</p></td>
 <td style="border:1px solid black;"><p>„Megbízható felhasználói tartományok” témakör, <a href="http://go.microsoft.com/fwlink/?linkid=42496">RMS műszaki források</a> rész.</p>
@@ -306,11 +306,11 @@ Megbízható felhasználói tartomány felvételéhez a következő feladatlista
 <tr class="even">
 <td style="border:1px solid black;"><p>Szerezze be a hozzáadni kívánt felhasználói tartomány kiszolgálói licencelői tanúsítványát. (A megbízhatónak minősítendő telepítés rendszergazdájától kérheti a fájlt.) Vegye fel a felhasználói tartományt a telepítésbe.</p></td>
 <td style="border:1px solid black;"><p>„Megbízható felhasználói tartomány hozzáadása” témakör, <a href="http://go.microsoft.com/fwlink/?linkid=42495">RMS kiszolgáló működtetése</a> rész.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
-<span id="BKMK_18"></span>  
+<span id="BKMK_18"></span>
 Megbízható közzétételi tartomány felvétele  
 ------------------------------------------
   
@@ -319,18 +319,18 @@ Megbízható közzétételi tartomány felvételéhez a következő feladatlista
 ###  
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th>Lépés</th>  
-<th>Források</th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Lépés</th>
+<th>Források</th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Ismerkedjen meg az idevágó fogalmakkal.</p></td>
 <td style="border:1px solid black;"><p>„Megbízható közzétételi tartományok” témakör, <a href="http://go.microsoft.com/fwlink/?linkid=42496">RMS műszaki források</a> rész.</p>
@@ -339,6 +339,6 @@ Megbízható közzétételi tartomány felvételéhez a következő feladatlista
 <tr class="even">
 <td style="border:1px solid black;"><p>Szerezze meg a hozzáadni kívánt közzétételi tartomány titkosított licencelői tanúsítványát és személyes kulcsát, majd vegye fel a telepítésbe a közzétételi tartományt.</p></td>
 <td style="border:1px solid black;"><p>„Megbízható közzétételi tartomány hozzáadása” témakör, <a href="http://go.microsoft.com/fwlink/?linkid=42495">RMS kiszolgáló működtetése</a> rész.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>

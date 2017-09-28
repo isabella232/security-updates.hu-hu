@@ -44,98 +44,98 @@ Az alábbi táblázat az IIS szolgáltatásban létrejövő virtuális könyvtá
 <td style="border:1px solid black;"><p>_wmcs</p></td>
 <td style="border:1px solid black;"><p>Ez az RMS-fürt felügyeleti virtuális könyvtára.</p></td>
 <td style="border:1px solid black;"><p>Nincs ilyen.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Certification</p></td>
 <td style="border:1px solid black;"><p>Ez a virtuális könyvtár az RMS tanúsítási műveleteihez szükséges szolgáltatásokat tartalmazza.</p></td>
 <td style="border:1px solid black;"><p>Nincs ilyen.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p>Aktiválási proxy</p></td>
 <td style="border:1px solid black;"><p>Activation.asmx</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p>Fióktanúsítás</p></td>
 <td style="border:1px solid black;"><p>Certification.asmx</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p>Előtanúsítás</p></td>
 <td style="border:1px solid black;"><p>Precertification.asmx</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p>Szolgáltatáslokátor</p></td>
 <td style="border:1px solid black;"><p>ServiceLocator.asmx</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p>Kiszolgáló</p></td>
 <td style="border:1px solid black;"><p>Server.asmx</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p>Kiszolgálótanúsítás</p></td>
 <td style="border:1px solid black;"><p>ServerCertification.asmx</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p>Mobil eszköz tanúsítása</p></td>
 <td style="border:1px solid black;"><p>MobileDeviceCertfication.asmx</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p>Igénylés</p></td>
 <td style="border:1px solid black;"><p>SubEnrollService.asmx</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Licencing</p></td>
 <td style="border:1px solid black;"><p>Ez a virtuális könyvtár az RMS licencelési műveleteihez szükséges szolgáltatásokat tartalmazza.</p></td>
 <td style="border:1px solid black;"><p>Nincs ilyen.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p>Licencelés</p></td>
 <td style="border:1px solid black;"><p>License.asmx</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p>Közzététel</p></td>
 <td style="border:1px solid black;"><p>Publish.asmx</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p>Kiszolgáló</p></td>
 <td style="border:1px solid black;"><p>Server.asmx</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p>Szolgáltatáslokátor</p></td>
 <td style="border:1px solid black;"><p>ServiceLocator.asmx</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Admin</p></td>
 <td style="border:1px solid black;"><p>Ez a virtuális könyvtár az RMS felügyeletéhez szükséges szolgáltatásokat tartalmazza.</p></td>
 <td style="border:1px solid black;"><p>Nincs ilyen.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p>Felügyelet</p></td>
 <td style="border:1px solid black;"><p>AdminSvc.asmx</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>A DrmRemote</p></td>
 <td style="border:1px solid black;"><p>A .NET Remoting felület</p></td>
 <td style="border:1px solid black;"><p>Nincs ilyen.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>DirectoryServices</p></td>
 <td style="border:1px solid black;"><p>Ez a DrmRemote alkönyvtára</p></td>
 <td style="border:1px solid black;"><p>Nincs ilyen.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 | ![](images/Cc747649.note(WS.10).gif)Megjegyzés:                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |  
