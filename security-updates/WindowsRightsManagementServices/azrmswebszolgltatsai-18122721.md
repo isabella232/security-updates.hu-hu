@@ -22,7 +22,7 @@ A következő táblázat az RMS webszolgáltatásait ismerteti.
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -36,36 +36,36 @@ A következő táblázat az RMS webszolgáltatásait ismerteti.
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Aligénylés</p></td>
-<td style="border:1px solid black;"><p>Alsóbb szintű kiszolgálói licencelői tanúsítványokat nyújt a csak licencelésre szolgáló fürtökön lévő kiszolgálóknak. Ezek a tanúsítványok közzétételi és használati licencek kiállítását teszik lehetővé a csak licencelésre szolgáló fürt számára.</p></td>
+<td style="border:1px solid black;">Aligénylés</td>
+<td style="border:1px solid black;">Alsóbb szintű kiszolgálói licencelői tanúsítványokat nyújt a csak licencelésre szolgáló fürtökön lévő kiszolgálóknak. Ezek a tanúsítványok közzétételi és használati licencek kiállítását teszik lehetővé a csak licencelésre szolgáló fürt számára.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Fióktanúsítás</p></td>
-<td style="border:1px solid black;"><p>Tartalomvédelmi fióktanúsítványokat állít ki a felhasználóknak. Ezekre a tanúsítványokra van szükségük a felhasználóknak, hogy védelemmel ellátott tartalom elkészítésére és használatára alkalmas közzétételi és használati licenceket szerezhessenek.</p></td>
+<td style="border:1px solid black;">Fióktanúsítás</td>
+<td style="border:1px solid black;">Tartalomvédelmi fióktanúsítványokat állít ki a felhasználóknak. Ezekre a tanúsítványokra van szükségük a felhasználóknak, hogy védelemmel ellátott tartalom elkészítésére és használatára alkalmas közzétételi és használati licenceket szerezhessenek.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Aktiválási proxy</p></td>
-<td style="border:1px solid black;"><p>Ez a szolgáltatás az RMS 1.0-s verziójú ügyfélszoftverrel való kompatibilitás miatt maradt meg. Továbbítja a gépaktiválási kérelmeket a Microsoft aktiválási szolgáltatásának, és visszaküldi az RMS 1.0-s verziójú ügyfeleknek a kulcstárolókat és az RMS géptanúsítványokat. Ezt a szolgáltatást nem használják a Service Pack 1 (SP1) vagy újabb javítócsomaggal bővített RMS-ügyfelek.</p></td>
+<td style="border:1px solid black;">Aktiválási proxy</td>
+<td style="border:1px solid black;">Ez a szolgáltatás az RMS 1.0-s verziójú ügyfélszoftverrel való kompatibilitás miatt maradt meg. Továbbítja a gépaktiválási kérelmeket a Microsoft aktiválási szolgáltatásának, és visszaküldi az RMS 1.0-s verziójú ügyfeleknek a kulcstárolókat és az RMS géptanúsítványokat. Ezt a szolgáltatást nem használják a Service Pack 1 (SP1) vagy újabb javítócsomaggal bővített RMS-ügyfelek.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Közzététel</p></td>
-<td style="border:1px solid black;"><p>Közzétételi licenceket állít ki, amelyek alapján a szerzők védelemmel ellátott tartalmat hozhatnak létre és terjeszthetnek. Ez a szolgáltatás állítja ki az ügyfél-licencelői tanúsítványokat is: így a felhasználók úgy tehetnek közzé védelemmel ellátott tartalmat, hogy kapcsolódnának az RMS belső hálózatához.</p></td>
+<td style="border:1px solid black;">Közzététel</td>
+<td style="border:1px solid black;">Közzétételi licenceket állít ki, amelyek alapján a szerzők védelemmel ellátott tartalmat hozhatnak létre és terjeszthetnek. Ez a szolgáltatás állítja ki az ügyfél-licencelői tanúsítványokat is: így a felhasználók úgy tehetnek közzé védelemmel ellátott tartalmat, hogy kapcsolódnának az RMS belső hálózatához.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Licencelés</p></td>
-<td style="border:1px solid black;"><p>Használati licenceket állít ki, amelyek alapján a felhasználók védelemmel ellátott tartalmat használhatnak.</p></td>
+<td style="border:1px solid black;">Licencelés</td>
+<td style="border:1px solid black;">Használati licenceket állít ki, amelyek alapján a felhasználók védelemmel ellátott tartalmat használhatnak.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Felügyelet</p></td>
-<td style="border:1px solid black;"><p>Lehetővé teszi a rendszergazdának az RMS kezelését.</p></td>
+<td style="border:1px solid black;">Felügyelet</td>
+<td style="border:1px solid black;">Lehetővé teszi a rendszergazdának az RMS kezelését.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>DrmRemote</p></td>
-<td style="border:1px solid black;"><p>A .NET Remoting elérhetővé tételével lehetővé teszi a webszolgáltatásoknak az egymás közötti és az RMS rendszer más összetevőivel való kommunikációt.</p></td>
+<td style="border:1px solid black;">DrmRemote</td>
+<td style="border:1px solid black;">A .NET Remoting elérhetővé tételével lehetővé teszi a webszolgáltatásoknak az egymás közötti és az RMS rendszer más összetevőivel való kommunikációt.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Leszerelés</p></td>
-<td style="border:1px solid black;"><p>Eltávolítja a-védelemmel ellátott tartalom védelmét, és visszaküldi a tartalmat az ügyfélnek. A szolgáltatás települ az RMS telepítésekor, de amíg a rendszergazda nem engedélyezi, nem felel meg neki virtuális gyökér az IIS szolgáltatásban. A szolgáltatás engedélyezése az összes többi szolgáltatás letiltását eredményezi.</p></td>
+<td style="border:1px solid black;">Leszerelés</td>
+<td style="border:1px solid black;">Eltávolítja a-védelemmel ellátott tartalom védelmét, és visszaküldi a tartalmat az ügyfélnek. A szolgáltatás települ az RMS telepítésekor, de amíg a rendszergazda nem engedélyezi, nem felel meg neki virtuális gyökér az IIS szolgáltatásban. A szolgáltatás engedélyezése az összes többi szolgáltatás letiltását eredményezi.</td>
 </tr>
 </tbody>
 </table>

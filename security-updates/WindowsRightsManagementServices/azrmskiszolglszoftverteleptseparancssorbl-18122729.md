@@ -27,7 +27,7 @@ A következő táblázat a parancsok szintaxisát ismerteti.
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -41,24 +41,24 @@ A következő táblázat a parancsok szintaxisát ismerteti.
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>/I MSDrmClient.msi</strong> vagy <strong>/I RMClientBackCompat.msi</strong></p></td>
-<td style="border:1px solid black;"><p>Kötelező. A telepítendő terméket adja meg.</p></td>
+<td style="border:1px solid black;"><strong>/I MSDrmClient.msi</strong> vagy <strong>/I RMClientBackCompat.msi</strong></td>
+<td style="border:1px solid black;">Kötelező. A telepítendő terméket adja meg.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><strong>/qn</strong></p></td>
-<td style="border:1px solid black;"><p>Nem kötelező. Csendes, felhasználói közbeavatkozás nélküli telepítést ír elő.</p></td>
+<td style="border:1px solid black;"><strong>/qn</strong></td>
+<td style="border:1px solid black;">Nem kötelező. Csendes, felhasználói közbeavatkozás nélküli telepítést ír elő.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>/lei</strong> <em>naplófájl.log</em></p></td>
-<td style="border:1px solid black;"><p>Nem kötelező. A naplófájlt adja meg, amelybe a telepítő bejegyzi a hiba- és az állapotüzeneteket.</p></td>
+<td style="border:1px solid black;"><strong>/lei</strong> <em>naplófájl.log</em></td>
+<td style="border:1px solid black;">Nem kötelező. A naplófájlt adja meg, amelybe a telepítő bejegyzi a hiba- és az állapotüzeneteket.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><strong>DISPLAYPAGE=&quot;NO&quot;</strong></p></td>
-<td style="border:1px solid black;"><p>Nem kötelező. Azt adja meg, hogy a telepítés után ne jelenjen meg a <strong>Globális felügyelet</strong> oldal.</p></td>
+<td style="border:1px solid black;"><strong>DISPLAYPAGE=&quot;NO&quot;</strong></td>
+<td style="border:1px solid black;">Nem kötelező. Azt adja meg, hogy a telepítés után ne jelenjen meg a <strong>Globális felügyelet</strong> oldal.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>TARGETDIR=c:\</strong><em>telepítés_helye</em></p></td>
-<td style="border:1px solid black;"><p>Nem kötelező. A Service Pack 2 szervizcsomaggal kiegészített RMS (RMS SP2) telepítési helyét adja meg. Ha nincs megadva a hely, a program az alapértelmezett telepítési helyet használja.</p></td>
+<td style="border:1px solid black;"><strong>TARGETDIR=c:\</strong><em>telepítés_helye</em></td>
+<td style="border:1px solid black;">Nem kötelező. A Service Pack 2 szervizcsomaggal kiegészített RMS (RMS SP2) telepítési helyét adja meg. Ha nincs megadva a hely, a program az alapértelmezett telepítési helyet használja.</td>
 </tr>
 </tbody>
 </table>

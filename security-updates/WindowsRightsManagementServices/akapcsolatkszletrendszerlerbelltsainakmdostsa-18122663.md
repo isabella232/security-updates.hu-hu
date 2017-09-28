@@ -23,7 +23,7 @@ Az alábbi táblázat azokat a bejegyzéseket tartalmazza, amelyeknek létrehoz�
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -43,94 +43,94 @@ Az alábbi táblázat azokat a bejegyzéseket tartalmazza, amelyeknek létrehoz�
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>GC</p></td>
-<td style="border:1px solid black;"><p>Karaktersorozat</p></td>
-<td style="border:1px solid black;"><p>1. név, ..., n. név</p></td>
-<td style="border:1px solid black;"><p>A globális katalógusokat (DNS-nevükön) felsoroló, vesszővel tagolt lista. Az RMS csak azokat a globális katalógusokat használja, amelyek szerepelnek ebben a rendszerleíró kulcsban.</p></td>
-<td style="border:1px solid black;"><p>Ha azt szeretné, hogy az RMS ne hozzon létre lekérdezéslistát, ezzel a beállítással adja meg, hogy mely globális katalógusokat használja.</p></td>
+<td style="border:1px solid black;">GC</td>
+<td style="border:1px solid black;">Karaktersorozat</td>
+<td style="border:1px solid black;">1. név, ..., n. név</td>
+<td style="border:1px solid black;">A globális katalógusokat (DNS-nevükön) felsoroló, vesszővel tagolt lista. Az RMS csak azokat a globális katalógusokat használja, amelyek szerepelnek ebben a rendszerleíró kulcsban.</td>
+<td style="border:1px solid black;">Ha azt szeretné, hogy az RMS ne hozzon létre lekérdezéslistát, ezzel a beállítással adja meg, hogy mely globális katalógusokat használja.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>MinGC</p></td>
-<td style="border:1px solid black;"><p>DWORD</p></td>
-<td style="border:1px solid black;"><p>1</p></td>
-<td style="border:1px solid black;"><p>Legalább ennyi globális katalógusnak elérhetőnek kell lennie ahhoz, hogy az RMS elindulhasson.</p></td>
+<td style="border:1px solid black;">MinGC</td>
+<td style="border:1px solid black;">DWORD</td>
+<td style="border:1px solid black;">1</td>
+<td style="border:1px solid black;">Legalább ennyi globális katalógusnak elérhetőnek kell lennie ahhoz, hogy az RMS elindulhasson.</td>
 <td style="border:1px solid black;"></td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>MaxGC</p></td>
-<td style="border:1px solid black;"><p>DWORD</p></td>
-<td style="border:1px solid black;"><p>15</p></td>
-<td style="border:1px solid black;"><p>A topológiaészlelési algoritmus legfeljebb ennyi globális katalógust vesz fel a lekérdezéslistába.</p></td>
+<td style="border:1px solid black;">MaxGC</td>
+<td style="border:1px solid black;">DWORD</td>
+<td style="border:1px solid black;">15</td>
+<td style="border:1px solid black;">A topológiaészlelési algoritmus legfeljebb ennyi globális katalógust vesz fel a lekérdezéslistába.</td>
 <td style="border:1px solid black;"></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>ThreshHoldAlive</p></td>
-<td style="border:1px solid black;"><p>DWORD</p></td>
-<td style="border:1px solid black;"><p>1</p></td>
-<td style="border:1px solid black;"><p>Legalább ennyi kapcsolatnak válaszképesnek kell lennie ahhoz, hogy a DiscoveryServices elkezdje keresni a lekérdezéslistába felvehető globális katalógusokat azért, hogy az RMS fogadhassa a kérelmeket.</p></td>
+<td style="border:1px solid black;">ThreshHoldAlive</td>
+<td style="border:1px solid black;">DWORD</td>
+<td style="border:1px solid black;">1</td>
+<td style="border:1px solid black;">Legalább ennyi kapcsolatnak válaszképesnek kell lennie ahhoz, hogy a DiscoveryServices elkezdje keresni a lekérdezéslistába felvehető globális katalógusokat azért, hogy az RMS fogadhassa a kérelmeket.</td>
 <td style="border:1px solid black;"></td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>RetryDown</p></td>
-<td style="border:1px solid black;"><p>DWORD</p></td>
-<td style="border:1px solid black;"><p>5</p></td>
-<td style="border:1px solid black;"><p>Ennyiszer próbálja meg újra elérni a szolgáltatás a nem működő kapcsolatot, mielőtt válaszképtelennek minősítené.</p></td>
+<td style="border:1px solid black;">RetryDown</td>
+<td style="border:1px solid black;">DWORD</td>
+<td style="border:1px solid black;">5</td>
+<td style="border:1px solid black;">Ennyiszer próbálja meg újra elérni a szolgáltatás a nem működő kapcsolatot, mielőtt válaszképtelennek minősítené.</td>
 <td style="border:1px solid black;"></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>TimeRetryDown</p></td>
-<td style="border:1px solid black;"><p>DWORD</p></td>
-<td style="border:1px solid black;"><p>300</p></td>
-<td style="border:1px solid black;"><p>Ennyi másodperc várakozás után próbálkozik meg ismét a szolgáltatás a nem működő kapcsolatok elérésével.</p></td>
-<td style="border:1px solid black;"><p>Ennek a beállításnak a módosítására csak kivételes körülmények között lehet szükség.</p></td>
+<td style="border:1px solid black;">TimeRetryDown</td>
+<td style="border:1px solid black;">DWORD</td>
+<td style="border:1px solid black;">300</td>
+<td style="border:1px solid black;">Ennyi másodperc várakozás után próbálkozik meg ismét a szolgáltatás a nem működő kapcsolatok elérésével.</td>
+<td style="border:1px solid black;">Ennek a beállításnak a módosítására csak kivételes körülmények között lehet szükség.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>TimeRetrySlow</p></td>
-<td style="border:1px solid black;"><p>DWORD</p></td>
-<td style="border:1px solid black;"><p>30</p></td>
-<td style="border:1px solid black;"><p>Ennyi másodperc várakozás után próbálkozik meg ismét a szolgáltatás a lassú kapcsolatok elérésével.</p></td>
-<td style="border:1px solid black;"><p>Ennek a beállításnak a módosítására csak kivételes körülmények között lehet szükség.</p></td>
+<td style="border:1px solid black;">TimeRetrySlow</td>
+<td style="border:1px solid black;">DWORD</td>
+<td style="border:1px solid black;">30</td>
+<td style="border:1px solid black;">Ennyi másodperc várakozás után próbálkozik meg ismét a szolgáltatás a lassú kapcsolatok elérésével.</td>
+<td style="border:1px solid black;">Ennek a beállításnak a módosítására csak kivételes körülmények között lehet szükség.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>WtRoundRobin</p></td>
-<td style="border:1px solid black;"><p>DWORD</p></td>
-<td style="border:1px solid black;"><p>1</p></td>
-<td style="border:1px solid black;"><p>A ciklikus multiplexelés súlya a terheléselosztás szempontjából.</p></td>
-<td style="border:1px solid black;"><p>A ciklikus multiplexelés viszonylagos fontossága a terheléselosztáson belül. Az 1 a legkisebb érték.</p></td>
+<td style="border:1px solid black;">WtRoundRobin</td>
+<td style="border:1px solid black;">DWORD</td>
+<td style="border:1px solid black;">1</td>
+<td style="border:1px solid black;">A ciklikus multiplexelés súlya a terheléselosztás szempontjából.</td>
+<td style="border:1px solid black;">A ciklikus multiplexelés viszonylagos fontossága a terheléselosztáson belül. Az 1 a legkisebb érték.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>WtThreadCount</p></td>
-<td style="border:1px solid black;"><p>DWORD</p></td>
-<td style="border:1px solid black;"><p>100</p></td>
-<td style="border:1px solid black;"><p>A kapcsolatonkénti szálak számának súlya a terheléselosztás szempontjából.</p></td>
-<td style="border:1px solid black;"><p>A szálak kis számának viszonylagos fontossága.</p></td>
+<td style="border:1px solid black;">WtThreadCount</td>
+<td style="border:1px solid black;">DWORD</td>
+<td style="border:1px solid black;">100</td>
+<td style="border:1px solid black;">A kapcsolatonkénti szálak számának súlya a terheléselosztás szempontjából.</td>
+<td style="border:1px solid black;">A szálak kis számának viszonylagos fontossága.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>WtSlow</p></td>
-<td style="border:1px solid black;"><p>DWORD</p></td>
-<td style="border:1px solid black;"><p>1,000</p></td>
-<td style="border:1px solid black;"><p>A lassú kapcsolat súlya a terheléselosztás szempontjából.</p></td>
-<td style="border:1px solid black;"><p>Annak a viszonylagos súlya, hogy a kapcsolat nem lassú.</p></td>
+<td style="border:1px solid black;">WtSlow</td>
+<td style="border:1px solid black;">DWORD</td>
+<td style="border:1px solid black;">1,000</td>
+<td style="border:1px solid black;">A lassú kapcsolat súlya a terheléselosztás szempontjából.</td>
+<td style="border:1px solid black;">Annak a viszonylagos súlya, hogy a kapcsolat nem lassú.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>TimeOutForGC</p></td>
-<td style="border:1px solid black;"><p>DWORD</p></td>
-<td style="border:1px solid black;"><p>5</p></td>
-<td style="border:1px solid black;"><p>Ennyi másodpercig vár a szolgáltatás, mielőtt sikertelennek minősítené az egy globális katalógusnak a lekérdezéslistába való felvételére irányuló kérelmet.</p></td>
+<td style="border:1px solid black;">TimeOutForGC</td>
+<td style="border:1px solid black;">DWORD</td>
+<td style="border:1px solid black;">5</td>
+<td style="border:1px solid black;">Ennyi másodpercig vár a szolgáltatás, mielőtt sikertelennek minősítené az egy globális katalógusnak a lekérdezéslistába való felvételére irányuló kérelmet.</td>
 <td style="border:1px solid black;"></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>LdapTimeOut</p></td>
-<td style="border:1px solid black;"><p>DWORD</p></td>
-<td style="border:1px solid black;"><p>5</p></td>
-<td style="border:1px solid black;"><p>Ennyi másodpercig vár a rendszer az LDAP API-hívások időtúllépése előtt.</p></td>
+<td style="border:1px solid black;">LdapTimeOut</td>
+<td style="border:1px solid black;">DWORD</td>
+<td style="border:1px solid black;">5</td>
+<td style="border:1px solid black;">Ennyi másodpercig vár a rendszer az LDAP API-hívások időtúllépése előtt.</td>
 <td style="border:1px solid black;"></td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>TopDownExpansionLDAPTimeOut</p></td>
-<td style="border:1px solid black;"><p>DWORD</p></td>
-<td style="border:1px solid black;"><p>40</p></td>
-<td style="border:1px solid black;"><p>Ennyi másodpercig vár a rendszer a felülről lefelé irányuló LDAP-behelyettesítési lekérdezések időtúllépése előtt.</p></td>
+<td style="border:1px solid black;">TopDownExpansionLDAPTimeOut</td>
+<td style="border:1px solid black;">DWORD</td>
+<td style="border:1px solid black;">40</td>
+<td style="border:1px solid black;">Ennyi másodpercig vár a rendszer a felülről lefelé irányuló LDAP-behelyettesítési lekérdezések időtúllépése előtt.</td>
 <td style="border:1px solid black;"></td>
 </tr>
 </tbody>

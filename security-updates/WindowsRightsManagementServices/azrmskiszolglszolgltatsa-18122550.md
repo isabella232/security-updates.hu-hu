@@ -17,7 +17,7 @@ A szolgáltatás alapértelmezett hozzáférési szabálygyűjteményét a köve
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -31,20 +31,20 @@ A szolgáltatás alapértelmezett hozzáférési szabálygyűjteményét a köve
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Rendszergazdák</p></td>
-<td style="border:1px solid black;"><p>Teljes hozzáférés</p></td>
+<td style="border:1px solid black;">Rendszergazdák</td>
+<td style="border:1px solid black;">Teljes hozzáférés</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>RMS szolgáltatáscsoport</p></td>
-<td style="border:1px solid black;"><p>Olvasás és végrehajtás</p></td>
+<td style="border:1px solid black;">RMS szolgáltatáscsoport</td>
+<td style="border:1px solid black;">Olvasás és végrehajtás</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>RENDSZER</p></td>
-<td style="border:1px solid black;"><p>Teljes hozzáférés</p></td>
+<td style="border:1px solid black;">RENDSZER</td>
+<td style="border:1px solid black;">Teljes hozzáférés</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Felhasználók</p></td>
-<td style="border:1px solid black;"><p>Olvasás és végrehajtás</p></td>
+<td style="border:1px solid black;">Felhasználók</td>
+<td style="border:1px solid black;">Olvasás és végrehajtás</td>
 </tr>
 </tbody>
 </table>

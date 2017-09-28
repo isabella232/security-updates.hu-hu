@@ -18,7 +18,7 @@ A következő táblázat a számítógépek hardverazonosítóira vonatkozó ada
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -36,22 +36,22 @@ A következő táblázat a számítógépek hardverazonosítóira vonatkozó ada
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>i_MachineId</p></td>
-<td style="border:1px solid black;"><p>int</p></td>
-<td style="border:1px solid black;"><p>IDENTITY (1,1) Nem NULL</p></td>
-<td style="border:1px solid black;"><p>Belső index</p></td>
+<td style="border:1px solid black;">i_MachineId</td>
+<td style="border:1px solid black;">int</td>
+<td style="border:1px solid black;">IDENTITY (1,1) Nem NULL</td>
+<td style="border:1px solid black;">Belső index</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>b_PubKeyHash</p></td>
-<td style="border:1px solid black;"><p>binary(20)</p></td>
-<td style="border:1px solid black;"><p>(20) Nem NULL</p></td>
-<td style="border:1px solid black;"><p>A hardverazonosító kivonata</p></td>
+<td style="border:1px solid black;">b_PubKeyHash</td>
+<td style="border:1px solid black;">binary(20)</td>
+<td style="border:1px solid black;">(20) Nem NULL</td>
+<td style="border:1px solid black;">A hardverazonosító kivonata</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>dt_CreateDate</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>Nem NULL</p></td>
-<td style="border:1px solid black;"><p>A dátum és időpont, amikor a bejegyzés bekerült a táblába</p></td>
+<td style="border:1px solid black;">dt_CreateDate</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">Nem NULL</td>
+<td style="border:1px solid black;">A dátum és időpont, amikor a bejegyzés bekerült a táblába</td>
 </tr>
 </tbody>
 </table>
@@ -63,7 +63,7 @@ A következő táblázat a felhasználók Microsoft® .NET Passport adatairól t
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -81,16 +81,16 @@ A következő táblázat a felhasználók Microsoft® .NET Passport adatairól t
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>i_UserId</p></td>
-<td style="border:1px solid black;"><p>int</p></td>
-<td style="border:1px solid black;"><p>Nem NULL</p></td>
-<td style="border:1px solid black;"><p>Belső index</p></td>
+<td style="border:1px solid black;">i_UserId</td>
+<td style="border:1px solid black;">int</td>
+<td style="border:1px solid black;">Nem NULL</td>
+<td style="border:1px solid black;">Belső index</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>i64_Puid</p></td>
-<td style="border:1px solid black;"><p>bigint</p></td>
-<td style="border:1px solid black;"><p>(50) NULL</p></td>
-<td style="border:1px solid black;"><p>.NET Passport-felhasználóazonosító</p></td>
+<td style="border:1px solid black;">i64_Puid</td>
+<td style="border:1px solid black;">bigint</td>
+<td style="border:1px solid black;">(50) NULL</td>
+<td style="border:1px solid black;">.NET Passport-felhasználóazonosító</td>
 </tr>
 </tbody>
 </table>
@@ -102,7 +102,7 @@ A következő táblázat a tanúsítvánnyal ellátott felhasználók és a hozz
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -120,22 +120,22 @@ A következő táblázat a tanúsítvánnyal ellátott felhasználók és a hozz
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>i_MachineId</p></td>
-<td style="border:1px solid black;"><p>int</p></td>
-<td style="border:1px solid black;"><p>Nem NULL</p></td>
-<td style="border:1px solid black;"><p>Belső index</p></td>
+<td style="border:1px solid black;">i_MachineId</td>
+<td style="border:1px solid black;">int</td>
+<td style="border:1px solid black;">Nem NULL</td>
+<td style="border:1px solid black;">Belső index</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>i_UserId</p></td>
-<td style="border:1px solid black;"><p>int</p></td>
-<td style="border:1px solid black;"><p>Nem NULL</p></td>
-<td style="border:1px solid black;"><p>Belső index</p></td>
+<td style="border:1px solid black;">i_UserId</td>
+<td style="border:1px solid black;">int</td>
+<td style="border:1px solid black;">Nem NULL</td>
+<td style="border:1px solid black;">Belső index</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>dt_CreateDate</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>Nem NULL</p></td>
-<td style="border:1px solid black;"><p>A dátum és időpont, amikor a bejegyzés bekerült a táblába</p></td>
+<td style="border:1px solid black;">dt_CreateDate</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">Nem NULL</td>
+<td style="border:1px solid black;">A dátum és időpont, amikor a bejegyzés bekerült a táblába</td>
 </tr>
 </tbody>
 </table>
@@ -147,7 +147,7 @@ A következő táblázat a felhasználói adatokkal kapcsolatos információkat 
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -165,82 +165,82 @@ A következő táblázat a felhasználói adatokkal kapcsolatos információkat 
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>i_UserId</p></td>
-<td style="border:1px solid black;"><p>int</p></td>
-<td style="border:1px solid black;"><p>IDENTITY (1,1) Nem NULL</p></td>
-<td style="border:1px solid black;"><p>Belső index</p></td>
+<td style="border:1px solid black;">i_UserId</td>
+<td style="border:1px solid black;">int</td>
+<td style="border:1px solid black;">IDENTITY (1,1) Nem NULL</td>
+<td style="border:1px solid black;">Belső index</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>b_KeyData</p></td>
-<td style="border:1px solid black;"><p>varbinary(2000)</p></td>
-<td style="border:1px solid black;"><p>(2000) Nem NULL</p></td>
-<td style="border:1px solid black;"><p>A felhasználó nyilvános és személyes kulcsának titkosított változata</p></td>
+<td style="border:1px solid black;">b_KeyData</td>
+<td style="border:1px solid black;">varbinary(2000)</td>
+<td style="border:1px solid black;">(2000) Nem NULL</td>
+<td style="border:1px solid black;">A felhasználó nyilvános és személyes kulcsának titkosított változata</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>i_KeyDataLength</p></td>
-<td style="border:1px solid black;"><p>int</p></td>
-<td style="border:1px solid black;"><p>Nem NULL</p></td>
-<td style="border:1px solid black;"><p>A felhasználó nyilvános és személyes kulcsa titkosítatlan változatának hossza</p></td>
+<td style="border:1px solid black;">i_KeyDataLength</td>
+<td style="border:1px solid black;">int</td>
+<td style="border:1px solid black;">Nem NULL</td>
+<td style="border:1px solid black;">A felhasználó nyilvános és személyes kulcsa titkosítatlan változatának hossza</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>b_PublicKey</p></td>
-<td style="border:1px solid black;"><p>PublicKey</p></td>
-<td style="border:1px solid black;"><p>Nem NULL</p></td>
-<td style="border:1px solid black;"><p>A felhasználó nyilvános kulcsa</p></td>
+<td style="border:1px solid black;">b_PublicKey</td>
+<td style="border:1px solid black;">PublicKey</td>
+<td style="border:1px solid black;">Nem NULL</td>
+<td style="border:1px solid black;">A felhasználó nyilvános kulcsa</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>i_EncryptionDbId</p></td>
-<td style="border:1px solid black;"><p>int</p></td>
-<td style="border:1px solid black;"><p>Nem NULL</p></td>
-<td style="border:1px solid black;"><p>A nyilvános-személyes kulcspár titkosítására használt licencelői tanúsítványra mutató hivatkozás</p></td>
+<td style="border:1px solid black;">i_EncryptionDbId</td>
+<td style="border:1px solid black;">int</td>
+<td style="border:1px solid black;">Nem NULL</td>
+<td style="border:1px solid black;">A nyilvános-személyes kulcspár titkosítására használt licencelői tanúsítványra mutató hivatkozás</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>s_Certificate</p></td>
-<td style="border:1px solid black;"><p>ntext</p></td>
-<td style="border:1px solid black;"><p>Nincs megadva</p></td>
-<td style="border:1px solid black;"><p>Használaton kívül</p></td>
+<td style="border:1px solid black;">s_Certificate</td>
+<td style="border:1px solid black;">ntext</td>
+<td style="border:1px solid black;">Nincs megadva</td>
+<td style="border:1px solid black;">Használaton kívül</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>dt_Expiration</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>Nem NULL</p></td>
-<td style="border:1px solid black;"><p>A felhasználói kulcs lejáratának dátuma</p></td>
+<td style="border:1px solid black;">dt_Expiration</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">Nem NULL</td>
+<td style="border:1px solid black;">A felhasználói kulcs lejáratának dátuma</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>dt_TemporaryExpiration</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>Nem NULL</p></td>
-<td style="border:1px solid black;"><p>A dátum és időpont, amikor lejár a kulcs ideiglenes használhatósága</p></td>
+<td style="border:1px solid black;">dt_TemporaryExpiration</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">Nem NULL</td>
+<td style="border:1px solid black;">A dátum és időpont, amikor lejár a kulcs ideiglenes használhatósága</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>f_Modified</p></td>
-<td style="border:1px solid black;"><p>bit</p></td>
-<td style="border:1px solid black;"><p>Nem NULL</p></td>
-<td style="border:1px solid black;"><p>Használaton kívül</p></td>
+<td style="border:1px solid black;">f_Modified</td>
+<td style="border:1px solid black;">bit</td>
+<td style="border:1px solid black;">Nem NULL</td>
+<td style="border:1px solid black;">Használaton kívül</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>i_Quota</p></td>
-<td style="border:1px solid black;"><p>int</p></td>
-<td style="border:1px solid black;"><p>Nem NULL</p></td>
-<td style="border:1px solid black;"><p>A felhasználó kvótájának aktuális szintje</p></td>
+<td style="border:1px solid black;">i_Quota</td>
+<td style="border:1px solid black;">int</td>
+<td style="border:1px solid black;">Nem NULL</td>
+<td style="border:1px solid black;">A felhasználó kvótájának aktuális szintje</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>i_WaitDays</p></td>
-<td style="border:1px solid black;"><p>int</p></td>
-<td style="border:1px solid black;"><p>Nem NULL</p></td>
-<td style="border:1px solid black;"><p>Azoknak a napoknak a száma, ahány nap múlva sikeresek lehetnek a további, kvóta iránti kérelmek</p></td>
+<td style="border:1px solid black;">i_WaitDays</td>
+<td style="border:1px solid black;">int</td>
+<td style="border:1px solid black;">Nem NULL</td>
+<td style="border:1px solid black;">Azoknak a napoknak a száma, ahány nap múlva sikeresek lehetnek a további, kvóta iránti kérelmek</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>dt_LastConsumption</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>Nem NULL</p></td>
-<td style="border:1px solid black;"><p>A dátum és időpont, amikor a felhasználó utoljára kapott további tanúsítványt</p></td>
+<td style="border:1px solid black;">dt_LastConsumption</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">Nem NULL</td>
+<td style="border:1px solid black;">A dátum és időpont, amikor a felhasználó utoljára kapott további tanúsítványt</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>dt_CreateDate</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>Nem NULL</p></td>
-<td style="border:1px solid black;"><p>A dátum és időpont, amikor a bejegyzés bekerült a táblába</p></td>
+<td style="border:1px solid black;">dt_CreateDate</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">Nem NULL</td>
+<td style="border:1px solid black;">A dátum és időpont, amikor a bejegyzés bekerült a táblába</td>
 </tr>
 </tbody>
 </table>
@@ -252,7 +252,7 @@ A következő táblázat a Windows által hitelesített és tanúsítvánnyal el
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -270,16 +270,16 @@ A következő táblázat a Windows által hitelesített és tanúsítvánnyal el
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>i_UserId</p></td>
-<td style="border:1px solid black;"><p>int</p></td>
-<td style="border:1px solid black;"><p>Nem NULL</p></td>
-<td style="border:1px solid black;"><p>Belső index</p></td>
+<td style="border:1px solid black;">i_UserId</td>
+<td style="border:1px solid black;">int</td>
+<td style="border:1px solid black;">Nem NULL</td>
+<td style="border:1px solid black;">Belső index</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>s_Sid</p></td>
-<td style="border:1px solid black;"><p>Sid</p></td>
-<td style="border:1px solid black;"><p>Nem NULL</p></td>
-<td style="border:1px solid black;"><p>A felhasználó biztonsági azonosítója (SID)</p></td>
+<td style="border:1px solid black;">s_Sid</td>
+<td style="border:1px solid black;">Sid</td>
+<td style="border:1px solid black;">Nem NULL</td>
+<td style="border:1px solid black;">A felhasználó biztonsági azonosítója (SID)</td>
 </tr>
 </tbody>
 </table>

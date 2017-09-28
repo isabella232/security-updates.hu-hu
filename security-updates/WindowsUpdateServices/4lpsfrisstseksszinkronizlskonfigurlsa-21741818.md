@@ -68,7 +68,7 @@ A 3. lépésben végrehajtotta a felsőbb rétegbeli kiszolgáló és a proxykis
 
 4.  Kattintson a **Befejezés** gombra.
 
-<p> </p>
+ 
     <table style="border:1px solid black;">
     <colgroup>
     <col width="100%" />
@@ -81,11 +81,11 @@ A 3. lépésben végrehajtotta a felsőbb rétegbeli kiszolgáló és a proxykis
     <tbody>
     <tr class="odd">
     <td style="border:1px solid black;">Miközben a kiszolgáló szinkronizálást végez, nem lehet konfigurációs módosításokat végezni. Várjon, amíg a szinkronizálás befejeződik, és csak utána módosítsa a beállításokat.
-    <p></p></td>
+    </td>
     </tr>
     </tbody>
     </table>
-<p> </p>
+ 
 
 A WSUS felügyeleti konzol használata esetén
 -------------------------------------------

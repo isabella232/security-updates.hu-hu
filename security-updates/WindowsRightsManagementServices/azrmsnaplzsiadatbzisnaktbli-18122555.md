@@ -18,7 +18,7 @@ A következő táblázat minden naplózási rekordhoz tartalmaz egy bejegyzést.
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -36,106 +36,106 @@ A következő táblázat minden naplózási rekordhoz tartalmaz egy bejegyzést.
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>i_LogID</p></td>
-<td style="border:1px solid black;"><p>int</p></td>
-<td style="border:1px solid black;"><p>IDENTITY (100,1) Nem NULL</p></td>
-<td style="border:1px solid black;"><p>A naplózási rekord egyedi azonosítója</p></td>
+<td style="border:1px solid black;">i_LogID</td>
+<td style="border:1px solid black;">int</td>
+<td style="border:1px solid black;">IDENTITY (100,1) Nem NULL</td>
+<td style="border:1px solid black;">A naplózási rekord egyedi azonosítója</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>s_HostMachineName</p></td>
-<td style="border:1px solid black;"><p>nvarchar(64)</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>A rekordot generáló kiszolgáló</p></td>
+<td style="border:1px solid black;">s_HostMachineName</td>
+<td style="border:1px solid black;">nvarchar(64)</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">A rekordot generáló kiszolgáló</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>s_HostMachineRequestId</p></td>
-<td style="border:1px solid black;"><p>nvarchar(64)</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>A kérelem azonosítója</p></td>
+<td style="border:1px solid black;">s_HostMachineRequestId</td>
+<td style="border:1px solid black;">nvarchar(64)</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">A kérelem azonosítója</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>dt_RequestTime</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>A kérelem dátuma és időpontja</p></td>
+<td style="border:1px solid black;">dt_RequestTime</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">A kérelem dátuma és időpontja</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>s_RequestPath</p></td>
-<td style="border:1px solid black;"><p>nvarchar(128)</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>A kérelem URL-címe</p></td>
+<td style="border:1px solid black;">s_RequestPath</td>
+<td style="border:1px solid black;">nvarchar(128)</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">A kérelem URL-címe</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>s_RequestType</p></td>
-<td style="border:1px solid black;"><p>nvarchar(64)</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>A kérelem típusa</p></td>
+<td style="border:1px solid black;">s_RequestType</td>
+<td style="border:1px solid black;">nvarchar(64)</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">A kérelem típusa</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>s_RequestUserAddress</p></td>
-<td style="border:1px solid black;"><p>nvarchar(32)</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Az ügyfél IP-címe</p></td>
+<td style="border:1px solid black;">s_RequestUserAddress</td>
+<td style="border:1px solid black;">nvarchar(32)</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Az ügyfél IP-címe</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>s_RequestUserAgent</p></td>
-<td style="border:1px solid black;"><p>nvarchar(128)</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>A ügyfél felhasználói ügynökének fejrésze</p></td>
+<td style="border:1px solid black;">s_RequestUserAgent</td>
+<td style="border:1px solid black;">nvarchar(128)</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">A ügyfél felhasználói ügynökének fejrésze</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>s_AuthenticatedState</p></td>
-<td style="border:1px solid black;"><p>nvarchar(64)</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>A kérelem hitelesítési állapota</p></td>
+<td style="border:1px solid black;">s_AuthenticatedState</td>
+<td style="border:1px solid black;">nvarchar(64)</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">A kérelem hitelesítési állapota</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>s_SecureConnectionState</p></td>
-<td style="border:1px solid black;"><p>nvarchar(64)</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>A kérelem SSL-védelme</p></td>
+<td style="border:1px solid black;">s_SecureConnectionState</td>
+<td style="border:1px solid black;">nvarchar(64)</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">A kérelem SSL-védelme</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>s_AuthenticatedId</p></td>
-<td style="border:1px solid black;"><p>nvarchar(128)</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>A hitelesített felhasználó azonosítója</p></td>
+<td style="border:1px solid black;">s_AuthenticatedId</td>
+<td style="border:1px solid black;">nvarchar(128)</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">A hitelesített felhasználó azonosítója</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>s_ReceivedXrML</p></td>
-<td style="border:1px solid black;"><p>ntext</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Az ügyféltől a kérelemben kapott XrML</p></td>
+<td style="border:1px solid black;">s_ReceivedXrML</td>
+<td style="border:1px solid black;">ntext</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Az ügyféltől a kérelemben kapott XrML</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>s_IssuedXrML</p></td>
-<td style="border:1px solid black;"><p>ntext</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>A kérelemben kiállított XrML-licenc</p></td>
+<td style="border:1px solid black;">s_IssuedXrML</td>
+<td style="border:1px solid black;">ntext</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">A kérelemben kiállított XrML-licenc</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>s_Metadata</p></td>
-<td style="border:1px solid black;"><p>ntext</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Metaadat</p></td>
+<td style="border:1px solid black;">s_Metadata</td>
+<td style="border:1px solid black;">ntext</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Metaadat</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>s_SuccessOrFailure</p></td>
-<td style="border:1px solid black;"><p>nvarchar(32)</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>A kérelem sikeressége vagy sikertelensége</p></td>
+<td style="border:1px solid black;">s_SuccessOrFailure</td>
+<td style="border:1px solid black;">nvarchar(32)</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">A kérelem sikeressége vagy sikertelensége</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>s_ErrorInformation</p></td>
-<td style="border:1px solid black;"><p>ntext</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Hibaadatok</p></td>
+<td style="border:1px solid black;">s_ErrorInformation</td>
+<td style="border:1px solid black;">ntext</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Hibaadatok</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>dt_LogCreateTime</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>Nem NULL</p></td>
-<td style="border:1px solid black;"><p>A bejegyzés létrehozásának időpontja</p></td>
+<td style="border:1px solid black;">dt_LogCreateTime</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">Nem NULL</td>
+<td style="border:1px solid black;">A bejegyzés létrehozásának időpontja</td>
 </tr>
 </tbody>
 </table>
@@ -147,7 +147,7 @@ A következő táblázatban a naplózási rekordok további adatai szerepelnek. 
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -165,28 +165,28 @@ A következő táblázatban a naplózási rekordok további adatai szerepelnek. 
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>i_LogDetailID</p></td>
-<td style="border:1px solid black;"><p>int (PK)</p></td>
-<td style="border:1px solid black;"><p>IDENTITY(100,1)</p></td>
-<td style="border:1px solid black;"><p>Belső index</p></td>
+<td style="border:1px solid black;">i_LogDetailID</td>
+<td style="border:1px solid black;">int (PK)</td>
+<td style="border:1px solid black;">IDENTITY(100,1)</td>
+<td style="border:1px solid black;">Belső index</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>i_LogID</p></td>
-<td style="border:1px solid black;"><p>int (külső kulcs)</p></td>
-<td style="border:1px solid black;"><p>Nem NULL (külső kulcs)</p></td>
-<td style="border:1px solid black;"><p>A szülő naplózási rekord azonosítója</p></td>
+<td style="border:1px solid black;">i_LogID</td>
+<td style="border:1px solid black;">int (külső kulcs)</td>
+<td style="border:1px solid black;">Nem NULL (külső kulcs)</td>
+<td style="border:1px solid black;">A szülő naplózási rekord azonosítója</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>s_Name</p></td>
-<td style="border:1px solid black;"><p>nvarchar(128)</p></td>
-<td style="border:1px solid black;"><p>Nem NULL</p></td>
-<td style="border:1px solid black;"><p>A tulajdonság neve</p></td>
+<td style="border:1px solid black;">s_Name</td>
+<td style="border:1px solid black;">nvarchar(128)</td>
+<td style="border:1px solid black;">Nem NULL</td>
+<td style="border:1px solid black;">A tulajdonság neve</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>s_Value</p></td>
-<td style="border:1px solid black;"><p>ntext</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>A tulajdonság értéke</p></td>
+<td style="border:1px solid black;">s_Value</td>
+<td style="border:1px solid black;">ntext</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">A tulajdonság értéke</td>
 </tr>
 </tbody>
 </table>
@@ -198,7 +198,7 @@ A következő táblázat azokat a mezőket tartalmazza, amelyeket a naplózásfi
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -216,28 +216,28 @@ A következő táblázat azokat a mezőket tartalmazza, amelyeket a naplózásfi
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>i_ID</p></td>
-<td style="border:1px solid black;"><p>int</p></td>
-<td style="border:1px solid black;"><p>IDENTITY (100,1) Nem NULL</p></td>
-<td style="border:1px solid black;"><p>Belső index</p></td>
+<td style="border:1px solid black;">i_ID</td>
+<td style="border:1px solid black;">int</td>
+<td style="border:1px solid black;">IDENTITY (100,1) Nem NULL</td>
+<td style="border:1px solid black;">Belső index</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>s_FieldName</p></td>
-<td style="border:1px solid black;"><p>nvarchar(255)</p></td>
-<td style="border:1px solid black;"><p>Nem NULL</p></td>
-<td style="border:1px solid black;"><p>A mező neve</p></td>
+<td style="border:1px solid black;">s_FieldName</td>
+<td style="border:1px solid black;">nvarchar(255)</td>
+<td style="border:1px solid black;">Nem NULL</td>
+<td style="border:1px solid black;">A mező neve</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>s_FieldDescription</p></td>
-<td style="border:1px solid black;"><p>nvarchar(1024)</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>A mező leírása</p></td>
+<td style="border:1px solid black;">s_FieldDescription</td>
+<td style="border:1px solid black;">nvarchar(1024)</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">A mező leírása</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>i_IsIncluded</p></td>
-<td style="border:1px solid black;"><p>int</p></td>
-<td style="border:1px solid black;"><p>Nem NULL</p></td>
-<td style="border:1px solid black;"><p>Annak jelzése, hogy engedélyezve van-e a mező naplózása</p></td>
+<td style="border:1px solid black;">i_IsIncluded</td>
+<td style="border:1px solid black;">int</td>
+<td style="border:1px solid black;">Nem NULL</td>
+<td style="border:1px solid black;">Annak jelzése, hogy engedélyezve van-e a mező naplózása</td>
 </tr>
 </tbody>
 </table>

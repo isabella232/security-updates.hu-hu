@@ -13,7 +13,7 @@ Az RMS rendszerbe tartozó ügyfélszámítógépek az alábbi technológiákat 
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -31,47 +31,47 @@ Az RMS rendszerbe tartozó ügyfélszámítógépek az alábbi technológiákat 
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>RMS-kompatibilis alkalmazások</p></td>
-<td style="border:1px solid black;"><p>Az RMS-védelemmel ellátott tartalom létrehozásához és közzétételéhez szükségesek. Az alkalmazások fejleszthetők kifejezetten az RMS számára, de meglévők is átírhatók erre a célra.</p></td>
-<td style="border:1px solid black;"><p>Szoftverfejlesztők</p></td>
-<td style="border:1px solid black;"><p>RMS-kompatibilis alkalmazások</p></td>
+<td style="border:1px solid black;">RMS-kompatibilis alkalmazások</td>
+<td style="border:1px solid black;">Az RMS-védelemmel ellátott tartalom létrehozásához és közzétételéhez szükségesek. Az alkalmazások fejleszthetők kifejezetten az RMS számára, de meglévők is átírhatók erre a célra.</td>
+<td style="border:1px solid black;">Szoftverfejlesztők</td>
+<td style="border:1px solid black;">RMS-kompatibilis alkalmazások</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>RMS géptanúsítványok</p></td>
-<td style="border:1px solid black;"><p>Adott számítógép azonosítása megbízhatóként az RMS számára.</p></td>
-<td style="border:1px solid black;"><p>Az RMS 1.0-s verziójának aktiválási szolgáltatása Az RMS SP1 verzióban nincs szükség szolgáltatásra a géptanúsítvány beszerzéséhez.</p></td>
-<td style="border:1px solid black;"><p>RMS géptanúsítványok</p></td>
+<td style="border:1px solid black;">RMS géptanúsítványok</td>
+<td style="border:1px solid black;">Adott számítógép azonosítása megbízhatóként az RMS számára.</td>
+<td style="border:1px solid black;">Az RMS 1.0-s verziójának aktiválási szolgáltatása Az RMS SP1 verzióban nincs szükség szolgáltatásra a géptanúsítvány beszerzéséhez.</td>
+<td style="border:1px solid black;">RMS géptanúsítványok</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Kulcstárolók</p></td>
-<td style="border:1px solid black;"><p>A számítógép személyes kulcsát és az ahhoz tartozó géptanúsítványt tárolják, amely a számítógép nyilvános kulcsát tartalmazza.</p></td>
-<td style="border:1px solid black;"><p>Az RMS 1.0-s verziójának aktiválási szolgáltatása Az RMS SP1 verzióban nincs szükség szolgáltatásra a kulcstároló beszerzéséhez. A kulcstárolóban található a számítógép személyes kulcsa, ezért ez a titkosítás és a visszafejtés szempontjából alapvető biztonsági elem.</p></td>
-<td style="border:1px solid black;"><p>Kulcstárolók</p></td>
+<td style="border:1px solid black;">Kulcstárolók</td>
+<td style="border:1px solid black;">A számítógép személyes kulcsát és az ahhoz tartozó géptanúsítványt tárolják, amely a számítógép nyilvános kulcsát tartalmazza.</td>
+<td style="border:1px solid black;">Az RMS 1.0-s verziójának aktiválási szolgáltatása Az RMS SP1 verzióban nincs szükség szolgáltatásra a kulcstároló beszerzéséhez. A kulcstárolóban található a számítógép személyes kulcsa, ezért ez a titkosítás és a visszafejtés szempontjából alapvető biztonsági elem.</td>
+<td style="border:1px solid black;">Kulcstárolók</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Tartalomvédelmi fióktanúsítványok</p></td>
-<td style="border:1px solid black;"><p>Adott felhasználó azonosítása megbízhatóként az RMS számára.</p></td>
-<td style="border:1px solid black;"><p>Fióktanúsítási szolgáltatás</p></td>
-<td style="border:1px solid black;"><p>Tartalomvédelmi fióktanúsítványok</p></td>
+<td style="border:1px solid black;">Tartalomvédelmi fióktanúsítványok</td>
+<td style="border:1px solid black;">Adott felhasználó azonosítása megbízhatóként az RMS számára.</td>
+<td style="border:1px solid black;">Fióktanúsítási szolgáltatás</td>
+<td style="border:1px solid black;">Tartalomvédelmi fióktanúsítványok</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Ügyfél licencelői tanúsítványok</p></td>
-<td style="border:1px solid black;"><p>Lehetővé teszik a felhasználóknak, hogy olyankor is közzétehessenek RMS-védelemmel ellátott tartalmat, amikor nincsenek kapcsolatban a hálózattal.</p>
-<p>(Nem kötelező)</p></td>
-<td style="border:1px solid black;"><p>Az RMS közzétételi szolgáltatása</p></td>
-<td style="border:1px solid black;"><p>Ügyfél-licencelői tanúsítványok</p></td>
+<td style="border:1px solid black;">Ügyfél licencelői tanúsítványok</td>
+<td style="border:1px solid black;">Lehetővé teszik a felhasználóknak, hogy olyankor is közzétehessenek RMS-védelemmel ellátott tartalmat, amikor nincsenek kapcsolatban a hálózattal.
+(Nem kötelező)</td>
+<td style="border:1px solid black;">Az RMS közzétételi szolgáltatása</td>
+<td style="border:1px solid black;">Ügyfél-licencelői tanúsítványok</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Közzétételi licencek</p></td>
-<td style="border:1px solid black;"><p>Használati jogok megadása adott tartalomhoz.</p></td>
-<td style="border:1px solid black;"><p>RMS közzétételi szolgáltatása, illetve kapcsolat nélküli közzétételnél az ügyfél-licencelői tanúsítvány</p></td>
-<td style="border:1px solid black;"><p>Közzétételi licencek</p></td>
+<td style="border:1px solid black;">Közzétételi licencek</td>
+<td style="border:1px solid black;">Használati jogok megadása adott tartalomhoz.</td>
+<td style="border:1px solid black;">RMS közzétételi szolgáltatása, illetve kapcsolat nélküli közzétételnél az ügyfél-licencelői tanúsítvány</td>
+<td style="border:1px solid black;">Közzétételi licencek</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Használati licencek</p></td>
-<td style="border:1px solid black;"><p>Lehetővé teszik a felhasználóknak, hogy használják az RMS-védelemmel ellátott tartalmat.</p></td>
-<td style="border:1px solid black;"><p>Az RMS licencelési szolgáltatása</p></td>
-<td style="border:1px solid black;"><p>Használati licencek</p></td>
+<td style="border:1px solid black;">Használati licencek</td>
+<td style="border:1px solid black;">Lehetővé teszik a felhasználóknak, hogy használják az RMS-védelemmel ellátott tartalmat.</td>
+<td style="border:1px solid black;">Az RMS licencelési szolgáltatása</td>
+<td style="border:1px solid black;">Használati licencek</td>
 </tr>
 </tbody>
 </table>

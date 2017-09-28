@@ -15,7 +15,7 @@ A naplóbejegyzések átlagos mérete 300 bájt. Az alábbi táblázat a naplób
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -29,72 +29,72 @@ A naplóbejegyzések átlagos mérete 300 bájt. Az alábbi táblázat a naplób
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>HostMachineName</p></td>
-<td style="border:1px solid black;"><p>A kérelmet kezelő számítógép.</p></td>
+<td style="border:1px solid black;">HostMachineName</td>
+<td style="border:1px solid black;">A kérelmet kezelő számítógép.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>HostMachineRequestId</p></td>
-<td style="border:1px solid black;"><p>Egyedien azonosítja az adott kérelmet az adott számítógépen. A HostMachineName és a HostMachineRequestId érték együttesen egyedien azonosítja a kérelmet a fürtön belül.</p></td>
+<td style="border:1px solid black;">HostMachineRequestId</td>
+<td style="border:1px solid black;">Egyedien azonosítja az adott kérelmet az adott számítógépen. A HostMachineName és a HostMachineRequestId érték együttesen egyedien azonosítja a kérelmet a fürtön belül.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>RequestTime</p></td>
-<td style="border:1px solid black;"><p>A kérelem fogadásának ideje az egyetemes koordinált idő (greenwich-i idő) szerint.</p></td>
+<td style="border:1px solid black;">RequestTime</td>
+<td style="border:1px solid black;">A kérelem fogadásának ideje az egyetemes koordinált idő (greenwich-i idő) szerint.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>RequestPath</p></td>
-<td style="border:1px solid black;"><p>Az .asmx fájl relatív URL-címe, például: /_wmcs/licensing/License.asmx.</p></td>
+<td style="border:1px solid black;">RequestPath</td>
+<td style="border:1px solid black;">Az .asmx fájl relatív URL-címe, például: /_wmcs/licensing/License.asmx.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>RequestType</p></td>
-<td style="border:1px solid black;"><p>A hívott webes metódus neve, például: AcquireLicense.</p></td>
+<td style="border:1px solid black;">RequestType</td>
+<td style="border:1px solid black;">A hívott webes metódus neve, például: AcquireLicense.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>RequestUserAddress</p></td>
-<td style="border:1px solid black;"><p>A kérelmező forrás IP-címe.</p></td>
+<td style="border:1px solid black;">RequestUserAddress</td>
+<td style="border:1px solid black;">A kérelmező forrás IP-címe.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>RequestUserAgent</p></td>
-<td style="border:1px solid black;"><p>A HTTP-fejrész felhasználói ügynök értéke.</p></td>
+<td style="border:1px solid black;">RequestUserAgent</td>
+<td style="border:1px solid black;">A HTTP-fejrész felhasználói ügynök értéke.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AuthenticatedState</p></td>
-<td style="border:1px solid black;"><p>A HTTP-kapcsolat hitelesítettségéről tájékoztat (True/False).</p></td>
+<td style="border:1px solid black;">AuthenticatedState</td>
+<td style="border:1px solid black;">A HTTP-kapcsolat hitelesítettségéről tájékoztat (True/False).</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>SecureConnectionState</p></td>
-<td style="border:1px solid black;"><p>Megadja, hogy a kapcsolat SSL-kapcsolat-e (True/False).</p></td>
+<td style="border:1px solid black;">SecureConnectionState</td>
+<td style="border:1px solid black;">Megadja, hogy a kapcsolat SSL-kapcsolat-e (True/False).</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AuthenticatedId</p></td>
-<td style="border:1px solid black;"><p>A hitelesített kérelmek bejelentkezési neve. Üres, ha AuthenticatedState=False.</p></td>
+<td style="border:1px solid black;">AuthenticatedId</td>
+<td style="border:1px solid black;">A hitelesített kérelmek bejelentkezési neve. Üres, ha AuthenticatedState=False.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>ReceivedXrMLDocument</p></td>
-<td style="border:1px solid black;"><p>A kérelmezőtől érkezett XrML-dokumentum.</p></td>
+<td style="border:1px solid black;">ReceivedXrMLDocument</td>
+<td style="border:1px solid black;">A kérelmezőtől érkezett XrML-dokumentum.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>ReceivedXrMLDocumentIssuerChain</p></td>
-<td style="border:1px solid black;"><p>A fogadott XrML-dokumentum kiállítói lánca.</p></td>
+<td style="border:1px solid black;">ReceivedXrMLDocumentIssuerChain</td>
+<td style="border:1px solid black;">A fogadott XrML-dokumentum kiállítói lánca.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>IssuedXrMLDocument</p></td>
-<td style="border:1px solid black;"><p>A kérelmezőnek visszaküldött XrML-dokumentum.</p></td>
+<td style="border:1px solid black;">IssuedXrMLDocument</td>
+<td style="border:1px solid black;">A kérelmezőnek visszaküldött XrML-dokumentum.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>IssuedXrMLDocumentIssuerChain</p></td>
-<td style="border:1px solid black;"><p>A kiadott XrML-dokumentum kiállítói lánca.</p></td>
+<td style="border:1px solid black;">IssuedXrMLDocumentIssuerChain</td>
+<td style="border:1px solid black;">A kiadott XrML-dokumentum kiállítói lánca.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>SuccessOrFailure</p></td>
-<td style="border:1px solid black;"><p>Megadja, hogy sikeres volt-e a kérelem (Succeeded/Failed).</p></td>
+<td style="border:1px solid black;">SuccessOrFailure</td>
+<td style="border:1px solid black;">Megadja, hogy sikeres volt-e a kérelem (Succeeded/Failed).</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Metaadat</p></td>
-<td style="border:1px solid black;"><p>A metaadatok mezője.</p></td>
+<td style="border:1px solid black;">Metaadat</td>
+<td style="border:1px solid black;">A metaadatok mezője.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>ErrorInformation</p></td>
-<td style="border:1px solid black;"><p>Hiba esetén a hibát leíró üzenet.</p></td>
+<td style="border:1px solid black;">ErrorInformation</td>
+<td style="border:1px solid black;">Hiba esetén a hibát leíró üzenet.</td>
 </tr>
 </tbody>
 </table>

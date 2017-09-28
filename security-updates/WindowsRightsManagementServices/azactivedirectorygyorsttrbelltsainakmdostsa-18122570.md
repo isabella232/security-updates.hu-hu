@@ -23,7 +23,7 @@ Az alábbi táblázat a memóriabeli gyorsítótár működését szabályozó b
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -41,40 +41,40 @@ Az alábbi táblázat a memóriabeli gyorsítótár működését szabályozó b
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>PrincipalCacheMax</p></td>
-<td style="border:1px solid black;"><p>DWORD</p></td>
-<td style="border:1px solid black;"><p>1,000</p></td>
-<td style="border:1px solid black;"><p>A gyorsítótárban tárolható résztvevők (hozzájuk tartozó e-mail címek és SID azonosítók) száma.</p></td>
+<td style="border:1px solid black;">PrincipalCacheMax</td>
+<td style="border:1px solid black;">DWORD</td>
+<td style="border:1px solid black;">1,000</td>
+<td style="border:1px solid black;">A gyorsítótárban tárolható résztvevők (hozzájuk tartozó e-mail címek és SID azonosítók) száma.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>PrincipalCacheExpireMinutes</p></td>
-<td style="border:1px solid black;"><p>DWORD</p></td>
-<td style="border:1px solid black;"><p>12</p></td>
-<td style="border:1px solid black;"><p>A résztvevőkről a gyorsítótárban tárolt adatok érvényességének időtartama.</p></td>
+<td style="border:1px solid black;">PrincipalCacheExpireMinutes</td>
+<td style="border:1px solid black;">DWORD</td>
+<td style="border:1px solid black;">12</td>
+<td style="border:1px solid black;">A résztvevőkről a gyorsítótárban tárolt adatok érvényességének időtartama.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>GroupIDCacheMax</p></td>
-<td style="border:1px solid black;"><p>DWORD</p></td>
-<td style="border:1px solid black;"><p>1,000</p></td>
-<td style="border:1px solid black;"><p>A gyorsítótárban tárolható csoportok (hozzájuk tartozó e-mail címek és SID azonosítók) száma.</p></td>
+<td style="border:1px solid black;">GroupIDCacheMax</td>
+<td style="border:1px solid black;">DWORD</td>
+<td style="border:1px solid black;">1,000</td>
+<td style="border:1px solid black;">A gyorsítótárban tárolható csoportok (hozzájuk tartozó e-mail címek és SID azonosítók) száma.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>GroupIDCacheExpireMinutes</p></td>
-<td style="border:1px solid black;"><p>DWORD</p></td>
-<td style="border:1px solid black;"><p>12</p></td>
-<td style="border:1px solid black;"><p>A csoporttagságról a gyorsítótárban tárolt adatok érvényességének időtartama.</p></td>
+<td style="border:1px solid black;">GroupIDCacheExpireMinutes</td>
+<td style="border:1px solid black;">DWORD</td>
+<td style="border:1px solid black;">12</td>
+<td style="border:1px solid black;">A csoporttagságról a gyorsítótárban tárolt adatok érvényességének időtartama.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>GroupMembershipCacheMax</p></td>
-<td style="border:1px solid black;"><p>DWORD</p></td>
-<td style="border:1px solid black;"><p>1,000</p></td>
-<td style="border:1px solid black;"><p>A gyorsítótárban maximálisan tárolható olyan kapcsolatok száma, amelyek csoport tagjai.</p></td>
+<td style="border:1px solid black;">GroupMembershipCacheMax</td>
+<td style="border:1px solid black;">DWORD</td>
+<td style="border:1px solid black;">1,000</td>
+<td style="border:1px solid black;">A gyorsítótárban maximálisan tárolható olyan kapcsolatok száma, amelyek csoport tagjai.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>GroupMembershipCacheExpireMinutes</p></td>
-<td style="border:1px solid black;"><p>DWORD</p></td>
-<td style="border:1px solid black;"><p>12</p></td>
-<td style="border:1px solid black;"><p>A csoporttagkapcsolatok gyorsítótárban tárolt adatainak érvényességi időtartama.</p></td>
+<td style="border:1px solid black;">GroupMembershipCacheExpireMinutes</td>
+<td style="border:1px solid black;">DWORD</td>
+<td style="border:1px solid black;">12</td>
+<td style="border:1px solid black;">A csoporttagkapcsolatok gyorsítótárban tárolt adatainak érvényességi időtartama.</td>
 </tr>
 </tbody>
 </table>

@@ -21,7 +21,7 @@ Az alábbi számadatok segítséget nyújtanak az RMS rendszerrel szembeni felha
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -39,22 +39,22 @@ Az alábbi számadatok segítséget nyújtanak az RMS rendszerrel szembeni felha
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Licenckérelem</p></td>
-<td style="border:1px solid black;"><p>Felhasználónként és védeni kívánt anyagonként egyszer</p></td>
-<td style="border:1px solid black;"><p>64</p></td>
-<td style="border:1px solid black;"><p>18</p></td>
+<td style="border:1px solid black;">Licenckérelem</td>
+<td style="border:1px solid black;">Felhasználónként és védeni kívánt anyagonként egyszer</td>
+<td style="border:1px solid black;">64</td>
+<td style="border:1px solid black;">18</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Tartalomvédelmi fióktanúsítvány</p></td>
-<td style="border:1px solid black;"><p>Csak az RMS inicializálásakor</p></td>
-<td style="border:1px solid black;"><p>12</p></td>
-<td style="border:1px solid black;"><p>16</p></td>
+<td style="border:1px solid black;">Tartalomvédelmi fióktanúsítvány</td>
+<td style="border:1px solid black;">Csak az RMS inicializálásakor</td>
+<td style="border:1px solid black;">12</td>
+<td style="border:1px solid black;">16</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Az ügyfelek igénylési folyamata</p></td>
-<td style="border:1px solid black;"><p>Csak az RMS inicializálásakor</p></td>
-<td style="border:1px solid black;"><p>17</p></td>
-<td style="border:1px solid black;"><p>16</p></td>
+<td style="border:1px solid black;">Az ügyfelek igénylési folyamata</td>
+<td style="border:1px solid black;">Csak az RMS inicializálásakor</td>
+<td style="border:1px solid black;">17</td>
+<td style="border:1px solid black;">16</td>
 </tr>
 </tbody>
 </table>
@@ -65,7 +65,7 @@ A következő táblázatban az RMS-tranzakciók sávszélesség-felhasználásra
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -81,14 +81,14 @@ A következő táblázatban az RMS-tranzakciók sávszélesség-felhasználásra
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Az RMS kapcsolatlétesítése (ldap_bind)</p></td>
-<td style="border:1px solid black;"><p>1600</p></td>
-<td style="border:1px solid black;"><p>200</p></td>
+<td style="border:1px solid black;">Az RMS kapcsolatlétesítése (ldap_bind)</td>
+<td style="border:1px solid black;">1600</td>
+<td style="border:1px solid black;">200</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Az RMS csoporttagság-vizsgálata (ldap_search)</p></td>
-<td style="border:1px solid black;"><p>200</p></td>
-<td style="border:1px solid black;"><p>100</p></td>
+<td style="border:1px solid black;">Az RMS csoporttagság-vizsgálata (ldap_search)</td>
+<td style="border:1px solid black;">200</td>
+<td style="border:1px solid black;">100</td>
 </tr>
 </tbody>
 </table>

@@ -76,7 +76,7 @@ Mivel az RMS SP1 számos javítást és teljesítménynövelő továbbfejleszté
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -94,34 +94,34 @@ Mivel az RMS SP1 számos javítást és teljesítménynövelő továbbfejleszté
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>1.0</p></td>
-<td style="border:1px solid black;"><p>Valamennyi előző szolgáltatás.</p>
-<p>A kiszolgáló kapcsolat nélküli beiktatása nem lehetséges. A kiszolgálót az interneten keresztül kell beiktatni.</p>
-<p>Nem önaktiváló ügyfelek.</p></td>
-<td style="border:1px solid black;"><p>Valamennyi előző szolgáltatás.</p>
-<p>A kiszolgáló kapcsolat nélküli beiktatása nem lehetséges.</p>
-<p>Önaktiváló ügyfelek.</p></td>
-<td style="border:1px solid black;"><p>Valamennyi előző szolgáltatás.</p>
-<p>SP1 ügyfeleknél ezek önaktiválóak.</p>
-<p>1.0-s ügyfeleknél ezeket az interneten keresztül kell aktiválni.</p></td>
+<td style="border:1px solid black;">1.0</td>
+<td style="border:1px solid black;">Valamennyi előző szolgáltatás.
+A kiszolgáló kapcsolat nélküli beiktatása nem lehetséges. A kiszolgálót az interneten keresztül kell beiktatni.
+Nem önaktiváló ügyfelek.</td>
+<td style="border:1px solid black;">Valamennyi előző szolgáltatás.
+A kiszolgáló kapcsolat nélküli beiktatása nem lehetséges.
+Önaktiváló ügyfelek.</td>
+<td style="border:1px solid black;">Valamennyi előző szolgáltatás.
+SP1 ügyfeleknél ezek önaktiválóak.
+1.0-s ügyfeleknél ezeket az interneten keresztül kell aktiválni.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>SP1</p></td>
-<td style="border:1px solid black;"><p>Valamennyi előző szolgáltatás.</p>
-<p>Kiszolgáló kapcsolat nélküli beiktatása.</p>
-<p>Nem önaktiváló ügyfelek.</p></td>
-<td style="border:1px solid black;"><p>Valamennyi SP1 szolgáltatás.</p>
-<p>Kiszolgáló kapcsolat nélküli beiktatása.</p>
-<p>Önaktiváló ügyfelek.</p>
-<p>Kiszolgálói kulcstároló.</p></td>
-<td style="border:1px solid black;"><p>Valamennyi előző szolgáltatás az SP1 szolgáltatásaival kiegészítve.</p>
-<p>Kiszolgáló kapcsolat nélküli beiktatása.</p>
-<p>SP1 ügyfeleknél ezek önaktiválóak.</p>
-<p>1.0-s ügyfeleknél ezeket az interneten keresztül kell aktiválni.</p></td>
+<td style="border:1px solid black;">SP1</td>
+<td style="border:1px solid black;">Valamennyi előző szolgáltatás.
+Kiszolgáló kapcsolat nélküli beiktatása.
+Nem önaktiváló ügyfelek.</td>
+<td style="border:1px solid black;">Valamennyi SP1 szolgáltatás.
+Kiszolgáló kapcsolat nélküli beiktatása.
+Önaktiváló ügyfelek.
+Kiszolgálói kulcstároló.</td>
+<td style="border:1px solid black;">Valamennyi előző szolgáltatás az SP1 szolgáltatásaival kiegészítve.
+Kiszolgáló kapcsolat nélküli beiktatása.
+SP1 ügyfeleknél ezek önaktiválóak.
+1.0-s ügyfeleknél ezeket az interneten keresztül kell aktiválni.</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 <span id="BKMK_6"></span>
 Az RMS SP1 eltávolítása

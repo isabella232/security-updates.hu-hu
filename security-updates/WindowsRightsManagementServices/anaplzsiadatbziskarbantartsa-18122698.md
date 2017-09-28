@@ -38,7 +38,7 @@ A becslés működésének érzékeléséhez vegyünk egy 5000 felhasználót ta
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -54,24 +54,24 @@ A becslés működésének érzékeléséhez vegyünk egy 5000 felhasználót ta
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>RMS kiszolgáló sikeres létesítése</p></td>
-<td style="border:1px solid black;"><p>1,7 MB</p></td>
-<td style="border:1px solid black;"><p>1,7 MB</p></td>
+<td style="border:1px solid black;">RMS kiszolgáló sikeres létesítése</td>
+<td style="border:1px solid black;">1,7 MB</td>
+<td style="border:1px solid black;">1,7 MB</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>5000 felhasználói igénylés (5000*0,06)</p></td>
-<td style="border:1px solid black;"><p>300 MB</p></td>
-<td style="border:1px solid black;"><p>301,7 MB</p></td>
+<td style="border:1px solid black;">5000 felhasználói igénylés (5000*0,06)</td>
+<td style="border:1px solid black;">300 MB</td>
+<td style="border:1px solid black;">301,7 MB</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Hozzáférés védett e-mail üzenetekhez (25000*0,19)</p></td>
-<td style="border:1px solid black;"><p>4750 MB</p></td>
-<td style="border:1px solid black;"><p>5051,7 MB</p></td>
+<td style="border:1px solid black;">Hozzáférés védett e-mail üzenetekhez (25000*0,19)</td>
+<td style="border:1px solid black;">4750 MB</td>
+<td style="border:1px solid black;">5051,7 MB</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Hozzáférés védett dokumentumokhoz (15000*0,19)</p></td>
-<td style="border:1px solid black;"><p>2850 MB</p></td>
-<td style="border:1px solid black;"><p>7901,7 MB</p></td>
+<td style="border:1px solid black;">Hozzáférés védett dokumentumokhoz (15000*0,19)</td>
+<td style="border:1px solid black;">2850 MB</td>
+<td style="border:1px solid black;">7901,7 MB</td>
 </tr>
 </tbody>
 </table>

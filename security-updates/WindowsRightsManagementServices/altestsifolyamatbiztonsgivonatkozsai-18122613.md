@@ -15,7 +15,7 @@ A létesítés során az RMS a következő táblázatban bemutatott felhasznál�
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -31,23 +31,23 @@ A létesítés során az RMS a következő táblázatban bemutatott felhasznál�
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>A bejelentkezett felhasználó fiókja</p></td>
-<td style="border:1px solid black;"><p>Létrehozza a virtuális könyvtárakat és az alkalmazáskészleteket. Az IIS megköveteli a Windows-hitelesítést, az RMS pedig megszemélyesíti a bejelentkezett felhasználót, akinek helyben kell bejelentkezve lennie.</p></td>
-<td style="border:1px solid black;"><p>Teljes hozzáférés (a bejelentkezett felhasználónak helyi rendszergazdának kell lennie).</p></td>
+<td style="border:1px solid black;">A bejelentkezett felhasználó fiókja</td>
+<td style="border:1px solid black;">Létrehozza a virtuális könyvtárakat és az alkalmazáskészleteket. Az IIS megköveteli a Windows-hitelesítést, az RMS pedig megszemélyesíti a bejelentkezett felhasználót, akinek helyben kell bejelentkezve lennie.</td>
+<td style="border:1px solid black;">Teljes hozzáférés (a bejelentkezett felhasználónak helyi rendszergazdának kell lennie).</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Rendszerfiók</p></td>
-<td style="border:1px solid black;"><p>Összeállítja a sorba rendezéshez szükséges ideiglenes programkódot.</p></td>
-<td style="border:1px solid black;"><p>Olvasási és írási engedély a Windows ideiglenes mappájához (C:\Windows\Temp).</p></td>
+<td style="border:1px solid black;">Rendszerfiók</td>
+<td style="border:1px solid black;">Összeállítja a sorba rendezéshez szükséges ideiglenes programkódot.</td>
+<td style="border:1px solid black;">Olvasási és írási engedély a Windows ideiglenes mappájához (C:\Windows\Temp).</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>ASPNET fiók</p></td>
-<td style="border:1px solid black;"><p>Összeállítja a *.aspx fájlok ideiglenes programkódját.</p></td>
-<td style="border:1px solid black;"><p>Hozzáférési jogosultság az átmeneti programkód gyorsítótáraként használt könyvtárhoz (ez alapértelmezés szerint a C:\Windows\Microsoft.NET\Framework\v1.1.4322\Temporary ASP.NET Files könyvtár).</p></td>
+<td style="border:1px solid black;">ASPNET fiók</td>
+<td style="border:1px solid black;">Összeállítja a *.aspx fájlok ideiglenes programkódját.</td>
+<td style="border:1px solid black;">Hozzáférési jogosultság az átmeneti programkód gyorsítótáraként használt könyvtárhoz (ez alapértelmezés szerint a C:\Windows\Microsoft.NET\Framework\v1.1.4322\Temporary ASP.NET Files könyvtár).</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Hálózati szolgáltatásfiók</p></td>
-<td style="border:1px solid black;"><p>Regisztrálja az Active Directoryban a szolgáltatás kapcsolódási pontját.</p></td>
+<td style="border:1px solid black;">Hálózati szolgáltatásfiók</td>
+<td style="border:1px solid black;">Regisztrálja az Active Directoryban a szolgáltatás kapcsolódási pontját.</td>
 <td style="border:1px solid black;"><ul>
 <li>Csak olvasási engedély a létesítő helyhez (általában a C:\Inetpub\Wwwroot\Provisioning mappához).<br />
 <br />
@@ -67,7 +67,7 @@ A Windows Server 2003 rendszer 64 bites verziójával működő számítógépe
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 A létesítés során az RMS a következő műveleteket hajtja végre:
 

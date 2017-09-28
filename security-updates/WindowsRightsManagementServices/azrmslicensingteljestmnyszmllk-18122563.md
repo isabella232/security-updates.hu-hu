@@ -13,7 +13,7 @@ A következő táblázat az RMS: Licensing teljesítményobjektumra vonatkozó t
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -27,116 +27,116 @@ A következő táblázat az RMS: Licensing teljesítményobjektumra vonatkozó t
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Acquirelicense Failures</p></td>
-<td style="border:1px solid black;"><p>A nem teljesen feldolgozott AcquireLicense kérelmek összesített száma.</p></td>
+<td style="border:1px solid black;">Acquirelicense Failures</td>
+<td style="border:1px solid black;">A nem teljesen feldolgozott AcquireLicense kérelmek összesített száma.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Acquirelicense Processing Time</p></td>
-<td style="border:1px solid black;"><p>Az AcquireLicense kérelmek feldolgozására fordított idő (mikroszekundum).</p></td>
+<td style="border:1px solid black;">Acquirelicense Processing Time</td>
+<td style="border:1px solid black;">Az AcquireLicense kérelmek feldolgozására fordított idő (mikroszekundum).</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Acquirelicense Requests</p></td>
-<td style="border:1px solid black;"><p>A licencelési szolgáltatás által fogadott AcquireLicense kérelmek összesített száma.</p></td>
+<td style="border:1px solid black;">Acquirelicense Requests</td>
+<td style="border:1px solid black;">A licencelési szolgáltatás által fogadott AcquireLicense kérelmek összesített száma.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Acquireprelicense Failures</p></td>
-<td style="border:1px solid black;"><p>A nem teljesen feldolgozott AcquirePreLicense kérelmek összesített száma.</p></td>
+<td style="border:1px solid black;">Acquireprelicense Failures</td>
+<td style="border:1px solid black;">A nem teljesen feldolgozott AcquirePreLicense kérelmek összesített száma.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Acquireprelicense Processing Time</p></td>
-<td style="border:1px solid black;"><p>Az AcquirePreLicense kérelmek feldolgozására fordított idő (mikroszekundum).</p></td>
+<td style="border:1px solid black;">Acquireprelicense Processing Time</td>
+<td style="border:1px solid black;">Az AcquirePreLicense kérelmek feldolgozására fordított idő (mikroszekundum).</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Acquireprelicense Requests</p></td>
-<td style="border:1px solid black;"><p>A licencelési szolgáltatás által fogadott AcquirePreLicense kérelmek összesített száma.</p></td>
+<td style="border:1px solid black;">Acquireprelicense Requests</td>
+<td style="border:1px solid black;">A licencelési szolgáltatás által fogadott AcquirePreLicense kérelmek összesített száma.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Editissuancelicense Failures</p></td>
-<td style="border:1px solid black;"><p>A nem teljesen feldolgozott EditIssuanceLicense kérelmek összesített száma.</p></td>
+<td style="border:1px solid black;">Editissuancelicense Failures</td>
+<td style="border:1px solid black;">A nem teljesen feldolgozott EditIssuanceLicense kérelmek összesített száma.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Editissuancelicense Processing Time</p></td>
-<td style="border:1px solid black;"><p>Az EditIssuanceLicense kérelmek feldolgozására fordított idő (mikroszekundum).</p></td>
+<td style="border:1px solid black;">Editissuancelicense Processing Time</td>
+<td style="border:1px solid black;">Az EditIssuanceLicense kérelmek feldolgozására fordított idő (mikroszekundum).</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Editissuancelicense Requests</p></td>
-<td style="border:1px solid black;"><p>A licencelési szolgáltatás által fogadott EditIssuanceLicense kérelmek összesített száma.</p></td>
+<td style="border:1px solid black;">Editissuancelicense Requests</td>
+<td style="border:1px solid black;">A licencelési szolgáltatás által fogadott EditIssuanceLicense kérelmek összesített száma.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Findservicelocations Failures</p></td>
-<td style="border:1px solid black;"><p>A nem teljesen feldolgozott FindServiceLocations kérelmek összesített száma.</p></td>
+<td style="border:1px solid black;">Findservicelocations Failures</td>
+<td style="border:1px solid black;">A nem teljesen feldolgozott FindServiceLocations kérelmek összesített száma.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Findservicelocations Processing Time</p></td>
-<td style="border:1px solid black;"><p>A FindServiceLocations kérelmek feldolgozására fordított idő (mikroszekundum).</p></td>
+<td style="border:1px solid black;">Findservicelocations Processing Time</td>
+<td style="border:1px solid black;">A FindServiceLocations kérelmek feldolgozására fordított idő (mikroszekundum).</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Findservicelocations Requests</p></td>
-<td style="border:1px solid black;"><p>A licencelési szolgáltatás által fogadott FindServiceLocations kérelmek összesített száma.</p></td>
+<td style="border:1px solid black;">Findservicelocations Requests</td>
+<td style="border:1px solid black;">A licencelési szolgáltatás által fogadott FindServiceLocations kérelmek összesített száma.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Findservicelocationsforuser Failures</p></td>
-<td style="border:1px solid black;"><p>A nem teljesen feldolgozott FindServiceLocationsForUsers kérelmek összesített száma.</p></td>
+<td style="border:1px solid black;">Findservicelocationsforuser Failures</td>
+<td style="border:1px solid black;">A nem teljesen feldolgozott FindServiceLocationsForUsers kérelmek összesített száma.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Findservicelocationsforuser Processing Time</p></td>
-<td style="border:1px solid black;"><p>A FindServiceLocationsForUser kérelmek feldolgozására fordított idő (mikroszekundum).</p></td>
+<td style="border:1px solid black;">Findservicelocationsforuser Processing Time</td>
+<td style="border:1px solid black;">A FindServiceLocationsForUser kérelmek feldolgozására fordított idő (mikroszekundum).</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Findservicelocationsforuser Requests</p></td>
-<td style="border:1px solid black;"><p>A licencelési szolgáltatás által fogadott FindServiceLocationsForUsers kérelmek összesített száma.</p></td>
+<td style="border:1px solid black;">Findservicelocationsforuser Requests</td>
+<td style="border:1px solid black;">A licencelési szolgáltatás által fogadott FindServiceLocationsForUsers kérelmek összesített száma.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Getclientlicensorcert Failures</p></td>
-<td style="border:1px solid black;"><p>A nem teljesen feldolgozott GetClientLicensorCert kérelmek összesített száma.</p></td>
+<td style="border:1px solid black;">Getclientlicensorcert Failures</td>
+<td style="border:1px solid black;">A nem teljesen feldolgozott GetClientLicensorCert kérelmek összesített száma.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Getclientlicensorcert Processing Time</p></td>
-<td style="border:1px solid black;"><p>A GetClientLicensorCert kérelmek feldolgozására fordított idő (mikroszekundum).</p></td>
+<td style="border:1px solid black;">Getclientlicensorcert Processing Time</td>
+<td style="border:1px solid black;">A GetClientLicensorCert kérelmek feldolgozására fordított idő (mikroszekundum).</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Getclientlicensorcert Requests</p></td>
-<td style="border:1px solid black;"><p>A licencelési szolgáltatás által fogadott GetClientLicensorCert kérelmek összesített száma.</p></td>
+<td style="border:1px solid black;">Getclientlicensorcert Requests</td>
+<td style="border:1px solid black;">A licencelési szolgáltatás által fogadott GetClientLicensorCert kérelmek összesített száma.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Getlicensorcertificate Failures</p></td>
-<td style="border:1px solid black;"><p>A nem teljesen feldolgozott GetLicensorCertificate kérelmek összesített száma.</p></td>
+<td style="border:1px solid black;">Getlicensorcertificate Failures</td>
+<td style="border:1px solid black;">A nem teljesen feldolgozott GetLicensorCertificate kérelmek összesített száma.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Getlicensorcertificate Processing Time</p></td>
-<td style="border:1px solid black;"><p>A GetLicensorCertificate kérelmek feldolgozására fordított idő (mikroszekundum).</p></td>
+<td style="border:1px solid black;">Getlicensorcertificate Processing Time</td>
+<td style="border:1px solid black;">A GetLicensorCertificate kérelmek feldolgozására fordított idő (mikroszekundum).</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Getlicensorcertificate Requests</p></td>
-<td style="border:1px solid black;"><p>A licencelési szolgáltatás által fogadott GetLicensorCertificate kérelmek összesített száma.</p></td>
+<td style="border:1px solid black;">Getlicensorcertificate Requests</td>
+<td style="border:1px solid black;">A licencelési szolgáltatás által fogadott GetLicensorCertificate kérelmek összesített száma.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Non-Specific Requests Failures</p></td>
-<td style="border:1px solid black;"><p>Azoknak a kérelmeknek az összesített száma, amelyek még a típusazonosítás előtt lettek sikertelenek.</p></td>
+<td style="border:1px solid black;">Non-Specific Requests Failures</td>
+<td style="border:1px solid black;">Azoknak a kérelmeknek az összesített száma, amelyek még a típusazonosítás előtt lettek sikertelenek.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Total Licensing Pipeline Requests</p></td>
-<td style="border:1px solid black;"><p>A licencelési szolgáltatás által fogadott kérelmek összesített száma.</p></td>
+<td style="border:1px solid black;">Total Licensing Pipeline Requests</td>
+<td style="border:1px solid black;">A licencelési szolgáltatás által fogadott kérelmek összesített száma.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Signrightsdata Failures</p></td>
-<td style="border:1px solid black;"><p>A nem teljesen feldolgozott SignRightsData kérelmek összesített száma.</p></td>
+<td style="border:1px solid black;">Signrightsdata Failures</td>
+<td style="border:1px solid black;">A nem teljesen feldolgozott SignRightsData kérelmek összesített száma.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Signrightsdata Processing Time</p></td>
-<td style="border:1px solid black;"><p>A SignRightsData kérelmek feldolgozására fordított idő (mikroszekundum).</p></td>
+<td style="border:1px solid black;">Signrightsdata Processing Time</td>
+<td style="border:1px solid black;">A SignRightsData kérelmek feldolgozására fordított idő (mikroszekundum).</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Signrightsdata Requests</p></td>
-<td style="border:1px solid black;"><p>A licencelési szolgáltatás által fogadott SignRightsData kérelmek összesített száma.</p></td>
+<td style="border:1px solid black;">Signrightsdata Requests</td>
+<td style="border:1px solid black;">A licencelési szolgáltatás által fogadott SignRightsData kérelmek összesített száma.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Total Licensing Pipeline Failures</p></td>
-<td style="border:1px solid black;"><p>A licencelési szolgáltatás által generált hibák összesített száma.</p></td>
+<td style="border:1px solid black;">Total Licensing Pipeline Failures</td>
+<td style="border:1px solid black;">A licencelési szolgáltatás által generált hibák összesített száma.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Total Licensing Pipeline Requests</p></td>
-<td style="border:1px solid black;"><p>A licencelési szolgáltatás által fogadott kérelmek összesített száma.</p></td>
+<td style="border:1px solid black;">Total Licensing Pipeline Requests</td>
+<td style="border:1px solid black;">A licencelési szolgáltatás által fogadott kérelmek összesített száma.</td>
 </tr>
 </tbody>
 </table>

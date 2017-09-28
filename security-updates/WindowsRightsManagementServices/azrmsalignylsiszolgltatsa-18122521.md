@@ -19,7 +19,7 @@ A szolgáltatás alapértelmezett hozzáférési szabálygyűjteményét a köve
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -33,8 +33,8 @@ A szolgáltatás alapértelmezett hozzáférési szabálygyűjteményét a köve
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>RENDSZER</p></td>
-<td style="border:1px solid black;"><p>Teljes hozzáférés</p></td>
+<td style="border:1px solid black;">RENDSZER</td>
+<td style="border:1px solid black;">Teljes hozzáférés</td>
 </tr>
 </tbody>
 </table>

@@ -13,7 +13,7 @@ Az alábbi táblázatból kiolvasható, hogy a jogmegadási sablonokban kiválas
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -27,52 +27,52 @@ Az alábbi táblázatból kiolvasható, hogy a jogmegadási sablonokban kiválas
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Teljes jogosultság</p></td>
-<td style="border:1px solid black;"><p>OWNER</p></td>
+<td style="border:1px solid black;">Teljes jogosultság</td>
+<td style="border:1px solid black;">OWNER</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Megtekintési jogok</p></td>
-<td style="border:1px solid black;"><p>VIEWRIGHT</p></td>
+<td style="border:1px solid black;">Megtekintési jogok</td>
+<td style="border:1px solid black;">VIEWRIGHT</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Exportálás (Mentés másként)</p></td>
-<td style="border:1px solid black;"><p>EXPORT</p></td>
+<td style="border:1px solid black;">Exportálás (Mentés másként)</td>
+<td style="border:1px solid black;">EXPORT</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Mentés</p></td>
-<td style="border:1px solid black;"><p>EDIT</p></td>
+<td style="border:1px solid black;">Mentés</td>
+<td style="border:1px solid black;">EDIT</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Megtekintés</p></td>
-<td style="border:1px solid black;"><p>VIEW</p></td>
+<td style="border:1px solid black;">Megtekintés</td>
+<td style="border:1px solid black;">VIEW</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Nyomtatás</p></td>
-<td style="border:1px solid black;"><p>PRINT</p></td>
+<td style="border:1px solid black;">Nyomtatás</td>
+<td style="border:1px solid black;">PRINT</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Kibontás</p></td>
-<td style="border:1px solid black;"><p>EXTRACT</p></td>
+<td style="border:1px solid black;">Kibontás</td>
+<td style="border:1px solid black;">EXTRACT</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Szerkesztés</p></td>
-<td style="border:1px solid black;"><p>DOCEDIT</p></td>
+<td style="border:1px solid black;">Szerkesztés</td>
+<td style="border:1px solid black;">DOCEDIT</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Makrók engedélyezése</p></td>
-<td style="border:1px solid black;"><p>OBJMODEL</p></td>
+<td style="border:1px solid black;">Makrók engedélyezése</td>
+<td style="border:1px solid black;">OBJMODEL</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Továbbítás</p></td>
-<td style="border:1px solid black;"><p>FORWARD</p></td>
+<td style="border:1px solid black;">Továbbítás</td>
+<td style="border:1px solid black;">FORWARD</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Válasz</p></td>
-<td style="border:1px solid black;"><p>REPLY</p></td>
+<td style="border:1px solid black;">Válasz</td>
+<td style="border:1px solid black;">REPLY</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Válasz mindenkinek</p></td>
-<td style="border:1px solid black;"><p>REPLYALL</p></td>
+<td style="border:1px solid black;">Válasz mindenkinek</td>
+<td style="border:1px solid black;">REPLYALL</td>
 </tr>
 </tbody>
 </table>

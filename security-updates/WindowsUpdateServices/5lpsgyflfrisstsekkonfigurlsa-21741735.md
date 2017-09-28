@@ -52,7 +52,7 @@ Az első két eljárást egy tetszés szerinti tartományalapú csoportházirend
 
 2.  Jelölje be az **Engedélyezve** választógombot, majd írja be ugyanazon WSUS-kiszolgáló HTTP-alapú URL-címét az **Adja meg a frissítések keresését végző intranetes frissítési szolgáltatást** és az **Adja meg a statisztikát tároló intranetkiszolgálót** mezőbe (például *http://kiszolgálónév*), végül kattintson az **OK** gombra.
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -65,11 +65,11 @@ Az első két eljárást egy tetszés szerinti tartományalapú csoportházirend
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;">Ha a helyi csoportházirend-objektumot használja a számítógép WSUS-kiszolgálóval létesítendő kapcsolatának definiálására, a beállítás azonnal érvénybe lép, és a számítógép megjelenik a WSUS szolgáltatás felügyeleti konzolján. Felgyorsíthatja a folyamatot, ha manuálisan elindítja a frissítések keresését.
-<p></p></td>
+</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 Az adott ügyfélszámítógép beállítását követően a rendszer néhány perc elteltével megjeleníti a számítógépet a WSUS felügyeleti konzoljának **Számítógépek** lapján. Tartományi csoportházirenddel beállított ügyfélszámítógépek esetén körülbelül húsz percre van szükség a Csoportházirend modulbeli beállítások frissítéséhez (tehát ennyi idő elteltével alkalmazza a rendszer az új házirend-beállításokat az ügyfélszámítógépen). A Csoportházirend modul alapértelmezés szerint kilencven percenként frissül a háttérben, a véletlenszerű eltolási érték pedig 0–30 perc. Ha rövidebb frissítési időközt szeretne beállítani, nyisson meg egy parancsablakot az ügyfélszámítógépen, és írja be a parancssorba a **gpupdate /force** parancsot.
 

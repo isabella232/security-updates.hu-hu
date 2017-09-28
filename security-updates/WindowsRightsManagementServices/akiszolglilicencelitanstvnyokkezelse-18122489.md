@@ -15,7 +15,7 @@ Az RMS három eseményt jegyez be a Rendszer eseménynaplóba, ezeket figyelemme
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -31,19 +31,19 @@ Az RMS három eseményt jegyez be a Rendszer eseménynaplóba, ezeket figyelemme
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>16</p></td>
-<td style="border:1px solid black;"><p>LicensorCertExpiresInOneMonthEvent</p></td>
-<td style="border:1px solid black;"><p>Figyelem! A szolgáltatás rendben folytatja a működést.</p></td>
+<td style="border:1px solid black;">16</td>
+<td style="border:1px solid black;">LicensorCertExpiresInOneMonthEvent</td>
+<td style="border:1px solid black;">Figyelem! A szolgáltatás rendben folytatja a működést.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>17</p></td>
-<td style="border:1px solid black;"><p>LicensorCertExpiresInOneWeekEvent</p></td>
-<td style="border:1px solid black;"><p>Figyelem! A szolgáltatás rendben folytatja a működést.</p></td>
+<td style="border:1px solid black;">17</td>
+<td style="border:1px solid black;">LicensorCertExpiresInOneWeekEvent</td>
+<td style="border:1px solid black;">Figyelem! A szolgáltatás rendben folytatja a működést.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>18</p></td>
-<td style="border:1px solid black;"><p>LicensorCertExpiredEvent</p></td>
-<td style="border:1px solid black;"><p>Hiba. A szolgáltatás nem áll rendelkezésre.</p></td>
+<td style="border:1px solid black;">18</td>
+<td style="border:1px solid black;">LicensorCertExpiredEvent</td>
+<td style="border:1px solid black;">Hiba. A szolgáltatás nem áll rendelkezésre.</td>
 </tr>
 </tbody>
 </table>

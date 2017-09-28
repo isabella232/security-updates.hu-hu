@@ -13,7 +13,7 @@ A következő táblázatban azok a felhasználói jogok és engedélyek szerepel
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -27,18 +27,18 @@ A következő táblázatban azok a felhasználói jogok és engedélyek szerepel
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Az RMS telepítése</p></td>
-<td style="border:1px solid black;"><p>Olyan fiókkal kell bejelentkezni, amely tagja a helyi Rendszergazdák csoportnak.</p></td>
+<td style="border:1px solid black;">Az RMS telepítése</td>
+<td style="border:1px solid black;">Olyan fiókkal kell bejelentkezni, amely tagja a helyi Rendszergazdák csoportnak.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Az RMS létesítése</p></td>
-<td style="border:1px solid black;"><p>Olyan fiókkal kell bejelentkezni, amely tagja a helyi Rendszergazdák csoportnak. Emellett a fióknak olyan SQL bejelentkezési nevet kell használnia, amely az SQL Server adatbázisnál rendelkezik a System Administrator (Rendszergazda) szerepkörrel, hogy az RMS elő tudja készíteni a szükséges adatbázisokat.</p>
-<p>A létesítés során meg kell adni az RMS szolgáltatásfiókját, amelyet azt megelőzően létre kell hozni. A felhasználói fióknak szokásos tartományi felhasználói fióknak kell lennie, amely nem rendelkezik további engedélyekkel. Ez a fiók az RMS szolgáltatás csoport tagjává válik, és ez az a fiók, amellyel szokásos esetben az RMS fut.</p>
-<p>Olyan egykiszolgálós telepítéseknél, amelyekben az adatbázis a legfelső szintű tanúsítási kiszolgálón fut, a Helyi rendszerfiókot is megadhatja. Biztonsági megfontolásokból azonban azt ajánljuk, hogy mindig adja meg az RMS szolgáltatásfiókját, ne használja a Helyi rendszerfiókot. Ha az adatbázis külön kiszolgálón van, feltétlenül meg kell adni az RMS szolgáltatásfiókját.</p></td>
+<td style="border:1px solid black;">Az RMS létesítése</td>
+<td style="border:1px solid black;">Olyan fiókkal kell bejelentkezni, amely tagja a helyi Rendszergazdák csoportnak. Emellett a fióknak olyan SQL bejelentkezési nevet kell használnia, amely az SQL Server adatbázisnál rendelkezik a System Administrator (Rendszergazda) szerepkörrel, hogy az RMS elő tudja készíteni a szükséges adatbázisokat.
+A létesítés során meg kell adni az RMS szolgáltatásfiókját, amelyet azt megelőzően létre kell hozni. A felhasználói fióknak szokásos tartományi felhasználói fióknak kell lennie, amely nem rendelkezik további engedélyekkel. Ez a fiók az RMS szolgáltatás csoport tagjává válik, és ez az a fiók, amellyel szokásos esetben az RMS fut.
+Olyan egykiszolgálós telepítéseknél, amelyekben az adatbázis a legfelső szintű tanúsítási kiszolgálón fut, a Helyi rendszerfiókot is megadhatja. Biztonsági megfontolásokból azonban azt ajánljuk, hogy mindig adja meg az RMS szolgáltatásfiókját, ne használja a Helyi rendszerfiókot. Ha az adatbázis külön kiszolgálón van, feltétlenül meg kell adni az RMS szolgáltatásfiókját.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Az RMS felügyelete</p></td>
-<td style="border:1px solid black;"><p>Olyan fiókkal kell bejelentkezni, amely tagja a helyi Rendszergazdák csoportnak. A biztonsági beállítások testreszabásával kezelhető a felügyeleti weblapokhoz való hozzáférés.</p></td>
+<td style="border:1px solid black;">Az RMS felügyelete</td>
+<td style="border:1px solid black;">Olyan fiókkal kell bejelentkezni, amely tagja a helyi Rendszergazdák csoportnak. A biztonsági beállítások testreszabásával kezelhető a felügyeleti weblapokhoz való hozzáférés.</td>
 </tr>
 </tbody>
 </table>

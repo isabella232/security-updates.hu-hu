@@ -15,7 +15,7 @@ A következő táblázat az RMS rendszereket alkotó kiszolgálótípusokat soro
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -29,8 +29,8 @@ A következő táblázat az RMS rendszereket alkotó kiszolgálótípusokat soro
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Legfelső szintű tanúsítási</p></td>
-<td style="border:1px solid black;"><p>Az RMS következő szolgáltatásai futnak ezen:</p>
+<td style="border:1px solid black;">Legfelső szintű tanúsítási</td>
+<td style="border:1px solid black;">Az RMS következő szolgáltatásai futnak ezen:
 <ul>
 <li><strong>Aligénylés</strong>. Teljesíti a licenckiszolgálók aligénylési kérelmeit.<br />
 <br />
@@ -48,11 +48,11 @@ A következő táblázat az RMS rendszereket alkotó kiszolgálótípusokat soro
 <br />
 </li>
 </ul>
-<p>Minden bevezetésben legalább egy legfelső szintű tanúsítási kiszolgálónak vagy fürtnek működnie kell. Active Directory-erdőnként csak egy legfelső szintű tanúsítási fürt létezhet.</p></td>
+Minden bevezetésben legalább egy legfelső szintű tanúsítási kiszolgálónak vagy fürtnek működnie kell. Active Directory-erdőnként csak egy legfelső szintű tanúsítási fürt létezhet.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Licencelési (nem kötelező)</p></td>
-<td style="border:1px solid black;"><p>Az RMS következő szolgáltatásai futnak ezen:</p>
+<td style="border:1px solid black;">Licencelési (nem kötelező)</td>
+<td style="border:1px solid black;">Az RMS következő szolgáltatásai futnak ezen:
 <ul>
 <li><strong>Közzététel</strong>. Kiállítja a közzétételi licenceket.<br />
 <br />
@@ -61,10 +61,10 @@ A következő táblázat az RMS rendszereket alkotó kiszolgálótípusokat soro
 <br />
 </li>
 </ul>
-<p>A licenckiszolgálók bevezetésének általában az a célja, hogy egyes osztályokat külön szolgáljanak ki, vagy hogy csökkentsék a legfelső szintű tanúsítási szintre beérkező kérelmek okozta terhelést. Licenckiszolgálókat nem kötelező létesíteni.</p></td>
+A licenckiszolgálók bevezetésének általában az a célja, hogy egyes osztályokat külön szolgáljanak ki, vagy hogy csökkentsék a legfelső szintű tanúsítási szintre beérkező kérelmek okozta terhelést. Licenckiszolgálókat nem kötelező létesíteni.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Adatbázis-kiszolgáló, például SQL Server</p></td>
+<td style="border:1px solid black;">Adatbázis-kiszolgáló, például SQL Server</td>
 <td style="border:1px solid black;"><ul>
 <li>Az RMS konfigurációs, címtár-szolgáltatási és naplózási adatbázisát kezeli.<br />
 <br />
@@ -75,7 +75,7 @@ A következő táblázat az RMS rendszereket alkotó kiszolgálótípusokat soro
 </ul></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Tartományvezérlő és globális katalógus</p></td>
+<td style="border:1px solid black;">Tartományvezérlő és globális katalógus</td>
 <td style="border:1px solid black;"><ul>
 <li>A felhasználóhitelesítési és a címtárszolgáltatást biztosítja.<br />
 <br />
@@ -87,7 +87,7 @@ A következő táblázat az RMS rendszereket alkotó kiszolgálótípusokat soro
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 A RMS a Microsoft által működtetett igénylési és aktiválási szolgáltatást használja arra, hogy közös bizalomforrást biztosítson a rendszer számára. A további tudnivalókat lásd: „[Bizalmi hierarchia](https://technet.microsoft.com/2d44182f-a653-4383-aba1-dade53f7cf9a)”.
 

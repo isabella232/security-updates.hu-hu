@@ -51,7 +51,7 @@ A következő táblázat az egyes támogatott operációs rendszereken szükség
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -67,52 +67,52 @@ A következő táblázat az egyes támogatott operációs rendszereken szükség
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Mindegyik operációs rendszer</p></td>
-<td style="border:1px solid black;"><p>Microsoft Internet Information Services (IIS) 5.0</p></td>
-<td style="border:1px solid black;"><p>Az operációs rendszerből telepíthető.</p>
-<p>Lásd 1. probléma: Az IIS terméknek telepítve kell lennie.</p></td>
+<td style="border:1px solid black;">Mindegyik operációs rendszer</td>
+<td style="border:1px solid black;">Microsoft Internet Information Services (IIS) 5.0</td>
+<td style="border:1px solid black;">Az operációs rendszerből telepíthető.
+Lásd 1. probléma: Az IIS terméknek telepítve kell lennie.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Mindegyik operációs rendszer</p></td>
-<td style="border:1px solid black;"><p>Háttérben futó intelligens átviteli szolgáltatás (BITS) 2.0</p></td>
-<td style="border:1px solid black;"><p>A Windows Server 2003 operációs rendszerekhez lásd: <a href="http://go.microsoft.com/fwlink/?linkid=47251">Frissítés a Háttérben futó intelligens átviteli szolgáltatás (BITS) 2.0-s verziójához és a WinHTTP 5.1-es verziójához – Windows Server 2003</a> (KB842773) a letöltőközpontban (http://go.microsoft.com/fwlink/?LinkId=47251).</p>
-<p>A Windows Server 2000 operációs rendszerekhez lásd: <a href="http://go.microsoft.com/fwlink/?linkid=46794">Frissítés a Háttérben futó intelligens átviteli szolgáltatás (BITS) 2.0-s verziójához és a WinHTTP 5.1-es verziójához – Windows 2000</a> (KB842773) a letöltőközpontban (http://go.microsoft.com/fwlink/?LinkId=46794).</p></td>
+<td style="border:1px solid black;">Mindegyik operációs rendszer</td>
+<td style="border:1px solid black;">Háttérben futó intelligens átviteli szolgáltatás (BITS) 2.0</td>
+<td style="border:1px solid black;">A Windows Server 2003 operációs rendszerekhez lásd: <a href="http://go.microsoft.com/fwlink/?linkid=47251">Frissítés a Háttérben futó intelligens átviteli szolgáltatás (BITS) 2.0-s verziójához és a WinHTTP 5.1-es verziójához – Windows Server 2003</a> (KB842773) a letöltőközpontban (http://go.microsoft.com/fwlink/?LinkId=47251).
+A Windows Server 2000 operációs rendszerekhez lásd: <a href="http://go.microsoft.com/fwlink/?linkid=46794">Frissítés a Háttérben futó intelligens átviteli szolgáltatás (BITS) 2.0-s verziójához és a WinHTTP 5.1-es verziójához – Windows 2000</a> (KB842773) a letöltőközpontban (http://go.microsoft.com/fwlink/?LinkId=46794).</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Windows Server 2003</p></td>
-<td style="border:1px solid black;"><p>Microsoft .NET-keretrendszer 1.1 Service Pack 1 szervizcsomag a Windows Server 2003 operációs rendszerhez</p></td>
-<td style="border:1px solid black;"><p><a href="http://go.microsoft.com/fwlink/?linkid=47358">Microsoft .NET-keretrendszer 1.1 Service Pack 1 szervizcsomag a Windows Server 2003 operációs rendszerhez</a></p>
-<p>Megteheti azt is, hogy ellátogat a <a href="http://go.microsoft.com/fwlink/?linkid=47370">Windows Update</a> webhelyre, és a Keresés mezőbe beírja a „Microsoft .NET-keretrendszer 1.1 Service Pack 1 Windows Server 2003” kifejezést.</p></td>
+<td style="border:1px solid black;">Windows Server 2003</td>
+<td style="border:1px solid black;">Microsoft .NET-keretrendszer 1.1 Service Pack 1 szervizcsomag a Windows Server 2003 operációs rendszerhez</td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=47358">Microsoft .NET-keretrendszer 1.1 Service Pack 1 szervizcsomag a Windows Server 2003 operációs rendszerhez</a>
+Megteheti azt is, hogy ellátogat a <a href="http://go.microsoft.com/fwlink/?linkid=47370">Windows Update</a> webhelyre, és a Keresés mezőbe beírja a „Microsoft .NET-keretrendszer 1.1 Service Pack 1 Windows Server 2003” kifejezést.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Windows Server 2003</p></td>
-<td style="border:1px solid black;"><p>A Microsoft SQL kiszolgálóval teljesen kompatibilis adatbázisszoftver</p></td>
-<td style="border:1px solid black;"><p>N/A</p></td>
+<td style="border:1px solid black;">Windows Server 2003</td>
+<td style="border:1px solid black;">A Microsoft SQL kiszolgálóval teljesen kompatibilis adatbázisszoftver</td>
+<td style="border:1px solid black;">N/A</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Windows 2000 Server</p></td>
-<td style="border:1px solid black;"><p>A Microsoft SQL kiszolgálóval teljesen kompatibilis adatbázisszoftver</p></td>
-<td style="border:1px solid black;"><p>Ha a Microsoft SQL Server 2000 kiszolgálót nem használja, telepítheti a Microsoft SQL Server 2000 Desktop Engine (MSDE 2000) verziót. Ez több lépésből áll. A további tudnivalókat lásd alább Az MSDE telepítése Windows 2000 rendszerre című részben.</p></td>
+<td style="border:1px solid black;">Windows 2000 Server</td>
+<td style="border:1px solid black;">A Microsoft SQL kiszolgálóval teljesen kompatibilis adatbázisszoftver</td>
+<td style="border:1px solid black;">Ha a Microsoft SQL Server 2000 kiszolgálót nem használja, telepítheti a Microsoft SQL Server 2000 Desktop Engine (MSDE 2000) verziót. Ez több lépésből áll. A további tudnivalókat lásd alább Az MSDE telepítése Windows 2000 rendszerre című részben.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Windows 2000 Server</p></td>
-<td style="border:1px solid black;"><p>Microsoft Internet Explorer 6.0 a Service Pack 1 javítócsomaggal</p></td>
-<td style="border:1px solid black;"><p><a href="http://go.microsoft.com/fwlink/?linkid=47359">Internet Explorer 6 Service Pack 1</a></p></td>
+<td style="border:1px solid black;">Windows 2000 Server</td>
+<td style="border:1px solid black;">Microsoft Internet Explorer 6.0 a Service Pack 1 javítócsomaggal</td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=47359">Internet Explorer 6 Service Pack 1</a></td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Windows 2000 Server</p></td>
-<td style="border:1px solid black;"><p>A Microsoft .NET-keretrendszer 1.1-es verziójának terjeszthető csomagja</p></td>
-<td style="border:1px solid black;"><p><a href="http://go.microsoft.com/fwlink/?linkid=47369">A Microsoft .NET-keretrendszer 1.1-es verziójának terjeszthető csomagja</a></p></td>
+<td style="border:1px solid black;">Windows 2000 Server</td>
+<td style="border:1px solid black;">A Microsoft .NET-keretrendszer 1.1-es verziójának terjeszthető csomagja</td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=47369">A Microsoft .NET-keretrendszer 1.1-es verziójának terjeszthető csomagja</a></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Windows 2000 Server</p></td>
-<td style="border:1px solid black;"><p>Microsoft .NET-keretrendszer 1.1 Service Pack 1</p></td>
-<td style="border:1px solid black;"><p><a href="http://go.microsoft.com/fwlink/?linkid=47368">Microsoft .NET-keretrendszer 1.1 Service Pack 1</a></p>
-<p>Megteheti azt is, hogy ellátogat a <a href="http://go.microsoft.com/fwlink/?linkid=47370">Windows Update</a> webhelyre, és a Keresés mezőbe beírja a „Microsoft .NET-keretrendszer 1.1 Service Pack 1 Windows Server 2000” kifejezést.</p></td>
+<td style="border:1px solid black;">Windows 2000 Server</td>
+<td style="border:1px solid black;">Microsoft .NET-keretrendszer 1.1 Service Pack 1</td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=47368">Microsoft .NET-keretrendszer 1.1 Service Pack 1</a>
+Megteheti azt is, hogy ellátogat a <a href="http://go.microsoft.com/fwlink/?linkid=47370">Windows Update</a> webhelyre, és a Keresés mezőbe beírja a „Microsoft .NET-keretrendszer 1.1 Service Pack 1 Windows Server 2000” kifejezést.</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 A fenti követelmények mellett előfordulhat, hogy szükség szerint a WSUS telepíti és konfigurálja az ASP.NET 1.1-es verzióját a kiszolgálón. (A WSUS telepítője konfigurálja az ASP.NET összetevőt.)
 

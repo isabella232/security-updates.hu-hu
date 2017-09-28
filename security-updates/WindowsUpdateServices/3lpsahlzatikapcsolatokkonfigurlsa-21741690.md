@@ -21,7 +21,7 @@ Mielőtt hozzálátna a konfiguráláshoz, tudnia kell a választ az alábbi ké
 
 A WSUS 3.0 SP2 szolgáltatás alapértelmezés szerint a Microsoft Update webhelyről tölti le a frissítéseket. Ha azonban proxykiszolgáló is működik a hálózaton, azt is beállíthatja, hogy a WSUS 3.0 SP2 a proxykiszolgálót használja. Ha vállalati tűzfal választja el egymástól a WSUS szolgáltatást és az internetet, lehetséges, hogy módosítani kell a tűzfal beállításait ahhoz, hogy a WSUS le tudja tölteni a frissítéseket.
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -34,11 +34,11 @@ A WSUS 3.0 SP2 szolgáltatás alapértelmezés szerint a Microsoft Update webhel
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;">Habár a Microsoft Update webhelyről csak működő internetkapcsolattal lehet frissítéseket letölteni, a WSUS szolgáltatással olyan hálózatokra is importálhatók a szükséges frissítések, amelyek nem férnek hozzá az internethez.
-<p></p></td>
+</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 A 3. lépésben a következő műveleteket kell végrehajtani:
 
@@ -63,7 +63,7 @@ A 3. lépésben a következő műveleteket kell végrehajtani:
     -   http://wustat.windows.com
     -   http://ntservicepack.microsoft.com
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -76,11 +76,11 @@ A 3. lépésben a következő műveleteket kell végrehajtani:
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;">A tűzfal beállítását célzó fenti műveletek a WSUS szolgáltatás és az internet közötti vállalati tűzfalra vonatkoznak. A WSUS-kiszolgálón nincs szükség a Windows tűzfal beállításainak módosítására, hiszen saját hálózati adatforgalmát teljes egészében a WSUS szolgáltatás kezdeményezi.
-<p></p></td>
+</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 Habár a Microsoft Update webhely és a WSUS szolgáltatás közötti kapcsolat megteremtéséhez a 80-as és a 443-as portnak nyitva kell lennie, egyéni port megadásával több WSUS-kiszolgáló is használhatja ugyanazt a portot.
 
@@ -111,7 +111,7 @@ A következő két művelet feltételezi, hogy a konfigurálást a WSUS felügye
 **A WSUS felügyeleti konzol elindítása**
 -   A WSUS felügyeleti konzol elindításához mutasson a **Start** menü **Minden program** pontjára, majd a **Felügyeleti eszközök** pontra, és kattintson a **Microsoft Windows Server Update Services 3.0** parancsra.
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -124,11 +124,11 @@ A következő két művelet feltételezi, hogy a konfigurálást a WSUS felügye
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;">A konzol összes szolgáltatásának használatához a WSUS-rendszergazdák vagy a helyi Rendszergazdák biztonsági csoport tagjaként kell bejelentkezni a WSUS szolgáltatást futtató kiszolgálón. A WSUS-jelentéskészítők biztonsági csoport tagjai olvasási jogosultsággal rendelkeznek a konzolhoz.
-<p></p></td>
+</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 **Frissítési forrás és proxykiszolgáló megadása**
 1.  Kattintson a WSUS-konzol bal oldali ablaktáblájában a kiszolgáló neve alatt a **Beállítások**, majd a középső panelen a **Frissítés forrása és proxykiszolgáló** elemre.

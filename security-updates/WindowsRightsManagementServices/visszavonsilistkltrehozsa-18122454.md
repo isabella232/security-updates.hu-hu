@@ -167,7 +167,7 @@ A parancs paramétereit az alábbiak alapján adja meg:
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -181,20 +181,20 @@ A parancs paramétereit az alábbiak alapján adja meg:
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p><em>bemeneti_fájl</em></p></td>
-<td style="border:1px solid black;"><p>A korábban elkészített, a visszavonási listát tartalmazó XrML-kompatibilis fájl neve</p></td>
+<td style="border:1px solid black;"><em>bemeneti_fájl</em></td>
+<td style="border:1px solid black;">A korábban elkészített, a visszavonási listát tartalmazó XrML-kompatibilis fájl neve</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><em>kulcsfájl</em></p></td>
-<td style="border:1px solid black;"><p>A korábban előállított, a nyilvános és a személyes kulcsot tartalmazó fájl neve</p></td>
+<td style="border:1px solid black;"><em>kulcsfájl</em></td>
+<td style="border:1px solid black;">A korábban előállított, a nyilvános és a személyes kulcsot tartalmazó fájl neve</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p><em>tároló_neve</em></p></td>
-<td style="border:1px solid black;"><p>A kulcstároló neve</p></td>
+<td style="border:1px solid black;"><em>tároló_neve</em></td>
+<td style="border:1px solid black;">A kulcstároló neve</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><em>kimeneti_fájl</em></p></td>
-<td style="border:1px solid black;"><p>A programmal előállított, az aláírt visszavonási listát tartalmazó fájl neve</p></td>
+<td style="border:1px solid black;"><em>kimeneti_fájl</em></td>
+<td style="border:1px solid black;">A programmal előállított, az aláírt visszavonási listát tartalmazó fájl neve</td>
 </tr>
 </tbody>
 </table>
@@ -214,7 +214,7 @@ Az RLsigner.exe program visszatérési kódja a sikeres végrehajtást, illetve 
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -228,32 +228,32 @@ Az RLsigner.exe program visszatérési kódja a sikeres végrehajtást, illetve 
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0</p></td>
-<td style="border:1px solid black;"><p>Sikeres végrehajtás</p></td>
+<td style="border:1px solid black;">0</td>
+<td style="border:1px solid black;">Sikeres végrehajtás</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>-1</p></td>
-<td style="border:1px solid black;"><p>Nem olvasható a forrásfájl</p></td>
+<td style="border:1px solid black;">-1</td>
+<td style="border:1px solid black;">Nem olvasható a forrásfájl</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>-2</p></td>
-<td style="border:1px solid black;"><p>Nem olvasható a kulcsfájl</p></td>
+<td style="border:1px solid black;">-2</td>
+<td style="border:1px solid black;">Nem olvasható a kulcsfájl</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>-3</p></td>
-<td style="border:1px solid black;"><p>Érvénytelen kulcsfájl</p></td>
+<td style="border:1px solid black;">-3</td>
+<td style="border:1px solid black;">Érvénytelen kulcsfájl</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>-4</p></td>
-<td style="border:1px solid black;"><p>Érvénytelen forrásfájl</p></td>
+<td style="border:1px solid black;">-4</td>
+<td style="border:1px solid black;">Érvénytelen forrásfájl</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>-5</p></td>
-<td style="border:1px solid black;"><p>Nem írható a kimeneti fájl</p></td>
+<td style="border:1px solid black;">-5</td>
+<td style="border:1px solid black;">Nem írható a kimeneti fájl</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>-6</p></td>
-<td style="border:1px solid black;"><p>Ismeretlen hiba</p></td>
+<td style="border:1px solid black;">-6</td>
+<td style="border:1px solid black;">Ismeretlen hiba</td>
 </tr>
 </tbody>
 </table>

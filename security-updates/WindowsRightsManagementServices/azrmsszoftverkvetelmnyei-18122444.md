@@ -13,7 +13,7 @@ Az RMS kiszolgálók működéséhez szükséges szoftverfeltételeket a követk
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -27,15 +27,15 @@ Az RMS kiszolgálók működéséhez szükséges szoftverfeltételeket a követk
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Operációs rendszer</p></td>
-<td style="border:1px solid black;"><p>Microsoft Windows Server® 2003 bármely kiadása a Web Edition kivételével.</p></td>
+<td style="border:1px solid black;">Operációs rendszer</td>
+<td style="border:1px solid black;">Microsoft Windows Server® 2003 bármely kiadása a Web Edition kivételével.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Fájlrendszer</p></td>
-<td style="border:1px solid black;"><p>Az NTFS fájlrendszer javasolt.</p></td>
+<td style="border:1px solid black;">Fájlrendszer</td>
+<td style="border:1px solid black;">Az NTFS fájlrendszer javasolt.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Operációsrendszer-összetevők</p></td>
+<td style="border:1px solid black;">Operációsrendszer-összetevők</td>
 <td style="border:1px solid black;"><ul>
 <li>Message Queuing (MSMQ) az Active Directory® címtárszolgáltatás-integráció támogatásával.<br />
 <br />
@@ -49,12 +49,12 @@ Az RMS kiszolgálók működéséhez szükséges szoftverfeltételeket a követk
 </ul></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Active Directory® címtárszolgáltatás</p></td>
-<td style="border:1px solid black;"><p>Az RMS rendszert olyan Active Directory-tartományba kell telepíteni, amelyben a tartományvezérlőkön a Windows Server 2000 Service Pack 3 (SP3) vagy újabb csomaggal frissített verziója fut. Minden, az RMS-szolgáltatást tartalom elérésére és közzétételére használó felhasználónak e-mail címmel kell rendelkeznie, amelyet be kell állítani az Active Directoryban.</p></td>
+<td style="border:1px solid black;">Active Directory® címtárszolgáltatás</td>
+<td style="border:1px solid black;">Az RMS rendszert olyan Active Directory-tartományba kell telepíteni, amelyben a tartományvezérlőkön a Windows Server 2000 Service Pack 3 (SP3) vagy újabb csomaggal frissített verziója fut. Minden, az RMS-szolgáltatást tartalom elérésére és közzétételére használó felhasználónak e-mail címmel kell rendelkeznie, amelyet be kell állítani az Active Directoryban.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Adatbázis-kiszolgáló</p></td>
-<td style="border:1px solid black;"><p>Az RMS adatbázist és tárolt eljárásokat igényel a működéshez. Használható a Microsoft SQL Server 2000 SP3a vagy újabb csomaggal, vagy a Microsoft SQL Server 2005. Tesztelés vagy egyéb, egyszámítógépes telepítés céljaira a Microsoft SQL Server Desktop Engine (MSDE 2000) SP3, illetve a Microsoft SQL Server 2005 Express Edition használható.</p></td>
+<td style="border:1px solid black;">Adatbázis-kiszolgáló</td>
+<td style="border:1px solid black;">Az RMS adatbázist és tárolt eljárásokat igényel a működéshez. Használható a Microsoft SQL Server 2000 SP3a vagy újabb csomaggal, vagy a Microsoft SQL Server 2005. Tesztelés vagy egyéb, egyszámítógépes telepítés céljaira a Microsoft SQL Server Desktop Engine (MSDE 2000) SP3, illetve a Microsoft SQL Server 2005 Express Edition használható.</td>
 </tr>
 </tbody>
 </table>

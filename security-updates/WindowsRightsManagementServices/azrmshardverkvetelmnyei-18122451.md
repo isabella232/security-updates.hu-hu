@@ -13,7 +13,7 @@ A következő táblázat az RMS kiszolgálók futtatásához szükséges és aj�
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -27,20 +27,20 @@ A következő táblázat az RMS kiszolgálók futtatásához szükséges és aj�
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Személyi számítógép 800 MHz-es vagy gyorsabb Pentium III processzorral</p></td>
-<td style="border:1px solid black;"><p>Személyi számítógép, amely két 1500 MHz-es vagy gyorsabb Pentium 4 processzort tartalmaz</p></td>
+<td style="border:1px solid black;">Személyi számítógép 800 MHz-es vagy gyorsabb Pentium III processzorral</td>
+<td style="border:1px solid black;">Személyi számítógép, amely két 1500 MHz-es vagy gyorsabb Pentium 4 processzort tartalmaz</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>256 MB RAM</p></td>
-<td style="border:1px solid black;"><p>512 MB RAM</p></td>
+<td style="border:1px solid black;">256 MB RAM</td>
+<td style="border:1px solid black;">512 MB RAM</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>20 GB szabad merevlemez-terület</p></td>
-<td style="border:1px solid black;"><p>40 GB szabad merevlemez-terület</p></td>
+<td style="border:1px solid black;">20 GB szabad merevlemez-terület</td>
+<td style="border:1px solid black;">40 GB szabad merevlemez-terület</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Egy hálózati kártya</p></td>
-<td style="border:1px solid black;"><p>Egy hálózati kártya</p></td>
+<td style="border:1px solid black;">Egy hálózati kártya</td>
+<td style="border:1px solid black;">Egy hálózati kártya</td>
 </tr>
 </tbody>
 </table>

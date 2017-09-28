@@ -23,7 +23,7 @@ A következő táblázat bemutatja, hogy milyen entitások vehetők fel a vissza
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -37,28 +37,28 @@ A következő táblázat bemutatja, hogy milyen entitások vehetők fel a vissza
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Licencek vagy tanúsítványok egy csoportja</p></td>
-<td style="border:1px solid black;"><p>A kiállító azonosítója vagy nyilvános kulcsa</p></td>
+<td style="border:1px solid black;">Licencek vagy tanúsítványok egy csoportja</td>
+<td style="border:1px solid black;">A kiállító azonosítója vagy nyilvános kulcsa</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Alkalmazási jegyzékfájlok egy csoportja</p></td>
-<td style="border:1px solid black;"><p>A kiállító azonosítója vagy nyilvános kulcsa</p></td>
+<td style="border:1px solid black;">Alkalmazási jegyzékfájlok egy csoportja</td>
+<td style="border:1px solid black;">A kiállító azonosítója vagy nyilvános kulcsa</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Egy bizonyos licenc vagy tanúsítvány</p></td>
-<td style="border:1px solid black;"><p>A licenc azonosítója vagy kivonata</p></td>
+<td style="border:1px solid black;">Egy bizonyos licenc vagy tanúsítvány</td>
+<td style="border:1px solid black;">A licenc azonosítója vagy kivonata</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Egy bizonyos alkalmazási jegyzékfájl</p></td>
-<td style="border:1px solid black;"><p>A licenc azonosítója vagy kivonata</p></td>
+<td style="border:1px solid black;">Egy bizonyos alkalmazási jegyzékfájl</td>
+<td style="border:1px solid black;">A licenc azonosítója vagy kivonata</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Egy bizonyos résztvevő</p></td>
-<td style="border:1px solid black;"><p>A résztvevő azonosítója vagy nyilvános kulcsa</p></td>
+<td style="border:1px solid black;">Egy bizonyos résztvevő</td>
+<td style="border:1px solid black;">A résztvevő azonosítója vagy nyilvános kulcsa</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Egy bizonyos tartalom</p></td>
-<td style="border:1px solid black;"><p>A tartalom azonosítója</p></td>
+<td style="border:1px solid black;">Egy bizonyos tartalom</td>
+<td style="border:1px solid black;">A tartalom azonosítója</td>
 </tr>
 </tbody>
 </table>
@@ -71,7 +71,7 @@ A visszavonási listák XrML fájlok, a következő paramétereket adják meg.
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -85,20 +85,20 @@ A visszavonási listák XrML fájlok, a következő paramétereket adják meg.
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>ISSUEDTIME</p></td>
-<td style="border:1px solid black;"><p>Az XrML fájl létrehozásakor érvényes rendszeridő. Ezt a használati licencekben szereplő REFRESH feltétel használja visszavonási lista korának megállapítására.</p></td>
+<td style="border:1px solid black;">ISSUEDTIME</td>
+<td style="border:1px solid black;">Az XrML fájl létrehozásakor érvényes rendszeridő. Ezt a használati licencekben szereplő REFRESH feltétel használja visszavonási lista korának megállapítására.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>ISSUER</p></td>
-<td style="border:1px solid black;"><p>A visszavonási lista kiállítójának neve, azonosítója és címe.</p></td>
+<td style="border:1px solid black;">ISSUER</td>
+<td style="border:1px solid black;">A visszavonási lista kiállítójának neve, azonosítója és címe.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>PUBLICKEY</p></td>
-<td style="border:1px solid black;"><p>A visszavonási lista kiállítójának nyilvános kulcsa.</p></td>
+<td style="border:1px solid black;">PUBLICKEY</td>
+<td style="border:1px solid black;">A visszavonási lista kiállítójának nyilvános kulcsa.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>REVOCATIONLIST</p></td>
-<td style="border:1px solid black;"><p>A visszavont entitások nevének, típusának és azonosítójának felsorolása.</p></td>
+<td style="border:1px solid black;">REVOCATIONLIST</td>
+<td style="border:1px solid black;">A visszavont entitások nevének, típusának és azonosítójának felsorolása.</td>
 </tr>
 </tbody>
 </table>

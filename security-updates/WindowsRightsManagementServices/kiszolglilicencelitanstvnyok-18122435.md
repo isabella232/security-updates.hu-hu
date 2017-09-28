@@ -17,7 +17,7 @@ Az alábbi táblázat azokat a jogokat tartalmazza, amelyeket a kiszolgálók sz
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -33,29 +33,29 @@ Az alábbi táblázat azokat a jogokat tartalmazza, amelyeket a kiszolgálók sz
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Tartalomvédelmi fióktanúsítványok</p></td>
-<td style="border:1px solid black;"><p>Igen</p></td>
-<td style="border:1px solid black;"><p>Nem</p></td>
+<td style="border:1px solid black;">Tartalomvédelmi fióktanúsítványok</td>
+<td style="border:1px solid black;">Igen</td>
+<td style="border:1px solid black;">Nem</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Közzétételi licencek</p></td>
-<td style="border:1px solid black;"><p>Igen</p></td>
-<td style="border:1px solid black;"><p>Igen</p></td>
+<td style="border:1px solid black;">Közzétételi licencek</td>
+<td style="border:1px solid black;">Igen</td>
+<td style="border:1px solid black;">Igen</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Használati licencek</p></td>
-<td style="border:1px solid black;"><p>Igen</p></td>
-<td style="border:1px solid black;"><p>Igen</p></td>
+<td style="border:1px solid black;">Használati licencek</td>
+<td style="border:1px solid black;">Igen</td>
+<td style="border:1px solid black;">Igen</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Alsóbb szintű kiszolgálói licencelői tanúsítványok</p></td>
-<td style="border:1px solid black;"><p>Igen</p></td>
-<td style="border:1px solid black;"><p>Nem</p></td>
+<td style="border:1px solid black;">Alsóbb szintű kiszolgálói licencelői tanúsítványok</td>
+<td style="border:1px solid black;">Igen</td>
+<td style="border:1px solid black;">Nem</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Ügyfél licencelői tanúsítványok</p></td>
-<td style="border:1px solid black;"><p>Igen</p></td>
-<td style="border:1px solid black;"><p>Igen</p></td>
+<td style="border:1px solid black;">Ügyfél licencelői tanúsítványok</td>
+<td style="border:1px solid black;">Igen</td>
+<td style="border:1px solid black;">Igen</td>
 </tr>
 </tbody>
 </table>

@@ -17,7 +17,7 @@ A következő táblázat a címtár-szolgáltatási adatbázis tábláiban táro
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -31,7 +31,7 @@ A következő táblázat a címtár-szolgáltatási adatbázis tábláiban táro
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>GroupAliases</p></td>
+<td style="border:1px solid black;">GroupAliases</td>
 <td style="border:1px solid black;"><ul>
 <li>GroupName: a csoport aliasneve<br />
 <br />
@@ -42,7 +42,7 @@ A következő táblázat a címtár-szolgáltatási adatbázis tábláiban táro
 </ul></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>GroupIdentifiers</p></td>
+<td style="border:1px solid black;">GroupIdentifiers</td>
 <td style="border:1px solid black;"><ul>
 <li>GroupDN: a csoport Active Directory szerinti megkülönböztető neve<br />
 <br />
@@ -56,7 +56,7 @@ A következő táblázat a címtár-szolgáltatási adatbázis tábláiban táro
 </ul></td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>GroupMembership</p></td>
+<td style="border:1px solid black;">GroupMembership</td>
 <td style="border:1px solid black;"><ul>
 <li>GroupID: a csoport egyedi azonosítója<br />
 <br />
@@ -67,7 +67,7 @@ A következő táblázat a címtár-szolgáltatási adatbázis tábláiban táro
 </ul></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>PrincipalAliases</p></td>
+<td style="border:1px solid black;">PrincipalAliases</td>
 <td style="border:1px solid black;"><ul>
 <li>PrincipalName: az adott résztvevő aliasneve<br />
 <br />
@@ -78,7 +78,7 @@ A következő táblázat a címtár-szolgáltatási adatbázis tábláiban táro
 </ul></td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>PrincipalIdentifiers</p></td>
+<td style="border:1px solid black;">PrincipalIdentifiers</td>
 <td style="border:1px solid black;"><ul>
 <li>PrincipalID: a résztvevő egyedi azonosítója<br />
 <br />
@@ -89,8 +89,8 @@ A következő táblázat a címtár-szolgáltatási adatbázis tábláiban táro
 </ul></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>PrincipalMembership</p></td>
-<td style="border:1px solid black;"><p>A tábla mindegyik sorában egy résztvevő egyedi azonosítója, és az annak tagjai közé tartozó csoport egyedi azonosítója szerepel.</p>
+<td style="border:1px solid black;">PrincipalMembership</td>
+<td style="border:1px solid black;">A tábla mindegyik sorában egy résztvevő egyedi azonosítója, és az annak tagjai közé tartozó csoport egyedi azonosítója szerepel.
 <ul>
 <li>PrincipalID: a résztvevő egyedi azonosítója<br />
 <br />

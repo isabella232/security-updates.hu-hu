@@ -141,7 +141,7 @@ A WSUS 3.0 SP1 telepítő futtatása előtt ellenőrizze, hogy a rendszer megfel
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -155,24 +155,24 @@ A WSUS 3.0 SP1 telepítő futtatása előtt ellenőrizze, hogy a rendszer megfel
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Microsoft Internet Information Services (IIS)</p></td>
-<td style="border:1px solid black;"><p>Az operációs rendszerből telepíthető.</p></td>
+<td style="border:1px solid black;">Microsoft Internet Information Services (IIS)</td>
+<td style="border:1px solid black;">Az operációs rendszerből telepíthető.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Újraterjeszthető csomag a Microsoft® .NET-keretrendszer 2.0-s verziójához</p></td>
-<td style="border:1px solid black;"><p>Erről bővebben a Microsoft® .NET-keretrendszer 2.0-s verziójának x68 típusú újraterjeszhető csomagjával foglalkozó dokumentumban, a <a href="http://go.microsoft.com/fwlink/?linkid=68935">Microsoft letöltőközpontjában</a>, a http://go.microsoft.com/fwlink/?LinkId=68935 címen tájékozódhat. 64 bites platform esetén olvassa el a Microsoft® .NET-keretrendszer 2.0-s verziójának x64 típusú újraterjeszhető csomagjával foglalkozó dokumentumot, a <a href="http://go.microsoft.com/fwlink/?linkid=70637">Microsoft letöltőközpontjában</a>, a http://go.microsoft.com/fwlink/?LinkId=70637 címen. (Előfordulhat, hogy a lap angol nyelven jelenik meg.)</p></td>
+<td style="border:1px solid black;">Újraterjeszthető csomag a Microsoft® .NET-keretrendszer 2.0-s verziójához</td>
+<td style="border:1px solid black;">Erről bővebben a Microsoft® .NET-keretrendszer 2.0-s verziójának x68 típusú újraterjeszhető csomagjával foglalkozó dokumentumban, a <a href="http://go.microsoft.com/fwlink/?linkid=68935">Microsoft letöltőközpontjában</a>, a http://go.microsoft.com/fwlink/?LinkId=68935 címen tájékozódhat. 64 bites platform esetén olvassa el a Microsoft® .NET-keretrendszer 2.0-s verziójának x64 típusú újraterjeszhető csomagjával foglalkozó dokumentumot, a <a href="http://go.microsoft.com/fwlink/?linkid=70637">Microsoft letöltőközpontjában</a>, a http://go.microsoft.com/fwlink/?LinkId=70637 címen. (Előfordulhat, hogy a lap angol nyelven jelenik meg.)</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Microsoft Management Console 3.0 Windows Server 2003 rendszerhez</p></td>
-<td style="border:1px solid black;"><p>A WSUS 3.0 SP1 felhasználói felület használatához ez előfeltétel. Erről bővebben a Windows Server 2003 rendszerhez készült Microsoft Management Console 3.0 alkalmazással (KB907265) foglalkozó dokumentumban, a <a href="http://go.microsoft.com/fwlink/?linkid=70412">Microsoft letöltőközpontjában</a>, a http://go.microsoft.com/fwlink/?LinkId=70412 címen tájékozódhat. 64 bites platform esetén olvassa el a Windows Server 2003 x64 kiadásához készült Microsoft Management Console 3.0 alkalmazással (KB907265) foglalkozó dokumentumot a <a href="http://go.microsoft.com/fwlink/?linkid=70638">Microsoft letöltőközpontjában</a>, a http://go.microsoft.com/fwlink/?LinkId=70638 címen. (Előfordulhat, hogy a lap angol nyelven jelenik meg.)</p></td>
+<td style="border:1px solid black;">Microsoft Management Console 3.0 Windows Server 2003 rendszerhez</td>
+<td style="border:1px solid black;">A WSUS 3.0 SP1 felhasználói felület használatához ez előfeltétel. Erről bővebben a Windows Server 2003 rendszerhez készült Microsoft Management Console 3.0 alkalmazással (KB907265) foglalkozó dokumentumban, a <a href="http://go.microsoft.com/fwlink/?linkid=70412">Microsoft letöltőközpontjában</a>, a http://go.microsoft.com/fwlink/?LinkId=70412 címen tájékozódhat. 64 bites platform esetén olvassa el a Windows Server 2003 x64 kiadásához készült Microsoft Management Console 3.0 alkalmazással (KB907265) foglalkozó dokumentumot a <a href="http://go.microsoft.com/fwlink/?linkid=70638">Microsoft letöltőközpontjában</a>, a http://go.microsoft.com/fwlink/?LinkId=70638 címen. (Előfordulhat, hogy a lap angol nyelven jelenik meg.)</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Microsoft jelentésmegtekintő</p></td>
-<td style="border:1px solid black;"><p>A WSUS 3.0 SP1 felhasználói felület használatához ez előfeltétel. Erről bővebben a Microsoft jelentésmegtekintő újraterjeszhető csomagjának 2005-ös verziójával foglalkozó dokumentumban, a <a href="http://go.microsoft.com/fwlink/?linkid=70410">Microsoft letöltőközpontjában</a>, a http://go.microsoft.com/fwlink/?LinkId=70410 címen tájékozódhat. (Előfordulhat, hogy a lap angol nyelven jelenik meg.)</p></td>
+<td style="border:1px solid black;">Microsoft jelentésmegtekintő</td>
+<td style="border:1px solid black;">A WSUS 3.0 SP1 felhasználói felület használatához ez előfeltétel. Erről bővebben a Microsoft jelentésmegtekintő újraterjeszhető csomagjának 2005-ös verziójával foglalkozó dokumentumban, a <a href="http://go.microsoft.com/fwlink/?linkid=70410">Microsoft letöltőközpontjában</a>, a http://go.microsoft.com/fwlink/?LinkId=70410 címen tájékozódhat. (Előfordulhat, hogy a lap angol nyelven jelenik meg.)</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>SQL Server 2005 (választható)</p></td>
-<td style="border:1px solid black;"><p>A WSUS 3.0 SP1 csomaggal együtt a Belső Windows-adatbázis is települni fog, hacsak az SQL Server egy kompatibilis példánya nincs már telepítve. Ha egy teljes SQL Server adatbázist szeretne használni, akkor Windows Server 2003 rendszer esetén (legalább) SQL Server 2005 SP1 csomagra lesz szüksége, amely a <a href="http://go.microsoft.com/fwlink/?linkid=66143">Microsoft letöltőközpontjából</a>, a http://go.microsoft.com/fwlink/?LinkId=66143 címről tölthető le. (Előfordulhat, hogy a lap angol nyelven jelenik meg.) Választhatja az Windows Server 2008 SQL Server 2005 SP2 csomagot is, amely szintén a <a href="http://go.microsoft.com/fwlink/?linkid=84823">Microsoft letöltőközpontjából</a>, a http://go.microsoft.com/fwlink/?LinkId=84823 címről tölthető le. (Előfordulhat, hogy a lap angol nyelven jelenik meg.)</p></td>
+<td style="border:1px solid black;">SQL Server 2005 (választható)</td>
+<td style="border:1px solid black;">A WSUS 3.0 SP1 csomaggal együtt a Belső Windows-adatbázis is települni fog, hacsak az SQL Server egy kompatibilis példánya nincs már telepítve. Ha egy teljes SQL Server adatbázist szeretne használni, akkor Windows Server 2003 rendszer esetén (legalább) SQL Server 2005 SP1 csomagra lesz szüksége, amely a <a href="http://go.microsoft.com/fwlink/?linkid=66143">Microsoft letöltőközpontjából</a>, a http://go.microsoft.com/fwlink/?LinkId=66143 címről tölthető le. (Előfordulhat, hogy a lap angol nyelven jelenik meg.) Választhatja az Windows Server 2008 SQL Server 2005 SP2 csomagot is, amely szintén a <a href="http://go.microsoft.com/fwlink/?linkid=84823">Microsoft letöltőközpontjából</a>, a http://go.microsoft.com/fwlink/?LinkId=84823 címről tölthető le. (Előfordulhat, hogy a lap angol nyelven jelenik meg.)</td>
 </tr>
 </tbody>
 </table>
@@ -229,7 +229,7 @@ A WSUS parancssori telepítőprogramja segítségével a WSUS 3.0 SP1 szolgálta
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -243,24 +243,24 @@ A WSUS parancssori telepítőprogramja segítségével a WSUS 3.0 SP1 szolgálta
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>/q</strong></p></td>
-<td style="border:1px solid black;"><p>Beavatkozás nélküli telepítés futtatása.</p></td>
+<td style="border:1px solid black;"><strong>/q</strong></td>
+<td style="border:1px solid black;">Beavatkozás nélküli telepítés futtatása.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><strong>/u</strong></p></td>
-<td style="border:1px solid black;"><p>A termék eltávolítása. Ha telepítve van, ez a paraméter a Belső Windows-adatbázis példányát is eltávolítja.</p></td>
+<td style="border:1px solid black;"><strong>/u</strong></td>
+<td style="border:1px solid black;">A termék eltávolítása. Ha telepítve van, ez a paraméter a Belső Windows-adatbázis példányát is eltávolítja.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>/p</strong></p></td>
-<td style="border:1px solid black;"><p>Csak az előfeltételek ellenőrzésének végrehajtása. Nem telepíti a terméket, de megvizsgálja a rendszert, és jelenti a hiányzó előfeltételeket.</p></td>
+<td style="border:1px solid black;"><strong>/p</strong></td>
+<td style="border:1px solid black;">Csak az előfeltételek ellenőrzésének végrehajtása. Nem telepíti a terméket, de megvizsgálja a rendszert, és jelenti a hiányzó előfeltételeket.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><strong>/?, /h</strong></p></td>
-<td style="border:1px solid black;"><p>A parancssori paraméterek és leírásuk megjelenítése.</p></td>
+<td style="border:1px solid black;"><strong>/?, /h</strong></td>
+<td style="border:1px solid black;">A parancssori paraméterek és leírásuk megjelenítése.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>/g</strong></p></td>
-<td style="border:1px solid black;"><p>Frissítés a WSUS korábbi verzióiról. (Ne frissítsen az SUS 1.0 szolgáltatásról.) Ehhez a kapcsolóhoz egyedül a /q paraméter (csendes telepítés) használható. A kapcsoló egyetlen érvényes tulajdonsága a DEFAULT_WEBSITE.</p></td>
+<td style="border:1px solid black;"><strong>/g</strong></td>
+<td style="border:1px solid black;">Frissítés a WSUS korábbi verzióiról. (Ne frissítsen az SUS 1.0 szolgáltatásról.) Ehhez a kapcsolóhoz egyedül a /q paraméter (csendes telepítés) használható. A kapcsoló egyetlen érvényes tulajdonsága a DEFAULT_WEBSITE.</td>
 </tr>
 </tbody>
 </table>
@@ -269,7 +269,7 @@ Az alábbi táblázat a WSUS 3.0 SP1 telepítésének parancssori tulajdonságai
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -283,64 +283,64 @@ Az alábbi táblázat a WSUS 3.0 SP1 telepítésének parancssori tulajdonságai
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>CONTENT_LOCAL</p></td>
-<td style="border:1px solid black;"><p>0=a tartalom a helyi számítógépen található, 1=a tartalom a Microsoft Update webhelyen található</p></td>
+<td style="border:1px solid black;">CONTENT_LOCAL</td>
+<td style="border:1px solid black;">0=a tartalom a helyi számítógépen található, 1=a tartalom a Microsoft Update webhelyen található</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>CONTENT_DIR</p></td>
-<td style="border:1px solid black;"><p>A tartalom könyvtárának elérési útja. Az alapértelmezett elérési út a <em>WSUSTelepítésiMeghajtó</em><strong>\WSUS\WSUSContent</strong>, ahol a<em>WSUSTelepítésiMeghajtó</em> a legnagyobb szabad lemezterülettel rendelkező helyi meghajtó.</p></td>
+<td style="border:1px solid black;">CONTENT_DIR</td>
+<td style="border:1px solid black;">A tartalom könyvtárának elérési útja. Az alapértelmezett elérési út a <em>WSUSTelepítésiMeghajtó</em><strong>\WSUS\WSUSContent</strong>, ahol a<em>WSUSTelepítésiMeghajtó</em> a legnagyobb szabad lemezterülettel rendelkező helyi meghajtó.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>WYUKON_DATA_DIR</p></td>
-<td style="border:1px solid black;"><p>A Belső Windows-adatbázis adatkönyvtárának elérési útja.</p></td>
+<td style="border:1px solid black;">WYUKON_DATA_DIR</td>
+<td style="border:1px solid black;">A Belső Windows-adatbázis adatkönyvtárának elérési útja.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>SQLINSTANCE_NAME</p></td>
-<td style="border:1px solid black;"><p>A névnek a következő formátumúnak kell lennie: <em>Kiszolgálónév</em>\<em>SQL-példányNeve</em>. Ha az adatbázispéldány a helyi számítógépen található, használja a %COMPUTERNAME% környezeti változót. Ha a meglévő példány ott nem található, az alapértelmezett név a %COMPUTERNAME%\WSUS.</p></td>
+<td style="border:1px solid black;">SQLINSTANCE_NAME</td>
+<td style="border:1px solid black;">A névnek a következő formátumúnak kell lennie: <em>Kiszolgálónév</em>\<em>SQL-példányNeve</em>. Ha az adatbázispéldány a helyi számítógépen található, használja a %COMPUTERNAME% környezeti változót. Ha a meglévő példány ott nem található, az alapértelmezett név a %COMPUTERNAME%\WSUS.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>DEFAULT_WEBSITE</p></td>
-<td style="border:1px solid black;"><p>0=8530-as port, 1=80-as port</p></td>
+<td style="border:1px solid black;">DEFAULT_WEBSITE</td>
+<td style="border:1px solid black;">0=8530-as port, 1=80-as port</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>PREREQ_CHECK_LOG</p></td>
-<td style="border:1px solid black;"><p>A naplófájl elérési útja és neve.</p></td>
+<td style="border:1px solid black;">PREREQ_CHECK_LOG</td>
+<td style="border:1px solid black;">A naplófájl elérési útja és neve.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>CONSOLE_INSTALL</p></td>
-<td style="border:1px solid black;"><p>0=a WSUS-kiszolgáló telepítése, 1=csak a konzol telepítése</p></td>
+<td style="border:1px solid black;">CONSOLE_INSTALL</td>
+<td style="border:1px solid black;">0=a WSUS-kiszolgáló telepítése, 1=csak a konzol telepítése</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>ENABLE_INVENTORY</p></td>
-<td style="border:1px solid black;"><p>0=a leltárszolgáltatások telepítésének mellőzése, 1=a leltárszolgáltatások telepítése</p></td>
+<td style="border:1px solid black;">ENABLE_INVENTORY</td>
+<td style="border:1px solid black;">0=a leltárszolgáltatások telepítésének mellőzése, 1=a leltárszolgáltatások telepítése</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>DELETE_DATABASE</p></td>
-<td style="border:1px solid black;"><p>0=az adatbázis megőrzése, 1=az adatbázis eltávolítása</p></td>
+<td style="border:1px solid black;">DELETE_DATABASE</td>
+<td style="border:1px solid black;">0=az adatbázis megőrzése, 1=az adatbázis eltávolítása</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>DELETE_CONTENT</p></td>
-<td style="border:1px solid black;"><p>0=a tartalomfájlok megőrzése, 1=a tartalomfájlok eltávolítása</p></td>
+<td style="border:1px solid black;">DELETE_CONTENT</td>
+<td style="border:1px solid black;">0=a tartalomfájlok megőrzése, 1=a tartalomfájlok eltávolítása</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>DELETE_LOGS</p></td>
-<td style="border:1px solid black;"><p>0=a naplófájlok megőrzése, 1=a naplófájlok eltávolítása (a /u telepítési kapcsolóval együtt használva)</p></td>
+<td style="border:1px solid black;">DELETE_LOGS</td>
+<td style="border:1px solid black;">0=a naplófájlok megőrzése, 1=a naplófájlok eltávolítása (a /u telepítési kapcsolóval együtt használva)</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>CREATE_DATABASE</p></td>
-<td style="border:1px solid black;"><p>0=az aktuális adatbázis használata, 1=új adatbázis létrehozása</p></td>
+<td style="border:1px solid black;">CREATE_DATABASE</td>
+<td style="border:1px solid black;">0=az aktuális adatbázis használata, 1=új adatbázis létrehozása</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>PROGRESS_WINDOW_HANDLE</p></td>
-<td style="border:1px solid black;"><p>Az MSI-folyamatot jelző üzenetek ablakának leírója.</p></td>
+<td style="border:1px solid black;">PROGRESS_WINDOW_HANDLE</td>
+<td style="border:1px solid black;">Az MSI-folyamatot jelző üzenetek ablakának leírója.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>MU_ROLLUP</p></td>
-<td style="border:1px solid black;"><p>1=csatlakozás a Microsoft Update Improvement Program programhoz, 0=a Microsoft Update Improvement Program programhoz való csatlakozás mellőzése</p></td>
+<td style="border:1px solid black;">MU_ROLLUP</td>
+<td style="border:1px solid black;">1=csatlakozás a Microsoft Update Improvement Program programhoz, 0=a Microsoft Update Improvement Program programhoz való csatlakozás mellőzése</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>FRONTEND_SETUP</p></td>
-<td style="border:1px solid black;"><p>1=a tartalom helyének kihagyása az adatbázisból, 0=a tartalom helyének beírása az adatbázisba (hálózati terheléselosztás esetén)</p></td>
+<td style="border:1px solid black;">FRONTEND_SETUP</td>
+<td style="border:1px solid black;">1=a tartalom helyének kihagyása az adatbázisból, 0=a tartalom helyének beírása az adatbázisba (hálózati terheléselosztás esetén)</td>
 </tr>
 </tbody>
 </table>
@@ -521,7 +521,7 @@ A WSUS 3.0 SP1 a Windows Server 2008 32 bites és 64 bites változatait is tám
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -535,8 +535,8 @@ A WSUS 3.0 SP1 a Windows Server 2008 32 bites és 64 bites változatait is tám
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Microsoft Internet Information Services (IIS)</p></td>
-<td style="border:1px solid black;"><p>Az operációs rendszerből telepíthető. Győződjön meg arról, hogy az alábbi összetevők engedélyezve vannak:</p>
+<td style="border:1px solid black;">Microsoft Internet Information Services (IIS)</td>
+<td style="border:1px solid black;">Az operációs rendszerből telepíthető. Győződjön meg arról, hogy az alábbi összetevők engedélyezve vannak:
 <ul>
 <li>Windows-hitelesítés<br />
 <br />
@@ -556,16 +556,16 @@ A WSUS 3.0 SP1 a Windows Server 2008 32 bites és 64 bites változatait is tám
 </ul></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Újraterjeszthető csomag a Microsoft® .NET-keretrendszer 2.0-s verziójához (x86)</p></td>
-<td style="border:1px solid black;"><p>A Windows Server 2008 rendszeren nem szükséges, az operációs rendszer része.</p></td>
+<td style="border:1px solid black;">Újraterjeszthető csomag a Microsoft® .NET-keretrendszer 2.0-s verziójához (x86)</td>
+<td style="border:1px solid black;">A Windows Server 2008 rendszeren nem szükséges, az operációs rendszer része.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Microsoft Management Console 3.0</p></td>
-<td style="border:1px solid black;"><p>A Windows Server 2008 rendszeren nem szükséges, az operációs rendszer része.</p></td>
+<td style="border:1px solid black;">Microsoft Management Console 3.0</td>
+<td style="border:1px solid black;">A Windows Server 2008 rendszeren nem szükséges, az operációs rendszer része.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Microsoft jelentésmegtekintő</p></td>
-<td style="border:1px solid black;"><p>A WSUS felhasználói felület használatához ez előfeltétel. Erről bővebben a Microsoft jelentésmegtekintő újraterjeszhető csomagjának 2005-ös verziójával foglalkozó dokumentumban, a <a href="http://go.microsoft.com/fwlink/?linkid=70410">Microsoft letöltőközpontjában</a>, a http://go.microsoft.com/fwlink/?LinkId=70410 címen tájékozódhat. (Előfordulhat, hogy a lap angol nyelven jelenik meg.)</p></td>
+<td style="border:1px solid black;">Microsoft jelentésmegtekintő</td>
+<td style="border:1px solid black;">A WSUS felhasználói felület használatához ez előfeltétel. Erről bővebben a Microsoft jelentésmegtekintő újraterjeszhető csomagjának 2005-ös verziójával foglalkozó dokumentumban, a <a href="http://go.microsoft.com/fwlink/?linkid=70410">Microsoft letöltőközpontjában</a>, a http://go.microsoft.com/fwlink/?LinkId=70410 címen tájékozódhat. (Előfordulhat, hogy a lap angol nyelven jelenik meg.)</td>
 </tr>
 </tbody>
 </table>

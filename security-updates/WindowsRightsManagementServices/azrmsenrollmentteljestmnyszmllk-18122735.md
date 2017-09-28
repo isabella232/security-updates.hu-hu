@@ -13,7 +13,7 @@ A következő táblázat az RMS: Enrollment teljesítményobjektumra vonatkozó 
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -27,16 +27,16 @@ A következő táblázat az RMS: Enrollment teljesítményobjektumra vonatkozó 
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>SubEnroll Failures</p></td>
-<td style="border:1px solid black;"><p>A nem teljesen feldolgozott aligénylési kérelmek összesített száma.</p></td>
+<td style="border:1px solid black;">SubEnroll Failures</td>
+<td style="border:1px solid black;">A nem teljesen feldolgozott aligénylési kérelmek összesített száma.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>SubEnroll Processing Time</p></td>
-<td style="border:1px solid black;"><p>Az aligénylési kérelmekre fordított átlagos feldolgozási idő (mikroszekundum).</p></td>
+<td style="border:1px solid black;">SubEnroll Processing Time</td>
+<td style="border:1px solid black;">Az aligénylési kérelmekre fordított átlagos feldolgozási idő (mikroszekundum).</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>SubEnroll Requests</p></td>
-<td style="border:1px solid black;"><p>Az igénylési szolgáltatás által fogadott aligénylési kérelmek összesített száma.</p></td>
+<td style="border:1px solid black;">SubEnroll Requests</td>
+<td style="border:1px solid black;">Az igénylési szolgáltatás által fogadott aligénylési kérelmek összesített száma.</td>
 </tr>
 </tbody>
 </table>

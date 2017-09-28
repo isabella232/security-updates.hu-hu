@@ -13,7 +13,7 @@ A következő táblázat az RMS: Logging teljesítményobjektumra vonatkozó tel
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -27,16 +27,16 @@ A következő táblázat az RMS: Logging teljesítményobjektumra vonatkozó tel
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Logging Failures</p></td>
-<td style="border:1px solid black;"><p>A nem teljesen feldolgozott naplózási kísérletek összesített száma.</p></td>
+<td style="border:1px solid black;">Logging Failures</td>
+<td style="border:1px solid black;">A nem teljesen feldolgozott naplózási kísérletek összesített száma.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Logging Processing Time</p></td>
-<td style="border:1px solid black;"><p>A naplózási kérelmek feldolgozására fordított idő (mikroszekundum).</p></td>
+<td style="border:1px solid black;">Logging Processing Time</td>
+<td style="border:1px solid black;">A naplózási kérelmek feldolgozására fordított idő (mikroszekundum).</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Logging Requests</p></td>
-<td style="border:1px solid black;"><p>A naplózási szolgáltatás által fogadott naplózási kérelmek összesített száma.</p></td>
+<td style="border:1px solid black;">Logging Requests</td>
+<td style="border:1px solid black;">A naplózási szolgáltatás által fogadott naplózási kérelmek összesített száma.</td>
 </tr>
 </tbody>
 </table>

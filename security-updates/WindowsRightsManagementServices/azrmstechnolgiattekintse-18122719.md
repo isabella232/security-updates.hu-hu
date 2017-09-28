@@ -13,7 +13,7 @@ Az RMS rendszert kiszolgálói és ügyfél-technológiák alkotják. A követke
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -27,12 +27,12 @@ Az RMS rendszert kiszolgálói és ügyfél-technológiák alkotják. A követke
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Az RMS webszolgáltatásai</p></td>
-<td style="border:1px solid black;"><p>Ezek biztosítják a kiszolgáló alapfunkcióit, valamint kezelik az RMS fióktanúsítási, licencelési, aligénylési és felügyeleti funkcióit.</p></td>
+<td style="border:1px solid black;">Az RMS webszolgáltatásai</td>
+<td style="border:1px solid black;">Ezek biztosítják a kiszolgáló alapfunkcióit, valamint kezelik az RMS fióktanúsítási, licencelési, aligénylési és felügyeleti funkcióit.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Az RMS ügyfél-technológiái</p></td>
-<td style="border:1px solid black;"><p>Lehetővé teszik a felhasználók számára RMS-védelemmel ellátott tartalom létrehozását, közzétételét és használatát.</p></td>
+<td style="border:1px solid black;">Az RMS ügyfél-technológiái</td>
+<td style="border:1px solid black;">Lehetővé teszik a felhasználók számára RMS-védelemmel ellátott tartalom létrehozását, közzétételét és használatát.</td>
 </tr>
 </tbody>
 </table>

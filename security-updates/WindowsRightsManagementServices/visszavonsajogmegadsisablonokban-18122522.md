@@ -15,7 +15,7 @@ Az alábbi táblázatban a REFRESH címkében használat paraméterek olvasható
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -29,20 +29,20 @@ Az alábbi táblázatban a REFRESH címkében használat paraméterek olvasható
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>ID</p></td>
-<td style="border:1px solid black;"><p>A visszavonási lista azonosítója.</p></td>
+<td style="border:1px solid black;">ID</td>
+<td style="border:1px solid black;">A visszavonási lista azonosítója.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>ADDRESS</p></td>
-<td style="border:1px solid black;"><p>Az az URL-cím vagy UNC elérési út, ahonnan a visszavonási lista megszerezhető.</p></td>
+<td style="border:1px solid black;">ADDRESS</td>
+<td style="border:1px solid black;">Az az URL-cím vagy UNC elérési út, ahonnan a visszavonási lista megszerezhető.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>PUBLICKEY</p></td>
-<td style="border:1px solid black;"><p>A visszavonási lista kiállítójának nyilvános kulcsa. A nyilvános kulcs megfelel a visszavonási lista aláírására használt személyes kulcsnak.</p></td>
+<td style="border:1px solid black;">PUBLICKEY</td>
+<td style="border:1px solid black;">A visszavonási lista kiállítójának nyilvános kulcsa. A nyilvános kulcs megfelel a visszavonási lista aláírására használt személyes kulcsnak.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>INTERVALTIME</p></td>
-<td style="border:1px solid black;"><p>A visszavonási lista maximális kora, napokban megadva. Ha a gyorsítótárban lévő visszavonási lista régebbi, mint az INTERVALTIME érték által megengedett időtartam, az RMS ügyfélszámítógépe beszerzi a visszavonási lista legfrissebb változatát az ADDRESS bejegyzésben megadott címről. Ez garantálja, hogy a használt visszavonási lista naprakész legyen.</p></td>
+<td style="border:1px solid black;">INTERVALTIME</td>
+<td style="border:1px solid black;">A visszavonási lista maximális kora, napokban megadva. Ha a gyorsítótárban lévő visszavonási lista régebbi, mint az INTERVALTIME érték által megengedett időtartam, az RMS ügyfélszámítógépe beszerzi a visszavonási lista legfrissebb változatát az ADDRESS bejegyzésben megadott címről. Ez garantálja, hogy a használt visszavonási lista naprakész legyen.</td>
 </tr>
 </tbody>
 </table>

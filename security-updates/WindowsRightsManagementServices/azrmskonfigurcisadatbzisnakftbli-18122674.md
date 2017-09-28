@@ -18,7 +18,7 @@ A következő táblázat a kizárt alkalmazásokkal kapcsolatos adatokat tartalm
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -36,82 +36,82 @@ A következő táblázat a kizárt alkalmazásokkal kapcsolatos adatokat tartalm
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>ID</p></td>
-<td style="border:1px solid black;"><p>int</p></td>
-<td style="border:1px solid black;"><p>IDENTITY (100,1) Nem NULL</p></td>
-<td style="border:1px solid black;"><p>Belső index</p></td>
+<td style="border:1px solid black;">ID</td>
+<td style="border:1px solid black;">int</td>
+<td style="border:1px solid black;">IDENTITY (100,1) Nem NULL</td>
+<td style="border:1px solid black;">Belső index</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Név</p></td>
-<td style="border:1px solid black;"><p>nvarchar(256)</p></td>
-<td style="border:1px solid black;"><p>Nem NULL</p></td>
-<td style="border:1px solid black;"><p>Az alkalmazás neve</p></td>
+<td style="border:1px solid black;">Név</td>
+<td style="border:1px solid black;">nvarchar(256)</td>
+<td style="border:1px solid black;">Nem NULL</td>
+<td style="border:1px solid black;">Az alkalmazás neve</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>VersionMinMajor</p></td>
-<td style="border:1px solid black;"><p>int</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Az alkalmazás legkisebb fő verziószáma</p></td>
+<td style="border:1px solid black;">VersionMinMajor</td>
+<td style="border:1px solid black;">int</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Az alkalmazás legkisebb fő verziószáma</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>VersionMinMinor</p></td>
-<td style="border:1px solid black;"><p>int</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Az alkalmazás legkisebb alverziószáma</p></td>
+<td style="border:1px solid black;">VersionMinMinor</td>
+<td style="border:1px solid black;">int</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Az alkalmazás legkisebb alverziószáma</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>VersionMinBuild</p></td>
-<td style="border:1px solid black;"><p>int</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Az alkalmazás legkisebb buildszáma</p></td>
+<td style="border:1px solid black;">VersionMinBuild</td>
+<td style="border:1px solid black;">int</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Az alkalmazás legkisebb buildszáma</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>VersionMinRevision</p></td>
-<td style="border:1px solid black;"><p>int</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Az alkalmazás legkisebb változatszáma</p></td>
+<td style="border:1px solid black;">VersionMinRevision</td>
+<td style="border:1px solid black;">int</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Az alkalmazás legkisebb változatszáma</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>VersionMaxMajor</p></td>
-<td style="border:1px solid black;"><p>int</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Az alkalmazás legnagyobb fő verziószáma</p></td>
+<td style="border:1px solid black;">VersionMaxMajor</td>
+<td style="border:1px solid black;">int</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Az alkalmazás legnagyobb fő verziószáma</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>VersionMaxMinor</p></td>
-<td style="border:1px solid black;"><p>int</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Az alkalmazás legnagyobb alverziószáma</p></td>
+<td style="border:1px solid black;">VersionMaxMinor</td>
+<td style="border:1px solid black;">int</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Az alkalmazás legnagyobb alverziószáma</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>VersionMaxBuild</p></td>
-<td style="border:1px solid black;"><p>int</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Az alkalmazás legnagyobb buildszáma</p></td>
+<td style="border:1px solid black;">VersionMaxBuild</td>
+<td style="border:1px solid black;">int</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Az alkalmazás legnagyobb buildszáma</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>VersionMaxRevision</p></td>
-<td style="border:1px solid black;"><p>int</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Az alkalmazás legnagyobb változatszáma</p></td>
+<td style="border:1px solid black;">VersionMaxRevision</td>
+<td style="border:1px solid black;">int</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Az alkalmazás legnagyobb változatszáma</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Leírás</p></td>
-<td style="border:1px solid black;"><p>nvarchar(256)</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Az alkalmazás leírása</p></td>
+<td style="border:1px solid black;">Leírás</td>
+<td style="border:1px solid black;">nvarchar(256)</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Az alkalmazás leírása</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>dt_DateUpdated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>A frissítés időpontja</p></td>
+<td style="border:1px solid black;">dt_DateUpdated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">A frissítés időpontja</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>dt_DateCreated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>A létrehozás időpontja</p></td>
+<td style="border:1px solid black;">dt_DateCreated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">A létrehozás időpontja</td>
 </tr>
 </tbody>
 </table>
@@ -123,7 +123,7 @@ A következő táblázat az üzenetsorral kapcsolatos adatokat sorolja fel.
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -141,28 +141,28 @@ A következő táblázat az üzenetsorral kapcsolatos adatokat sorolja fel.
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AsyncQueueID</p></td>
-<td style="border:1px solid black;"><p>Int (PK)</p></td>
-<td style="border:1px solid black;"><p>IDENTITY (100,1) Nem NULL</p></td>
-<td style="border:1px solid black;"><p>Belső index</p></td>
+<td style="border:1px solid black;">AsyncQueueID</td>
+<td style="border:1px solid black;">Int (PK)</td>
+<td style="border:1px solid black;">IDENTITY (100,1) Nem NULL</td>
+<td style="border:1px solid black;">Belső index</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>QueueName</p></td>
-<td style="border:1px solid black;"><p>nvarchar(256)</p></td>
-<td style="border:1px solid black;"><p>Nem NULL</p></td>
-<td style="border:1px solid black;"><p>Az üzenetsor elérési útja</p></td>
+<td style="border:1px solid black;">QueueName</td>
+<td style="border:1px solid black;">nvarchar(256)</td>
+<td style="border:1px solid black;">Nem NULL</td>
+<td style="border:1px solid black;">Az üzenetsor elérési útja</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>DateUpdated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>A frissítés időpontja</p></td>
+<td style="border:1px solid black;">DateUpdated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">A frissítés időpontja</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>DateCreated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>A létrehozás időpontja</p></td>
+<td style="border:1px solid black;">DateCreated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">A létrehozás időpontja</td>
 </tr>
 </tbody>
 </table>
@@ -174,7 +174,7 @@ A következő táblázat az ügyfélnek kiállított tanúsítvány típúsával
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -192,28 +192,28 @@ A következő táblázat az ügyfélnek kiállított tanúsítvány típúsával
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>ID</p></td>
-<td style="border:1px solid black;"><p>Int (PK)</p></td>
-<td style="border:1px solid black;"><p>Nem NULL</p></td>
-<td style="border:1px solid black;"><p>A tanúsítvány azonosítója</p></td>
+<td style="border:1px solid black;">ID</td>
+<td style="border:1px solid black;">Int (PK)</td>
+<td style="border:1px solid black;">Nem NULL</td>
+<td style="border:1px solid black;">A tanúsítvány azonosítója</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>TypeName</p></td>
-<td style="border:1px solid black;"><p>nvarchar(256)</p></td>
-<td style="border:1px solid black;"><p>Nem NULL</p></td>
-<td style="border:1px solid black;"><p>Desktop, MobileDevice vagy Server</p></td>
+<td style="border:1px solid black;">TypeName</td>
+<td style="border:1px solid black;">nvarchar(256)</td>
+<td style="border:1px solid black;">Nem NULL</td>
+<td style="border:1px solid black;">Desktop, MobileDevice vagy Server</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>DateUpdated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>A frissítés időpontja</p></td>
+<td style="border:1px solid black;">DateUpdated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">A frissítés időpontja</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>DateCreated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>A létrehozás időpontja</p></td>
+<td style="border:1px solid black;">DateCreated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">A létrehozás időpontja</td>
 </tr>
 </tbody>
 </table>
@@ -225,7 +225,7 @@ A következő táblázat a DRMS\_LicensorCertificate táblában lévő aktuális
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -243,22 +243,22 @@ A következő táblázat a DRMS\_LicensorCertificate táblában lévő aktuális
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>CurrentLicensorCertID</p></td>
-<td style="border:1px solid black;"><p>int (külső kulcs)</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Az aktív licencelői tanúsítvány</p></td>
+<td style="border:1px solid black;">CurrentLicensorCertID</td>
+<td style="border:1px solid black;">int (külső kulcs)</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Az aktív licencelői tanúsítvány</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>DateUpdated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>A frissítés időpontja</p></td>
+<td style="border:1px solid black;">DateUpdated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">A frissítés időpontja</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>DateCreated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>A létrehozás időpontja</p></td>
+<td style="border:1px solid black;">DateCreated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">A létrehozás időpontja</td>
 </tr>
 </tbody>
 </table>
@@ -270,7 +270,7 @@ A következő táblázat a fürt szabályzatait tároló helyekre vonatkozó ada
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -288,34 +288,34 @@ A következő táblázat a fürt szabályzatait tároló helyekre vonatkozó ada
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>PolicyID</p></td>
-<td style="border:1px solid black;"><p>Int (PK)</p></td>
-<td style="border:1px solid black;"><p>IDENTITY (100,1) Nem NULL</p></td>
-<td style="border:1px solid black;"><p>A szabályzat azonosítója</p></td>
+<td style="border:1px solid black;">PolicyID</td>
+<td style="border:1px solid black;">Int (PK)</td>
+<td style="border:1px solid black;">IDENTITY (100,1) Nem NULL</td>
+<td style="border:1px solid black;">A szabályzat azonosítója</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>PolicyName</p></td>
-<td style="border:1px solid black;"><p>nvarchar(64)</p></td>
-<td style="border:1px solid black;"><p>Nem NULL</p></td>
-<td style="border:1px solid black;"><p>A szabályzat neve</p></td>
+<td style="border:1px solid black;">PolicyName</td>
+<td style="border:1px solid black;">nvarchar(64)</td>
+<td style="border:1px solid black;">Nem NULL</td>
+<td style="border:1px solid black;">A szabályzat neve</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>PolicyData</p></td>
-<td style="border:1px solid black;"><p>sql_variant</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>A szabályzat adata</p></td>
+<td style="border:1px solid black;">PolicyData</td>
+<td style="border:1px solid black;">sql_variant</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">A szabályzat adata</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>DateUpdated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>A frissítés időpontja</p></td>
+<td style="border:1px solid black;">DateUpdated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">A frissítés időpontja</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>DateCreated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>A létrehozás időpontja</p></td>
+<td style="border:1px solid black;">DateCreated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">A létrehozás időpontja</td>
 </tr>
 </tbody>
 </table>
@@ -327,7 +327,7 @@ A következő táblázat a fürtbe tartozó kiszolgálókra vonatkozó adatokat 
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -345,28 +345,28 @@ A következő táblázat a fürtbe tartozó kiszolgálókra vonatkozó adatokat 
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>ServerID</p></td>
-<td style="border:1px solid black;"><p>Int (PK)</p></td>
-<td style="border:1px solid black;"><p>IDENTITY (100,1) Nem NULL</p></td>
-<td style="border:1px solid black;"><p>A kiszolgáló azonosítója</p></td>
+<td style="border:1px solid black;">ServerID</td>
+<td style="border:1px solid black;">Int (PK)</td>
+<td style="border:1px solid black;">IDENTITY (100,1) Nem NULL</td>
+<td style="border:1px solid black;">A kiszolgáló azonosítója</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>ServerName.</p></td>
-<td style="border:1px solid black;"><p>nvarchar(256)</p></td>
-<td style="border:1px solid black;"><p>Nincs megadva</p></td>
-<td style="border:1px solid black;"><p>A kiszolgáló számítógépneve</p></td>
+<td style="border:1px solid black;">ServerName.</td>
+<td style="border:1px solid black;">nvarchar(256)</td>
+<td style="border:1px solid black;">Nincs megadva</td>
+<td style="border:1px solid black;">A kiszolgáló számítógépneve</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>DateUpdated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>A frissítés időpontja</p></td>
+<td style="border:1px solid black;">DateUpdated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">A frissítés időpontja</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>DateCreated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>A létrehozás időpontja</p></td>
+<td style="border:1px solid black;">DateCreated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">A létrehozás időpontja</td>
 </tr>
 </tbody>
 </table>
@@ -378,7 +378,7 @@ A következő táblázat a kizárt tartalomvédelmi fióktanúsítványokra vona
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -396,46 +396,46 @@ A következő táblázat a kizárt tartalomvédelmi fióktanúsítványokra vona
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>PublicKeyIndex</p></td>
-<td style="border:1px solid black;"><p>Int (PK)</p></td>
-<td style="border:1px solid black;"><p>IDENTITY (100,1) Nem NULL</p></td>
-<td style="border:1px solid black;"><p>Belső index</p></td>
+<td style="border:1px solid black;">PublicKeyIndex</td>
+<td style="border:1px solid black;">Int (PK)</td>
+<td style="border:1px solid black;">IDENTITY (100,1) Nem NULL</td>
+<td style="border:1px solid black;">Belső index</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>PublicKey</p></td>
-<td style="border:1px solid black;"><p>PublicKey</p></td>
-<td style="border:1px solid black;"><p>Nem NULL</p></td>
-<td style="border:1px solid black;"><p>A nyilvános kulcs bájtjai</p></td>
+<td style="border:1px solid black;">PublicKey</td>
+<td style="border:1px solid black;">PublicKey</td>
+<td style="border:1px solid black;">Nem NULL</td>
+<td style="border:1px solid black;">A nyilvános kulcs bájtjai</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>UserID</p></td>
-<td style="border:1px solid black;"><p>int</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>A felhasználóazonosító indexe</p></td>
+<td style="border:1px solid black;">UserID</td>
+<td style="border:1px solid black;">int</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">A felhasználóazonosító indexe</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>ExpirationDate</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>A tartalomvédelmi fióktanúsítvány lejáratának dátuma</p></td>
+<td style="border:1px solid black;">ExpirationDate</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">A tartalomvédelmi fióktanúsítvány lejáratának dátuma</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Leírás</p></td>
-<td style="border:1px solid black;"><p>nvarchar(256)</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>A kizárt tartalomvédelmi fióktanúsítvány kulcsához társított NAME (név) érték</p></td>
+<td style="border:1px solid black;">Leírás</td>
+<td style="border:1px solid black;">nvarchar(256)</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">A kizárt tartalomvédelmi fióktanúsítvány kulcsához társított NAME (név) érték</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>dt_DateUpdated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>Nem NULL</p></td>
-<td style="border:1px solid black;"><p>A frissítés időpontja</p></td>
+<td style="border:1px solid black;">dt_DateUpdated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">Nem NULL</td>
+<td style="border:1px solid black;">A frissítés időpontja</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>dt_DateCreated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>Nem NULL</p></td>
-<td style="border:1px solid black;"><p>A létrehozás időpontja</p></td>
+<td style="border:1px solid black;">dt_DateCreated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">Nem NULL</td>
+<td style="border:1px solid black;">A létrehozás időpontja</td>
 </tr>
 </tbody>
 </table>
@@ -447,7 +447,7 @@ A következő táblázat az aktív kiszolgálói licencelői tanúsítványra vo
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -465,40 +465,40 @@ A következő táblázat az aktív kiszolgálói licencelői tanúsítványra vo
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>i_CertID</p></td>
-<td style="border:1px solid black;"><p>Int (PK)</p></td>
-<td style="border:1px solid black;"><p>IDENTITY (100,1) Nem NULL</p></td>
-<td style="border:1px solid black;"><p>A szabályzat azonosítója</p></td>
+<td style="border:1px solid black;">i_CertID</td>
+<td style="border:1px solid black;">Int (PK)</td>
+<td style="border:1px solid black;">IDENTITY (100,1) Nem NULL</td>
+<td style="border:1px solid black;">A szabályzat azonosítója</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>s_CertGUIDType</p></td>
-<td style="border:1px solid black;"><p>nvarchar(64)</p></td>
-<td style="border:1px solid black;"><p>Nem NULL</p></td>
-<td style="border:1px solid black;"><p>A kulcspár-azonosító típusa</p></td>
+<td style="border:1px solid black;">s_CertGUIDType</td>
+<td style="border:1px solid black;">nvarchar(64)</td>
+<td style="border:1px solid black;">Nem NULL</td>
+<td style="border:1px solid black;">A kulcspár-azonosító típusa</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>s_CertGUID</p></td>
-<td style="border:1px solid black;"><p>nvarchar(128)</p></td>
-<td style="border:1px solid black;"><p>Nem NULL</p></td>
-<td style="border:1px solid black;"><p>A kulcspár-azonosító GUID azonosítója</p></td>
+<td style="border:1px solid black;">s_CertGUID</td>
+<td style="border:1px solid black;">nvarchar(128)</td>
+<td style="border:1px solid black;">Nem NULL</td>
+<td style="border:1px solid black;">A kulcspár-azonosító GUID azonosítója</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>i_CertificateID</p></td>
-<td style="border:1px solid black;"><p>int (külső kulcs)</p></td>
-<td style="border:1px solid black;"><p>Nem NULL</p></td>
-<td style="border:1px solid black;"><p>Az aktuális tanúsítványra hivatkozó mutató</p></td>
+<td style="border:1px solid black;">i_CertificateID</td>
+<td style="border:1px solid black;">int (külső kulcs)</td>
+<td style="border:1px solid black;">Nem NULL</td>
+<td style="border:1px solid black;">Az aktuális tanúsítványra hivatkozó mutató</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>dt_DateUpdated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>A frissítés időpontja</p></td>
+<td style="border:1px solid black;">dt_DateUpdated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">A frissítés időpontja</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>dt_DateCreated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>A létrehozás időpontja</p></td>
+<td style="border:1px solid black;">dt_DateCreated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">A létrehozás időpontja</td>
 </tr>
 </tbody>
 </table>
@@ -510,7 +510,7 @@ A következő táblázat az aktív kiszolgálói licencelői tanúsítvány szem
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -528,64 +528,64 @@ A következő táblázat az aktív kiszolgálói licencelői tanúsítvány szem
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>PrivateKeyID</p></td>
-<td style="border:1px solid black;"><p>Int (PK)</p></td>
-<td style="border:1px solid black;"><p>IDENTITY (100,1) Nem NULL</p></td>
-<td style="border:1px solid black;"><p>Belső index</p></td>
+<td style="border:1px solid black;">PrivateKeyID</td>
+<td style="border:1px solid black;">Int (PK)</td>
+<td style="border:1px solid black;">IDENTITY (100,1) Nem NULL</td>
+<td style="border:1px solid black;">Belső index</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>CertGUIDType</p></td>
-<td style="border:1px solid black;"><p>nvarchar(64)</p></td>
-<td style="border:1px solid black;"><p>Nem NULL</p></td>
-<td style="border:1px solid black;"><p>A kulcspár-azonosító típusa</p></td>
+<td style="border:1px solid black;">CertGUIDType</td>
+<td style="border:1px solid black;">nvarchar(64)</td>
+<td style="border:1px solid black;">Nem NULL</td>
+<td style="border:1px solid black;">A kulcspár-azonosító típusa</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>CertGUID</p></td>
-<td style="border:1px solid black;"><p>nvarchar(128)</p></td>
-<td style="border:1px solid black;"><p>Nem NULL</p></td>
-<td style="border:1px solid black;"><p>A kulcspár-azonosító GUID azonosítója</p></td>
+<td style="border:1px solid black;">CertGUID</td>
+<td style="border:1px solid black;">nvarchar(128)</td>
+<td style="border:1px solid black;">Nem NULL</td>
+<td style="border:1px solid black;">A kulcspár-azonosító GUID azonosítója</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>PrivateKey</p></td>
-<td style="border:1px solid black;"><p>varbinary(2048)</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>A kulcs bináris leképezése</p></td>
+<td style="border:1px solid black;">PrivateKey</td>
+<td style="border:1px solid black;">varbinary(2048)</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">A kulcs bináris leképezése</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>CSP</p></td>
-<td style="border:1px solid black;"><p>nvarchar(512)</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>A kriptográfiai szolgáltató (CSP) neve</p></td>
+<td style="border:1px solid black;">CSP</td>
+<td style="border:1px solid black;">nvarchar(512)</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">A kriptográfiai szolgáltató (CSP) neve</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>CSPType</p></td>
-<td style="border:1px solid black;"><p>int</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>A CSP típusa</p></td>
+<td style="border:1px solid black;">CSPType</td>
+<td style="border:1px solid black;">int</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">A CSP típusa</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>KeyContainerName</p></td>
-<td style="border:1px solid black;"><p>nvarchar(512)</p></td>
-<td style="border:1px solid black;"><p>Nincs megadva</p></td>
-<td style="border:1px solid black;"><p>A kulcstároló neve</p></td>
+<td style="border:1px solid black;">KeyContainerName</td>
+<td style="border:1px solid black;">nvarchar(512)</td>
+<td style="border:1px solid black;">Nincs megadva</td>
+<td style="border:1px solid black;">A kulcstároló neve</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>KeyNumber</p></td>
-<td style="border:1px solid black;"><p>int</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>A kulcs száma</p></td>
+<td style="border:1px solid black;">KeyNumber</td>
+<td style="border:1px solid black;">int</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">A kulcs száma</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>DateUpdated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>A frissítés időpontja</p></td>
+<td style="border:1px solid black;">DateUpdated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">A frissítés időpontja</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>DateCreated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>A létrehozás időpontja</p></td>
+<td style="border:1px solid black;">DateCreated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">A létrehozás időpontja</td>
 </tr>
 </tbody>
 </table>
@@ -597,7 +597,7 @@ A következő táblázat azokról a Microsoft® .NET Passport-fiókokról tartal
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -615,28 +615,28 @@ A következő táblázat azokról a Microsoft® .NET Passport-fiókokról tartal
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>DenyID</p></td>
-<td style="border:1px solid black;"><p>Int (PK)</p></td>
-<td style="border:1px solid black;"><p>IDENTITY (100,1) Nem NULL</p></td>
-<td style="border:1px solid black;"><p>Belső index</p></td>
+<td style="border:1px solid black;">DenyID</td>
+<td style="border:1px solid black;">Int (PK)</td>
+<td style="border:1px solid black;">IDENTITY (100,1) Nem NULL</td>
+<td style="border:1px solid black;">Belső index</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>DenyAddressPattern</p></td>
-<td style="border:1px solid black;"><p>nvarchar(500)</p></td>
-<td style="border:1px solid black;"><p>Nem NULL</p></td>
-<td style="border:1px solid black;"><p>Felhasználónév/tartománynév</p></td>
+<td style="border:1px solid black;">DenyAddressPattern</td>
+<td style="border:1px solid black;">nvarchar(500)</td>
+<td style="border:1px solid black;">Nem NULL</td>
+<td style="border:1px solid black;">Felhasználónév/tartománynév</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>DateUpdated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>A frissítés időpontja</p></td>
+<td style="border:1px solid black;">DateUpdated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">A frissítés időpontja</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>DateCreated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>A létrehozás időpontja</p></td>
+<td style="border:1px solid black;">DateCreated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">A létrehozás időpontja</td>
 </tr>
 </tbody>
 </table>
@@ -648,7 +648,7 @@ A következő táblázat a beépülő modulokkal kapcsolatos adatokat sorolja fe
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -666,76 +666,76 @@ A következő táblázat a beépülő modulokkal kapcsolatos adatokat sorolja fe
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>PluginID</p></td>
-<td style="border:1px solid black;"><p>Int</p></td>
-<td style="border:1px solid black;"><p>IDENTITY (100,1) Nem NULL</p></td>
-<td style="border:1px solid black;"><p>Belső index</p></td>
+<td style="border:1px solid black;">PluginID</td>
+<td style="border:1px solid black;">Int</td>
+<td style="border:1px solid black;">IDENTITY (100,1) Nem NULL</td>
+<td style="border:1px solid black;">Belső index</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>PluginTypeID</p></td>
-<td style="border:1px solid black;"><p>int (külső kulcs)</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>A beépülő modul típusa</p></td>
+<td style="border:1px solid black;">PluginTypeID</td>
+<td style="border:1px solid black;">int (külső kulcs)</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">A beépülő modul típusa</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>NameSpace</p></td>
-<td style="border:1px solid black;"><p>nvarchar(128)</p></td>
-<td style="border:1px solid black;"><p>Nem NULL</p></td>
-<td style="border:1px solid black;"><p>A beépülő modul névtere</p></td>
+<td style="border:1px solid black;">NameSpace</td>
+<td style="border:1px solid black;">nvarchar(128)</td>
+<td style="border:1px solid black;">Nem NULL</td>
+<td style="border:1px solid black;">A beépülő modul névtere</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>PluginName</p></td>
-<td style="border:1px solid black;"><p>nvarchar(128)</p></td>
-<td style="border:1px solid black;"><p>Nem NULL</p></td>
-<td style="border:1px solid black;"><p>A beépülő modul neve</p></td>
+<td style="border:1px solid black;">PluginName</td>
+<td style="border:1px solid black;">nvarchar(128)</td>
+<td style="border:1px solid black;">Nem NULL</td>
+<td style="border:1px solid black;">A beépülő modul neve</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Ordinal</p></td>
-<td style="border:1px solid black;"><p>Int</p></td>
-<td style="border:1px solid black;"><p>Nem NULL</p></td>
-<td style="border:1px solid black;"><p>A beépülő modul végrehajtási sorszáma</p></td>
+<td style="border:1px solid black;">Ordinal</td>
+<td style="border:1px solid black;">Int</td>
+<td style="border:1px solid black;">Nem NULL</td>
+<td style="border:1px solid black;">A beépülő modul végrehajtási sorszáma</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Path</p></td>
-<td style="border:1px solid black;"><p>nvarchar(512)</p></td>
-<td style="border:1px solid black;"><p>Nem NULL</p></td>
-<td style="border:1px solid black;"><p>A DLL-fájl elérési útja</p></td>
+<td style="border:1px solid black;">Path</td>
+<td style="border:1px solid black;">nvarchar(512)</td>
+<td style="border:1px solid black;">Nem NULL</td>
+<td style="border:1px solid black;">A DLL-fájl elérési útja</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>ObjectTypeName</p></td>
-<td style="border:1px solid black;"><p>nvarchar(50)</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Használaton kívül</p></td>
+<td style="border:1px solid black;">ObjectTypeName</td>
+<td style="border:1px solid black;">nvarchar(50)</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Használaton kívül</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>DebugMode</p></td>
-<td style="border:1px solid black;"><p>int</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Megadja, hogy hibakereső módban fusson-e a beépülő modul</p></td>
+<td style="border:1px solid black;">DebugMode</td>
+<td style="border:1px solid black;">int</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Megadja, hogy hibakereső módban fusson-e a beépülő modul</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>PublicKey</p></td>
-<td style="border:1px solid black;"><p>PublicKey</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>A beépülő modul nyilvános kulcsa</p></td>
+<td style="border:1px solid black;">PublicKey</td>
+<td style="border:1px solid black;">PublicKey</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">A beépülő modul nyilvános kulcsa</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Version</p></td>
-<td style="border:1px solid black;"><p>nvarchar(64)</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>A beépülő modul verziószáma</p></td>
+<td style="border:1px solid black;">Version</td>
+<td style="border:1px solid black;">nvarchar(64)</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">A beépülő modul verziószáma</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>DateUpdated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>A frissítés időpontja</p></td>
+<td style="border:1px solid black;">DateUpdated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">A frissítés időpontja</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>DateCreated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>A létrehozás időpontja</p></td>
+<td style="border:1px solid black;">DateCreated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">A létrehozás időpontja</td>
 </tr>
 </tbody>
 </table>
@@ -747,7 +747,7 @@ A következő táblázat az RMS rendszerben megengedett beépülő modulok verzi
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -765,22 +765,22 @@ A következő táblázat az RMS rendszerben megengedett beépülő modulok verzi
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>RowID</p></td>
-<td style="border:1px solid black;"><p>int</p></td>
-<td style="border:1px solid black;"><p>Nem NULL</p></td>
-<td style="border:1px solid black;"><p>Belső index</p></td>
+<td style="border:1px solid black;">RowID</td>
+<td style="border:1px solid black;">int</td>
+<td style="border:1px solid black;">Nem NULL</td>
+<td style="border:1px solid black;">Belső index</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>PluginID</p></td>
-<td style="border:1px solid black;"><p>int</p></td>
-<td style="border:1px solid black;"><p>IDENTITY (100,1) Nem NULL</p></td>
-<td style="border:1px solid black;"><p>Belső index</p></td>
+<td style="border:1px solid black;">PluginID</td>
+<td style="border:1px solid black;">int</td>
+<td style="border:1px solid black;">IDENTITY (100,1) Nem NULL</td>
+<td style="border:1px solid black;">Belső index</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>VersionInfo</p></td>
-<td style="border:1px solid black;"><p>nvarchar(64)</p></td>
-<td style="border:1px solid black;"><p>Nincs megadva</p></td>
-<td style="border:1px solid black;"><p>A beépülő modul verziószáma</p></td>
+<td style="border:1px solid black;">VersionInfo</td>
+<td style="border:1px solid black;">nvarchar(64)</td>
+<td style="border:1px solid black;">Nincs megadva</td>
+<td style="border:1px solid black;">A beépülő modul verziószáma</td>
 </tr>
 </tbody>
 </table>
@@ -792,7 +792,7 @@ A következő táblázat a beépülő modul tulajdonságaira vonatkozó adatokat
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -810,40 +810,40 @@ A következő táblázat a beépülő modul tulajdonságaira vonatkozó adatokat
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>PropertyID</p></td>
-<td style="border:1px solid black;"><p>int</p></td>
-<td style="border:1px solid black;"><p>IDENTITY (100,1) Nem NULL</p></td>
-<td style="border:1px solid black;"><p>Belső index</p></td>
+<td style="border:1px solid black;">PropertyID</td>
+<td style="border:1px solid black;">int</td>
+<td style="border:1px solid black;">IDENTITY (100,1) Nem NULL</td>
+<td style="border:1px solid black;">Belső index</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>PluginID</p></td>
-<td style="border:1px solid black;"><p>int (külső kulcs)</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Annak a beépülő modulnak az azonosítója, amelyhez a tulajdonság tartozik</p></td>
+<td style="border:1px solid black;">PluginID</td>
+<td style="border:1px solid black;">int (külső kulcs)</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Annak a beépülő modulnak az azonosítója, amelyhez a tulajdonság tartozik</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>PropertyName</p></td>
-<td style="border:1px solid black;"><p>nvarchar(256)</p></td>
-<td style="border:1px solid black;"><p>Nem NULL</p></td>
-<td style="border:1px solid black;"><p>Az adott konfigurációs adatot tartalmazó tulajdonság neve</p></td>
+<td style="border:1px solid black;">PropertyName</td>
+<td style="border:1px solid black;">nvarchar(256)</td>
+<td style="border:1px solid black;">Nem NULL</td>
+<td style="border:1px solid black;">Az adott konfigurációs adatot tartalmazó tulajdonság neve</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>PropertyValue</p></td>
-<td style="border:1px solid black;"><p>text</p></td>
-<td style="border:1px solid black;"><p>Nem NULL</p></td>
-<td style="border:1px solid black;"><p>Az adott konfigurációs adatot tartalmazó tulajdonság értéke</p></td>
+<td style="border:1px solid black;">PropertyValue</td>
+<td style="border:1px solid black;">text</td>
+<td style="border:1px solid black;">Nem NULL</td>
+<td style="border:1px solid black;">Az adott konfigurációs adatot tartalmazó tulajdonság értéke</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>DateUpdated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>A frissítés időpontja</p></td>
+<td style="border:1px solid black;">DateUpdated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">A frissítés időpontja</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>DateCreated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>A létrehozás időpontja</p></td>
+<td style="border:1px solid black;">DateCreated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">A létrehozás időpontja</td>
 </tr>
 </tbody>
 </table>
@@ -855,7 +855,7 @@ A következő táblázat a beépülő modul típusára vonatkozó adatokat tarta
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -873,28 +873,28 @@ A következő táblázat a beépülő modul típusára vonatkozó adatokat tarta
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>PluginTypeID</p></td>
-<td style="border:1px solid black;"><p>Int (PK)</p></td>
-<td style="border:1px solid black;"><p>Nem NULL</p></td>
-<td style="border:1px solid black;"><p>Belső index</p></td>
+<td style="border:1px solid black;">PluginTypeID</td>
+<td style="border:1px solid black;">Int (PK)</td>
+<td style="border:1px solid black;">Nem NULL</td>
+<td style="border:1px solid black;">Belső index</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>PluginTypeName</p></td>
-<td style="border:1px solid black;"><p>nvarchar(256)</p></td>
-<td style="border:1px solid black;"><p>Nem NULL</p></td>
-<td style="border:1px solid black;"><p>A beépülő modul neve</p></td>
+<td style="border:1px solid black;">PluginTypeName</td>
+<td style="border:1px solid black;">nvarchar(256)</td>
+<td style="border:1px solid black;">Nem NULL</td>
+<td style="border:1px solid black;">A beépülő modul neve</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>DateUpdated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>A frissítés időpontja</p></td>
+<td style="border:1px solid black;">DateUpdated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">A frissítés időpontja</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>DateCreated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>A létrehozás időpontja</p></td>
+<td style="border:1px solid black;">DateCreated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">A létrehozás időpontja</td>
 </tr>
 </tbody>
 </table>
@@ -906,7 +906,7 @@ A következő táblázat a jogmegadási sablonokra vonatkozó adatokat tartalmaz
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -924,28 +924,28 @@ A következő táblázat a jogmegadási sablonokra vonatkozó adatokat tartalmaz
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Guid</p></td>
-<td style="border:1px solid black;"><p>nvarchar(128) (PK)</p></td>
-<td style="border:1px solid black;"><p>Nem NULL</p></td>
-<td style="border:1px solid black;"><p>A jogmegadási sablon GUID azonosítója</p></td>
+<td style="border:1px solid black;">Guid</td>
+<td style="border:1px solid black;">nvarchar(128) (PK)</td>
+<td style="border:1px solid black;">Nem NULL</td>
+<td style="border:1px solid black;">A jogmegadási sablon GUID azonosítója</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>TemplateData</p></td>
-<td style="border:1px solid black;"><p>ntext</p></td>
-<td style="border:1px solid black;"><p>Nem NULL</p></td>
-<td style="border:1px solid black;"><p>Ez a mező tartalmazza az XrML sablon adatait.</p></td>
+<td style="border:1px solid black;">TemplateData</td>
+<td style="border:1px solid black;">ntext</td>
+<td style="border:1px solid black;">Nem NULL</td>
+<td style="border:1px solid black;">Ez a mező tartalmazza az XrML sablon adatait.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>DateUpdated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>A frissítés időpontja</p></td>
+<td style="border:1px solid black;">DateUpdated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">A frissítés időpontja</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>DateCreated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>A létrehozás időpontja</p></td>
+<td style="border:1px solid black;">DateCreated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">A létrehozás időpontja</td>
 </tr>
 </tbody>
 </table>
@@ -957,7 +957,7 @@ A következő táblázat a megbízható hitelesítésszolgáltatókra vonatkozó
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -975,40 +975,40 @@ A következő táblázat a megbízható hitelesítésszolgáltatókra vonatkozó
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>ID</p></td>
-<td style="border:1px solid black;"><p>Int (PK)</p></td>
-<td style="border:1px solid black;"><p>IDENTITY (1,1) Nem NULL</p></td>
-<td style="border:1px solid black;"><p>Belső index</p></td>
+<td style="border:1px solid black;">ID</td>
+<td style="border:1px solid black;">Int (PK)</td>
+<td style="border:1px solid black;">IDENTITY (1,1) Nem NULL</td>
+<td style="border:1px solid black;">Belső index</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>CertificateID</p></td>
-<td style="border:1px solid black;"><p>int (külső kulcs)</p></td>
-<td style="border:1px solid black;"><p>Nem NULL</p></td>
-<td style="border:1px solid black;"><p>A tanúsítvány azonosítója</p></td>
+<td style="border:1px solid black;">CertificateID</td>
+<td style="border:1px solid black;">int (külső kulcs)</td>
+<td style="border:1px solid black;">Nem NULL</td>
+<td style="border:1px solid black;">A tanúsítvány azonosítója</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>CertificateGUID</p></td>
-<td style="border:1px solid black;"><p>nvarchar(128)</p></td>
-<td style="border:1px solid black;"><p>Nem NULL</p></td>
-<td style="border:1px solid black;"><p>A tanúsítvány GUID azonosítója</p></td>
+<td style="border:1px solid black;">CertificateGUID</td>
+<td style="border:1px solid black;">nvarchar(128)</td>
+<td style="border:1px solid black;">Nem NULL</td>
+<td style="border:1px solid black;">A tanúsítvány GUID azonosítója</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>CaTypeID</p></td>
-<td style="border:1px solid black;"><p>int (külső kulcs)</p></td>
-<td style="border:1px solid black;"><p>Nem NULL</p></td>
-<td style="border:1px solid black;"><p>A hitelesítésszolgáltató típusa</p></td>
+<td style="border:1px solid black;">CaTypeID</td>
+<td style="border:1px solid black;">int (külső kulcs)</td>
+<td style="border:1px solid black;">Nem NULL</td>
+<td style="border:1px solid black;">A hitelesítésszolgáltató típusa</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>DateUpdated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>A frissítés időpontja</p></td>
+<td style="border:1px solid black;">DateUpdated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">A frissítés időpontja</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>DateCreated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>A létrehozás időpontja</p></td>
+<td style="border:1px solid black;">DateCreated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">A létrehozás időpontja</td>
 </tr>
 </tbody>
 </table>
@@ -1020,7 +1020,7 @@ A következő táblázat az RMS környezetbe tartozó email tartományokra vonat
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1038,22 +1038,22 @@ A következő táblázat az RMS környezetbe tartozó email tartományokra vonat
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Azonosító</p></td>
-<td style="border:1px solid black;"><p>int (PK)</p></td>
-<td style="border:1px solid black;"><p>IDENTITY (100,1) Nem NULL</p></td>
-<td style="border:1px solid black;"><p>Belső index</p></td>
+<td style="border:1px solid black;">Azonosító</td>
+<td style="border:1px solid black;">int (PK)</td>
+<td style="border:1px solid black;">IDENTITY (100,1) Nem NULL</td>
+<td style="border:1px solid black;">Belső index</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>i_TrustedIdentityDomainID</p></td>
-<td style="border:1px solid black;"><p>int (külső kulcs)t</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Belső index</p></td>
+<td style="border:1px solid black;">i_TrustedIdentityDomainID</td>
+<td style="border:1px solid black;">int (külső kulcs)t</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Belső index</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>s_EmailDomainName</p></td>
-<td style="border:1px solid black;"><p>nvarchar(256)</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>A megbízható felhasználói tartományokra érvényes e-mail tartománynevek</p></td>
+<td style="border:1px solid black;">s_EmailDomainName</td>
+<td style="border:1px solid black;">nvarchar(256)</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">A megbízható felhasználói tartományokra érvényes e-mail tartománynevek</td>
 </tr>
 </tbody>
 </table>
@@ -1065,7 +1065,7 @@ A következő táblázat a megbízható felhasználói tartományokra és a megb
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1083,58 +1083,58 @@ A következő táblázat a megbízható felhasználói tartományokra és a megb
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>i_TrustedIdentityDomainID</p></td>
-<td style="border:1px solid black;"><p>Int (PK)</p></td>
-<td style="border:1px solid black;"><p>IDENTITY (100,1) Nem NULL</p></td>
-<td style="border:1px solid black;"><p>Belső index</p></td>
+<td style="border:1px solid black;">i_TrustedIdentityDomainID</td>
+<td style="border:1px solid black;">Int (PK)</td>
+<td style="border:1px solid black;">IDENTITY (100,1) Nem NULL</td>
+<td style="border:1px solid black;">Belső index</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>s_DomainType</p></td>
-<td style="border:1px solid black;"><p>nvarchar(64)</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>A tartomány típusa</p></td>
+<td style="border:1px solid black;">s_DomainType</td>
+<td style="border:1px solid black;">nvarchar(64)</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">A tartomány típusa</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>CertGUIDType</p></td>
-<td style="border:1px solid black;"><p>nvarchar(64)</p></td>
-<td style="border:1px solid black;"><p>Nem NULL</p></td>
-<td style="border:1px solid black;"><p>A tanúsítvány GUID azonosítójának típusa</p></td>
+<td style="border:1px solid black;">CertGUIDType</td>
+<td style="border:1px solid black;">nvarchar(64)</td>
+<td style="border:1px solid black;">Nem NULL</td>
+<td style="border:1px solid black;">A tanúsítvány GUID azonosítójának típusa</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>CertGUID</p></td>
-<td style="border:1px solid black;"><p>nvarchar(128)</p></td>
-<td style="border:1px solid black;"><p>Nem NULL</p></td>
-<td style="border:1px solid black;"><p>A tanúsítvány GUID azonosítója</p></td>
+<td style="border:1px solid black;">CertGUID</td>
+<td style="border:1px solid black;">nvarchar(128)</td>
+<td style="border:1px solid black;">Nem NULL</td>
+<td style="border:1px solid black;">A tanúsítvány GUID azonosítója</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>i_CertificateID</p></td>
-<td style="border:1px solid black;"><p>int (külső kulcs)</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>A tanúsítvány azonosítója</p></td>
+<td style="border:1px solid black;">i_CertificateID</td>
+<td style="border:1px solid black;">int (külső kulcs)</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">A tanúsítvány azonosítója</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>i_allowSID</p></td>
-<td style="border:1px solid black;"><p>int</p></td>
-<td style="border:1px solid black;"><p>Nem NULL</p></td>
-<td style="border:1px solid black;"><p>A tartomány SID azonosítója</p></td>
+<td style="border:1px solid black;">i_allowSID</td>
+<td style="border:1px solid black;">int</td>
+<td style="border:1px solid black;">Nem NULL</td>
+<td style="border:1px solid black;">A tartomány SID azonosítója</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>S_friendlyname</p></td>
-<td style="border:1px solid black;"><p>nvarchar(255)</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>A tanúsítvány rövid neve</p></td>
+<td style="border:1px solid black;">S_friendlyname</td>
+<td style="border:1px solid black;">nvarchar(255)</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">A tanúsítvány rövid neve</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>dt_DateUpdated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>A frissítés időpontja</p></td>
+<td style="border:1px solid black;">dt_DateUpdated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">A frissítés időpontja</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>dt_DateCreated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>A létrehozás időpontja</p></td>
+<td style="border:1px solid black;">dt_DateCreated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">A létrehozás időpontja</td>
 </tr>
 </tbody>
 </table>
@@ -1146,7 +1146,7 @@ A következő táblázat azoknak az XrML kiszolgálói licencelői tanúsítván
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1164,22 +1164,22 @@ A következő táblázat azoknak az XrML kiszolgálói licencelői tanúsítván
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>i_CertificateID</p></td>
-<td style="border:1px solid black;"><p>Int (PK)</p></td>
-<td style="border:1px solid black;"><p>IDENTITY (100,1) Nem NULL</p></td>
-<td style="border:1px solid black;"><p>Az aktuális tanúsítványra hivatkozó mutató</p></td>
+<td style="border:1px solid black;">i_CertificateID</td>
+<td style="border:1px solid black;">Int (PK)</td>
+<td style="border:1px solid black;">IDENTITY (100,1) Nem NULL</td>
+<td style="border:1px solid black;">Az aktuális tanúsítványra hivatkozó mutató</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>s_Certificate</p></td>
-<td style="border:1px solid black;"><p>ntext</p></td>
-<td style="border:1px solid black;"><p>Nem NULL</p></td>
-<td style="border:1px solid black;"><p>Az aktuális tanúsítványra hivatkozó mutató</p></td>
+<td style="border:1px solid black;">s_Certificate</td>
+<td style="border:1px solid black;">ntext</td>
+<td style="border:1px solid black;">Nem NULL</td>
+<td style="border:1px solid black;">Az aktuális tanúsítványra hivatkozó mutató</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>i_ParentCertificateID</p></td>
-<td style="border:1px solid black;"><p>int (külső kulcs)</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Az aktuális tanúsítványra hivatkozó mutató</p></td>
+<td style="border:1px solid black;">i_ParentCertificateID</td>
+<td style="border:1px solid black;">int (külső kulcs)</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Az aktuális tanúsítványra hivatkozó mutató</td>
 </tr>
 </tbody>
 </table>

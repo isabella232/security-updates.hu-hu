@@ -43,7 +43,7 @@ A következő táblázat azokat a bejegyzéseket tartalmazza, amelyek létrehoz�
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -59,14 +59,14 @@ A következő táblázat azokat a bejegyzéseket tartalmazza, amelyek létrehoz�
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>SubEnrollmentURL</p></td>
-<td style="border:1px solid black;"><p>Karakterlánc</p></td>
-<td style="border:1px solid black;"><p>http(vagy https)://<em>kiszolgálónév</em>/_wmcs/certification/subenrollservice.asmx</p></td>
+<td style="border:1px solid black;">SubEnrollmentURL</td>
+<td style="border:1px solid black;">Karakterlánc</td>
+<td style="border:1px solid black;">http(vagy https)://<em>kiszolgálónév</em>/_wmcs/certification/subenrollservice.asmx</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>GicURL</p></td>
-<td style="border:1px solid black;"><p>Karakterlánc</p></td>
-<td style="border:1px solid black;"><p>http(vagy https)://<em>kiszolgálónév</em>/_wmcs/certification/certification.asmx</p></td>
+<td style="border:1px solid black;">GicURL</td>
+<td style="border:1px solid black;">Karakterlánc</td>
+<td style="border:1px solid black;">http(vagy https)://<em>kiszolgálónév</em>/_wmcs/certification/certification.asmx</td>
 </tr>
 </tbody>
 </table>
@@ -98,7 +98,7 @@ A következő táblázat az RMS ügyfélszámítógépeken a szolgáltatásészl
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -114,19 +114,19 @@ A következő táblázat az RMS ügyfélszámítógépeken a szolgáltatásészl
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Activation</p></td>
-<td style="border:1px solid black;"><p>Karakterlánc</p></td>
-<td style="border:1px solid black;"><p>http(vagy https)://<em>RMS_fürt_neve</em>/_wmcs/Certification ahol <em>RMS_fürt_neve</em> az adott RMS fürt neve.</p></td>
+<td style="border:1px solid black;">Activation</td>
+<td style="border:1px solid black;">Karakterlánc</td>
+<td style="border:1px solid black;">http(vagy https)://<em>RMS_fürt_neve</em>/_wmcs/Certification ahol <em>RMS_fürt_neve</em> az adott RMS fürt neve.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>EnterprisePublishing</p></td>
-<td style="border:1px solid black;"><p>Karakterlánc</p></td>
-<td style="border:1px solid black;"><p>http(vagy https)://<em>RMS_fürt_neve</em>/_wmcs/Licensing ahol <em>RMS_fürt_neve</em> az adott RMS fürt neve.</p></td>
+<td style="border:1px solid black;">EnterprisePublishing</td>
+<td style="border:1px solid black;">Karakterlánc</td>
+<td style="border:1px solid black;">http(vagy https)://<em>RMS_fürt_neve</em>/_wmcs/Licensing ahol <em>RMS_fürt_neve</em> az adott RMS fürt neve.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>CloudPublishing</p></td>
-<td style="border:1px solid black;"><p>Karakterlánc</p></td>
-<td style="border:1px solid black;"><p>http(vagy https)://<em>FQDN_fürt_neve</em>/_wmcs/Licensing ahol <em>FQDN_fürt_neve</em> az RMS fürt teljesen megadott tartományneve.</p></td>
+<td style="border:1px solid black;">CloudPublishing</td>
+<td style="border:1px solid black;">Karakterlánc</td>
+<td style="border:1px solid black;">http(vagy https)://<em>FQDN_fürt_neve</em>/_wmcs/Licensing ahol <em>FQDN_fürt_neve</em> az RMS fürt teljesen megadott tartományneve.</td>
 </tr>
 </tbody>
 </table>
