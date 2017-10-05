@@ -28,10 +28,10 @@ A következő táblázat a számítógépek hardverazonosítóira vonatkozó ada
 </colgroup>
 <thead>
 <tr class="header">
-<th>Név</th>
-<th>Adattípus</th>
-<th>NULL értékek</th>
-<th>Leírás</th>
+<th style="border:1px solid black;" >Név</th>
+<th style="border:1px solid black;" >Adattípus</th>
+<th style="border:1px solid black;" >NULL értékek</th>
+<th style="border:1px solid black;" >Leírás</th>
 </tr>
 </thead>
 <tbody>
@@ -73,10 +73,10 @@ A következő táblázat a felhasználók Microsoft® .NET Passport adatairól t
 </colgroup>
 <thead>
 <tr class="header">
-<th>Név</th>
-<th>Adattípus</th>
-<th>NULL értékek</th>
-<th>Leírás</th>
+<th style="border:1px solid black;" >Név</th>
+<th style="border:1px solid black;" >Adattípus</th>
+<th style="border:1px solid black;" >NULL értékek</th>
+<th style="border:1px solid black;" >Leírás</th>
 </tr>
 </thead>
 <tbody>
@@ -112,10 +112,10 @@ A következő táblázat a tanúsítvánnyal ellátott felhasználók és a hozz
 </colgroup>
 <thead>
 <tr class="header">
-<th>Név</th>
-<th>Adattípus</th>
-<th>NULL értékek</th>
-<th>Leírás</th>
+<th style="border:1px solid black;" >Név</th>
+<th style="border:1px solid black;" >Adattípus</th>
+<th style="border:1px solid black;" >NULL értékek</th>
+<th style="border:1px solid black;" >Leírás</th>
 </tr>
 </thead>
 <tbody>
@@ -157,10 +157,10 @@ A következő táblázat a felhasználói adatokkal kapcsolatos információkat 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Név</th>
-<th>Adattípus</th>
-<th>NULL értékek</th>
-<th>Leírás</th>
+<th style="border:1px solid black;" >Név</th>
+<th style="border:1px solid black;" >Adattípus</th>
+<th style="border:1px solid black;" >NULL értékek</th>
+<th style="border:1px solid black;" >Leírás</th>
 </tr>
 </thead>
 <tbody>
@@ -262,10 +262,10 @@ A következő táblázat a Windows által hitelesített és tanúsítvánnyal el
 </colgroup>
 <thead>
 <tr class="header">
-<th>Név</th>
-<th>Adattípus</th>
-<th>NULL értékek</th>
-<th>Leírás</th>
+<th style="border:1px solid black;" >Név</th>
+<th style="border:1px solid black;" >Adattípus</th>
+<th style="border:1px solid black;" >NULL értékek</th>
+<th style="border:1px solid black;" >Leírás</th>
 </tr>
 </thead>
 <tbody>

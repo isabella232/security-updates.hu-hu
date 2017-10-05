@@ -24,9 +24,9 @@ Az RMS három eseményt jegyez be a Rendszer eseménynaplóba, ezeket figyelemme
 </colgroup>
 <thead>
 <tr class="header">
-<th>Eseményazonosító</th>
-<th>Eseménynév</th>
-<th>Eseménytípus</th>
+<th style="border:1px solid black;" >Eseményazonosító</th>
+<th style="border:1px solid black;" >Eseménynév</th>
+<th style="border:1px solid black;" >Eseménytípus</th>
 </tr>
 </thead>
 <tbody>

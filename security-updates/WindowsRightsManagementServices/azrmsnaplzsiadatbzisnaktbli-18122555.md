@@ -28,10 +28,10 @@ A következő táblázat minden naplózási rekordhoz tartalmaz egy bejegyzést.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Név</th>
-<th>Adattípus</th>
-<th>NULL értékek</th>
-<th>Leírás</th>
+<th style="border:1px solid black;" >Név</th>
+<th style="border:1px solid black;" >Adattípus</th>
+<th style="border:1px solid black;" >NULL értékek</th>
+<th style="border:1px solid black;" >Leírás</th>
 </tr>
 </thead>
 <tbody>
@@ -157,10 +157,10 @@ A következő táblázatban a naplózási rekordok további adatai szerepelnek. 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Név</th>
-<th>Adattípus</th>
-<th>NULL értékek</th>
-<th>Leírás</th>
+<th style="border:1px solid black;" >Név</th>
+<th style="border:1px solid black;" >Adattípus</th>
+<th style="border:1px solid black;" >NULL értékek</th>
+<th style="border:1px solid black;" >Leírás</th>
 </tr>
 </thead>
 <tbody>
@@ -208,10 +208,10 @@ A következő táblázat azokat a mezőket tartalmazza, amelyeket a naplózásfi
 </colgroup>
 <thead>
 <tr class="header">
-<th>Név</th>
-<th>Adattípus</th>
-<th>NULL értékek</th>
-<th>Leírás</th>
+<th style="border:1px solid black;" >Név</th>
+<th style="border:1px solid black;" >Adattípus</th>
+<th style="border:1px solid black;" >NULL értékek</th>
+<th style="border:1px solid black;" >Leírás</th>
 </tr>
 </thead>
 <tbody>

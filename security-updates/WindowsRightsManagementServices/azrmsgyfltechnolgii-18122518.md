@@ -23,10 +23,10 @@ Az RMS rendszerbe tartozó ügyfélszámítógépek az alábbi technológiákat 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Technológia</th>
-<th>Leírás</th>
-<th>Kibocsátó</th>
-<th>További tudnivalók</th>
+<th style="border:1px solid black;" >Technológia</th>
+<th style="border:1px solid black;" >Leírás</th>
+<th style="border:1px solid black;" >Kibocsátó</th>
+<th style="border:1px solid black;" >További tudnivalók</th>
 </tr>
 </thead>
 <tbody>

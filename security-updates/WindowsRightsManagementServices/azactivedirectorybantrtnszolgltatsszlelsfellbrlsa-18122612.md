@@ -52,9 +52,9 @@ A következő táblázat azokat a bejegyzéseket tartalmazza, amelyek létrehoz�
 </colgroup>
 <thead>
 <tr class="header">
-<th>Név</th>
-<th>Típus</th>
-<th>Érték</th>
+<th style="border:1px solid black;" >Név</th>
+<th style="border:1px solid black;" >Típus</th>
+<th style="border:1px solid black;" >Érték</th>
 </tr>
 </thead>
 <tbody>
@@ -107,9 +107,9 @@ A következő táblázat az RMS ügyfélszámítógépeken a szolgáltatásészl
 </colgroup>
 <thead>
 <tr class="header">
-<th>Név</th>
-<th>Típus</th>
-<th>Érték</th>
+<th style="border:1px solid black;" >Név</th>
+<th style="border:1px solid black;" >Típus</th>
+<th style="border:1px solid black;" >Érték</th>
 </tr>
 </thead>
 <tbody>

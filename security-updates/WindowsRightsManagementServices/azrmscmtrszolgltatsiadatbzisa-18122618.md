@@ -25,8 +25,8 @@ A következő táblázat a címtár-szolgáltatási adatbázis tábláiban táro
 </colgroup>
 <thead>
 <tr class="header">
-<th>Tábla</th>
-<th>Attribútum</th>
+<th style="border:1px solid black;" >Tábla</th>
+<th style="border:1px solid black;" >Attribútum</th>
 </tr>
 </thead>
 <tbody>

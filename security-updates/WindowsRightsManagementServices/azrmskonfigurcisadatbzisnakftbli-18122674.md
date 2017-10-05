@@ -28,10 +28,10 @@ A következő táblázat a kizárt alkalmazásokkal kapcsolatos adatokat tartalm
 </colgroup>
 <thead>
 <tr class="header">
-<th>Név</th>
-<th>Adattípus</th>
-<th>NULL értékek</th>
-<th>Leírás</th>
+<th style="border:1px solid black;" >Név</th>
+<th style="border:1px solid black;" >Adattípus</th>
+<th style="border:1px solid black;" >NULL értékek</th>
+<th style="border:1px solid black;" >Leírás</th>
 </tr>
 </thead>
 <tbody>
@@ -133,10 +133,10 @@ A következő táblázat az üzenetsorral kapcsolatos adatokat sorolja fel.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Név</th>
-<th>Adattípus</th>
-<th>NULL értékek</th>
-<th>Leírás</th>
+<th style="border:1px solid black;" >Név</th>
+<th style="border:1px solid black;" >Adattípus</th>
+<th style="border:1px solid black;" >NULL értékek</th>
+<th style="border:1px solid black;" >Leírás</th>
 </tr>
 </thead>
 <tbody>
@@ -184,10 +184,10 @@ A következő táblázat az ügyfélnek kiállított tanúsítvány típúsával
 </colgroup>
 <thead>
 <tr class="header">
-<th>Név</th>
-<th>Adattípus</th>
-<th>NULL értékek</th>
-<th>Leírás</th>
+<th style="border:1px solid black;" >Név</th>
+<th style="border:1px solid black;" >Adattípus</th>
+<th style="border:1px solid black;" >NULL értékek</th>
+<th style="border:1px solid black;" >Leírás</th>
 </tr>
 </thead>
 <tbody>
@@ -235,10 +235,10 @@ A következő táblázat a DRMS\_LicensorCertificate táblában lévő aktuális
 </colgroup>
 <thead>
 <tr class="header">
-<th>Név</th>
-<th>Adattípus</th>
-<th>NULL értékek</th>
-<th>Leírás</th>
+<th style="border:1px solid black;" >Név</th>
+<th style="border:1px solid black;" >Adattípus</th>
+<th style="border:1px solid black;" >NULL értékek</th>
+<th style="border:1px solid black;" >Leírás</th>
 </tr>
 </thead>
 <tbody>
@@ -280,10 +280,10 @@ A következő táblázat a fürt szabályzatait tároló helyekre vonatkozó ada
 </colgroup>
 <thead>
 <tr class="header">
-<th>Név</th>
-<th>Adattípus</th>
-<th>NULL értékek</th>
-<th>Leírás</th>
+<th style="border:1px solid black;" >Név</th>
+<th style="border:1px solid black;" >Adattípus</th>
+<th style="border:1px solid black;" >NULL értékek</th>
+<th style="border:1px solid black;" >Leírás</th>
 </tr>
 </thead>
 <tbody>
@@ -337,10 +337,10 @@ A következő táblázat a fürtbe tartozó kiszolgálókra vonatkozó adatokat 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Név</th>
-<th>Adattípus</th>
-<th>NULL értékek</th>
-<th>Leírás</th>
+<th style="border:1px solid black;" >Név</th>
+<th style="border:1px solid black;" >Adattípus</th>
+<th style="border:1px solid black;" >NULL értékek</th>
+<th style="border:1px solid black;" >Leírás</th>
 </tr>
 </thead>
 <tbody>
@@ -388,10 +388,10 @@ A következő táblázat a kizárt tartalomvédelmi fióktanúsítványokra vona
 </colgroup>
 <thead>
 <tr class="header">
-<th>Név</th>
-<th>Adattípus</th>
-<th>NULL értékek</th>
-<th>Leírás</th>
+<th style="border:1px solid black;" >Név</th>
+<th style="border:1px solid black;" >Adattípus</th>
+<th style="border:1px solid black;" >NULL értékek</th>
+<th style="border:1px solid black;" >Leírás</th>
 </tr>
 </thead>
 <tbody>
@@ -457,10 +457,10 @@ A következő táblázat az aktív kiszolgálói licencelői tanúsítványra vo
 </colgroup>
 <thead>
 <tr class="header">
-<th>Név</th>
-<th>Adattípus</th>
-<th>NULL értékek</th>
-<th>Leírás</th>
+<th style="border:1px solid black;" >Név</th>
+<th style="border:1px solid black;" >Adattípus</th>
+<th style="border:1px solid black;" >NULL értékek</th>
+<th style="border:1px solid black;" >Leírás</th>
 </tr>
 </thead>
 <tbody>
@@ -520,10 +520,10 @@ A következő táblázat az aktív kiszolgálói licencelői tanúsítvány szem
 </colgroup>
 <thead>
 <tr class="header">
-<th>Név</th>
-<th>Adattípus</th>
-<th>NULL értékek</th>
-<th>Leírás</th>
+<th style="border:1px solid black;" >Név</th>
+<th style="border:1px solid black;" >Adattípus</th>
+<th style="border:1px solid black;" >NULL értékek</th>
+<th style="border:1px solid black;" >Leírás</th>
 </tr>
 </thead>
 <tbody>
@@ -607,10 +607,10 @@ A következő táblázat azokról a Microsoft® .NET Passport-fiókokról tartal
 </colgroup>
 <thead>
 <tr class="header">
-<th>Név</th>
-<th>Adattípus</th>
-<th>NULL értékek</th>
-<th>Leírás</th>
+<th style="border:1px solid black;" >Név</th>
+<th style="border:1px solid black;" >Adattípus</th>
+<th style="border:1px solid black;" >NULL értékek</th>
+<th style="border:1px solid black;" >Leírás</th>
 </tr>
 </thead>
 <tbody>
@@ -658,10 +658,10 @@ A következő táblázat a beépülő modulokkal kapcsolatos adatokat sorolja fe
 </colgroup>
 <thead>
 <tr class="header">
-<th>Név</th>
-<th>Adattípus</th>
-<th>NULL értékek</th>
-<th>Leírás</th>
+<th style="border:1px solid black;" >Név</th>
+<th style="border:1px solid black;" >Adattípus</th>
+<th style="border:1px solid black;" >NULL értékek</th>
+<th style="border:1px solid black;" >Leírás</th>
 </tr>
 </thead>
 <tbody>
@@ -757,10 +757,10 @@ A következő táblázat az RMS rendszerben megengedett beépülő modulok verzi
 </colgroup>
 <thead>
 <tr class="header">
-<th>Név</th>
-<th>Adattípus</th>
-<th>NULL értékek</th>
-<th>Leírás</th>
+<th style="border:1px solid black;" >Név</th>
+<th style="border:1px solid black;" >Adattípus</th>
+<th style="border:1px solid black;" >NULL értékek</th>
+<th style="border:1px solid black;" >Leírás</th>
 </tr>
 </thead>
 <tbody>
@@ -802,10 +802,10 @@ A következő táblázat a beépülő modul tulajdonságaira vonatkozó adatokat
 </colgroup>
 <thead>
 <tr class="header">
-<th>Név</th>
-<th>Adattípus</th>
-<th>NULL értékek</th>
-<th>Leírás</th>
+<th style="border:1px solid black;" >Név</th>
+<th style="border:1px solid black;" >Adattípus</th>
+<th style="border:1px solid black;" >NULL értékek</th>
+<th style="border:1px solid black;" >Leírás</th>
 </tr>
 </thead>
 <tbody>
@@ -865,10 +865,10 @@ A következő táblázat a beépülő modul típusára vonatkozó adatokat tarta
 </colgroup>
 <thead>
 <tr class="header">
-<th>Név</th>
-<th>Adattípus</th>
-<th>NULL értékek</th>
-<th>Leírás</th>
+<th style="border:1px solid black;" >Név</th>
+<th style="border:1px solid black;" >Adattípus</th>
+<th style="border:1px solid black;" >NULL értékek</th>
+<th style="border:1px solid black;" >Leírás</th>
 </tr>
 </thead>
 <tbody>
@@ -916,10 +916,10 @@ A következő táblázat a jogmegadási sablonokra vonatkozó adatokat tartalmaz
 </colgroup>
 <thead>
 <tr class="header">
-<th>Név</th>
-<th>Adattípus</th>
-<th>NULL értékek</th>
-<th>Leírás</th>
+<th style="border:1px solid black;" >Név</th>
+<th style="border:1px solid black;" >Adattípus</th>
+<th style="border:1px solid black;" >NULL értékek</th>
+<th style="border:1px solid black;" >Leírás</th>
 </tr>
 </thead>
 <tbody>
@@ -967,10 +967,10 @@ A következő táblázat a megbízható hitelesítésszolgáltatókra vonatkozó
 </colgroup>
 <thead>
 <tr class="header">
-<th>Név</th>
-<th>Adattípus</th>
-<th>NULL értékek</th>
-<th>Leírás</th>
+<th style="border:1px solid black;" >Név</th>
+<th style="border:1px solid black;" >Adattípus</th>
+<th style="border:1px solid black;" >NULL értékek</th>
+<th style="border:1px solid black;" >Leírás</th>
 </tr>
 </thead>
 <tbody>
@@ -1030,10 +1030,10 @@ A következő táblázat az RMS környezetbe tartozó email tartományokra vonat
 </colgroup>
 <thead>
 <tr class="header">
-<th>Név</th>
-<th>Adattípus</th>
-<th>NULL értékek</th>
-<th>Leírás</th>
+<th style="border:1px solid black;" >Név</th>
+<th style="border:1px solid black;" >Adattípus</th>
+<th style="border:1px solid black;" >NULL értékek</th>
+<th style="border:1px solid black;" >Leírás</th>
 </tr>
 </thead>
 <tbody>
@@ -1075,10 +1075,10 @@ A következő táblázat a megbízható felhasználói tartományokra és a megb
 </colgroup>
 <thead>
 <tr class="header">
-<th>Név</th>
-<th>Adattípus</th>
-<th>NULL értékek</th>
-<th>Leírás</th>
+<th style="border:1px solid black;" >Név</th>
+<th style="border:1px solid black;" >Adattípus</th>
+<th style="border:1px solid black;" >NULL értékek</th>
+<th style="border:1px solid black;" >Leírás</th>
 </tr>
 </thead>
 <tbody>
@@ -1156,10 +1156,10 @@ A következő táblázat azoknak az XrML kiszolgálói licencelői tanúsítván
 </colgroup>
 <thead>
 <tr class="header">
-<th>Név</th>
-<th>Adattípus</th>
-<th>NULL értékek</th>
-<th>Leírás</th>
+<th style="border:1px solid black;" >Név</th>
+<th style="border:1px solid black;" >Adattípus</th>
+<th style="border:1px solid black;" >NULL értékek</th>
+<th style="border:1px solid black;" >Leírás</th>
 </tr>
 </thead>
 <tbody>

@@ -30,9 +30,9 @@ Ha adatbázis-kiszolgálóként az MSDE 2000 mellett dönt, ügyeljen arra, hogy
 </colgroup>
 <thead>
 <tr class="header">
-<th>Infrastrukturális összetevő</th>
-<th>Tartományvezérlő és adatbázis-kiszolgáló beállításának lépései</th>
-<th>Éles környezetben való bevezetéssel kapcsolatos megjegyzések</th>
+<th style="border:1px solid black;" >Infrastrukturális összetevő</th>
+<th style="border:1px solid black;" >Tartományvezérlő és adatbázis-kiszolgáló beállításának lépései</th>
+<th style="border:1px solid black;" >Éles környezetben való bevezetéssel kapcsolatos megjegyzések</th>
 </tr>
 </thead>
 <tbody>

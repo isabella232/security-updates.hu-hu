@@ -59,7 +59,7 @@ Az első két eljárást egy tetszés szerinti tartományalapú csoportházirend
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939830.note(WS.10).gif" />Megjegyzés</th>
+<th style="border:1px solid black;" ><img src="images/Dd939830.note(WS.10).gif" />Megjegyzés</th>
 </tr>
 </thead>
 <tbody>

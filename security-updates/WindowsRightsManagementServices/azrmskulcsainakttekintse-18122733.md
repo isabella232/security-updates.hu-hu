@@ -21,8 +21,8 @@ A következő táblázat az RMS rendszerben használt kulcsokat mutatja be.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Kulcs</th>
-<th>Rendeltetése</th>
+<th style="border:1px solid black;" >Kulcs</th>
+<th style="border:1px solid black;" >Rendeltetése</th>
 </tr>
 </thead>
 <tbody>

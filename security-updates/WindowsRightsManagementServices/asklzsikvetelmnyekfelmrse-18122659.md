@@ -31,10 +31,10 @@ Az alábbi számadatok segítséget nyújtanak az RMS rendszerrel szembeni felha
 </colgroup>
 <thead>
 <tr class="header">
-<th>Tranzakció</th>
-<th>Előfordulás</th>
-<th>Az ügyféltől a kiszolgáló felé irányuló sávszélesség-felhasználás (KB)</th>
-<th>A kiszolgálótól az ügyfél felé irányuló sávszélesség-felhasználás (KB)</th>
+<th style="border:1px solid black;" >Tranzakció</th>
+<th style="border:1px solid black;" >Előfordulás</th>
+<th style="border:1px solid black;" >Az ügyféltől a kiszolgáló felé irányuló sávszélesség-felhasználás (KB)</th>
+<th style="border:1px solid black;" >A kiszolgálótól az ügyfél felé irányuló sávszélesség-felhasználás (KB)</th>
 </tr>
 </thead>
 <tbody>
@@ -74,9 +74,9 @@ A következő táblázatban az RMS-tranzakciók sávszélesség-felhasználásra
 </colgroup>
 <thead>
 <tr class="header">
-<th>Tranzakció</th>
-<th>Az RMS szolgáltatástól a globális katalógus felé irányuló sávszélesség-felhasználás (bájt)</th>
-<th>A globális katalógus felől az RMS felé irányuló sávszélesség-felhasználás (bájt)</th>
+<th style="border:1px solid black;" >Tranzakció</th>
+<th style="border:1px solid black;" >Az RMS szolgáltatástól a globális katalógus felé irányuló sávszélesség-felhasználás (bájt)</th>
+<th style="border:1px solid black;" >A globális katalógus felől az RMS felé irányuló sávszélesség-felhasználás (bájt)</th>
 </tr>
 </thead>
 <tbody>

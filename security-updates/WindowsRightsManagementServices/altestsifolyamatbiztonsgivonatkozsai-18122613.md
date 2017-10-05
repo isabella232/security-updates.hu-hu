@@ -24,9 +24,9 @@ A létesítés során az RMS a következő táblázatban bemutatott felhasznál�
 </colgroup>
 <thead>
 <tr class="header">
-<th>Fiók</th>
-<th>Rendeltetése</th>
-<th>Engedélyek</th>
+<th style="border:1px solid black;" >Fiók</th>
+<th style="border:1px solid black;" >Rendeltetése</th>
+<th style="border:1px solid black;" >Engedélyek</th>
 </tr>
 </thead>
 <tbody>

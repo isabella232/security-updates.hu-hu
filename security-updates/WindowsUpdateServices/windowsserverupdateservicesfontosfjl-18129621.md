@@ -60,9 +60,9 @@ A következő táblázat az egyes támogatott operációs rendszereken szükség
 </colgroup>
 <thead>
 <tr class="header">
-<th>Operációs rendszer</th>
-<th>Követelmények</th>
-<th>Letöltések</th>
+<th style="border:1px solid black;" >Operációs rendszer</th>
+<th style="border:1px solid black;" >Követelmények</th>
+<th style="border:1px solid black;" >Letöltések</th>
 </tr>
 </thead>
 <tbody>

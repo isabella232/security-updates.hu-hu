@@ -21,8 +21,8 @@ A következő táblázatban azok a felhasználói jogok és engedélyek szerepel
 </colgroup>
 <thead>
 <tr class="header">
-<th>Tevékenység</th>
-<th>Felhasználói fiók és az engedélyek</th>
+<th style="border:1px solid black;" >Tevékenység</th>
+<th style="border:1px solid black;" >Felhasználói fiók és az engedélyek</th>
 </tr>
 </thead>
 <tbody>

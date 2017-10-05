@@ -75,7 +75,7 @@ A 3. lépésben végrehajtotta a felsőbb rétegbeli kiszolgáló és a proxykis
     </colgroup>
     <thead>
     <tr class="header">
-    <th><img src="images/Dd939924.Important(WS.10).gif" />Fontos</th>
+    <th style="border:1px solid black;" ><img src="images/Dd939924.Important(WS.10).gif" />Fontos</th>
     </tr>
     </thead>
     <tbody>

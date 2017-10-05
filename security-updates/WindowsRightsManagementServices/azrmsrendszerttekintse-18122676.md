@@ -23,8 +23,8 @@ A következő táblázat az RMS rendszereket alkotó kiszolgálótípusokat soro
 </colgroup>
 <thead>
 <tr class="header">
-<th>Kiszolgáló vagy fürt</th>
-<th>Funkciója</th>
+<th style="border:1px solid black;" >Kiszolgáló vagy fürt</th>
+<th style="border:1px solid black;" >Funkciója</th>
 </tr>
 </thead>
 <tbody>

@@ -18,7 +18,7 @@ It is not usually necessary to uninstall Belső Windows-adatbázis, which WSUS i
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939818.Important(WS.10).gif" />Fontos</th>
+<th style="border:1px solid black;" ><img src="images/Dd939818.Important(WS.10).gif" />Fontos</th>
 </tr>
 </thead>
 <tbody>
@@ -45,7 +45,7 @@ It is not usually necessary to uninstall Belső Windows-adatbázis, which WSUS i
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939818.Important(WS.10).gif" />Fontos</th>
+<th style="border:1px solid black;" ><img src="images/Dd939818.Important(WS.10).gif" />Fontos</th>
 </tr>
 </thead>
 <tbody>

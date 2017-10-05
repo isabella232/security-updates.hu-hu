@@ -21,8 +21,8 @@ A következő táblázat az RMS kiszolgálók futtatásához szükséges és aj�
 </colgroup>
 <thead>
 <tr class="header">
-<th>Követelmény</th>
-<th>Ajánlás</th>
+<th style="border:1px solid black;" >Követelmény</th>
+<th style="border:1px solid black;" >Ajánlás</th>
 </tr>
 </thead>
 <tbody>

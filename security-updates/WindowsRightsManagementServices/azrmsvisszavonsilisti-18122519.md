@@ -31,8 +31,8 @@ A következő táblázat bemutatja, hogy milyen entitások vehetők fel a vissza
 </colgroup>
 <thead>
 <tr class="header">
-<th>Entitás</th>
-<th>Azonosító</th>
+<th style="border:1px solid black;" >Entitás</th>
+<th style="border:1px solid black;" >Azonosító</th>
 </tr>
 </thead>
 <tbody>
@@ -79,8 +79,8 @@ A visszavonási listák XrML fájlok, a következő paramétereket adják meg.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Paraméter</th>
-<th>Leírás</th>
+<th style="border:1px solid black;" >Paraméter</th>
+<th style="border:1px solid black;" >Leírás</th>
 </tr>
 </thead>
 <tbody>

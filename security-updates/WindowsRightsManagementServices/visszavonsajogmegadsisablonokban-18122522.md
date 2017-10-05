@@ -23,8 +23,8 @@ Az alábbi táblázatban a REFRESH címkében használat paraméterek olvasható
 </colgroup>
 <thead>
 <tr class="header">
-<th>Paraméter</th>
-<th>Leírás</th>
+<th style="border:1px solid black;" >Paraméter</th>
+<th style="border:1px solid black;" >Leírás</th>
 </tr>
 </thead>
 <tbody>

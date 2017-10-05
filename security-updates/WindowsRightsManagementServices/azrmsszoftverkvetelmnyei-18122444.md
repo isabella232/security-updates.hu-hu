@@ -21,8 +21,8 @@ Az RMS kiszolgálók működéséhez szükséges szoftverfeltételeket a követk
 </colgroup>
 <thead>
 <tr class="header">
-<th>Szoftver</th>
-<th>Követelmény</th>
+<th style="border:1px solid black;" >Szoftver</th>
+<th style="border:1px solid black;" >Követelmény</th>
 </tr>
 </thead>
 <tbody>

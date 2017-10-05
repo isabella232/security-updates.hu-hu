@@ -47,9 +47,9 @@ A becslés működésének érzékeléséhez vegyünk egy 5000 felhasználót ta
 </colgroup>
 <thead>
 <tr class="header">
-<th>Művelet</th>
-<th>Méretnövekedés</th>
-<th>Halmozott naplóméret</th>
+<th style="border:1px solid black;" >Művelet</th>
+<th style="border:1px solid black;" >Méretnövekedés</th>
+<th style="border:1px solid black;" >Halmozott naplóméret</th>
 </tr>
 </thead>
 <tbody>

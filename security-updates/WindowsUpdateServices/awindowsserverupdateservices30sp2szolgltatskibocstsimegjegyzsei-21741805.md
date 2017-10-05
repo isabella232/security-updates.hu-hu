@@ -62,7 +62,7 @@ A szakasz a WSUS 3.0 SP2 telepítésének szoftver- és hardverkövetelményeit 
         </colgroup>
         <thead>
         <tr class="header">
-        <th><img src="images/Dd939886.Warning(WS.10).gif" />Figyelmeztetés</th>
+        <th style="border:1px solid black;" ><img src="images/Dd939886.Warning(WS.10).gif" />Figyelmeztetés</th>
         </tr>
         </thead>
         <tbody>
@@ -97,7 +97,7 @@ A szakasz a WSUS 3.0 SP2 telepítésének szoftver- és hardverkövetelményeit 
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939886.Important(WS.10).gif" />Fontos</th>
+<th style="border:1px solid black;" ><img src="images/Dd939886.Important(WS.10).gif" />Fontos</th>
 </tr>
 </thead>
 <tbody>
@@ -134,7 +134,7 @@ Az alábbi lista a kiszolgáló alapszintű telepítéséhez szükséges minimá
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939886.Important(WS.10).gif" />Fontos</th>
+<th style="border:1px solid black;" ><img src="images/Dd939886.Important(WS.10).gif" />Fontos</th>
 </tr>
 </thead>
 <tbody>
@@ -176,7 +176,7 @@ Előfordulhat, hogy a WSUS 3.0 SP2 telepítésekor le kell tiltani a víruskeres
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939886.Caution(WS.10).gif" />Vigyázat!</th>
+<th style="border:1px solid black;" ><img src="images/Dd939886.Caution(WS.10).gif" />Vigyázat!</th>
 </tr>
 </thead>
 <tbody>
@@ -326,8 +326,8 @@ A WSUS 3.0 SP2 telepítését felügyelet nélküli üzemmódban is elvégezheti
 </colgroup>
 <thead>
 <tr class="header">
-<th>Kapcsoló</th>
-<th>Leírás</th>
+<th style="border:1px solid black;" >Kapcsoló</th>
+<th style="border:1px solid black;" >Leírás</th>
 </tr>
 </thead>
 <tbody>
@@ -366,8 +366,8 @@ A táblázat a WSUS 3.0 SP2 parancssori tulajdonságait tartalmazza.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Tulajdonság</th>
-<th>Leírás</th>
+<th style="border:1px solid black;" >Tulajdonság</th>
+<th style="border:1px solid black;" >Leírás</th>
 </tr>
 </thead>
 <tbody>
@@ -446,7 +446,7 @@ WSUSSetup.exe /q DEFAULT\_WEBSITE=0 (telepítés csendes üzemmódban a 8530-as 
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939886.Important(WS.10).gif" />Fontos</th>
+<th style="border:1px solid black;" ><img src="images/Dd939886.Important(WS.10).gif" />Fontos</th>
 </tr>
 </thead>
 <tbody>

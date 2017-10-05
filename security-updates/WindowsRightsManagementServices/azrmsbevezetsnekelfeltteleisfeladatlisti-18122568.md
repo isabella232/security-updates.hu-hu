@@ -58,8 +58,8 @@ Egyetlen RMS kiszolgáló bevezetéséhez a következő feladatlista használhat
 </colgroup>
 <thead>
 <tr class="header">
-<th>Lépés</th>
-<th>Források</th>
+<th style="border:1px solid black;" >Lépés</th>
+<th style="border:1px solid black;" >Források</th>
 </tr>
 </thead>
 <tbody>
@@ -107,8 +107,8 @@ A legfelső szintű tanúsítási és licencelési fürt bevezetéséhez a köve
 </colgroup>
 <thead>
 <tr class="header">
-<th>Lépés</th>
-<th>Források</th>
+<th style="border:1px solid black;" >Lépés</th>
+<th style="border:1px solid black;" >Források</th>
 </tr>
 </thead>
 <tbody>
@@ -170,8 +170,8 @@ Az RMS több erdőben való bevezetéséhez a következő feladatlista használh
 </colgroup>
 <thead>
 <tr class="header">
-<th>Lépés</th>
-<th>Források</th>
+<th style="border:1px solid black;" >Lépés</th>
+<th style="border:1px solid black;" >Források</th>
 </tr>
 </thead>
 <tbody>
@@ -219,8 +219,8 @@ Jogmegadási sablon megvalósításához a következő feladatlista használhat�
 </colgroup>
 <thead>
 <tr class="header">
-<th>Lépés</th>
-<th>Források</th>
+<th style="border:1px solid black;" >Lépés</th>
+<th style="border:1px solid black;" >Források</th>
 </tr>
 </thead>
 <tbody>
@@ -260,8 +260,8 @@ Az RMS ügyfél új verziójának bevezetéséhez a következő feladatlista has
 </colgroup>
 <thead>
 <tr class="header">
-<th>Lépés</th>
-<th>Források</th>
+<th style="border:1px solid black;" >Lépés</th>
+<th style="border:1px solid black;" >Források</th>
 </tr>
 </thead>
 <tbody>
@@ -293,8 +293,8 @@ Megbízható felhasználói tartomány felvételéhez a következő feladatlista
 </colgroup>
 <thead>
 <tr class="header">
-<th>Lépés</th>
-<th>Források</th>
+<th style="border:1px solid black;" >Lépés</th>
+<th style="border:1px solid black;" >Források</th>
 </tr>
 </thead>
 <tbody>
@@ -326,8 +326,8 @@ Megbízható közzétételi tartomány felvételéhez a következő feladatlista
 </colgroup>
 <thead>
 <tr class="header">
-<th>Lépés</th>
-<th>Források</th>
+<th style="border:1px solid black;" >Lépés</th>
+<th style="border:1px solid black;" >Források</th>
 </tr>
 </thead>
 <tbody>

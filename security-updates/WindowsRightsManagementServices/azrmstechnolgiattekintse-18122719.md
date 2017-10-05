@@ -21,8 +21,8 @@ Az RMS rendszert kiszolgálói és ügyfél-technológiák alkotják. A követke
 </colgroup>
 <thead>
 <tr class="header">
-<th>Technológia</th>
-<th>Leírás</th>
+<th style="border:1px solid black;" >Technológia</th>
+<th style="border:1px solid black;" >Leírás</th>
 </tr>
 </thead>
 <tbody>

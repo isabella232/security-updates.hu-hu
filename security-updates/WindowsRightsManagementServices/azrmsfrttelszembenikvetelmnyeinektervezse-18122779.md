@@ -21,8 +21,8 @@ Ha fürtben vezeti be az RMS szolgáltatást, feltétlenül gondolja át, hogyan
 </colgroup>
 <thead>
 <tr class="header">
-<th>Helyzet</th>
-<th>Javaslat</th>
+<th style="border:1px solid black;" >Helyzet</th>
+<th style="border:1px solid black;" >Javaslat</th>
 </tr>
 </thead>
 <tbody>

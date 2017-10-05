@@ -171,8 +171,8 @@ A WSUS 3.0 telepítésének futtatása előtt ellenőrizze, hogy a rendszer megf
 </colgroup>
 <thead>
 <tr class="header">
-<th>Követelmény</th>
-<th>Részletek</th>
+<th style="border:1px solid black;" >Követelmény</th>
+<th style="border:1px solid black;" >Részletek</th>
 </tr>
 </thead>
 <tbody>
@@ -255,8 +255,8 @@ A WSUS 3.0 telepítését felügyelet nélküli üzemmódban is elvégezheti a W
 </colgroup>
 <thead>
 <tr class="header">
-<th>Kapcsoló</th>
-<th>Leírás</th>
+<th style="border:1px solid black;" >Kapcsoló</th>
+<th style="border:1px solid black;" >Leírás</th>
 </tr>
 </thead>
 <tbody>
@@ -295,8 +295,8 @@ A táblázat a WSUS 3.0 parancssori tulajdonságait tartalmazza.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Tulajdonság</th>
-<th>Leírás</th>
+<th style="border:1px solid black;" >Tulajdonság</th>
+<th style="border:1px solid black;" >Leírás</th>
 </tr>
 </thead>
 <tbody>
@@ -564,8 +564,8 @@ A WSUS 3.0 támogatja a Windows Server 2008 rendszer 32 és 64 bites verzióit 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Követelmény</th>
-<th>Részletek</th>
+<th style="border:1px solid black;" >Követelmény</th>
+<th style="border:1px solid black;" >Részletek</th>
 </tr>
 </thead>
 <tbody>

@@ -22,9 +22,9 @@ A következő táblázat az RMS rendszerben használt tanúsítványokat és lic
 </colgroup>
 <thead>
 <tr class="header">
-<th>Tanúsítvány vagy licenc</th>
-<th>Rendeltetése</th>
-<th>Tartalma</th>
+<th style="border:1px solid black;" >Tanúsítvány vagy licenc</th>
+<th style="border:1px solid black;" >Rendeltetése</th>
+<th style="border:1px solid black;" >Tartalma</th>
 </tr>
 </thead>
 <tbody>

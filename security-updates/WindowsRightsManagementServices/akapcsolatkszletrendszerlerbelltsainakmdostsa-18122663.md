@@ -34,11 +34,11 @@ Az alábbi táblázat azokat a bejegyzéseket tartalmazza, amelyeknek létrehoz�
 </colgroup>
 <thead>
 <tr class="header">
-<th>Név</th>
-<th>Típus</th>
-<th>Alapértelmezett érték</th>
-<th>Leírás</th>
-<th>Megjegyzések</th>
+<th style="border:1px solid black;" >Név</th>
+<th style="border:1px solid black;" >Típus</th>
+<th style="border:1px solid black;" >Alapértelmezett érték</th>
+<th style="border:1px solid black;" >Leírás</th>
+<th style="border:1px solid black;" >Megjegyzések</th>
 </tr>
 </thead>
 <tbody>

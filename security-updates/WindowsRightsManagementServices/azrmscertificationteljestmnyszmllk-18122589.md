@@ -21,8 +21,8 @@ A következő táblázat az RMS: Certification teljesítményobjektumra vonatkoz
 </colgroup>
 <thead>
 <tr class="header">
-<th>Számláló</th>
-<th>Leírás</th>
+<th style="border:1px solid black;" >Számláló</th>
+<th style="border:1px solid black;" >Leírás</th>
 </tr>
 </thead>
 <tbody>

@@ -25,8 +25,8 @@ A fióktanúsítási szolgáltatás alkalmazásfájlja, az Activation.asmx, az I
 </colgroup>
 <thead>
 <tr class="header">
-<th>Felhasználó vagy Csoport</th>
-<th>Alapértelmezett engedély</th>
+<th style="border:1px solid black;" >Felhasználó vagy Csoport</th>
+<th style="border:1px solid black;" >Alapértelmezett engedély</th>
 </tr>
 </thead>
 <tbody>

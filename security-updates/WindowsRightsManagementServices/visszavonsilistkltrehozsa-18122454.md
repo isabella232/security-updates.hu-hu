@@ -175,8 +175,8 @@ A parancs paramétereit az alábbiak alapján adja meg:
 </colgroup>
 <thead>
 <tr class="header">
-<th>Paraméter</th>
-<th>Leírás</th>
+<th style="border:1px solid black;" >Paraméter</th>
+<th style="border:1px solid black;" >Leírás</th>
 </tr>
 </thead>
 <tbody>
@@ -222,8 +222,8 @@ Az RLsigner.exe program visszatérési kódja a sikeres végrehajtást, illetve 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Visszatérési kód</th>
-<th>Leírás</th>
+<th style="border:1px solid black;" >Visszatérési kód</th>
+<th style="border:1px solid black;" >Leírás</th>
 </tr>
 </thead>
 <tbody>

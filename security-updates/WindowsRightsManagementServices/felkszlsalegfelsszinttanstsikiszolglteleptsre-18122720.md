@@ -24,9 +24,9 @@ A tartományvezérlő telepítése és az adatbázis-kiszolgálók beállítása
 </colgroup>
 <thead>
 <tr class="header">
-<th>Infrastrukturális összetevő</th>
-<th>A kiszolgáló felkészítése az RMS telepítésére</th>
-<th>Éles környezetben való bevezetéssel kapcsolatos megjegyzések</th>
+<th style="border:1px solid black;" >Infrastrukturális összetevő</th>
+<th style="border:1px solid black;" >A kiszolgáló felkészítése az RMS telepítésére</th>
+<th style="border:1px solid black;" >Éles környezetben való bevezetéssel kapcsolatos megjegyzések</th>
 </tr>
 </thead>
 <tbody>

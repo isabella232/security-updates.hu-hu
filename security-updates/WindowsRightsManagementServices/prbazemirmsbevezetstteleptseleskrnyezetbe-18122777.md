@@ -28,9 +28,9 @@ A következő lépések példaként szolgálnak, és az áttelepítési terv né
 </colgroup>
 <thead>
 <tr class="header">
-<th>Kiszolgáló</th>
-<th>Lépés</th>
-<th>Megjegyzések</th>
+<th style="border:1px solid black;" >Kiszolgáló</th>
+<th style="border:1px solid black;" >Lépés</th>
+<th style="border:1px solid black;" >Megjegyzések</th>
 </tr>
 </thead>
 <tbody>

@@ -30,8 +30,8 @@ A következő táblázat az RMS webszolgáltatásait ismerteti.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Szolgáltatás</th>
-<th>Leírás</th>
+<th style="border:1px solid black;" >Szolgáltatás</th>
+<th style="border:1px solid black;" >Leírás</th>
 </tr>
 </thead>
 <tbody>

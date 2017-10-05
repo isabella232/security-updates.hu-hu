@@ -23,8 +23,8 @@ A naplóbejegyzések átlagos mérete 300 bájt. Az alábbi táblázat a naplób
 </colgroup>
 <thead>
 <tr class="header">
-<th>Mező</th>
-<th>Leírás</th>
+<th style="border:1px solid black;" >Mező</th>
+<th style="border:1px solid black;" >Leírás</th>
 </tr>
 </thead>
 <tbody>

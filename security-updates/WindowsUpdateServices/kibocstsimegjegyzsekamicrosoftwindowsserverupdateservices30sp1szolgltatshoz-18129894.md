@@ -149,8 +149,8 @@ A WSUS 3.0 SP1 telepítő futtatása előtt ellenőrizze, hogy a rendszer megfel
 </colgroup>
 <thead>
 <tr class="header">
-<th>Követelmény</th>
-<th>Ismertetés</th>
+<th style="border:1px solid black;" >Követelmény</th>
+<th style="border:1px solid black;" >Ismertetés</th>
 </tr>
 </thead>
 <tbody>
@@ -237,8 +237,8 @@ A WSUS parancssori telepítőprogramja segítségével a WSUS 3.0 SP1 szolgálta
 </colgroup>
 <thead>
 <tr class="header">
-<th>Kapcsoló</th>
-<th>Leírás</th>
+<th style="border:1px solid black;" >Kapcsoló</th>
+<th style="border:1px solid black;" >Leírás</th>
 </tr>
 </thead>
 <tbody>
@@ -277,8 +277,8 @@ Az alábbi táblázat a WSUS 3.0 SP1 telepítésének parancssori tulajdonságai
 </colgroup>
 <thead>
 <tr class="header">
-<th>Tulajdonság</th>
-<th>Leírás</th>
+<th style="border:1px solid black;" >Tulajdonság</th>
+<th style="border:1px solid black;" >Leírás</th>
 </tr>
 </thead>
 <tbody>
@@ -529,8 +529,8 @@ A WSUS 3.0 SP1 a Windows Server 2008 32 bites és 64 bites változatait is tám
 </colgroup>
 <thead>
 <tr class="header">
-<th>Követelmény</th>
-<th>Ismertetés</th>
+<th style="border:1px solid black;" >Követelmény</th>
+<th style="border:1px solid black;" >Ismertetés</th>
 </tr>
 </thead>
 <tbody>

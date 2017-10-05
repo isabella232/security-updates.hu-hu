@@ -86,10 +86,10 @@ Mivel az RMS SP1 számos javítást és teljesítménynövelő továbbfejleszté
 </colgroup>
 <thead>
 <tr class="header">
-<th>RMS kiszolgáló verziója</th>
-<th>Az 1.0-s verziójú ügyfeleknél használható szolgáltatások</th>
-<th>Az SP1 ügyfeleknél használható szolgáltatások</th>
-<th>A vegyes (1.0 és SP1) ügyfelű környezetekben használható szolgáltatások</th>
+<th style="border:1px solid black;" >RMS kiszolgáló verziója</th>
+<th style="border:1px solid black;" >Az 1.0-s verziójú ügyfeleknél használható szolgáltatások</th>
+<th style="border:1px solid black;" >Az SP1 ügyfeleknél használható szolgáltatások</th>
+<th style="border:1px solid black;" >A vegyes (1.0 és SP1) ügyfelű környezetekben használható szolgáltatások</th>
 </tr>
 </thead>
 <tbody>

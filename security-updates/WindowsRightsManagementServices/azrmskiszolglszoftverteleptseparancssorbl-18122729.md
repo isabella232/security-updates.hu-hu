@@ -35,8 +35,8 @@ A következő táblázat a parancsok szintaxisát ismerteti.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Paraméter</th>
-<th>Meghatározás</th>
+<th style="border:1px solid black;" >Paraméter</th>
+<th style="border:1px solid black;" >Meghatározás</th>
 </tr>
 </thead>
 <tbody>

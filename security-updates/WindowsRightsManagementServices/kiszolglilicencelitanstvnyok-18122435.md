@@ -26,9 +26,9 @@ Az alábbi táblázat azokat a jogokat tartalmazza, amelyeket a kiszolgálók sz
 </colgroup>
 <thead>
 <tr class="header">
-<th>Kiállítási jogosultság</th>
-<th>A legfelső szintű tanúsítási kiszolgáló részére kiállított kiszolgálói licencelői tanúsítvány</th>
-<th>Licenckiszolgáló részére kiállított kiszolgálói licencelői tanúsítvány</th>
+<th style="border:1px solid black;" >Kiállítási jogosultság</th>
+<th style="border:1px solid black;" >A legfelső szintű tanúsítási kiszolgáló részére kiállított kiszolgálói licencelői tanúsítvány</th>
+<th style="border:1px solid black;" >Licenckiszolgáló részére kiállított kiszolgálói licencelői tanúsítvány</th>
 </tr>
 </thead>
 <tbody>

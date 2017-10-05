@@ -21,8 +21,8 @@ Az alábbi táblázatból kiolvasható, hogy a jogmegadási sablonokban kiválas
 </colgroup>
 <thead>
 <tr class="header">
-<th>Jog</th>
-<th>XrML-elem</th>
+<th style="border:1px solid black;" >Jog</th>
+<th style="border:1px solid black;" >XrML-elem</th>
 </tr>
 </thead>
 <tbody>

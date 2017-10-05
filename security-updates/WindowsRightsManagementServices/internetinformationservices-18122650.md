@@ -34,9 +34,9 @@ Az alábbi táblázat az IIS szolgáltatásban létrejövő virtuális könyvtá
 </colgroup>
 <thead>
 <tr class="header">
-<th>Virtuális könyvtár</th>
-<th>Szolgáltatás</th>
-<th>Webszolgáltatási fájl</th>
+<th style="border:1px solid black;" >Virtuális könyvtár</th>
+<th style="border:1px solid black;" >Szolgáltatás</th>
+<th style="border:1px solid black;" >Webszolgáltatási fájl</th>
 </tr>
 </thead>
 <tbody>

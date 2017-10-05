@@ -33,10 +33,10 @@ Az alábbi táblázat a memóriabeli gyorsítótár működését szabályozó b
 </colgroup>
 <thead>
 <tr class="header">
-<th>Név</th>
-<th>Típus</th>
-<th>Alapértelmezett érték</th>
-<th>Leírás</th>
+<th style="border:1px solid black;" >Név</th>
+<th style="border:1px solid black;" >Típus</th>
+<th style="border:1px solid black;" >Alapértelmezett érték</th>
+<th style="border:1px solid black;" >Leírás</th>
 </tr>
 </thead>
 <tbody>

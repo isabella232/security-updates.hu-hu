@@ -28,7 +28,7 @@ A WSUS 3.0 SP2 szolgáltatás alapértelmezés szerint a Microsoft Update webhel
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939815.note(WS.10).gif" />Megjegyzés</th>
+<th style="border:1px solid black;" ><img src="images/Dd939815.note(WS.10).gif" />Megjegyzés</th>
 </tr>
 </thead>
 <tbody>
@@ -70,7 +70,7 @@ A 3. lépésben a következő műveleteket kell végrehajtani:
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939815.note(WS.10).gif" />Megjegyzés</th>
+<th style="border:1px solid black;" ><img src="images/Dd939815.note(WS.10).gif" />Megjegyzés</th>
 </tr>
 </thead>
 <tbody>
@@ -118,7 +118,7 @@ A következő két művelet feltételezi, hogy a konfigurálást a WSUS felügye
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939815.note(WS.10).gif" />Megjegyzés</th>
+<th style="border:1px solid black;" ><img src="images/Dd939815.note(WS.10).gif" />Megjegyzés</th>
 </tr>
 </thead>
 <tbody>
