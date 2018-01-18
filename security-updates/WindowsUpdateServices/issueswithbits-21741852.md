@@ -29,22 +29,8 @@ Often it is possible to resolve BITS issues simply by stopping the service and r
 
  
 <p> </p>
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939934.note(WS.10).gif" />Megjegyzés</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">To modify, stop, or restart BITS, log on as a local administrator.
-</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> To modify, stop, or restart BITS, log on as a local administrator.
  
 
 **To stop and restart BITS**
@@ -221,22 +207,8 @@ To repair corrupted BITS service configuration, you can enter the BITS service c
 
  
 <p> </p>
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939934.Important(WS.10).gif" />Fontos</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">This action should only be taken in circumstances where all other troubleshooting attempts have failed. You must be an administrator to modify the BITS configuration.
-</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]
+> This action should only be taken in circumstances where all other troubleshooting attempts have failed. You must be an administrator to modify the BITS configuration.
  
 
 **To repair a corrupted BITS configuration**

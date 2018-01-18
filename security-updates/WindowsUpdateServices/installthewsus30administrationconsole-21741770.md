@@ -13,22 +13,8 @@ After installing WSUS 3.0 on a server, you can manage WSUS 3.0 from any computer
 
  
 <p> </p>
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939875.Important(WS.10).gif" />Fontos</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">The WSUS 3.0 administration console can be used to manage any WSUS server that has a trust relationship with the administration console computer.
-</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]
+> The WSUS 3.0 administration console can be used to manage any WSUS server that has a trust relationship with the administration console computer.
  
 
 WSUS Administration Console Software Prerequisites
@@ -46,22 +32,8 @@ To install the WSUS 3.0 administration console, use the same installation packag
 
  
 <p> </p>
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939875.note(WS.10).gif" />Megjegyzés</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">The latest version of the WSUS setup executable is available on the <a href="http://go.microsoft.com/fwlink/?linkid=74472">WSUS Web site</a> (http://go.microsoft.com/fwlink/?LinkId=74472).
-</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> The latest version of the WSUS setup executable is available on the <a href="http://go.microsoft.com/fwlink/?linkid=74472">WSUS Web site</a> (http://go.microsoft.com/fwlink/?LinkId=74472).
  
 
 The console-only installation process can be run from the setup UI from the command line. For more information about command-line installation, see [Appendix A: Unattended Installations](https://technet.microsoft.com/2443408e-5bd2-4b1f-b0a5-7ee1452fe5bc) later in this guide.
