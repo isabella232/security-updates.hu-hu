@@ -16,10 +16,15 @@ Alapértelmezés szerint a beépített Windows hitelesítés engedélyezve van a
 Mielőtt a felhasználók megkezdhetnék a leszerelési szolgáltatás használatát, a felhasználói alkalmazást úgy kell módosítani, hogy a használati licencek iránti kérelmek elküldhetők legyenek ebbe az új leszerelési adatcsatornába. Microsoft Office System 2003 rendszeren ez rendszerleíró bejegyzés felvételével hajtható végre a felhasználó számítógépén. Az Office 2003 használatakor az eljárás a következő:
 
 1.  Nyissa meg a rendszerleíró adatbázis szerkesztőjét.
+
 2.  Keresse meg a `HKEY_CURRENT_USER\Software\Microsoft\Office\11.0\Common\DRM` bejegyzést, és vegyen fel egy új, `Decommissioning` nevű kulcsot.
+
 3.  A Decommissioning kulcsban vegye fel a következő új, **Karakterlánc** típusú bejegyzést, a *licenckiszolgáló* helyére írja az RMS kiszolgáló nevét.
+
     `http://`*licenckiszolgáló*`/_wmcs/licensing`
+
 4.  Ezután kattintson a jobb oldali egérgombbal a bejegyzésre, válassza a **Módosítás** parancsot, és adja meg a leszerelési szolgáltatásra mutató értéket:
+
     `http://`*licenckiszolgáló*`/_wmcs/decommission`
 
 > [!NOTE]  
