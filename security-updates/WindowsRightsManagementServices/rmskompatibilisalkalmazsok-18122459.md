@@ -21,9 +21,8 @@ Azok a felhasználók, akiknek nincs más RMS-kompatibilis alkalmazásuk az RMS-
 
 Az Internet Explorer tartalomvédelmi bővítménye letölthető a [Microsoft webhelyéről](http://go.microsoft.com/fwlink/?linkid=14450) (http://go.microsoft.com/fwlink/?LinkId=14450).
 
-| ![](images/Cc720231.note(WS.10).gif)Megjegyzés:                                                                                                            |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Ha az Internet Explorer tartalomvédelmi bővítményét Windows XP Service Pack 2 rendszeren használja, a fokozott biztonsági beállítások alkalmazáskompatibilitási problémákat okozhatnak. |
+> [!NOTE]  
+> Ha az Internet Explorer tartalomvédelmi bővítményét Windows XP Service Pack 2 rendszeren használja, a fokozott biztonsági beállítások alkalmazáskompatibilitási problémákat okozhatnak. 
 
 Ha a szervezetben lévő tartományok extranetelérési URL-címét nem veszi fel az Internet Explorer Helyi intranet listájára, az Internet Explorer tartalomvédelmi bővítményét használók ismétlődően a helyek elérésére vonatkozó üzeneteket kapnak. Az üzenetekre adott helytelen válasznál előfordulhat, hogy az RMS ügyfél új tartalomvédelmi fióktanúsítványt kap a felhasználói fiókhoz.
 

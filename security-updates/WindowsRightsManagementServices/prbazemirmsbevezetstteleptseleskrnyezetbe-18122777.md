@@ -20,6 +20,7 @@ A következő lépések példaként szolgálnak, és az áttelepítési terv né
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />

@@ -23,6 +23,5 @@ http://*kiszolgálónév*/\_wmcs/Licensing/License.asmx
 
 A szolgáltatás helye vagy az RMS kiszolgáló, vagy a közzétételi licencet kiállító .NET Passport fiók; az URL megtalálható a közzétételi licencben.
 
-| ![](images/Cc720269.note(WS.10).gif)Megjegyzés:                                                  |
-|-------------------------------------------------------------------------------------------------------------------------------|
-| Ha engedélyezte az SSL használatát az RMS kiszolgálón, akkor ezek az URL-címek a https:// kapcsolódási protokollt használják. |
+> [!NOTE]  
+> Ha engedélyezte az SSL használatát az RMS kiszolgálón, akkor ezek az URL-címek a https:// kapcsolódási protokollt használják. 

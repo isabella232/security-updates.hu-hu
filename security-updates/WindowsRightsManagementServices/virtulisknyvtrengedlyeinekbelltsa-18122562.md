@@ -22,6 +22,5 @@ Mielőtt a felhasználók megkezdhetnék a leszerelési szolgáltatás használa
 4.  Ezután kattintson a jobb oldali egérgombbal a bejegyzésre, válassza a **Módosítás** parancsot, és adja meg a leszerelési szolgáltatásra mutató értéket:
     `http://`*licenckiszolgáló*`/_wmcs/decommission`
 
-| ![](images/Cc747549.note(WS.10).gif)Megjegyzés:                                           |
-|------------------------------------------------------------------------------------------------------------------------|
-| Ennél a kulcsnál több bejegyzés is szerepelhet, ha a szervezeten belül több RMS kiszolgáló van leszerelési üzemmódban. |
+> [!NOTE]  
+> Ennél a kulcsnál több bejegyzés is szerepelhet, ha a szervezeten belül több RMS kiszolgáló van leszerelési üzemmódban. 
