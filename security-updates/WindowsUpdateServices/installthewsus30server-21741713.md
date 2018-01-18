@@ -13,22 +13,8 @@ After designing the WSUS deployment, you are ready to install the WSUS server co
 
  
 <p> </p>
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939817.note(WS.10).gif" />Megjegyzés</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">It is not possible to upgrade from Microsoft Software Update Services (SUS) to WSUS 3.0. You must uninstall SUS before installing WSUS 3.0. If you are doing a migration from WSUS 2.0 to WSUS 3.0, see the section on migrating WSUS.
-</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> It is not possible to upgrade from Microsoft Software Update Services (SUS) to WSUS 3.0. You must uninstall SUS before installing WSUS 3.0. If you are doing a migration from WSUS 2.0 to WSUS 3.0, see the section on migrating WSUS.
  
 
 **In this guide**
