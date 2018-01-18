@@ -13,15 +13,15 @@ Csak azt követően lehet legfelső szintű tanúsítási kiszolgálót vagy lic
 
 A következő eljárás bemutatja, hogyan lehet kiszolgálóoldali tesztelés céljára elszigetelt hálózatban egyetlen számítógépet tartományvezérlőként és adatbázis-kiszolgálóként beállítani.
 
-| ![](images/Cc747681.note(WS.10).gif)Megjegyzés:                                                                                                                                                                                                                                                                                             |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| A példában az adatbázis-kiszolgáló a tartományvezérlőn fut. Éles környezetekben az az általános szabály, hogy tartományvezérlőn nem ajánlatos más összetevőket futtatni. A példában ugyanarra a számítógépre telepítjük az Active Directory szolgáltatást és az adatbázis-kiszolgálót, mert így a lehető legkevesebb számítógéppel kialakítható a teljes infrastruktúra. |
+> [!NOTE]  
+> A példában az adatbázis-kiszolgáló a tartományvezérlőn fut. Éles környezetekben az az általános szabály, hogy tartományvezérlőn nem ajánlatos más összetevőket futtatni. A példában ugyanarra a számítógépre telepítjük az Active Directory szolgáltatást és az adatbázis-kiszolgálót, mert így a lehető legkevesebb számítógéppel kialakítható a teljes infrastruktúra. 
 
 Ha adatbázis-kiszolgálóként az MSDE 2000 mellett dönt, ügyeljen arra, hogy ez semmilyen hálózati csatlakozófelületet sem támogat, és az MSDE 2000 használati feltételei megtiltják az SQL Server ügyféleszközeinek használatát az MSDE 2000 adatbázisok kezelésére. Ezt a korlátozást figyelembe véve nem áll majd módjában megtekinteni a naplózott adatokat, sem módosítani a konfigurációs adatbázisban tárolt adatokat. Emiatt az RMS adatbázisainak kezeléséhez az MSDE 2000 használata csak tesztkörnyezetben javasolt.
 
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />

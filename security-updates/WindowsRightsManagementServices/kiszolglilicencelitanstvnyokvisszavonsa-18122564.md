@@ -54,6 +54,5 @@ Miután megtörtént a legfelső szintű tanúsítási fürt kiszolgálói tanú
 
 Mindkét esetben – a Microsoft és a külső fél által végrehajtott visszavonásnál – a visszavonási lista minden kötési kérelemnél érvényre jut, mivel a használati licenc bizalmi láncába tartozó résztvevő személyes kulcsával írták alá. Ezért sikertelen lesz minden olyan kötési kérelem, amely az RMS-telepítéssel a visszavont kiszolgálói licencelői tanúsítvány alapján kiállított licencet használ.
 
-| ![](images/Cc747578.note(WS.10).gif)Megjegyzés:                                 |
-|--------------------------------------------------------------------------------------------------------------|
-| A Microsoft csak akkor vonja vissza a kiszolgálói licencelői tanúsítványt, ha erre bírósági végzés kötelezi. |
+> [!NOTE]  
+> A Microsoft csak akkor vonja vissza a kiszolgálói licencelői tanúsítványt, ha erre bírósági végzés kötelezi. 

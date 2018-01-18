@@ -13,8 +13,11 @@ Az RMS sablonjaival kapcsolatos kérdések
 ----------------------------------------
 
 -   [Előírható-e egy alapértelmezett sablon a szervezetben létrehozott összes tartalomra, hogy így biztosítható legyen a jogok minimális készlete?](#bkmk_57)
+
 -   [Hol találhatók az RMS szabályzati sablonjai?](#bkmk_58)
+
 -   [A sablonok létrehozásakor felhasználói hivatkozási nevek és terjesztési listák kapcsolódnak ezekhez. A több részleggel rendelkező szervezetek hogyan biztosíthatnak olyan sablonokat, amelyek azonos alapvető jogokat tartalmaznak, de ezeket a tartalomtól függően különböző csoportoknak adják meg?](#bkmk_59)
+
 -   [A dokumentumokhoz alkalmazott jogok rögzítettek? Ha a fájlok elküldése után a jogok módosítására lenne szükség, végrehajtható-e ez, feltéve, hogy a közzétételi licenc be van ágyazva a fájlba, azaz nem az RMS „szabályzati” kiszolgálóján található?](#bkmk_60)
 
 #### Előírható-e egy alapértelmezett sablon a szervezetben létrehozott összes tartalomra, hogy így biztosítható legyen a jogok minimális készlete?
@@ -39,6 +42,7 @@ vagy
 Erre a problémára két megoldás lehetséges:
 
 -   Csak egy sablont hozzon létre (például „Vállalati – bizalmas” néven), amely a részleg összes alkalmazottjára érvényes, majd ezt a sablont használva egy e-mail üzenetben címezze azt adott személyeknek. A módszer előnye, hogy egyetlen sablon szükséges minden részlegnél az e-mail üzenethez, és azokra a felhasználókra korlátozható, akiknek elküldi az üzenetet. Hátránya az, hogy a csoporton kívül bárki, aki eredetileg megkapta, továbbra is elolvashatja azt.
+
 -   Másik megoldásként hozzon létre több sablont, minden terjesztési listához egyet. Bár ez pontosabb szabályozást biztosít, de így az informatikai osztálynak több sablonnal kell foglalkoznia.
 
 #### A dokumentumokhoz alkalmazott jogok rögzítettek? Ha a fájlok elküldése után a jogok módosítására lenne szükség, végrehajtható-e ez, feltéve, hogy a közzétételi licenc be van ágyazva a fájlba, azaz nem az RMS „szabályzati” kiszolgálóján található?

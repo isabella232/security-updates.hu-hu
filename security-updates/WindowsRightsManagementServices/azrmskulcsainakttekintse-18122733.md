@@ -29,30 +29,30 @@ A következő táblázat az RMS rendszerben használt kulcsokat mutatja be.
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;">Kiszolgálói kulcsok</td>
-<td style="border:1px solid black;"><strong>Nyilvános kulcs</strong>
-A közzétételi licencben szereplő tartalomkulcsot titkosítja, hogy csak az RMS kiszolgáló tudja beolvasni a tartalomkulcsot, és csak az tudjon használati licencet kiállítani az adott közzétételi licenc ellenében.
-<strong>Személyes kulcs</strong>
+<td style="border:1px solid black;"><strong>Nyilvános kulcs</strong><br/>
+A közzétételi licencben szereplő tartalomkulcsot titkosítja, hogy csak az RMS kiszolgáló tudja beolvasni a tartalomkulcsot, és csak az tudjon használati licencet kiállítani az adott közzétételi licenc ellenében.<br/><br/>
+<strong>Személyes kulcs</strong><br/>
 Aláír minden, a kiszolgáló által kiállított tanúsítványt és licencet.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;">Gépkulcsok</td>
-<td style="border:1px solid black;"><strong>Nyilvános kulcs</strong>
-A tartalomvédelmi fióktanúsítvány személyes kulcsát titkosítja.
-<strong>Személyes kulcs</strong>
+<td style="border:1px solid black;">Gépkulcsok</td><br/>
+<td style="border:1px solid black;"><strong>Nyilvános kulcs</strong><br/>
+A tartalomvédelmi fióktanúsítvány személyes kulcsát titkosítja.<br/><br/>
+<strong>Személyes kulcs</strong><br/>
 A tartalomvédelmi fióktanúsítványt fejti vissza.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;">Ügyfél-licencelői kulcsok</td>
-<td style="border:1px solid black;"><strong>Nyilvános kulcs</strong>
-Az általa kiállított közzétételi licencek szimmetrikus tartalomkulcsát titkosítja.
-<strong>Személyes kulcs</strong>
+<td style="border:1px solid black;">Ügyfél-licencelői kulcsok</td><br/>
+<td style="border:1px solid black;"><strong>Nyilvános kulcs</strong><br/>
+Az általa kiállított közzétételi licencek szimmetrikus tartalomkulcsát titkosítja.<br/><br/>
+<strong>Személyes kulcs</strong><br/>
 Aláírja azokat a közzétételi licenceket, amelyeket akkor állítanak ki, amikor a felhasználó nem kapcsolódik a hálózathoz.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;">Felhasználói kulcsok</td>
-<td style="border:1px solid black;"><strong>Nyilvános kulcs</strong>
-A használati licencben lévő tartalomkulcsot titkosítja,így csak az adott felhasználó tudja azt az RMS-védelemmel ellátott tartalmat az adott licenc segítségével használni.
-<strong>Személyes kulcs</strong>
+<td style="border:1px solid black;">Felhasználói kulcsok</td><br/>
+<td style="border:1px solid black;"><strong>Nyilvános kulcs</strong><br/>
+A használati licencben lévő tartalomkulcsot titkosítja,így csak az adott felhasználó tudja azt az RMS-védelemmel ellátott tartalmat az adott licenc segítségével használni.<br/><br/>
+<strong>Személyes kulcs</strong><br/>
 Lehetővé teszi a felhasználónak, hogy használja az RMS-védelemmel ellátott tartalmat.</td>
 </tr>
 <tr class="odd">

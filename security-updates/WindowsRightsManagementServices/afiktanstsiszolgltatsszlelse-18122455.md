@@ -21,6 +21,5 @@ Amikor egy ügyfél tartalomvédelmi fióktanúsítványt kérelmez, hozzáfűzi
 
 http://*kiszolgálónév*/\_wmcs/Certification/Certification.asmx
 
-| ![](images/Cc720224.note(WS.10).gif)Megjegyzés:                                                  |
-|-------------------------------------------------------------------------------------------------------------------------------|
-| Ha engedélyezte az SSL használatát az RMS kiszolgálón, akkor ezek az URL-címek a https:// kapcsolódási protokollt használják. |
+> [!NOTE]  
+> Ha engedélyezte az SSL használatát az RMS kiszolgálón, akkor ezek az URL-címek a https:// kapcsolódási protokollt használják. 
