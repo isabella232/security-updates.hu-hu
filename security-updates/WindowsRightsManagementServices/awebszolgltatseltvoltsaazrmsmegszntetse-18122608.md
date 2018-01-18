@@ -16,5 +16,7 @@ Az RMS kiszolgáló leszerelése és az összes RMS-védelem eltávolítása ut�
 A következő lépés az eltávolítani kívánt kiszolgáló típusától függ, bár az RMS eltávolítása minden esetben az IIS szolgáltatásról történik.
 
 -   Ha a kiszolgáló egy fürt része (és a fürtön nem az utolsó kiszolgáló), nincs szükség további lépésekre.
+
 -   Ha licenckiszolgálóról van szó, távolítsa el a címtár-szolgáltatási adatbázist, de tartsa meg a konfigurációs és a naplózási adatbázist (ezeket a továbbra is működő tanúsítási kiszolgáló használja).
+
 -   Ha ez az utolsó RMS kiszolgáló a szervezetben, tartsa meg a konfigurációs és a naplózási adatbázist, de távolítsa el a szolgáltatás kapcsolódási pontját (SCP) az Active Directoryból.

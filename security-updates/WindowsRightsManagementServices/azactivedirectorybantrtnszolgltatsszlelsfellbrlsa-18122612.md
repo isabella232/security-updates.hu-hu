@@ -84,7 +84,9 @@ Ha a felhasználók a számítógépükről fogják közzétenni a tartalmat, a 
 Az RMS fürt automatikus észlelésének felülbírálásához a következő beállításkulcsok használhatók.
   
 -   **Activation**. Ez a beállításkulcs a gépaktiválási szolgáltatás URL-címét adja meg. Ha a Service Pack 1 vagy újabb javítócsomaggal bővített RMS ügyfélszoftvert használ, ez a bejegyzés már nem szerepel.  
+
 -   **EnterprisePublishing**. Ez a beállításkulcs az ügyfél licenckérelmeinél használni kívánt RMS-telepítés URL-címét adja meg.  
+
 -   **CloudPublishing**. Ez a beállításkulcs a Microsoft által működtetett licencelési szolgáltatás URL-címét adja meg, amely akkor használható, ha az ügyfél nem fér hozzá egy RMS-telepítéshez, de az internetet eléri.
   
 #### A kulcsok részletei

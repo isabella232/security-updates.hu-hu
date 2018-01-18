@@ -23,7 +23,9 @@ Alapértelmezés szerint a létesítés során létrejön a kiszolgáló személ
 A CSP kétféleképpen használható:
 
 -   Választhat a kiszolgálóval alapértelmezés szerint települő szoftveres CSP-megvalósítások közül.
+
     vagy
+
 -   Használhat a kiszolgálóra telepített, nem a Microsofttól származó szoftveres szolgáltatót is.
 
 > [!NOTE]  
