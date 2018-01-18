@@ -19,8 +19,8 @@ A felügyelni kívánt kiszolgálóról a következő lépések végrehajtásáv
 
 Ha engedélyezte a Secure Sockets Layer (SSL) használatával történő távoli felügyeletet, a **Felügyeleti kezdőlap** más számítógépről is elérhető. Ehhez hajtsa végre a következő lépéseket:
 
-1.  A webböngésző címsorába írja be a következő URL-címet:
-    https://*fürt\_neve:port\_száma*/\_wmcs/admin
+1.  A webböngésző címsorába írja be a következő URL-címet:  
+    https://*fürt\_neve:port\_száma*/\_wmcs/admin  
     Ahol a *fürt\_neve:port\_száma* az az URL-cím, amelyet a fürthöz adott meg a létesítés során. A portszámot csak akkor kell megadnia, ha az alapértelmezés szerinti port (80) számától különböző portszámot határozott meg.
 2.  A program kérésére adja meg az elérni kívánt kiszolgáló helyi rendszergazdájának bejelentkezési adatait.
 
