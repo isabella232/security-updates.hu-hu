@@ -15,9 +15,8 @@ Számos szervezet szabályozott körülmények között hajtja végre az ügyfé
 
 Az RMS ügyfélszoftver rendszerbe állítása előtt letölthető innen: [http://go.microsoft.com](http://go.microsoft.com/fwlink/?linkid=67736).(http://go.microsoft.com/fwlink/?linkid=67736).
 
-| ![](images/Cc747749.Important(WS.10).gif)Fontos:                                     |
-|-------------------------------------------------------------------------------------------------------------------|
-| Az RMS ügyfélszoftver a Windows Vista operációs rendszerbe be lett építve. Ezért nincs szükség külön telepítésre. |
+> [!IMPORTANT]  
+> Az RMS ügyfélszoftver a Windows Vista operációs rendszerbe be lett építve. Ezért nincs szükség külön telepítésre. 
 
 A telepítési fájlok kibontása
 -----------------------------
@@ -39,9 +38,8 @@ A parancs végrehajtása után a következő fájlok kerülnek a megadott könyv
 -   RMClientBackCompat.msi
     Ez a telepítési fájl azonosítja az új RMS SP2 ügyfélszoftvert az RMS-ügyfélszoftver előző verziójától függő RMS-kompatibilis alkalmazások számára (ilyen például a Microsoft Office Professional 2003 vagy a Microsoft Office System 2007), így a korábbi helyett az RMS SP2 ügyfél használható. Ezt a programot az MSDrmClient.msi sikeres telepítése után kell telepíteni az ügyfélszámítógépekre.
 
-| ![](images/Cc747749.note(WS.10).gif)Megjegyzés:                                                                                                                                                                                            |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Bármelyik telepítési módszer választásakor biztosítani kell a Windows Installer mindkét telepítési fájljának sikeres telepítését. Ha olyan hiba fordul elő, amely megakadályozza az MSDrmClient.msi telepítését, az RMClientBackCompat.msi fájlt nem szabad telepíteni. |
+> [!NOTE]  
+> Bármelyik telepítési módszer választásakor biztosítani kell a Windows Installer mindkét telepítési fájljának sikeres telepítését. Ha olyan hiba fordul elő, amely megakadályozza az MSDrmClient.msi telepítését, az RMClientBackCompat.msi fájlt nem szabad telepíteni. 
 
 Az RMS ügyfélszoftvert rendszerbe állítása felügyelet nélküli telepítéssel
 --------------------------------------------------------------------------
@@ -52,9 +50,8 @@ A Windows Installer használatával működő fájlok kicsomagolása nem kötele
 
 Ez a parancs elindítja az RMS ügyfélszoftver felügyelet nélküli telepítését.
 
-| ![](images/Cc747749.note(WS.10).gif)Megjegyzés:                                                                                                           |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Mivel ez felügyelet nélküli telepítés, a telepítő nem ad tájékoztatást a telepítés befejezéséről. A felügyelet nélküli telepítést általában parancsfájl (kötegelt vagy szkript) végzi. |
+> [!NOTE]  
+> Mivel ez felügyelet nélküli telepítés, a telepítő nem ad tájékoztatást a telepítés befejezéséről. A felügyelet nélküli telepítést általában parancsfájl (kötegelt vagy szkript) végzi. 
 
 Az RMS-ügyfél bevezetése az SMS használatával
 ---------------------------------------------
@@ -140,14 +137,12 @@ Az itt következő eljárás gyors útmutató azoknak a rendszergazdáknak, akik
 
 11. Ismételje meg az 5–10. lépéseket, és hozza létre az RMClientBackCompat.msi fájlt telepítő csoportházirend-objektumot.
 
-| ![](images/Cc747749.note(WS.10).gif)Megjegyzés:                                                                                                                                                                                                                                                                                                                                               |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Ezek a lépések csak útmutatásul szolgálnak azoknak a rendszergazdáknak, akik nem használták még a csoportházirendet. A témában jártas rendszergazdák saját eljárásaikat alkalmazhatják az MSDrmClient.msi csomag terjesztésénél. Emellett ezek a lépések a Windows Server 2003 rendszerrel működő tartományvezérlőre vonatkoznak, a Windows 2000 rendszerű tartományon az eljárás és a fogalmak némileg eltérőek lehetnek. |
+> [!NOTE]  
+> Ezek a lépések csak útmutatásul szolgálnak azoknak a rendszergazdáknak, akik nem használták még a csoportházirendet. A témában jártas rendszergazdák saját eljárásaikat alkalmazhatják az MSDrmClient.msi csomag terjesztésénél. Emellett ezek a lépések a Windows Server 2003 rendszerrel működő tartományvezérlőre vonatkoznak, a Windows 2000 rendszerű tartományon az eljárás és a fogalmak némileg eltérőek lehetnek. 
 
 Frissítés előző verzióról
 -------------------------
 
         ```
-| ![](images/Cc747749.note(WS.10).gif)Megjegyzés:                                               |
-|----------------------------------------------------------------------------------------------------------------------------|
-| Ez a parancsfájl nem működik a Windows Vista esetén, mert az RMS ügyfélszoftver már be van építve az operációs rendszerbe. |
+> [!NOTE]  
+> Ez a parancsfájl nem működik a Windows Vista esetén, mert az RMS ügyfélszoftver már be van építve az operációs rendszerbe. 

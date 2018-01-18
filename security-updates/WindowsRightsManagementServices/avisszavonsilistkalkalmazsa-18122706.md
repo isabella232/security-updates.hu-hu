@@ -45,9 +45,8 @@ Ha RMS kiszolgálóra tölti le a visszavonási listát, a csomag mentési helye
 
 2.  Töltse le a Microsoft visszavonásilista-csomagot, és a Csoportházirend vagy az SMS (Systems Management Server) segítségével vagy más módszerrel telepítse azt a szervezet minden ügyfélszámítógépére. Azt is megteheti, hogy a Microsoft visszavonási listájából átmásolja a megfelelő bejegyzéseket a szervezeti visszavonási listába, és csak a szervezeti visszavonási listát alkalmazza.
 
-| ![](images/Cc747702.Caution(WS.10).gif)Figyelmeztetés:                                                                                                                                                                                                                                                                                                                                       |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| A Microsoft résztvevőként szerepel az RMS által kiállított minden tanúsítvány és licenc bizalmi láncában. Éppen ezért a Microsoft által kiállított visszavonási lista minden olyan kötési kérelemnél érvényre jut, amelyhez a használati licencet a szervezeti visszavonási listát megkövetelő jogmegadási sablon alapján szerezték be. Emellett a Microsoft visszavonási listája regisztrálva van az ügyfélszámítógépen. |
+> [!CAUTION]  
+> A Microsoft résztvevőként szerepel az RMS által kiállított minden tanúsítvány és licenc bizalmi láncában. Éppen ezért a Microsoft által kiállított visszavonási lista minden olyan kötési kérelemnél érvényre jut, amelyhez a használati licencet a szervezeti visszavonási listát megkövetelő jogmegadási sablon alapján szerezték be. Emellett a Microsoft visszavonási listája regisztrálva van az ügyfélszámítógépen. 
 
 **Microsofttól származó visszavonási lista alkalmazása**
 1.  Töltse le a Microsoft visszavonásilista-csomagot.

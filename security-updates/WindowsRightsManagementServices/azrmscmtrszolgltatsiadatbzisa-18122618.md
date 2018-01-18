@@ -18,6 +18,7 @@ A következő táblázat a címtár-szolgáltatási adatbázis tábláiban táro
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

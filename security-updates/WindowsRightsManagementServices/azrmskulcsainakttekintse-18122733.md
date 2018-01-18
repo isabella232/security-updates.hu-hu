@@ -14,6 +14,7 @@ A következő táblázat az RMS rendszerben használt kulcsokat mutatja be.
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

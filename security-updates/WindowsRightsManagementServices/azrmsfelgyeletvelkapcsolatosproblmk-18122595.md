@@ -143,9 +143,8 @@ Korábbi RMS-telepítés visszaállítása
 
 Ha meghibásodik az RMS kiszolgáló hardvere vagy szoftvere, úgy állíthatja vissza az RMS kiszolgálót, hogy az előzőleg telepített konfigurációs adatbázis használatával új kiszolgálópéldányt létesít.
 
-| ![](images/Cc747605.note(WS.10).gif)Megjegyzés:                                                                                                                                                                                                                                                                                            |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Ez az eljárás csak arra az esetre érvényes, ha az RMS szolgáltatást futtató kiszolgáló hibásodik meg. Ha a konfigurációs adatbázist futtató kiszolgáló hibásodik meg, lásd a témakör „A konfigurációs adatbázis visszaállítása” című pontját. Ha az RMS kiszolgáló egyúttal adatbázis-kiszolgáló is, a teljes kiszolgálót vissza kell állítani a biztonsági másolatból. |
+> [!NOTE]  
+> Ez az eljárás csak arra az esetre érvényes, ha az RMS szolgáltatást futtató kiszolgáló hibásodik meg. Ha a konfigurációs adatbázist futtató kiszolgáló hibásodik meg, lásd a témakör „A konfigurációs adatbázis visszaállítása” című pontját. Ha az RMS kiszolgáló egyúttal adatbázis-kiszolgáló is, a teljes kiszolgálót vissza kell állítani a biztonsági másolatból. 
 
 A következő eljárással a létesítési folyamatot az eredeti telepítés alkalmával használt konfigurációs adatbázisra irányíthatja.
 
@@ -173,7 +172,7 @@ A lejárt engedélyek miatt az ügyfelek nem tudják megnyitni az RMS-védelemme
 
 Ha egy felhasználó engedélye lejárt, nem tudja használni az RMS-védelemmel ellátott tartalmat. Ha az RMS kiszolgáló rendszerórája siet az RMS ügyfél rendszerórájához képest, a felhasználó esetleg akkor sem tudja használni az RMS-védelemmel ellátott tartalmat, ha engedélye még nem járt le. Mivel a két számítógép rendszerórája nincs szinkronizálva, a következő hibaüzenet jelenhet meg, amikor az ügyfélszámítógép megkísérli a tartalom megnyitását:
 
-**Nincs engedélye az üzenet megnyitására, mert engedélye lejárt.??? Kívánja más hitelesítő adatokkal megnyitni? ???**
+**Nincs engedélye az üzenet megnyitására, mert engedélye lejárt.??? Kívánja más hitelesítő adatokkal megnyitni? ???**  
 
 Az ügyfél és a tartalom licence egyaránt érvényes, de az időeltérés miatt az ügyfél a tartalom licencét érvénytelennek értelmezi, és ezt a hibaüzenetet adja. Ez alapján a felhasználó azt gondolhatja, hogy probléma van a fióktanúsítvánnyal vagy a dokumentumhoz rendelt engedélyekkel. Amikor az ügyfélgép órája eléri a tartalom közzétételi licencének érvényességi időtartományát, a felhasználó meg tudja nyitni a tartalmat.
 
@@ -186,9 +185,8 @@ Alapértelmezés szerint az ASP lapról futtatott összetevők, ilyen az RMS is,
 
 A probléma megoldásához a rendszerleíró adatbázis szerkesztőjét használhatja a megfelelő kulcs módosításához.
 
-| ![](images/Cc747605.Caution(WS.10).gif)Figyelmeztetés:                                                                                                                        |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| A rendszerleíró adatbázis nem megfelelő módosítása súlyos károkat okozhat a rendszerben. A rendszerleíró adatbázis módosítása előtt készítsen biztonsági másolatot a számítógépen tárolt fontos adatokról. |
+> [!CAUTION]  
+> A rendszerleíró adatbázis nem megfelelő módosítása súlyos károkat okozhat a rendszerben. A rendszerleíró adatbázis módosítása előtt készítsen biztonsági másolatot a számítógépen tárolt fontos adatokról. 
 
 Állítsa a következő rendszerleíró kulcsot 0 helyett 1 értékűre, majd a változtatás érvénybe léptetéséhez indítsa újra a számítógépet.
 
@@ -198,8 +196,7 @@ Név: `RestrictGuestAccess`
 
 Típus: `REG_DWORD`
 
-| ![](images/Cc747605.note(WS.10).gif)Megjegyzés:          |
-|---------------------------------------------------------------------------------------|
-| Ez írási engedélyt ad a Vendégek csoport tagjainak az alkalmazások eseménynaplójához. |
+> [!NOTE]  
+> Ez írási engedélyt ad a Vendégek csoport tagjainak az alkalmazások eseménynaplójához. 
 
 A hiba okáról a további tudnivalókat az ASP lapokról engedélyezett naplózással foglalkozó cikk tartalmazza a [Microsoft Tudásbázisban](http://go.microsoft.com/fwlink/?linkid=44167).

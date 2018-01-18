@@ -18,6 +18,7 @@ A szolgáltatás alapértelmezett hozzáférési szabálygyűjteményét a köve
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

@@ -15,7 +15,6 @@ Az RMS telepítésének megkezdése előtt nézze át az RMS használatának tec
 -   [Az RMS bevezetési feladatlistái](#bkmk_10)
 -   [Az RMS felügyeleti feladatlistái](#bkmk_14)
 
-<span id="BKMK_9"></span>
 Technológiai előfeltételek
 --------------------------
 
@@ -30,7 +29,6 @@ Ez a dokumentumgyűjtemény segítséget nyújt a Windows RMS működésének me
 
 Ezekről a kérdésekről a további tudnivalókat lásd a dokumentumgyűjtemény [RMS kiszolgáló működtetése](http://go.microsoft.com/fwlink/?linkid=42495) részében a „További források” témakörben.
 
-<span id="BKMK_10"></span>
 Az RMS bevezetési feladatlistái
 -------------------------------
 
@@ -42,7 +40,6 @@ Ez a szakasz a következő bevezetési műveletekhez kínál feladatlistát:
 
 Az RMS bevezetéséről a további tudnivalókat lásd a dokumentumgyűjtemény következő témakörében: [RMS rendszer bevezetése](http://go.microsoft.com/fwlink/?linkid=42494).
 
-<span id="BKMK_11"></span>
 Egykiszolgálós telepítés bevezetése
 -----------------------------------
 
@@ -51,6 +48,7 @@ Egyetlen RMS kiszolgáló bevezetéséhez a következő feladatlista használhat
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -91,7 +89,6 @@ Egyetlen RMS kiszolgáló bevezetéséhez a következő feladatlista használhat
 </tbody>
 </table>
   
-<span id="BKMK_12"></span>
 Legfelső szintű tanúsítási fürt és licencelési fürt bevezetése  
 --------------------------------------------------------------
   
@@ -100,6 +97,7 @@ A legfelső szintű tanúsítási és licencelési fürt bevezetéséhez a köve
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -154,7 +152,6 @@ A legfelső szintű tanúsítási és licencelési fürt bevezetéséhez a köve
 </tbody>
 </table>
   
-<span id="BKMK_13"></span>
 Az RMS bevezetése több erdőben  
 ------------------------------
   
@@ -163,6 +160,7 @@ Az RMS több erdőben való bevezetéséhez a következő feladatlista használh
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -190,7 +188,6 @@ Az RMS több erdőben való bevezetéséhez a következő feladatlista használh
 </tbody>
 </table>
   
-<span id="BKMK_14"></span>
 Az RMS felügyeleti feladatlistái  
 --------------------------------
   
@@ -203,7 +200,6 @@ Ez a szakasz a következő felügyeleti műveletekhez kínál feladatlistát:
   
 Az RMS kezeléséről a további tudnivalókat lásd a dokumentumgyűjtemény [RMS kiszolgáló működtetése](http://go.microsoft.com/fwlink/?linkid=42495) című részében.
   
-<span id="BKMK_15"></span>
 Jogmegadási sablon alkalmazása  
 ------------------------------
   
@@ -212,6 +208,7 @@ Jogmegadási sablon megvalósításához a következő feladatlista használhat�
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -244,7 +241,6 @@ Jogmegadási sablon megvalósításához a következő feladatlista használhat�
 </tbody>
 </table>
   
-<span id="BKMK_16"></span>
 Új RMS ügyfél bevezetése  
 ------------------------
   
@@ -253,6 +249,7 @@ Az RMS ügyfél új verziójának bevezetéséhez a következő feladatlista has
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -277,7 +274,6 @@ Az RMS ügyfél új verziójának bevezetéséhez a következő feladatlista has
 </tbody>
 </table>
   
-<span id="BKMK_17"></span>
 Megbízható felhasználói tartomány felvétele  
 -------------------------------------------
   
@@ -286,6 +282,7 @@ Megbízható felhasználói tartomány felvételéhez a következő feladatlista
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -310,7 +307,6 @@ Megbízható felhasználói tartomány felvételéhez a következő feladatlista
 </tbody>
 </table>
   
-<span id="BKMK_18"></span>
 Megbízható közzétételi tartomány felvétele  
 ------------------------------------------
   
@@ -319,6 +315,7 @@ Megbízható közzétételi tartomány felvételéhez a következő feladatlista
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

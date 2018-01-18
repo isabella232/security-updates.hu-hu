@@ -26,8 +26,7 @@ A CSP kétféleképpen használható:
     vagy
 -   Használhat a kiszolgálóra telepített, nem a Microsofttól származó szoftveres szolgáltatót is.
 
-| ![](images/Cc720280.note(WS.10).gif)Megjegyzés:                                                                                          |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Ha hardveres biztonsági modult kíván használni, ügyeljen rá, hogy olyan kriptográfiai szolgáltatót (CSP) válasszon, amely támogatja a hardveres biztonsági modulokat. |
+> [!NOTE]  
+> Ha hardveres biztonsági modult kíván használni, ügyeljen rá, hogy olyan kriptográfiai szolgáltatót (CSP) válasszon, amely támogatja a hardveres biztonsági modulokat. 
 
 Ha úgy dönt, hogy CSP segítségével védi a kiszolgáló személyes kulcsát, az RMS konfigurációs adatbázisa tárolja a szolgáltató és a kulcstároló nevét.

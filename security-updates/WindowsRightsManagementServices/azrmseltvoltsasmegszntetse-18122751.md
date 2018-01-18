@@ -11,9 +11,8 @@ Az RMS eltávolítása és megszüntetése
 
 Számos oka lehet annak, hogy el kell távolítani az RMS-szolgáltatást egy kiszolgálóról. Ha legfelső szintű tanúsítási kiszolgálóról van szó, az első lépés a kiszolgálón található RMS megszüntetése. Ezt az adott kiszolgálóhoz tartozó **Globális felügyelet** lapon található **A webhelyen működő RMS eltávolítása** hivatkozásra kattintva hajthatja végre. A licenckiszolgálókat nem kell megszüntetni az RMS eltávolítása előtt.
 
-| ![](images/Cc747753.note(WS.10).gif)Megjegyzés:                                                                                                                                                                                                                                                                                                                                             |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Egy Active Directory-erdő utolsó legfelső szintű tanúsítási kiszolgálójának megszüntetése azt eredményezi, hogy törlődik az Active Directoryból a szolgáltatás kapcsolódási pontja. Ha az RMS eltávolítása előtt nem szünteti meg ezt a kiszolgálót, az adott erdőben csak akkor létesíthet új legfelső szintű tanúsítási kiszolgálót, ha kézzel eltávolítja a szolgáltatás kapcsolódási pontját az Active Directoryból. |
+> [!NOTE]  
+> Egy Active Directory-erdő utolsó legfelső szintű tanúsítási kiszolgálójának megszüntetése azt eredményezi, hogy törlődik az Active Directoryból a szolgáltatás kapcsolódási pontja. Ha az RMS eltávolítása előtt nem szünteti meg ezt a kiszolgálót, az adott erdőben csak akkor létesíthet új legfelső szintű tanúsítási kiszolgálót, ha kézzel eltávolítja a szolgáltatás kapcsolódási pontját az Active Directoryból. 
 
 Ezután távolítsa el az RMS-szolgáltatást.
 

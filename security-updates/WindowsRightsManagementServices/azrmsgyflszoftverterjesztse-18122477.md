@@ -13,9 +13,8 @@ Az RMS ügyfélszoftver be van építve a Windows Vista® operációs rendszerb
 
 Az aktiválási eljárás kulcstárolót és géptanúsítványt létesít a jelenleg bejelentkezett felhasználóhoz. Az aktiválás helyi művelet, és nem igényel hálózati kapcsolatot. A sikeres aktiválás után, amikor kompatibilis alkalmazás először kér licenchasználatot, a felhasználó felhasználói tanúsítványhoz jut. Az RMS ügyfélszoftver a Csoportházirend, a Windows Update vagy rendszergazdai parancsfájl segítségével telepíthető a szervezet egyes ügyfélszámítógépeire.
 
-| ![](images/Cc720266.note(WS.10).gif)Megjegyzés:                                                                                                                                                                                                                                                               |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| A terjesztési módszertől függetlenül az RMS ügyfélszoftver az RMS kiszolgálóval történő kommunikációhoz portot használ, alapértelmezés szerint ez a 80-as vagy a 443-as port. Biztosítani kell, hogy az ügyfélszámítógép ezeken a portokon képes legyen kimeneti kérelmeket küldeni az RMS legfelső szintű és a csak licencelő fürtjeihez. |
+> [!NOTE]  
+> A terjesztési módszertől függetlenül az RMS ügyfélszoftver az RMS kiszolgálóval történő kommunikációhoz portot használ, alapértelmezés szerint ez a 80-as vagy a 443-as port. Biztosítani kell, hogy az ügyfélszámítógép ezeken a portokon képes legyen kimeneti kérelmeket küldeni az RMS legfelső szintű és a csak licencelő fürtjeihez. 
 
 **A Csoportházirend használata**
 
