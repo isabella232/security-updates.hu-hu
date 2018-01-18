@@ -74,9 +74,9 @@ Mivel az RMS SP1 számos javítást és teljesítménynövelő továbbfejleszté
 -   Csak az RMS SP1 rendszert futtató ügyfelek önaktiválóak.
 -   A következő táblázat a vegyes környezetekben támogatott funkciókat mutatja be:
 
-###  
 
  
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />

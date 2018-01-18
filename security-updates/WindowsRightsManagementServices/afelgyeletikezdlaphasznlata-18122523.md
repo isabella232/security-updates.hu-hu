@@ -38,6 +38,5 @@ A **Felügyeleti kezdőlap** lapon megjelennek a fürt adatai, például a fürt
 
 A további témakörök az említett szolgáltatások használatát mutatják be. A lépésenkénti utasítások az „[RMS – Útmutató](https://technet.microsoft.com/82032075-f361-438f-a2c4-93ab29ae6cff)” című pontban olvashatók.
 
-| ![](images/Cc720290.note(WS.10).gif)Megjegyzés:                                                                                                                                                                                                     |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Az RMS felügyeleti webhelyén egyes szolgáltatások felbukkanó ablakokban konfigurálhatók. Ha a webböngészőben felbukkanó ablak blokkolót használ, úgy konfigurálja a böngésző beállításait, hogy az RMS felügyeleti webhelyén található felbukkanó ablakok engedélyezve legyenek. |
+> [!NOTE]  
+> Az RMS felügyeleti webhelyén egyes szolgáltatások felbukkanó ablakokban konfigurálhatók. Ha a webböngészőben felbukkanó ablak blokkolót használ, úgy konfigurálja a böngésző beállításait, hogy az RMS felügyeleti webhelyén található felbukkanó ablakok engedélyezve legyenek. 

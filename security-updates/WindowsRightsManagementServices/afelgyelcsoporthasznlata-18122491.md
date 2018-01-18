@@ -15,6 +15,5 @@ A felügyelő csoportnak alapértelmezés szerint nincsenek tagjai, a rendszerga
 
 Az RMS felügyelő csoportjának megadásáról a témakör „[A felügyelő csoport beállítása](https://technet.microsoft.com/f2ef847e-2824-471f-9079-5c343094aba8)” című pontjában olvashat.
 
-| ![](images/Cc720198.note(WS.10).gif)Megjegyzés:                                                                                                                                                                                                                                                                                                           |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Az RMS felügyelői csoportjaként megadni kívánt csoportnak már léteznie kell ugyanabban az Active Directory-erdőben, amelyben az RMS-telepítés található. A csoport tulajdonságai között szerepelnie kell egy e-mail címnek, amely a fiók nevével megegyező teljesen minősített tartománynévvel rendelkezik. Az e-mail cím kötelező formátuma a következő: *csoportnév*@*tartománynév*. |
+> [!NOTE]  
+> Az RMS felügyelői csoportjaként megadni kívánt csoportnak már léteznie kell ugyanabban az Active Directory-erdőben, amelyben az RMS-telepítés található. A csoport tulajdonságai között szerepelnie kell egy e-mail címnek, amely a fiók nevével megegyező teljesen minősített tartománynévvel rendelkezik. Az e-mail cím kötelező formátuma a következő: *csoportnév*@*tartománynév*. 

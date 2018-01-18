@@ -11,9 +11,8 @@ A leszerelési szolgáltatás engedélyezése
 
 Az RMS rendszer leszereléséhez szükség van a közzétett adatok védelméhez használt személyes kulcsra. Ezt a személyes kulcsot a konfigurációs adatbázis tárolja a DPAPI (Data Protection API) segítségével titkosítva, és a kulcs a létesítés során megadott jelszón alapul. Ha az RMS titkos kulcsot hardveres biztonsági modulon (HSM) tárolják, a titkos kulcsot a konfigurációs adatbázis helyett a HSM tárolja.
 
-| ![](images/Cc720261.Caution(WS.10).gif)Figyelmeztetés:                                                                                                                            |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Az RMS rendszer leszerelése előtt győződjön meg arról, hogy ismeri a titkos kulcsa jelszavát. Ha nem ismeri ezt a jelszót, az RMS kiszolgáló leszerelése előtt vissza kell állítani a titkos kulcsa jelszavát. |
+> [!CAUTION]  
+> Az RMS rendszer leszerelése előtt győződjön meg arról, hogy ismeri a titkos kulcsa jelszavát. Ha nem ismeri ezt a jelszót, az RMS kiszolgáló leszerelése előtt vissza kell állítani a titkos kulcsa jelszavát. 
 
 Az RMS rendszer eltávolításának első lépése a fürtben lévő kiszolgálók leszerelése. Mivel a leszerelés licencelési funkció, az aligényléssel létesített RMS csak licencelő fürtjében lévő kiszolgáló leszerelhető anélkül, hogy hatással lenne az RMS legfelső szintű fürtjére, vagy az RMS többi, aligényléssel létesített, csak licencelő fürtjére. Éppen ezért külön kell leszerelni az RMS legfelső szintű, csak licencelő fürtjét, mivel mindegyik csak licencelő fürt saját titkos kulccsal rendelkezik a közzétételi licencek létrehozásához.
 

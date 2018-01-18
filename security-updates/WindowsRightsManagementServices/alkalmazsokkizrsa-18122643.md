@@ -19,6 +19,5 @@ A kizárás többi típusához hasonlóan az alkalmazáskizárást is az összes
 
 Ha a kiszolgálón alkalmazza ezt a kizárási szabályzatot, az ügyfelek nem használhatják a kizárt alkalmazást új használati licenc kéréséhez és hozzákapcsolásához az RMS-védelemmel ellátott tartalomhoz. A korábban licencelt fájlok eléréséhez azonban az ügyfelek továbbra is használhatják a kizárt alkalmazást.
 
-| ![](images/Cc747644.note(WS.10).gif)Megjegyzés:                                                                                                                                                                                                                        |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Az RMS négy számjegyű, pontokkal elválasztott verziószámot (\#.\#.\#.\# ) igényel. Egyes alkalmazások azonban két vagy három számjegyből álló, ponttal elválasztott verziószámot adnak meg. Ilyenkor a .0 karakterek hozzáfűzésével alakíthatja át a verziószámot az RMS által igényelt formátumra. |
+> [!NOTE]  
+> Az RMS négy számjegyű, pontokkal elválasztott verziószámot (\#.\#.\#.\# ) igényel. Egyes alkalmazások azonban két vagy három számjegyből álló, ponttal elválasztott verziószámot adnak meg. Ilyenkor a .0 karakterek hozzáfűzésével alakíthatja át a verziószámot az RMS által igényelt formátumra. 

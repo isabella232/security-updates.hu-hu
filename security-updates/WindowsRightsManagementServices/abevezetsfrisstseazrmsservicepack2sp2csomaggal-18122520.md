@@ -13,9 +13,8 @@ Ez a rész a Microsoft® Windows® tartalomvédelmi szolgáltatások (RMS) Servi
 
 Az RMS SP2 az RMS SP1 meglévő telepítésének eltávolítása nélkül telepíthető. Az RMS SP2 telepítőprogramja érzékeli az RMS SP1 telepítését, és szükség szerint felveszi a további szolgáltatásokat és beállításokat.
 
-| ![](images/Cc720225.note(WS.10).gif)Megjegyzés:                                                                                                                                                                                                             |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Javítócsomag nélküli RMS-kiszolgálóról nem hajthatja végre az RMS SP2 verzióra való frissítést. Ha javítócsomag nélküli RMS-kiszolgálót használ, az RMS SP2 verzióra való frissítés előtt az RMS SP1 frissítést kell alkalmaznia. Az RMS-ügyfél tetszőleges előző verzióról frissíthető. |
+> [!NOTE]  
+> Javítócsomag nélküli RMS-kiszolgálóról nem hajthatja végre az RMS SP2 verzióra való frissítést. Ha javítócsomag nélküli RMS-kiszolgálót használ, az RMS SP2 verzióra való frissítés előtt az RMS SP1 frissítést kell alkalmaznia. Az RMS-ügyfél tetszőleges előző verzióról frissíthető. 
 
 **A témakör tartalma**
 
@@ -73,9 +72,9 @@ Mivel az RMS SP2 számos javítást és teljesítménynövelő továbbfejleszté
 -   Csak az RMS SP1 vagy újabb rendszert futtató ügyfelek önaktiválóak..
 -   A következő táblázat a vegyes környezetekben támogatott funkciókat mutatja be:
 
-###  
 
  
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />

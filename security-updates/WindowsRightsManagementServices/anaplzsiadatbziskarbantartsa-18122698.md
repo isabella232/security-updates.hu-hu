@@ -36,9 +36,9 @@ A naplózási adatbázis kezdeti mérete mintegy 1,7 MB lesz, amely az RMS kisz
 
 A becslés működésének érzékeléséhez vegyünk egy 5000 felhasználót tartalmazó szervezetet. Minden felhasználó egy számítógépen dolgozik, és a szervezet két RMS kiszolgálót működtet. A bevezetés után minden felhasználó naponta átlagosan egy, RMS-védelemmel ellátott e-mail üzenetet hoz létre, és azt öt felhasználónak küldi el. Emellett minden felhasználó naponta egy, RMS-védelemmel ellátott dokumentumot is létrehoz, amelyet három felhasználó nyit meg. A következő táblázat azt mutatja be, hogy ezek a tevékenységek várhatóan mennyivel növelik a naplózási adatbázis méretét.
 
-###  
 
  
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
