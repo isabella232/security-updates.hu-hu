@@ -24,6 +24,7 @@ Az alábbi táblázat a memóriabeli gyorsítótár működését szabályozó b
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -79,10 +80,8 @@ Az alábbi táblázat a memóriabeli gyorsítótár működését szabályozó b
 </tbody>
 </table>
   
-| ![](images/Cc747586.Caution(WS.10).gif)Figyelmeztetés:                                                                                                                        |  
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| A rendszerleíró adatbázis nem megfelelő módosítása súlyos károkat okozhat a rendszerben. A rendszerleíró adatbázis módosítása előtt készítsen biztonsági másolatot a számítógépen tárolt fontos adatokról. |
+> [!CAUTION]  
+> A rendszerleíró adatbázis nem megfelelő módosítása súlyos károkat okozhat a rendszerben. A rendszerleíró adatbázis módosítása előtt készítsen biztonsági másolatot a számítógépen tárolt fontos adatokról. 
   
-| ![](images/Cc747586.note(WS.10).gif)Megjegyzés:                                                                                                                                                                                                                                   |  
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| A **PrincipalCacheExpireMinutes**, **GroupIDCacheExpireMinutes**, **GroupMembershipCacheExpireMinutes** és a **ContactMembersofGroupCacheExpireMinutes** rendszerleíró bejegyzés az adatbázis-kiszolgálón lévő címtár-szolgáltatási adatbázisban tárolt Active Directory-gyorsítótár lejáratát is szabályozza. |
+> [!NOTE]  
+> A **PrincipalCacheExpireMinutes**, **GroupIDCacheExpireMinutes**, **GroupMembershipCacheExpireMinutes** és a **ContactMembersofGroupCacheExpireMinutes** rendszerleíró bejegyzés az adatbázis-kiszolgálón lévő címtár-szolgáltatási adatbázisban tárolt Active Directory-gyorsítótár lejáratát is szabályozza. 

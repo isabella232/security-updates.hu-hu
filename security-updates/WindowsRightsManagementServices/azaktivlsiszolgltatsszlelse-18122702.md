@@ -23,6 +23,5 @@ http://*kiszolgálónév*/\_wmcs/Certification/Activation.asmx
 
 A vállalati hálózaton kívül futó ügyfelek az UDDI segítségével keresik meg az aktiválási szolgáltatást. A további tudnivalókat lásd: „[A Microsoft által működtetett szolgáltatások közzététele](https://technet.microsoft.com/7ee8cb4d-1b46-48be-8a4c-5ff6a458231a)”.
 
-| ![](images/Cc747697.note(WS.10).gif)Megjegyzés:                                                  |
-|-------------------------------------------------------------------------------------------------------------------------------|
-| Ha engedélyezte az SSL használatát az RMS kiszolgálón, akkor ezek az URL-címek a https:// kapcsolódási protokollt használják. |
+> [!NOTE]  
+> Ha engedélyezte az SSL használatát az RMS kiszolgálón, akkor ezek az URL-címek a https:// kapcsolódási protokollt használják. 

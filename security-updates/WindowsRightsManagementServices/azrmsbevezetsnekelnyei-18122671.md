@@ -19,7 +19,6 @@ A témakör tartalma:
 -   [A hálózat fokozott védelme](#bkmk_3)
 -   [A digitális tartalom hatásosabb védelme](#bkmk_4)
 
-<span id="BKMK_2"></span>
 A szervezeti információk sebezhetősége
 --------------------------------------
 
@@ -30,7 +29,6 @@ A szervezetek sok és sokféle olyan tartalmat hoznak létre és használnak, am
 
 Az RMS bevezetése fontos részét alkothatja az ilyen sebezhető tartalom védelmére irányuló biztonsági stratégiának.
 
-<span id="BKMK_3"></span>
 A hálózat fokozott védelme
 --------------------------
 
@@ -44,7 +42,6 @@ A lopás és a helytelen kezelés okozta fenyegetés problémáján kívül a jo
 
 Az RMS rendszerhez hasonló átfogó, a digitális tartalom felhasználását a tartalom helyétől függetlenül hatékonyan szabályozni képes szoftveres megoldás híján a tartalom könnyűszerrel illetéktelen kézbe kerülhet, akár tisztességtelen úton, akár véletlenül.
 
-<span id="BKMK_4"></span>
 A digitális tartalom hatásosabb védelme
 ---------------------------------------
 

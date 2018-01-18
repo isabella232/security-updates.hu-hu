@@ -28,9 +28,8 @@ Az adatbázis-szolgáltatónak emellett képesnek kell lennie:
 
 Ha az RMS szolgáltatást ettől eltérő konfigurációban működteti, forduljon ahhoz az adatbázis-szolgáltatóhoz vagy megoldásszállítóhoz, akinek adatbázis-szolgáltatóját a testreszabott környezetben használja.
 
-| ![](images/Cc747731.Caution(WS.10).gif)Figyelmeztetés:                                                                                                                                                                                                                                                                                                                                                                                |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Az RMS adatbázisai alapértelmezés szerint a teljes helyreállíthatóság bekapcsolásával készülnek, de a tranzakciónaplók mentési feladatai nem jönnek létre. Ennek következtében megtelhet a kiszolgáló merevlemeze, ami az adatbázis-kiszolgáló hibájához vezethet. A teljes helyreállíthatóság a javasolt beállítás a DRMS\_configuration adatbázisnál, a többi DRMS adatbázisnál a szervezet igényeinek megfelelő, ettől eltérő helyreállítási típus használható. |
+> [!CAUTION]  
+> Az RMS adatbázisai alapértelmezés szerint a teljes helyreállíthatóság bekapcsolásával készülnek, de a tranzakciónaplók mentési feladatai nem jönnek létre. Ennek következtében megtelhet a kiszolgáló merevlemeze, ami az adatbázis-kiszolgáló hibájához vezethet. A teljes helyreállíthatóság a javasolt beállítás a DRMS\_configuration adatbázisnál, a többi DRMS adatbázisnál a szervezet igényeinek megfelelő, ettől eltérő helyreállítási típus használható. 
 
 A témakör tartalma:
 
