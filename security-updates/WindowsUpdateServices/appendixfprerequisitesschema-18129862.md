@@ -16,9 +16,8 @@ Prerequisites Schema
 
 The elements of the prerequisites schema are listed in the following table.
 
-###  
 
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

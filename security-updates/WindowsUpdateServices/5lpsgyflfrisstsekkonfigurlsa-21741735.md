@@ -53,6 +53,7 @@ Az első két eljárást egy tetszés szerinti tartományalapú csoportházirend
 2.  Jelölje be az **Engedélyezve** választógombot, majd írja be ugyanazon WSUS-kiszolgáló HTTP-alapú URL-címét az **Adja meg a frissítések keresését végző intranetes frissítési szolgáltatást** és az **Adja meg a statisztikát tároló intranetkiszolgálót** mezőbe (például *http://kiszolgálónév*), végül kattintson az **OK** gombra.
 
  
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />

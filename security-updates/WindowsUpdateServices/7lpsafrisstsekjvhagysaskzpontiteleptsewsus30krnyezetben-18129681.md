@@ -27,9 +27,8 @@ Ebben a lépésben egy, a tesztcsoportban lévő ügyfélszámítógépek bárme
 
 5.  Megjelenik a **Jóváhagyás állapota** ablak, amelyben a frissítések jóváhagyását befolyásoló különféle feladatok előrehaladása látható. Amikor befejezte a jóváhagyást, zárja be az ablakot a **Bezárás** gombra kattintva.
 
-| ![](images/Cc708475.note(WS.10).gif)Megjegyzés:                                                          |
-|---------------------------------------------------------------------------------------------------------------------------------------|
-| A frissítések jóváhagyása során számos más lehetőség is rendelkezésre áll, például határidő beállítása és a frissítések eltávolítása. |
+> [!NOTE]  
+> A frissítések jóváhagyása során számos más lehetőség is rendelkezésre áll, például határidő beállítása és a frissítések eltávolítása. 
 
 24 óra elteltével a WSUS jelentéskészítő szolgáltatásával meghatározható, hogy a rendszer sikeresen telepítette-e a frissítéseket a számítógépekre.
 
