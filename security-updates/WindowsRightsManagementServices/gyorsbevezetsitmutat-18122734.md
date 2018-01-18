@@ -56,9 +56,8 @@ A létesítés az RMS szolgáltatást futtató webhely konfigurálását jelenti
     Ha a 4. lépésben a Kapcsolat nélkül beállítást választotta a Kiszolgáló internetes csatlakoztathatósága területen, a folytatás előtt hajtsa végre a „Legfelső szintű tanúsítási kiszolgáló kézi igénylése” eljárást.
 7.  A Felügyeleti kezdőlapon kattintson **Az RMS-szolgáltatás kapcsolódási pontja** hivatkozásra.
 
-| ![](images/Cc747735.note(WS.10).gif)Megjegyzés:                                                                                                                                                                                                                                                                                                                                       |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Az eljárás következő lépéséhez, a szolgáltatás csatlakozási pontjának regisztrálásához olyan tartományi fiók szükséges, amelynek engedélyei lehetővé teszik tárolóobjektum létrehozását az Active Directory-erdő Configuration tárolójában található Services tárolóban. A **Vállalati rendszergazdák** nevű előre megadott biztonsági csoport például olyan fiók, amely rendelkezik a szükséges jogosultságokkal. |
+> [!NOTE]  
+> Az eljárás következő lépéséhez, a szolgáltatás csatlakozási pontjának regisztrálásához olyan tartományi fiók szükséges, amelynek engedélyei lehetővé teszik tárolóobjektum létrehozását az Active Directory-erdő Configuration tárolójában található Services tárolóban. A **Vállalati rendszergazdák** nevű előre megadott biztonsági csoport például olyan fiók, amely rendelkezik a szükséges jogosultságokkal. 
 
 1.  Az **RMS-szolgáltatás kapcsolódási pontja** lapon kattintson az **URL-cím regisztrálása** gombra. Ez bejegyzi az RMS szolgáltatás kapcsolódási pontját az Active Directoryba, így az RMS-kompatibilis alkalmazások észlelni tudják az RMS licencelési, aktiválási proxy és tanúsítási szolgáltatásait.
 

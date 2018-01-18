@@ -26,14 +26,12 @@ Amikor az RMS létrehozza ezeket a fájlokat, a fájlok hozzáférés-szabályoz
 
 A csoport létrehozása után a DACL úgy módosítható a ServerCertification.asmx fájl részére, hogy engedélyezze a csoport Olvasás & Végrehajtás engedéllyel való ellátását a szolgáltatáson. Az RMS szolgáltatáscsoportot is fel kell vennie a DACL-listára Olvasás & Végrehajtás engedéllyel.
 
-| ![](images/Cc747593.note(WS.10).gif)Megjegyzés:                                                             |
-|------------------------------------------------------------------------------------------------------------------------------------------|
-| Ha a fürtben több RMS kiszolgáló van, az ServerCertification.asmx fájlhoz tartozó DACL módosítandó a fürtben lévő mindegyik kiszolgálón. |
+> [!NOTE]  
+> Ha a fürtben több RMS kiszolgáló van, az ServerCertification.asmx fájlhoz tartozó DACL módosítandó a fürtben lévő mindegyik kiszolgálón. 
 
 A Microsoft Exchange Server 2007 esetén az Exchange mindegyik hídfőkiszolgálójára vonatkozó Active Directory számítógépobjektumot fel kell venni a kiszolgálói szolgáltatások csoportba. Ha ez nem történik meg, az Exchange hídfőkiszolgáló nem lesz képes licenceket kérelmezni azoknak a felhasználóknak a nevében, akik az e-mailt kapták.
 
 Az Office SharePoint Server 2007 estén annak a kiszolgálónak az Active Directory számítógépobjektumát kell felvenni a kiszolgálói szolgáltatások csoportjába, amelyiken az Office SharePoint Server 2007 fut. Ha az Office SharePoint Server 2007 kiszolgálószoftver úgy lett beállítva, hogy az Active Directory címtárban alapértelmezett kiszolgálót használja, az RMS szolgáltatási csoportot és a kiszolgálói szolgáltatásokhoz létrehozott csoportot fel kell venni az Olvasás & Végrehajtás engedéllyel ellátott ServiceLocater.asmx fájlba.
 
-| ![](images/Cc747593.Important(WS.10).gif)Fontos:                                                                                                                                             |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| A ServerCertification.asmx és a ServiceLocater.asmx fájlhoz tartozó DACL módosítása után szükséges az Internet Information Services (IIS) újraindítása. Az IIS parancssorból az **iisreset** paranccsal állítható vissza. |
+> [!IMPORTANT]  
+> A ServerCertification.asmx és a ServiceLocater.asmx fájlhoz tartozó DACL módosítása után szükséges az Internet Information Services (IIS) újraindítása. Az IIS parancssorból az **iisreset** paranccsal állítható vissza. 
