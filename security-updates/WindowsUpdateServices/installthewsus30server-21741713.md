@@ -12,6 +12,7 @@ Install the WSUS 3.0 Server
 After designing the WSUS deployment, you are ready to install the WSUS server component. Use the five topics listed below to prepare the computer and the network environment for WSUS. Check hardware and software requirements (as noted in the [Determine WSUS Capacity Requirements](https://technet.microsoft.com/6b585cdf-943c-408a-a70e-0216d9e3a9fd) section above). Install the required software, including database software (as noted in the [Installation of Required Software](https://technet.microsoft.com/e8f62aba-4c8d-410e-9012-e3c9680a929b) section below). If you want to create a custom Web site or install WSUS on a computer that already has a Web site, see the IIS section. If you have a firewall or proxy server, see the firewall section to ensure that WSUS has access to updates on the Internet. After you have completed preparations, you can install and configure the WSUS server.
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
