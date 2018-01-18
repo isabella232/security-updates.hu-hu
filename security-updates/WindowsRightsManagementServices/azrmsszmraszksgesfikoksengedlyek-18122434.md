@@ -11,9 +11,8 @@ Az RMS számára szükséges fiókok és engedélyek
 
 A következő táblázatban azok a felhasználói jogok és engedélyek szerepelnek, amelyekre az RMS telepítéséhez és felügyeletéhez szükség van.
 
-###  
 
- 
+<p> </p> 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -43,6 +42,5 @@ Olyan egykiszolgálós telepítéseknél, amelyekben az adatbázis a legfelső s
 </tbody>
 </table>
   
-| ![](images/Cc720178.note(WS.10).gif)Megjegyzés:                                                                                                                                                                                                                                                                                                                       |  
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| Az RMS kiszolgálóra való bejelentkezéshez használt fióknak semmilyen további tartományi tagsággal sem kell rendelkeznie, nem kell például a Tartománygazdák közé tartoznia. Vannak azonban olyan felügyeleti műveletek (például a szolgáltatás kapcsolódási pontjának regisztrálása és a biztonsági szabályzat módosítása), amelyeket csak további jogokkal rendelkező fiókkal lehet végrehajtani. |
+> [!NOTE]
+> Az RMS kiszolgálóra való bejelentkezéshez használt fióknak semmilyen további tartományi tagsággal sem kell rendelkeznie, nem kell például a Tartománygazdák közé tartoznia. Vannak azonban olyan felügyeleti műveletek (például a szolgáltatás kapcsolódási pontjának regisztrálása és a biztonsági szabályzat módosítása), amelyeket csak további jogokkal rendelkező fiókkal lehet végrehajtani.

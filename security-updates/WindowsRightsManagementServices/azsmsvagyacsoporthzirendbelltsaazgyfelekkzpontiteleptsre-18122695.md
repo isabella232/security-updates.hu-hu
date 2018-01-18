@@ -13,9 +13,8 @@ Az RMS bevezetésekor a felhasználók számítógépére telepíteni kell egy R
 
 Egy alkalmazás akkor RMS-kompatibilis, ha működésébe be van építve az RM-ügyfél. A Windows Vista® előtt az RMS ügyfélszoftver a Microsoft letöltési központjából külön letölthető Windows-összetevő. Ha nem szeretné minden ügyfélszámítógépre egyenként letölteni az ügyfélszoftvert, a Microsoft Systems Management Server (SMS), a Csoportházirend vagy parancsfájlok segítségével automatikusan telepítheti az ügyfélszámítógépekre az RMS ügyfélszoftverét.
 
-| ![](images/Cc747703.Important(WS.10).gif)Fontos:                                     |
-|-------------------------------------------------------------------------------------------------------------------|
-| Az RMS ügyfélszoftver a Windows Vista operációs rendszerbe be lett építve. Ezért nincs szükség külön telepítésre. |
+> [!IMPORTANT]
+> Az RMS ügyfélszoftver a Windows Vista operációs rendszerbe be lett építve. Ezért nincs szükség külön telepítésre.
 
 Ha az SMS segítségével terjeszti az RMS ügyfélszoftverét, a következő lépéseket hajtsa végre:
 
@@ -26,9 +25,8 @@ Ha az SMS segítségével terjeszti az RMS ügyfélszoftverét, a következő l�
 -   Használja a Windows Installer fájljait a csomagdefiníció alapjaként és forrásként.
 -   Hirdesse meg a hálózaton a csomagok elérhetőségét.
 
-| ![](images/Cc747703.note(WS.10).gif)Megjegyzés:                                                                                                                  |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| A szoftver telepítéséhez rendszergazdai jogok szükségesek. Előfordulhat, hogy a szervezet biztonsági szabályzatának előírásai miatt rendszergazdának kell telepítenie az RMS ügyfélszoftvert. |
+> [!NOTE]
+> A szoftver telepítéséhez rendszergazdai jogok szükségesek. Előfordulhat, hogy a szervezet biztonsági szabályzatának előírásai miatt rendszergazdának kell telepítenie az RMS ügyfélszoftvert.
 
 Az SMS használatával történő szoftverterjesztésről lásd a Systems Management Server 2003 Concepts, Planning, and Deployment Guide című kézikönyvet ([http://go.microsoft.com/](http://go.microsoft.com/fwlink/?linkid=17401)).(http://go.microsoft.com/fwlink/?LinkID=17401)
 
