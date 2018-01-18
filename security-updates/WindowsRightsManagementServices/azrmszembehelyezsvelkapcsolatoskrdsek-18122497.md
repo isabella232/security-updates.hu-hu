@@ -77,9 +77,8 @@ A teljes eltávolítás a következő lépések végrehajtásával történhet.
 
 6.  Ha az RMS ügyfeleken Windows XP vagy Windows 2000 operációs rendszer fut, az ügyfélszámítógépeken távolítsa el az RMS ügyfélszoftverét.
 
-| ![](images/Cc720274.Important(WS.10).gif)Fontos:                                                                                                                                                 |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Az eljárás végrehajtása után többé nem fog tudni tartalomvédelemmel ellátott dokumentumot megnyitni. A teljes eltávolítása előtt az RMS leszerelésére van szükség, ha az RMS rendszerrel értékes adatok védelmére került sor. |
+> [!IMPORTANT]
+> Az eljárás végrehajtása után többé nem fog tudni tartalomvédelemmel ellátott dokumentumot megnyitni. A teljes eltávolítása előtt az RMS leszerelésére van szükség, ha az RMS rendszerrel értékes adatok védelmére került sor.
 
 <span id="BKMK_27"></span>
 #### Miután eltávolítottam az RMS rendszert a Programok telepítése és törlése segédprogrammal, szükség van-e további fájlok törlésére?

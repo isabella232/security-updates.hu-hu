@@ -21,6 +21,9 @@ Az RMS telepítője a következő műveleteket hajtja végre:
 -   A teljesítményszámlálók telepítése.
 -   Olvasási és írási engedélyt ad az RMS szolgáltatás csoportnak a következő rendszerleíró kulcshoz.
     A Windows Server 2003 rendszer 32 bites verziójával működő számítógépeken:
+    
     `HKEY_LOCAL_MACHINE\Software\Microsoft\DRMS\1.0`
+    
     A Windows Server 2003 rendszer 64 bites verziójával működő számítógépeken:
+    
     `HKEY_LOCAL_MACHINE\Software\WOW6432Node\Microsoft\DRMS\1.0`

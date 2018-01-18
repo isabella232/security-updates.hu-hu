@@ -21,9 +21,7 @@ A visszavonási listák felsorolják a visszavont érvényességű tartalmat, al
 
 A következő táblázat bemutatja, hogy milyen entitások vehetők fel a visszavonási listákba, párhuzamosan az entitások azonosítására használt információkkal.
 
-###  
-
- 
+<p> </p> 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -63,15 +61,12 @@ A következő táblázat bemutatja, hogy milyen entitások vehetők fel a vissza
 </tbody>
 </table>
   
-| ![](images/Cc720287.note(WS.10).gif)Megjegyzés:                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |  
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| A visszavonásnál és a kizárásnál használt kivonatok mind az SHA-1 \[NIS94c\] algoritmussal készülnek, amely az SHS, FIPS 180 szabványban megadott SHA algoritmus átdolgozott változata. Az SHA-1 algoritmust az ANSI X9.30 szabvány 2. része írja le. Az alkalmazási jegyzékfájl szerinti visszavonáshoz az alkalmazási jegyzékfájlból ki kell nyernie a kiállító azonosítóját, a kiállító nyilvános kulcsát, a licencazonosítót vagy a licenckivonatot. Az alkalmazási jegyzékfájlok azonban base 64 kódolásúak, így az adatok közvetlenül nem érhetők el. A tartalomvédelmi szolgáltatások SDK készletének **DRMConstructCertificateChain**, **DRMDeconstructCertificateChain** és **DRMDecode** metódusával készíthető olyan program, amellyel dekódolható az alkalmazási jegyzékfájl, és így megszerezhetők a kívánt adatok. Ha meg szeretné akadályozni, hogy adott alkalmazás képes legyen az RMS-védelemmel ellátott tartalom használatára, érdemes megfontolni az alkalmazás kizárását, hogy így az RMS kiszolgáló ne adjon használati licencet ennek az alkalmazásnak. A kizárás azzal a megszorítással érvényes, hogy nem tudja meggátolni, hogy egy érvényes használati licenccel rendelkező felhasználó visszafejtse az RMS-védelemmel ellátott tartalmat. Az alkalmazások kizárásáról a további tudnivalókat lásd a dokumentumgyűjtemény „RMS kiszolgáló működtetése” részében az Alkalmazások kizárása témakörben. |
-  
+> [!NOTE]
+> A visszavonásnál és a kizárásnál használt kivonatok mind az SHA-1 \[NIS94c\] algoritmussal készülnek, amely az SHS, FIPS 180 szabványban megadott SHA algoritmus átdolgozott változata. Az SHA-1 algoritmust az ANSI X9.30 szabvány 2. része írja le. Az alkalmazási jegyzékfájl szerinti visszavonáshoz az alkalmazási jegyzékfájlból ki kell nyernie a kiállító azonosítóját, a kiállító nyilvános kulcsát, a licencazonosítót vagy a licenckivonatot. Az alkalmazási jegyzékfájlok azonban base 64 kódolásúak, így az adatok közvetlenül nem érhetők el. A tartalomvédelmi szolgáltatások SDK készletének **DRMConstructCertificateChain**, **DRMDeconstructCertificateChain** és **DRMDecode** metódusával készíthető olyan program, amellyel dekódolható az alkalmazási jegyzékfájl, és így megszerezhetők a kívánt adatok. Ha meg szeretné akadályozni, hogy adott alkalmazás képes legyen az RMS-védelemmel ellátott tartalom használatára, érdemes megfontolni az alkalmazás kizárását, hogy így az RMS kiszolgáló ne adjon használati licencet ennek az alkalmazásnak. A kizárás azzal a megszorítással érvényes, hogy nem tudja meggátolni, hogy egy érvényes használati licenccel rendelkező felhasználó visszafejtse az RMS-védelemmel ellátott tartalmat. Az alkalmazások kizárásáról a további tudnivalókat lásd a dokumentumgyűjtemény „RMS kiszolgáló működtetése” részében az Alkalmazások kizárása témakörben.
+ 
 A visszavonási listák XrML fájlok, a következő paramétereket adják meg.
   
-###  
-
- 
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
