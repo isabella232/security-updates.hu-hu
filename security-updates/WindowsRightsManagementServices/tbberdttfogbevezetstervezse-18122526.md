@@ -14,6 +14,7 @@ Ha több erdőt tartalmazó környezetben vezeti be az RMS szolgáltatást, el k
 Kétféleképpen alakítható ki a más erdőbe tartozó csoportok behelyettesítése az RMS számára:
 
 -   Az RMS szolgáltatást be kell vezetni abban az erdőben, ahol a csoportokat definiálták, és ahol használni fogják a csoportok tagságának behelyettesítésére.
+
 -   Szinkronizálni kell az erdők között a csoportdefiníciókat, mert így az RMS helyi telepítése minden felhasználónál meg tudja állapítani a teljes csoporttagságot. Ha a használati licencet kérelmező felhasználónak másik erdőben található a Windows-fiókja, akkor léteznie kell a helyi erdőben egy olyan kapcsolatobjektumnak, amely megjeleníti a felhasználó csoporttagságát. Metacímtárak, például a Microsoft® Identity Integration Server (MIIS) 2003 vagy az Identity Integration Feature Pack (IIFP) segítségével teljes körben szinkronizálhatók egymással a különböző erdők csoportobjektumai.
 
 Ha az RMS szolgáltatást csak egy erdőben fogja használni, optimalizálhatja a használati licencek kiállítási eljárását az RMS konfigurációs adatbázisában lévő **MaxCrossForestCalls** fürtszabályzat módosításával. Ez a szabályzat azt adja meg, hogy egy csoport tagja hányszor léphet át erdők közötti határon. Az alapértelmezett érték 10. A 0 érték beállításához a következő SQL utasítás használható:

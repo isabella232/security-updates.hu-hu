@@ -12,7 +12,9 @@ RMS támogatás engedélyezése kiszolgálói szolgáltatásokhoz
 Az RMS szolgáltathatja a tartalomvédelmi fióktanúsítványokat és használati licenceket az RMS-kompatibilis kiszolgálói alkalmazások részére is. Van néhány dolog, amire figyelni kell a kiszolgálói szolgáltatások konfigurálásakor:
 
 -   A tulajdonosi hozzáférés-szabályozási listák (DACL) az RMS csatornákon alapértelmezésben a legbiztonságosabb beállításokat használják. Az RMS kiszolgálói szolgáltatások használatakor szükség van a DACL módosítására.
+
 -   Ha az RMS ügyfélszoftver Windows Server 2003 alapú kiszolgálóra lett telepítve, és az Internet Explorer fokozott biztonsági beállításai engedélyezettek, az RMS fürtöt fel kell venni az Internet Explorernek a megbízható helyek zónájában lévő URL-címek közé.
+
 -   Sok kiszolgálói szolgáltatás az Active Directory továbbfejlesztett címtárszolgáltatási funkcióját használja, ami csak akkor lehetséges, ha minden Active Directory tartományvezérlő a Windows Server 2003 operációs rendszeren fut. Ha használ ilyen kiszolgálói szolgáltatást (például a Microsoft Office SharePoint Server 2007 vagy a Microsoft Exchange Server 2007), ajánlatos, hogy minden tartományvezérlő a Windows Server 2003 rendszeren fusson, és a tartomány és az erdő Active Directory címtárának a működési szintje a Windows Server 2003 szintje legyen.
 
 Alapértelmezett tulajdonosi hozzáférés-szabályozási lista (DACL) a kiszolgálótanúsítási csatornán

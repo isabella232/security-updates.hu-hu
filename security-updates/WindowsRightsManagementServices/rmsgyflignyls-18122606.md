@@ -16,6 +16,9 @@ Az ügyfél-licencelői tanúsítványokat az RMS közzétételi szolgáltatása
 Az ügyfelek igénylési folyamata a következő lépésekből áll:
 
 1.  Az ügyfélszámítógép egy igénylési kérelemben elküldi a felhasználó tartalomvédelmi fióktanúsítványát a legfelső szintű tanúsítási kiszolgálón vagy fürtön, illetve licenckiszolgálón vagy licencelési fürtön futó közzétételi szolgáltatásnak.
+
 2.  A kiszolgáló ellenőrzi, hogy a hálózati rendszergazda beállításai szerint engedélyezve van-e az ügyféligénylés, és hogy a tartalomvédelmi fióktanúsítvány nem szerepel-e a konfigurációs adatbázis kizárási listáján. A kizárási listák létrehozásáról a további tudnivalókat lásd a dokumentumgyűjtemény „RMS kiszolgáló működtetése” részében „A kizárási szabályzat kezelése” témakörben.
+
 3.  A közzétételi szolgáltatás létrehoz egy kulcspárt az ügyfélszámítógép számára. Létrehoz egy ügyfél licencelői tanúsítványt, és elhelyezi a nyilvános kulcsot a tanúsítványban. Titkosítja a személyes kulcsot a tartalomvédelmi fióktanúsítvány nyilvános kulcsával, majd elhelyezi azt a tanúsítványban.
+
 4.  A közzétételi szolgáltatás kibocsátja az ügyfélszámítógép részére az ügyfél-licencelői tanúsítványt.

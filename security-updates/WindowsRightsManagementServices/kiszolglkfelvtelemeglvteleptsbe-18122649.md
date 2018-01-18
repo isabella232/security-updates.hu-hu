@@ -14,7 +14,9 @@ Az RMS-telepítésbe kiszolgálókat vehet fel a megnövekedett igények kielég
 Az RMS-telepítésbe a következő módszerekkel vehet fel kiszolgálókat:
 
 -   Egy vagy több RMS kiszolgáló felvétele legfelső szintű tanúsítási fürtbe.
+
 -   Új különálló licenckiszolgáló felvétele.
+
 -   Egy vagy több RMS kiszolgáló felvétele licencelési fürtbe.
 
 **Legfelső szintű tanúsítási kiszolgálók felvétele**
@@ -32,7 +34,9 @@ Az RMS összes szolgáltatását kezelő legfelső szintű tanúsítási kiszolg
 A licenckiszolgálók használata igényfüggő, és leggyakrabban a különféle licencelési követelmények megvalósítására alkalmazzák ezeket a kiszolgálókat, például a következő helyzetekben:
 
 -   Az egyes osztályok egyedi jogkezelési igényeinek teljesítésére. Előfordulhat például, hogy a szervezet egyik csoportjánál más biztonsági követelmények szükségesek a jogkezeléshez, mint a többi csoportnál, és teljes körűen felügyelni kívánják a csoporton belüli licenckezelés megvalósítását. Mivel egy erdőben csak egy legfelső szintű tanúsítási kiszolgáló használata lehetséges, egy újabb legfelső szintű tanúsítási kiszolgáló üzembe helyezése nem jelent megoldást ebben a helyzetben. Az adott csoport igényeihez igazodva licenckiszolgáló vagy licencelési fürt helyezhető üzembe. Ezután kialakíthatja a szükséges jogkezelési szabályzatot az új licenckiszolgálóra vagy a licencelési fürtre vonatkozóan.
+
 -   Adott üzleti partnerek erőforrásainak elkülönítését és nyilvántartását igénylő extranetes külső üzleti partnerek jogkezelési követelményeinek teljesítésére. A további tudnivalókat lásd: „[Extranetes URL-cím beállítása](https://technet.microsoft.com/88fec9ff-c96c-4d20-8856-0485e7507572)”.
+
 -   A legfelső szintű tanúsítási kiszolgáló tehermentesítésére a licencelési feladatok átadásával. Ezzel teljesítménynövekedés érhető el az olyan szervezetekben, amelyeknél csak egy legfelső szintű tanúsítási kiszolgáló működik (vagyis nem használnak legfelső szintű tanúsítási fürtöt).
 
 Az esetek többségében megfelelő megoldás, ha a RMS kiszolgálókat felveszi a legfelső szintű tanúsítási fürtbe, hogy a rendszert alkotó kiszolgálókon beállíthassa a redundanciát és a terheléselosztást. Bár a licenckiszolgálók is igénybe vehetők a licencelési és közzétételi kérelmek feldolgozásából adódó terhelés mérséklésére, a legfelső szintű tanúsítási fürt terheléselosztásába nem vonhatók be. Hacsak az adott helyzetben nincs igény külön licenckiszolgálók alkalmazására, célszerű az összes RMS kiszolgáló között elosztani a terhelést úgy, hogy felveszi őket a legfelső szintű tanúsítási fürtbe.
