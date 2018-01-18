@@ -18,6 +18,7 @@ A fióktanúsítási szolgáltatás alkalmazásfájlja, az Activation.asmx, az I
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

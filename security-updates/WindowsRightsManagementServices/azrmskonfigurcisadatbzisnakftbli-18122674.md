@@ -19,6 +19,7 @@ A következő táblázat a kizárt alkalmazásokkal kapcsolatos adatokat tartalm
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -124,6 +125,7 @@ A következő táblázat az üzenetsorral kapcsolatos adatokat sorolja fel.
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -175,6 +177,7 @@ A következő táblázat az ügyfélnek kiállított tanúsítvány típúsával
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -226,6 +229,7 @@ A következő táblázat a DRMS\_LicensorCertificate táblában lévő aktuális
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -271,6 +275,7 @@ A következő táblázat a fürt szabályzatait tároló helyekre vonatkozó ada
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -328,6 +333,7 @@ A következő táblázat a fürtbe tartozó kiszolgálókra vonatkozó adatokat 
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -379,6 +385,7 @@ A következő táblázat a kizárt tartalomvédelmi fióktanúsítványokra vona
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -448,6 +455,7 @@ A következő táblázat az aktív kiszolgálói licencelői tanúsítványra vo
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -511,6 +519,7 @@ A következő táblázat az aktív kiszolgálói licencelői tanúsítvány szem
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -598,6 +607,7 @@ A következő táblázat azokról a Microsoft® .NET Passport-fiókokról tartal
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -649,6 +659,7 @@ A következő táblázat a beépülő modulokkal kapcsolatos adatokat sorolja fe
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -748,6 +759,7 @@ A következő táblázat az RMS rendszerben megengedett beépülő modulok verzi
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -793,6 +805,7 @@ A következő táblázat a beépülő modul tulajdonságaira vonatkozó adatokat
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -856,6 +869,7 @@ A következő táblázat a beépülő modul típusára vonatkozó adatokat tarta
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -907,6 +921,7 @@ A következő táblázat a jogmegadási sablonokra vonatkozó adatokat tartalmaz
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -958,6 +973,7 @@ A következő táblázat a megbízható hitelesítésszolgáltatókra vonatkozó
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1021,6 +1037,7 @@ A következő táblázat az RMS környezetbe tartozó email tartományokra vonat
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1066,6 +1083,7 @@ A következő táblázat a megbízható felhasználói tartományokra és a megb
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1147,6 +1165,7 @@ A következő táblázat azoknak az XrML kiszolgálói licencelői tanúsítván
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />

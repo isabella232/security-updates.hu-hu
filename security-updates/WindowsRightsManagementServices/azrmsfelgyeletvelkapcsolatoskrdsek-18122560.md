@@ -22,22 +22,18 @@ Az RMS felügyeletével kapcsolatos kérdések
 -   [Használható-e nyomkövetés az RMS kiszolgálóval?](#bkmk_8)
 -   [Mit jelent az órák közötti eltérés és hogyan kezelhető?](#bkmk_9)
 
-<span id="BKMK_1"></span>
 #### Mi a leghelyesebb módja a megfelelő dokumentumokra vonatkozó engedélyek visszavonásának, amikor egy felhasználó kilép a szervezettől?
 
 Általában az a leghelyesebb, ha a dokumentumok licencelése nem egyes felhasználói fiókokra, hanem az Active Directoryban megadott csoportokra történik. Ez azért javasolt, mert így egy felhasználó kilépésekor eltávolíthatja őt az Active Directory-csoportból, így nem olvashatja a csoportnak küldött dokumentumokat. A felhasználó azonban továbbra is olvashatja a meglévő használati licencekkel rendelkező dokumentumokat, ha a dokumentum jogai nem úgy vannak beállítva, hogy a felhasználónak a dokumentum minden megnyitásakor használati licencet kell szereznie. Ha ez a szabály nem lett megadva, a meglévő használati licencekkel rendelkező dokumentumok olvasása csak úgy akadályozható meg, hogy a felhasználó számítógépén törli a licenctárat.
 
-<span id="BKMK_2"></span>
 #### Az RMS-védelemmel ellátott tartalom közös használatához két szervezet közötti bizalmi kapcsolat kialakításakor igényel-e különös kezelést az átadott XrML licenctanúsítvány?
 
 Megbízható felhasználói tartomány vagy megbízható közzétételi tartomány létesítésekor azt választja, hogy megbízik a partnerszervezetben, így az részt vehet tartalomvédelmi rendszerében. Ily módon bizonyos kockázatot vállal, hiszen ez a bizalmi kapcsolat alapján veszélybe kerülhetnek adatai. Gyakorlati tanács: kérje meg a másik szervezetet, hogy hitelesített csatornán (például S/MIME e-mail üzenetben) küldje el saját kiszolgálói licencelői tanúsítványát, így csökkenthető annak kockázata, hogy a kiszolgálói licencelői tanúsítványt RMS kiszolgálójára importálás előtt meghamisítottak.
 
-<span id="BKMK_3"></span>
 #### Hogyan működik együtt az RMS a központi felhasználói profilokkal?
 
 A felhasználók azonosításához használt tartalomvédelmi fióktanúsítványok (RAC) számítógéphez kötöttek. Központi felhasználói profilok használatakor az RMS adott számítógépen való első indítása új tartalomvédelmi fióktanúsítványt hoz létre a számítógép felhasználója számára.
 
-<span id="BKMK_4"></span>
 #### Mikor válhat szükségessé az RMS leszerelése egy szervezetnél?
 
 Az RMS leszerelése eltávolítja az RMS kiszolgálót az infrastruktúrából, és lehetővé teszi a felhasználóknak hogy RMS-védelem ellátott tartalmat védelem nélkül mentsék. Erre három alapvető okból kerülhet sor a szervezeteknél:
@@ -46,19 +42,16 @@ Az RMS leszerelése eltávolítja az RMS kiszolgálót az infrastruktúrából, 
 -   Próbaüzemi RMS-bevezetés áttelepítése éles környezetbe.
 -   RMS kiszolgálók egyesítése például vállalatok egyesítésekor.
 
-<span id="BKMK_5"></span>
 #### Miből áll a leszerelési eljárás?
 
 A leszerelési eljárás első lépése a szolgáltatás engedélyezése az RMS legfelső szintű fürtjéről. Amikor a leszerelési szolgáltatás engedélyezve van, az összes egyéb szolgáltatás (például licencelés és tanúsítás) tiltva lesz. Ezután valamennyi RMS-kompatibilis alkalmazást úgy kell beállítani, hogy a leszerelési szolgáltatáshoz kapcsolódjanak, amikor az RMS valamelyik funkcióját használják. A Microsoft Office 2003 például RMS-kompatibilis alkalmazás. Az Office 2003 alkalmazásaiban az RMS-ügyfél RMS szolgáltatásokra irányítása rendszerleíró kulcsokkal történik. Az egyik ilyen rendszerleíró kulcs a leszerelési szolgáltatást azonosítja. Amikor a kulcs beállítása olyan, hogy az ügyfelet a leszerelési szolgáltatásra irányítja, az RMS fürt az összes engedélyt (olvasás, írás, másolás, nyomtatás, szerkesztés stb.) tartalmazó használati licencet ad a felhasználóknak függetlenül attól, hogy eredetileg milyen engedélyekkel rendelkeztek. A felhasználóknak ekkor el kell távolítaniuk az összes tartalomvédelmet minden olyan dokumentumból, amelyet a leszerelés végrehajtása után meg kívánnak tartani. Miután ez megtörtént, az RMS fürt véglegesen üzemen kívül helyezhető.
 
 Gyakorlati tanács: célszerű biztonsági másolatot készíteni az RMS fürt konfigurációs adatbázisáról arra az esetre, ha a fürt üzemen kívül helyezése után vissza kell állítani egy tartalomvédelemmel ellátott dokumentumot. Az RMS legfelső szintű fürtjének személyes kulcsa nélkül csak a dokumentum szerzője képes megnyitni a tartalomvédelemmel ellátott dokumentumot a kiszolgáló eltávolítása után.
 
-<span id="BKMK_6"></span>
 #### Leszerelhető-e az RMS úgy, hogy csak néhány felhasználó állíthassa helyre a dokumentumokat?
 
 Hozzáférés-szabályozási listát (ACL) alkalmazhat a leszerelési webszolgáltatásra (decommission.asmx), így csak adott felhasználók szerezhetik meg a visszafejtő kulcsot a védelemmel ellátott tartalomhoz.
 
-<span id="BKMK_7"></span>
 #### Mit jelent az alkalmazás könyvtárának elérhetetlenségére vonatkozó hibaüzenet?
 
 Ez a hiba az RMS telepítése után az RMS felügyeleti webhelyének első megnyitásakor fordulhat elő. Ekkor nem fogja tudni konfigurálni és felügyelni az RMS rendszert.
@@ -76,7 +69,6 @@ A hibaüzenet általában akkor jelenik meg, ha az Internet Information Services
 
 5.  A változtatás érvénybe léptetéséhez újra kell indítani az IIS szolgáltatást. Az IIS szolgáltatás újraindítását kérő üzenetpanelen kattintson az **Igen** gombra.
 
-<span id="BKMK_8"></span>
 #### Használható-e nyomkövetés az RMS kiszolgálóval?
 
 Mivel az RMS a Microsoft® .NET-keretrendszer segítségével készült, így a nyomkövetés engedélyezésével egyszerűbbé tehető a rendszeresemények visszakeresése és a problémák elhárítása.
@@ -94,11 +86,9 @@ A nyomkövetés a Web.config vagy a Machine.config fájl módosításával való
 
 4.  Indítsa újra az IIS szolgáltatást az IISRESET paranccsal a parancssorból.
 
-| ![](images/Cc747547.Important(WS.10).gif)Fontos:                                                                                                                                                                                                                           |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Ha bekapcsolja a nyomkövetést egy RMS kiszolgálón, csökkenhet a kiszolgáló teljesítménye: tovább tarthat például a licencigénylés és a tartalomvédelmi fióktanúsítványok kiállítása. Csak kifejezetten indokolt esetben használja a nyomkövetést fennálló problémák diagnosztizálására és elhárítására. |
+> [!IMPORTANT]  
+> Ha bekapcsolja a nyomkövetést egy RMS kiszolgálón, csökkenhet a kiszolgáló teljesítménye: tovább tarthat például a licencigénylés és a tartalomvédelmi fióktanúsítványok kiállítása. Csak kifejezetten indokolt esetben használja a nyomkövetést fennálló problémák diagnosztizálására és elhárítására. 
 
-<span id="BKMK_9"></span>
 #### Mit jelent az órák közötti eltérés és hogyan kezelhető?
 
 Előfordulhat, hogy az egyik számítógép órája más időt mutat, mint a másiké. Ez egyáltalán nem ritka eset: egy helyiségen belül aligha találni két olyan embert, akinek pontosan ugyanannyit mutatna az órája. Az ilyen időkülönbség azonban problémákat okozhat, ha a licencekben érvényességi idő van megadva.
