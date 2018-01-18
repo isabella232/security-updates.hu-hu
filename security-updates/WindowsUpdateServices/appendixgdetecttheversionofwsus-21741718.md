@@ -15,6 +15,9 @@ Versioning in WSUS 2.0
 ----------------------
 
         ```
+		{A0D46DC6-8950-451A-8990-53C86E17666E}
+		```
+		
 In WSUS 2.0, the WSUS registry key:
 
 **HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Microsoft\\Update Services\\Server\\Setup**
@@ -28,6 +31,7 @@ has an InstallType subkey with the following possible values:
 **FullInstall = 128**
 
  
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />

@@ -28,9 +28,8 @@ A WSUS szolgáltatás alapbeállításokkal történő telepítéséhez az aláb
     Megteheti azt is, hogy ellátogat a http://www.windowsupdate.com webhelyre, és a keresőmezőbe beírja a „Critical Updates and Service Packs – Install Microsoft .NET Framework 1.1 Service Pack 1 for Windows Server 2003” kifejezést.
 -   Háttérben futó intelligens átviteli szolgáltatás (BITS) 2.0 – a BITS szoftver Windows Server 2003 rendszerhez készült 2.0-s verziója jelenleg nem tölthető le a letöltőközpontból, ezért a [Microsoft Windows Update Services Open Evaluation webhelyről](http://go.microsoft.com/fwlink/?linkid=47357) (http://go.microsoft.com/fwlink/?LinkId=47357) kell letölteni.
 
-| ![](images/Cc720547.note(WS.10).gif)Megjegyzés:                                                                                                                                                                                                             |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Habár a WSUS szolgáltatás telepítéséhez adatbázisszoftverre is szükség van, arról most nem teszünk említést, hiszen a Windows Server 2003 rendszerre telepített WSUS alkalmazás alapértelmezés szerint tartalmazza a Windows SQL Server™ 2000 Desktop Engine (WMSDE) adatbázisszoftvert. |
+> [!NOTE]  
+> Habár a WSUS szolgáltatás telepítéséhez adatbázisszoftverre is szükség van, arról most nem teszünk említést, hiszen a Windows Server 2003 rendszerre telepített WSUS alkalmazás alapértelmezés szerint tartalmazza a Windows SQL Server™ 2000 Desktop Engine (WMSDE) adatbázisszoftvert. 
 
 Merevlemezekkel kapcsolatos követelmények és ajánlások
 ------------------------------------------------------

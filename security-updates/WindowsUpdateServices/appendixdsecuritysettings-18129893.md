@@ -22,9 +22,8 @@ Enable audit events to ensure that adequate logs are collected for system activi
 
 Audit Policy Settings
 
-###  
 
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -93,9 +92,8 @@ Configure Windows Server 2003 security settings to help ensure optional security
   
 Security Options Settings
   
-###  
 
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -439,9 +437,8 @@ Configure Event Log settings to help ensure an adequate level of activity monito
   
 Event Log Settings
   
-###  
 
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -525,9 +522,8 @@ Enable only services that are required for WSUS.
   
 Enabled Operating System Services
   
-###  
 
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -829,15 +825,13 @@ Enabled Operating System Services
   
 Microsoft recommends that you harden the TCP/IP interface for WSUS servers.
   
-| ![](images/Cc708591.Caution(WS.10).gif)Figyelmeztetés:                                                                                                                                                                                              |  
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| If you use Registry Editor incorrectly, you may cause serious problems that may require you to reinstall your operating system. Microsoft cannot guarantee that you can solve problems that result from using Registry Editor incorrectly. Use Registry Editor at your own risk. |
+> [!CAUTION]  
+> If you use Registry Editor incorrectly, you may cause serious problems that may require you to reinstall your operating system. Microsoft cannot guarantee that you can solve problems that result from using Registry Editor incorrectly. Use Registry Editor at your own risk. 
   
 **HKLM\\SYSTEM\\CurrentControlSet\\Services\\Tcpip\\Parameters\\SynAttackProtect**
   
-###  
 
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -859,9 +853,8 @@ Microsoft recommends that you harden the TCP/IP interface for WSUS servers.
   
 **HKLM\\SYSTEM\\CurrentControlSet\\Services\\Tcpip\\Parameters\\TcpMaxPortsExhausted**
   
-###  
 
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -883,9 +876,8 @@ Microsoft recommends that you harden the TCP/IP interface for WSUS servers.
   
 **HKLM\\SYSTEM\\CurrentControlSet\\Services\\Tcpip\\Parameters\\TCPMAxHALFOPEN**
   
-###  
 
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -907,9 +899,8 @@ Microsoft recommends that you harden the TCP/IP interface for WSUS servers.
   
 **HKLM\\SYSTEM\\CurrentControlSet\\Services\\Tcpip\\Parameters\\TCPmaxhalfopenretired**
   
-###  
 
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -931,9 +922,8 @@ Microsoft recommends that you harden the TCP/IP interface for WSUS servers.
   
 **HKLM\\SYSTEM\\CURRENTCONTROLSET\\SERVICES\\AFd\\parameters\\enabledICMPredirect**
   
-###  
 
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -955,9 +945,8 @@ Microsoft recommends that you harden the TCP/IP interface for WSUS servers.
   
 **HKLM\\SYSTEM\\CURRENTCONTROLSET\\SERVICES\\tcpip\\parameters\\enableddeadgwdetect**
   
-###  
 
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -979,9 +968,8 @@ Microsoft recommends that you harden the TCP/IP interface for WSUS servers.
   
 **HKLM\\SYSTEM\\CURRENTCONTROLSET\\SERVICES\\tcpip\\parameters\\disableipsourcerouting**
   
-###  
 
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -1003,9 +991,8 @@ Microsoft recommends that you harden the TCP/IP interface for WSUS servers.
   
 **HKLM\\SYSTEM\\CURRENTCONTROLSET\\SERVICES\\tcpip\\parameters\\ipenabledrouter**
   
-###  
 
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -1034,9 +1021,8 @@ The following are security recommendations for IIS 6.0 with WSUS.
   
 Use the following settings in URLScan to help protect the administrative Web page for WSUS. The complete Urlscan.ini file is located at the end of this topic.
   
-###  
 
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1183,9 +1169,8 @@ Use access control permissions to secure the SQL Server 2000 registry keys.
   
 **HKLM\\SOFTWARE\\MICROSOFT\\MSSQLSERVER**
   
-###  
 
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -1213,9 +1198,8 @@ Remove all stored procedures that are unnecessary and that have the ability to c
   
 Unnecessary SQL Server 2000 Stored Procedures
   
-###  
 
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
