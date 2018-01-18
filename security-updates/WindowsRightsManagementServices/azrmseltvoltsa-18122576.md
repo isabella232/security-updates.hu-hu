@@ -20,9 +20,8 @@ Az RMS eltávolítása
 
 1.  Jelentkezzen be arra a kiszolgálóra, amelyen az RMS eltávolítását tervezi.
 
-    | ![](images/Cc747587.Important(WS.10).gif)Fontos:                                                                                                                                                                                                                                                                                     |
-    |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | Ha az RMS-szolgáltatást a legfelső szintű tanúsítási fürtben található kiszolgálóról távolítja el, előbb meg kell szüntetnie azt. Ehhez jelenítse meg a **Globális felügyelet** lapot, és kattintson **A webhelyen működő RMS eltávolítása** hivatkozásra. Ha licenckiszolgálón szeretné eltávolítani az RMS-szolgáltatást, a kiszolgálót nem kell megszüntetnie. |
+    > [!IMPORTANT]  
+    > Ha az RMS-szolgáltatást a legfelső szintű tanúsítási fürtben található kiszolgálóról távolítja el, előbb meg kell szüntetnie azt. Ehhez jelenítse meg a **Globális felügyelet** lapot, és kattintson **A webhelyen működő RMS eltávolítása** hivatkozásra. Ha licenckiszolgálón szeretné eltávolítani az RMS-szolgáltatást, a kiszolgálót nem kell megszüntetnie.
 
 2.  Nyissa meg a **Vezérlőpultról** a **Programok telepítése és törlése** párbeszédpanelt.
 
