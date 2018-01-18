@@ -20,6 +20,5 @@ A Felügyelet weblapon az aktuális kiszolgáló vagy fürt következő tulajdon
 -   A kiszolgálói licencelői tanúsítvány lejáratának dátuma
 -   A kiszolgálót tartalmazó RMS-kulcshierarchia
 
-| ![](images/Cc747677.note(WS.10).gif)Megjegyzés:                                                                                                                                                                                                                                              |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| A Felügyelet weblapon megjelenített tulajdonságok minden kiszolgálón megegyeznek, mivel a konfigurációjuknak azonosnak kell lenni. A Felügyelet weblap eléréséről „[A felügyeleti kezdőlap használata](https://technet.microsoft.com/6c155977-bd0e-47d6-ac65-1746cddb505e)” című témakör tartalmaz további tájékoztatást. |
+> [!NOTE]  
+> A Felügyelet weblapon megjelenített tulajdonságok minden kiszolgálón megegyeznek, mivel a konfigurációjuknak azonosnak kell lenni. A Felügyelet weblap eléréséről „[A felügyeleti kezdőlap használata](https://technet.microsoft.com/6c155977-bd0e-47d6-ac65-1746cddb505e)” című témakör tartalmaz további tájékoztatást. 
