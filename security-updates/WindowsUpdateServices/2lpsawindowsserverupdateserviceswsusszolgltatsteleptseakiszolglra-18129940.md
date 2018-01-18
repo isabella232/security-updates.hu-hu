@@ -16,9 +16,8 @@ A következőkben ismertetett telepítési eljárás a Windows Server 2003 ren
 **A WSUS szolgáltatás telepítése Windows Server 2003 operációs rendszerre**
 1.  Kattintson duplán a **WSUSSetup.exe** nevű telepítőfájlra.
 
-    | ![](images/Cc708622.note(WS.10).gif)Megjegyzés:                                                                                                                                     |
-    |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | A WSUSSetup.exe fájl legújabb verzióját a [Microsoft Windows Update Services](http://go.microsoft.com/fwlink/?linkid=47374) angol nyelvű webhelyéről (http://go.microsoft.com/fwlink/?LinkId=47374) töltheti le. |
+    > [!NOTE]  
+    > A WSUSSetup.exe fájl legújabb verzióját a [Microsoft Windows Update Services](http://go.microsoft.com/fwlink/?linkid=47374) angol nyelvű webhelyéről (http://go.microsoft.com/fwlink/?LinkId=47374) töltheti le. 
 
 2.  A varázsló **üdvözlőlapján** kattintson a **Tovább** gombra.
 

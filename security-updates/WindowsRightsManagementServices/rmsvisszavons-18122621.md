@@ -12,7 +12,9 @@ RMS visszavonás
 Visszavonásnak a korábban kiállított hitelesítő adatok (például tanúsítvány vagy licenc) visszavonására szolgáló mechanizmust nevezzük. A visszavonás elsődleges célja, hogy a már nem megbízható entitásokat meggátolja az RMS rendszerben való részvételben. Például a következő helyzetekben alkalmazható a visszavonás:
 
 -   Ha meg szeretné akadályozni a tartalom használatát olyan esetben, amikor sérült a bizalmi láncba tartozó valamelyik résztvevő vagy identitás biztonsága (például valaki kilépett a szervezettől, és ezután nem tekintheti meg az RMS-védelemmel ellátott tartalmat).
+
 -   Ha meg szeretné akadályozni adott, már nem megbízhatónak tekintett RMS-kompatibilis alkalmazásnak, hogy tartalmat nyisson meg.
+
 -   Ha meg szeretné akadályozni, hogy tovább terjedjen és használati licenccel legyen ellátható egy kifogásolható tartalom.
 
 A visszavonás az ügyfélen működik: megakadályozza a tartalom használatát, még abban az esetben is, ha már kiállítottak hozzá használati licencet. Engedélyezését követően a visszavonás mindig érvénybe lép, amikor a felhasználó védett tartalmat próbál meg használni, akár helyben tárolt használati licenccel rendelkezik, akár a használat alkalmával kérelmez új licencet az RMS kiszolgálótól.
@@ -22,6 +24,9 @@ Ez a szakasz a visszavonásról nyújt áttekintést. A visszavonás használat�
 A szakasz tartalma:
 
 -   [Az RMS visszavonás működése](https://technet.microsoft.com/469e3938-a59b-4c92-9779-ead64e724d00)
+
 -   [Az RMS visszavonási listái](https://technet.microsoft.com/688d4dfa-c928-4b2f-8116-2f9e87d2b6f7)
+
 -   [Visszavonás a jogmegadási sablonokban](https://technet.microsoft.com/287c5b92-fcb5-4295-9c2b-4e37e643beb2)
+
 -   [A visszavonás és a kapcsolat nélküli szerzők](https://technet.microsoft.com/a9cf0541-9101-4e90-9c56-7c1b9a8deca6)

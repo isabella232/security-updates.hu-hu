@@ -32,8 +32,7 @@ Kulcstároló-verziók kizárása
 
 6.  **A szükséges minimális RM kulcstároló** mezőbe illessze be a verziószámot, és kattintson a **Frissítés** gombra.
 
-    | ![](images/Cc720270.note(WS.10).gif)Megjegyzés:              |
-    |-------------------------------------------------------------------------------------------|
-    | A kulcstároló verzióján alapuló kizárás kikapcsolásához kattintson a **Letiltás** gombra. |
+    > [!NOTE]  
+    > A kulcstároló verzióján alapuló kizárás kikapcsolásához kattintson a **Letiltás** gombra.
 
 Az eljárás végrehajtásáról a további tudnivalókat lásd: „[Kulcstároló-verziók kizárása](https://technet.microsoft.com/e287f026-aab2-43ab-93bc-48087da82f36)”.

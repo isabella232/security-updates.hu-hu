@@ -55,7 +55,8 @@ A szakasz a WSUS 3.0 SP2 telepítésének szoftver- és hardverkövetelményeit 
 -   A telepítéshez az alábbi operációs rendszerek valamelyike szükséges:
     -   Windows Server 2008 R2
     -   Windows Server 2008 SP1 vagy újabb verzió
- 
+
+		<p></p>
         <table style="border:1px solid black;">
         <colgroup>
         <col width="100%" />
@@ -91,6 +92,7 @@ A szakasz a WSUS 3.0 SP2 telepítésének szoftver- és hardverkövetelményeit 
 -   A Microsoft Report Viewer 2008 terjeszthető változata
 
  
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -128,6 +130,7 @@ Az alábbi lista a kiszolgáló alapszintű telepítéséhez szükséges minimá
 -   Legalább 20 GB (lehetőség szerint 30 GB) szabad lemezterület a tartalom tárolására szolgáló köteten
 
  
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -170,6 +173,7 @@ Ha legalább két, a 80-as porton keresztül elérhető webhellyel (például Wi
 Előfordulhat, hogy a WSUS 3.0 SP2 telepítésekor le kell tiltani a víruskereső programokat, és csak ezt követően lehet végrehajtani a telepítést. Miután letiltotta a víruskereső szoftvert, indítsa újra a számítógépet, mielőtt telepíti a WSUS szolgáltatást. A számítógép újraindításával megakadályozható, hogy a fájlok zárolva legyenek, amikor a telepítő hozzájuk szeretne férni. A telepítés befejezését követően ismét kapcsolja be a víruskereső szoftvert. A víruskereső szoftver letiltásának és visszakapcsolásának pontos lépéseiről a víruskereső szoftver forgalmazójának webhelyén találhat tájékoztatást.
 
  
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -316,9 +320,8 @@ A telepítő parancssori paraméterei a WSUS 3.0 SP2 felügyelet nélküli telep
 
 A WSUS 3.0 SP2 telepítését felügyelet nélküli üzemmódban is elvégezheti a WSUS parancssori telepítőprogramjával. A táblázat a WSUS 3.0 SP2 parancssori telepítőjének paramétereit tartalmazza.
 
-###  
 
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -356,9 +359,8 @@ A WSUS 3.0 SP2 telepítését felügyelet nélküli üzemmódban is elvégezheti
   
 A táblázat a WSUS 3.0 SP2 parancssori tulajdonságait tartalmazza.
   
-###  
 
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -440,6 +442,7 @@ A táblázat a WSUS 3.0 SP2 parancssori tulajdonságait tartalmazza.
 WSUSSetup.exe /q DEFAULT\_WEBSITE=0 (telepítés csendes üzemmódban a 8530-as porton) WSUSSetup.exe /q /u (a WSUS eltávolítása)  
 ```
  
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />

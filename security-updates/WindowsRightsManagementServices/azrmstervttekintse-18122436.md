@@ -17,9 +17,8 @@ A bevezetés megkezdése előtt az RMS-tervben ellenőrizze a következőket:
 -   Kijelölte az RMS használni kívánt topológiáját (alapszintű vagy elosztott).
 -   Telepítve van az Active Directory a Windows 2000 Service Pack 3 (SP3) vagy újabb javítócsomaggal frissített rendszerű tartományvezérlőkön, és az összes felhasználó rendelkezik konfigurált e-mail attribútumú kapcsolatobjektummal. Telepítve van a Windows Server 2003 a legújabb frissítésekkel. Engedélyezve van a Message Queuing, az Internet Information Services és az ASP.NET 1.1-es verziója.
 
-| ![](images/Cc720185.note(WS.10).gif)Megjegyzés:                                                                                                                                                     |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Ha az RMS szolgáltatást 64 bites számítógépre tervezi telepíteni, nézze át az erre vonatkozó konfigurációs utasításokat a dokumentumgyűjtemény „RMS bevezetésének tervezése” részében „Az RMS szoftverkövetelményei” témakörben. |
+> [!NOTE]
+> Ha az RMS szolgáltatást 64 bites számítógépre tervezi telepíteni, nézze át az erre vonatkozó konfigurációs utasításokat a dokumentumgyűjtemény „RMS bevezetésének tervezése” részében „Az RMS szoftverkövetelményei” témakörben.
 
 -   Megadta a terheléselosztás és a kiszolgáló feladatátvételi módszerét.
 -   Az RMS kiszolgálókhoz konfigurálva van a DNS-regisztráció.
