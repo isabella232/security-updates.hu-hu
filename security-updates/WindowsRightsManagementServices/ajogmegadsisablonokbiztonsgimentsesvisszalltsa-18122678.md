@@ -19,6 +19,5 @@ Hajtsa végre a megfelelő műveletet:
 
 Ha a konfigurációs adatbázisban helyre kell állítani a jogmegadási sablonok adatait, a konfigurációs adatbázis biztonsági másolatának DRMS\_RightsTemplate táblájából kinyerheti a GUID és a TemplateData adatait, vagy ezeket egyszerűen importálhatja a szövegfájlból. Ezeknek a műveleteknek a végrehajtásáról az SQL Server dokumentációjában olvashat.
 
-| ![](images/Cc747625.note(WS.10).gif)Megjegyzés:                                |
-|-------------------------------------------------------------------------------------------------------------|
-| A jogmegadási sablonok biztonsági mentési tervét az SQL Server rendszergazdájával közösen kell kialakítani. |
+> [!NOTE]  
+> A jogmegadási sablonok biztonsági mentési tervét az SQL Server rendszergazdájával közösen kell kialakítani. 

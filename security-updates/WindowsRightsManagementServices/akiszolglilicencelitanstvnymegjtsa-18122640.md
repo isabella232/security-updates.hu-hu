@@ -32,9 +32,8 @@ A kiszolgálói licencelői tanúsítvány megújítása
 
 5.  Kattintson a **Mentés** gombra. Megjelenik a **Mentés másként** párbeszédpanel.
 
-    | ![](images/Cc747636.note(WS.10).gif)Megjegyzés:                                                                                               |
-    |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | A **Fájl letöltése** párbeszédpanelen kattintson a **Megnyitás** gombra. Ha a **Megnyitás** gombra kattint, egy hibaüzenet jelenik meg, és a kérelem fájl nem lesz mentve. |
+    > [!NOTE]  
+    > A **Fájl letöltése** párbeszédpanelen kattintson a **Megnyitás** gombra. Ha a **Megnyitás** gombra kattint, egy hibaüzenet jelenik meg, és a kérelem fájl nem lesz mentve. 
 
 6.  A megújítási kérelem fájlba exportálásához kattintson a **Mentés** gombra. A fájl alapértelmezés szerint az asztalra lesz mentve, és a *kiszolgáló\_neve*RenewalRequest.xml nevet kapja, ahol a *kiszolgáló\_neve* helyett az RMS-kiszolgáló neve szerepel. A fájl más helyre is menthető, ehhez a Mentés helye legördülő menüben adja meg a kívánt helyet. A **Fájlnév** mezőbe új nevet beírva az alapértelmezett fájlnév is módosítható.
 
