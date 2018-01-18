@@ -28,6 +28,7 @@ Stopping and Restarting BITS
 Often it is possible to resolve BITS issues simply by stopping the service and restarting it. The following procedure shows how to stop and restart the service from a Command Prompt.
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -102,6 +103,7 @@ If BITS jobs fail, look in the event log to find errors. You can use the followi
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -161,6 +163,7 @@ If the BITS service fails to start, use the following table to diagnose the caus
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -217,6 +220,7 @@ If the BITS service fails to start, use the following table to diagnose the caus
 To repair corrupted BITS service configuration, you can enter the BITS service configuration manually.
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />

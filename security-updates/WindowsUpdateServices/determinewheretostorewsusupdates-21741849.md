@@ -19,6 +19,7 @@ Local storage
 You can store update files locally on the WSUS server. This saves bandwidth on your Internet connection because client computers download updates directly from the WSUS server. This option requires enough disk space to store the updates you intend to download. There is a minimum requirement of 20 GB of hard disk space to store updates locally, but 30 GB is recommended. Local storage is the default option.
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />

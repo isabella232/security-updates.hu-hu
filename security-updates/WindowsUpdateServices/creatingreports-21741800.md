@@ -18,6 +18,7 @@ You can generate different kinds of update reports from different places in the 
 3.  Reports on specific computers: right-click the computer (or go to the **Actions** pane) and choose **Status Report**.
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -44,6 +45,7 @@ You can generate three kinds of reports as described in the following table.
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -78,6 +80,7 @@ Update reports show you the status of your updates. You can run update reports i
 The report displays information from the most recent contact between client computers and the WSUS server. The frequency with which client computers contact the WSUS server is configured through Group Policy. By default, this is every 22 hours. Unless you want to change the contact frequency for your client computers, generate this report the day after you approve updates, so that it reflects your latest approvals.
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -114,6 +117,7 @@ The Update Status Summary view contains the elements listed in the following tab
 ### Description of elements displayed in the Update Status Summary view
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -219,6 +223,7 @@ The report has four components, which are described in the following table.
 ### Components of the Synchronization Results Report
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -270,6 +275,7 @@ You can print the report in update summary, detailed, or tabular views, dependin
 You can print a report in its original format, or you can export it to Microsoft Excel or PDF formats.
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />

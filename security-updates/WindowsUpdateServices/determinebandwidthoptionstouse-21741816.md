@@ -11,7 +11,6 @@ Determine Bandwidth Options to Use
 
 WSUS allows you to shape the deployment to fit your organization's bandwidth needs. The decisions you make about how to synchronize with Microsoft Update have a dramatic effect on the efficient use of bandwidth. Read the following sections to understand WSUS features for managing bandwidth.
 
-<span id="WSUS_DeferringDownloadOfUpdates"></span>
 Deferring the download of updates
 ---------------------------------
 
@@ -53,6 +52,7 @@ The upper part of the "Express Installation Files Feature" illustration shows an
 The file sizes in the "Express Installation Files Feature" illustration are for illustrative purposes only. Each update and express installation file varies in size, depending on what files need to be updated. Further, the size of each file actually distributed to clients by using express installation files varies depending upon the state of the computer being updated.
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
