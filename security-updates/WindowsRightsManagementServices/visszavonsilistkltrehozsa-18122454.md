@@ -24,15 +24,44 @@ A visszavonási lista az XrML nyelvet használó XML formátumú fájl.
 A BODY elem négy gyermekelemet tartalmaz:
 
 -   **ISSUEDTIME**. A visszavonási lista kiadási dátumát és időpontját tartalmazza. Ezt az elemet az RLsigner.exe program szúrja be a fájlba. A példában csak a visszavonási lista általános felépítésének bemutatása érdekében szerepel.
+
 -   **DESCRIPTOR**. Azokat az adatokat tartalmazza, amelyek a fájlt visszavonási listaként azonosítják.
+
 -   **ISSUER**. A visszavonási listát kiállító entitás azonosítására szolgáló adatokat tartalmazza.
+
 -   **REVOCATIONLIST**. A gyermek REVOKE elemekből áll: ezek az adott listával visszavont entitásokat adják meg.
 
 A példaként használható visszavonási lista az alábbiakban látható.
 
-| ![](images/Cc720208.note(WS.10).gif)Megjegyzés:                                         |
-|----------------------------------------------------------------------------------------------------------------------|
-        ```
+> [!NOTE]  
+> Az ISSUEDTIME, PUBLICKEY és SIGNATURE elem elhagyható, mivel ezeket az RLsigner.exe program beszúrja vagy felülírja.
+
+```
+<?xml version="1.0" ?> 
+<XrML xml:space=”preserve” version=”1.2”>
+  <BODY type="LICENSE" version="3.0">
+    <ISSUEDTIME>...</ISSUEDTIME> 
+    <DESCRIPTOR>
+      <OBJECT type="Revocation-List">
+        <ID type="MS-GUID">{d6373cba-01f1-4f32-ac58-260f580af0f8}</ID>
+      </OBJECT>
+    </DESCRIPTOR>
+<ISSUER>
+      <OBJECT type="Revocation-List">
+        <ID type="acsii-tag">External revocation authority</ID>
+        <NAME>Revocation list name</NAME>
+        <ADDRESS type="URL">https://somedomain.com/revocation_list_file</ADDRESS>
+      </OBJECT>
+      <PUBLICKEY>...</PUBLICKEY>
+    </ISSUER>
+  <REVOCATIONLIST>
+    <REVOKE>...<\REVOKE>
+    <REVOKE>...<\REVOKE>
+  </REVOCATIONLIST>
+  <SIGNATURE>...</SIGNATURE>
+</XrML>
+```
+
 > [!CAUTION]  
 > Ha a visszavonási listában URL-címet ad meg, UNC-útvonal már nem használható az RMS SP1 és az RMS SP2 rendszerben. Ekkor URL-címet kell használnia. 
 
@@ -56,11 +85,36 @@ A REVOKE elemek megadásáról további tudnivalókat talál a következő péld
 
 #### Résztvevők visszavonása nyilvános kulcs alapján
 
-        ```
+Ez a példa egy résztvevőt von vissza nyilvános kulcsa alapján. A &lt;PUBLICKEY&gt; címke tartalma itt a kulcsot kiállító tanúsítvány &lt;BODY&gt;&lt;ISSUEDPRINCIPALS&gt;&lt;PRINCIPAL&gt;&lt;PUBLICKEY&gt; csomópontjáról származik.
+
+```
+<REVOKE category="principal" type="principal-key">
+        <PUBLICKEY>
+          <ALGORITHM>RSA-1024</ALGORITHM>
+          <PARAMETER name="public exponent">
+            <VALUE encoding="integer32">65537</VALUE>
+          </PARAMETER>
+          <PARAMETER name="modulus">
+            <VALUE encoding="base64" size="1024">
+6Jn0kEAWU+1AFWtuUmBYL8Jza8tLhUv/BCmgcq/Pc08Au3DvXkH65s+0MEyZjM+71j3F1xaXUSst+wH2FjApkY1RxgL8VAKIuEvIy9hRrvY1YhJx/0Ite5fZeg2crUFrmoQgZzaJ50FvoakA2QMgZZgxoQmwiGE0y40cEJtIlE0=
+            </VALUE>
+          </PARAMETER>
+        </PUBLICKEY>
+      </REVOKE>
+```      
 
 #### Tanúsítványok és licencek visszavonása GUID alapján
 
-        ```
+Ez a példa egy tanúsítványt vagy licencet von vissza globális egyedi azonosítója (GUID) alapján. A visszavonási lista alkalmazása után nem használhatja az itt megadott azonosítójú tanúsítványt vagy licencet. Az &lt;ID&gt; címke tartalma itt a visszavonandó tanúsítvány vagy licenc &lt;BODY&gt;&lt;DESCRIPTOR&gt;&lt;OBJECT&gt;&lt;ID&gt; csomópontjáról származik. (Ezzel a módszerrel alkalmazási jegyzékfájl azonosítójának megadásával alkalmazást is visszavonhat.)
+
+```
+<REVOKE category="license" type="license-id">
+        <OBJECT>
+          <ID type="MS-GUID">{06BCB94D-43E5-419f-B180-AA9FD321ED7A}</ID>
+        </OBJECT>
+      </REVOKE>
+```      
+
 #### Visszavonás alkalmazási jegyzékfájl megadásával
 
 Az alkalmazási jegyzékfájl szerinti visszavonáshoz az alkalmazási jegyzékfájlból ki kell nyernie a kiállító azonosítóját, a kiállító nyilvános kulcsát, a licencazonosítót vagy a licenckivonatot. Az alkalmazási jegyzékfájlok azonban base 64 kódolásúak, így az adatok egyszerű szövegként nem érhetők el. A Tartalomvédelmi szolgáltatások SDK (Software Development Kit) készletének DRMConstructCertificateChain, DRMDeconstructCertificateChain és DRMDecode metódusával készíthető olyan program, amellyel dekódolható az alkalmazási jegyzékfájl, és így megszerezhetők a kívánt adatok.
@@ -69,7 +123,20 @@ Ha meg szeretné akadályozni, hogy adott alkalmazás képes legyen a védelemme
 
 #### Tanúsítványok és licencek visszavonása kivonatérték alapján
 
-        ```
+Ez a példa egy tanúsítványt vagy licencet von vissza kivonatértéke alapján. A &lt;VALUE&gt; címke értéke itt a tanúsítvány vagy a licenc &lt;BODY&gt; és &lt;/BODY&gt; címkéje közötti (a határokat is beleértve) UNICODE karakterek SHA-1 algoritmussal készített kivonata. Ez a kivonatérték a tanúsítvány vagy a licenc &lt;SIGNATURE&gt; szakaszában található. (Ezzel a módszerrel alkalmazási jegyzékfájl kivonatának megadásával alkalmazást is visszavonhat.)
+
+```
+<REVOKE category="license" type="license-hash">
+        <DIGEST>
+          <ALGORITHM>SHA1</ALGORITHM>
+          <VALUE encoding="base64" size="160">
+            ABfB4mcEslVCMEZR9reACqXHCoQ=
+          </VALUE>
+        </DIGEST>
+      </REVOKE>
+```
+
+
 #### Visszavonás alkalmazási jegyzékfájl megadásával
 
 Az alkalmazási jegyzékfájl szerinti visszavonáshoz az alkalmazási jegyzékfájlból ki kell nyernie a kiállító azonosítóját, a kiállító nyilvános kulcsát, a licencazonosítót vagy a licenckivonatot. Az alkalmazási jegyzékfájlok azonban base 64 kódolásúak, így az adatok egyszerű szövegként nem érhetők el. A Tartalomvédelmi szolgáltatások SDK készletének DRMConstructCertificateChain, DRMDeconstructCertificateChain és DRMDecode metódusával készíthető olyan program, amellyel dekódolható az alkalmazási jegyzékfájl, és így megszerezhetők a kívánt adatok.
@@ -78,29 +145,84 @@ Ha meg szeretné akadályozni, hogy adott alkalmazás képes legyen a védelemme
 
 #### Tanúsítványok és licencek visszavonása a kiállító nyilvános kulcsa alapján
 
-        ```
+Ez a példa a megadott nyilvános kulcs tulajdonosa által kiállított összes tanúsítványt és licencet vonja vissza. A &lt;PUBLICKEY&gt; címke tartalma itt a visszavonandó tanúsítványok vagy licencek &lt;BODY&gt;&lt;ISSUER&gt;&lt;PUBLICKEY&gt; csomópontjával egyezik meg.
+
+```
+<REVOKE category="license" type="issuer-key">
+        <PUBLICKEY>
+          <ALGORITHM>RSA-1024</ALGORITHM>
+          <PARAMETER name="public exponent">
+            <VALUE encoding="integer32">65537</VALUE>
+          </PARAMETER>
+          <PARAMETER name="modulus">
+            <VALUE encoding="base64" size="1024">
+AAn0kEAWU+1AFWtuUmBYL8Jza8tLhUv/BCmgcq/Pc08Au3DvXkH65s+0MEyZjM+71j3F1xaXUSst+wH2FjApkY1RxgL8VAKIuEvIy9hRrvY1YhJx/0Ite5fZeg2crUFrmoQgZzaJ50FvoakA2QMgZZgxoQmwiGE0y40cEJtIlE0=
+            </VALUE>
+          </PARAMETER>
+        </PUBLICKEY>
+      </REVOKE>
+```      
+
 
 #### Tanúsítványok és licencek visszavonása a kiállító azonosítója alapján
 
-        ```
+Ez a példa tanúsítványok vagy licencek csoportját vonja vissza a kiállító azonosítója alapján. Az &lt;ID&gt; címke tartalma itt a visszavonandó tanúsítványok vagy licencek &lt;BODY&gt;&lt;ISSUER&gt;&lt;OBJECT&gt;&lt;ID&gt; csomópontjával egyezik meg.
+
+```
+<REVOKE category="license" type="issuer-id">
+        <OBJECT type="MS-DRM-Server">
+          <ID type="MS-GUID">{2BE9E200-3040-41B9-8832-D4D0445EBBD6}</ID> 
+        </OBJECT>
+      </REVOKE>
+```      
+
 > [!NOTE]  
 > Az azonosítótípus megadásakor ügyeljen arra, hogy ne legyen kocsivissza karakter a GUID azonosító és a záró címke között. Ha véletlenül kocsivissza karakter kerül az említett helyre, az RMS-ügyfél nem tudja elemezni a visszavonási listát. 
 
 #### Tartalom visszavonása a tartalom azonosítója alapján
 
-        ```
+Ez a példa védett tartalmat von vissza a tartalom azonosítója alapján. Tartalom visszavonásánál ez a javasolt módszer, mivel az adott közzétételi licencből létrehozott összes használati licencnél megegyezik a tartalomazonosító. Az &lt;OBJECT&gt; címke értéke itt a tartalom közzétételi vagy használati licencének &lt;BODY&gt;&lt;WORK&gt;&lt;OBJECT&gt; csomópontjával egyezik meg.
+
+```
+<REVOKE category="content" type="content-id">
+        <OBJECT type="Microsoft Office Document">
+        <ID type="MS-GUID">{8702641D-3512-4AA4-A584-84C703A5B5C0}</ID>
+        </OBJECT>
+</REVOKE>
+```
+
 > [!NOTE]  
 > Az azonosítótípus megadásakor ügyeljen arra, hogy ne legyen kocsivissza karakter a GUID azonosító és a záró címke között. Ha véletlenül kocsivissza karakter kerül az említett helyre, az RMS-ügyfél nem tudja elemezni a visszavonási listát. 
 
 #### Résztvevők visszavonása Windows fiók alapján
 
-        ```
+Ez a példa felhasználót vagy engedélyező résztvevőt von vissza Windows fiókja alapján. Az &lt;OBJECT&gt; elem értéke itt egy tartalomvédelmi fióktanúsítvány vagy használati licenc &lt;BODY&gt;&lt;ISSUEDPRINCIPALS&gt;&lt;PRINCIPAL&gt;&lt;OBJECT&gt; csomópontjáról származik.
+
+```
+<REVOKE category="principal" type="principal-id">
+        <OBJECT type="Group-Identity">
+          <ID type="Windows">{Windows account SID}</ID> 
+          <NAME>{E-mail address}</NAME> 
+        </OBJECT>
+      </REVOKE>
+```      
+
 > [!NOTE]  
 > Az azonosítótípus megadásakor ügyeljen arra, hogy ne legyen kocsivissza karakter a Windows fiók biztonsági azonosítója és a záró címke között. Ha véletlenül kocsivissza karakter kerül az említett helyre, az RMS-ügyfél nem tudja elemezni a visszavonási listát. 
 
 #### Résztvevők visszavonása Windows Live ID alapján
 
-        ```
+Ez a példa felhasználót vagy engedélyező résztvevőt von vissza Windows Live ID azonosítója alapján. Az &lt;OBJECT&gt; elem értéke itt egy tartalomvédelmi fióktanúsítvány vagy használati licenc &lt;BODY&gt;&lt;ISSUEDPRINCIPALS&gt;&lt;PRINCIPAL&gt;&lt;OBJECT&gt; csomópontjáról származik.
+
+```
+<REVOKE category="principal" type="principal-id">
+        <OBJECT type="Group-Identity">
+          <ID type="Passport">{PUID}</ID> 
+          <NAME>michael@contoso.com</NAME> 
+        </OBJECT>
+      </REVOKE>
+```      
+
 > [!NOTE]  
 > Az azonosítótípus megadásakor ügyeljen arra, hogy ne legyen kocsivissza karakter a PUID azonosító és a záró címke között. Ha véletlenül kocsivissza karakter kerül az említett helyre, az RMS-ügyfél nem tudja elemezni a visszavonási listát. 
 
@@ -245,5 +367,25 @@ Szükségessé válhat a visszavonási listák aláírásának ütemezése a kis
   
 A visszavonási lista aláírásának eljárását parancsfájl használatával automatizálhatja. A következő VBScript az RLsigner.exe parancsot hívja, és az eredményeket a rendszer eseménynaplójába írja.
   
-<codesnippet asp="http://msdn2.microsoft.com/asp" language displaylanguage="Visual Basic">const EVT\_SUCCESS = 0 const EVT\_ERROR = 1 const EVT\_WARNING = 2 const EVT\_INFORMATION = 4 const EVT\_AUDIT\_SUCCESS = 8 const EVT\_AUDIT\_FAILURE = 16 Dim WshShell, oExec Set WshShell = CreateObject( "WScript.Shell" ) Set oExec = WshShell.Exec("rlsigner.exe input\_file key\_file output\_file") Do While oExec.Status = 0 WScript.Sleep 100 Loop if WshShell.ExitCode &lt;&gt; 0 Then WshShell.LogEvent EVT\_ERROR, "RLsigner failed with error """ + WshShell.ExitCode + """" else WshShell.LogEvent EVT\_SUCCESS, "RLsigner completed successfully" end if  
+```VB
+const EVT_SUCCESS       = 0
+const EVT_ERROR         = 1
+const EVT_WARNING       = 2
+const EVT_INFORMATION   = 4
+const EVT_AUDIT_SUCCESS = 8
+const EVT_AUDIT_FAILURE = 16
+
+Dim WshShell, oExec
+
+Set WshShell = CreateObject( "WScript.Shell" )
+Set oExec = WshShell.Exec("rlsigner.exe input_file key_file output_file")
+Do While oExec.Status = 0
+     WScript.Sleep 100
+Loop
+
+if WshShell.ExitCode <> 0 Then
+    WshShell.LogEvent EVT_ERROR, "RLsigner failed with error """ + WshShell.ExitCode + """"
+else
+    WshShell.LogEvent EVT_SUCCESS, "RLsigner completed successfully"
+end if
 ```
