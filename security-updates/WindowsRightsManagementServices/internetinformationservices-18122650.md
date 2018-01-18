@@ -26,6 +26,7 @@ Az alábbi táblázat az IIS szolgáltatásban létrejövő virtuális könyvtá
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -138,6 +139,5 @@ Az alábbi táblázat az IIS szolgáltatásban létrejövő virtuális könyvtá
 </tbody>
 </table>
   
-| ![](images/Cc747649.note(WS.10).gif)Megjegyzés:                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |  
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| A felügyeleti szolgáltatás szigorúbb korlátozás alá esik a többi webszolgáltatásnál, mert az általa biztosított felület lehetővé teszi az RMS konfigurálását. Ezért a felhasználók csoportja nem kap hozzáférést a felügyeleti szolgáltatáshoz. Ezenkívül az IP-szűrés engedélyezve van, hogy az oldalak csak a helyi számítógépről legyenek elérhetők. A DirectoryServices virtuális könyvtár vendégfelhasználóknak nem teszi lehetővé a hozzáférést. A szolgáltatáslokátor szolgáltatás a Hálózati szolgáltatás fióknak is teljes jogosultságot ad. Licenckiszolgáló létesítéséhez módosítani kell az alapértelmezett hozzáférés-szabályozási bejegyzéseket (ACE), hogy engedélyezzék a hozzáférést az RMS rendszergazdájának. |
+> [!NOTE]  
+> A felügyeleti szolgáltatás szigorúbb korlátozás alá esik a többi webszolgáltatásnál, mert az általa biztosított felület lehetővé teszi az RMS konfigurálását. Ezért a felhasználók csoportja nem kap hozzáférést a felügyeleti szolgáltatáshoz. Ezenkívül az IP-szűrés engedélyezve van, hogy az oldalak csak a helyi számítógépről legyenek elérhetők. A DirectoryServices virtuális könyvtár vendégfelhasználóknak nem teszi lehetővé a hozzáférést. A szolgáltatáslokátor szolgáltatás a Hálózati szolgáltatás fióknak is teljes jogosultságot ad. Licenckiszolgáló létesítéséhez módosítani kell az alapértelmezett hozzáférés-szabályozási bejegyzéseket (ACE), hogy engedélyezzék a hozzáférést az RMS rendszergazdájának. 

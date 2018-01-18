@@ -11,9 +11,8 @@ Visszavonási listák létrehozása
 
 A visszavonás megvalósításához visszavonási lista alkalmazása szükséges. Ez az eXtensible Rights Markup Language (XrML) nyelvet használó XML dokumentum azokat a résztvevőket sorolja fel, amelyek ezután nem férhetnek hozzá a tartalomvédelemmel ellátott tartalomhoz. A visszavonási listákat időbélyeggel kell ellátni, és az RMS Visszavonási lista aláírása eszközével (RLsigner.exe) megfelelően alá kell írni.
 
-| ![](images/Cc720208.Important(WS.10).gif)Fontos:                                                |
-|------------------------------------------------------------------------------------------------------------------------------|
-| A visszavonási lista RLsigner.exe programmal való aláírásához a visszavonási listát unicode kódolású fájlként kell mentenie. |
+> [!IMPORTANT]  
+> A visszavonási lista RLsigner.exe programmal való aláírásához a visszavonási listát unicode kódolású fájlként kell mentenie. 
 
 Visszavonási lista – példa
 --------------------------
@@ -34,9 +33,8 @@ A példaként használható visszavonási lista az alábbiakban látható.
 | ![](images/Cc720208.note(WS.10).gif)Megjegyzés:                                         |
 |----------------------------------------------------------------------------------------------------------------------|
         ```
-| ![](images/Cc720208.Caution(WS.10).gif)Figyelmeztetés:                                                                 |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------|
-| Ha a visszavonási listában URL-címet ad meg, UNC-útvonal már nem használható az RMS SP1 és az RMS SP2 rendszerben. Ekkor URL-címet kell használnia. |
+> [!CAUTION]  
+> Ha a visszavonási listában URL-címet ad meg, UNC-útvonal már nem használható az RMS SP1 és az RMS SP2 rendszerben. Ekkor URL-címet kell használnia. 
 
 A REVOKE elemek megadása után a visszavonási lista készen áll az aláírásra.
 
@@ -56,12 +54,10 @@ A REVOKE elemek megadásáról további tudnivalókat talál a következő péld
 -   [Tanúsítványok visszavonása a résztvevő azonosítója alapján](#bkmk_10)
 -   [Résztvevők visszavonása Windows Live ID alapján](#bkmk_7)
 
-<span id="BKMK_1"></span>
 #### Résztvevők visszavonása nyilvános kulcs alapján
 
         ```
 
-<span id="BKMK_2"></span>
 #### Tanúsítványok és licencek visszavonása GUID alapján
 
         ```
@@ -71,7 +67,6 @@ Az alkalmazási jegyzékfájl szerinti visszavonáshoz az alkalmazási jegyzékf
 
 Ha meg szeretné akadályozni, hogy adott alkalmazás képes legyen a védelemmel ellátott tartalom használatára, érdemes megfontolni az alkalmazás kizárását, hogy így az RMS fürt ne adjon használati licencet ennek az alkalmazásnak. A kizárás azzal a megszorítással érvényes, hogy nem tudja meggátolni, hogy egy érvényes használati licenccel rendelkező felhasználó visszafejtse a tartalomvédelemmel ellátott tartalmat. Alkalmazás kizárásáról lásd a témakör [Alkalmazások kizárása](https://technet.microsoft.com/b68ae4b2-b9ba-44ae-90cb-c88df600ec86) című pontját.
 
-<span id="BKMK_3"></span>
 #### Tanúsítványok és licencek visszavonása kivonatérték alapján
 
         ```
@@ -81,44 +76,34 @@ Az alkalmazási jegyzékfájl szerinti visszavonáshoz az alkalmazási jegyzékf
 
 Ha meg szeretné akadályozni, hogy adott alkalmazás képes legyen a védelemmel ellátott tartalom használatára, érdemes megfontolni az alkalmazás kizárását, hogy így az RMS fürt ne adjon használati licencet ennek az alkalmazásnak. A kizárás azzal a megszorítással érvényes, hogy nem tudja meggátolni, hogy egy érvényes használati licenccel rendelkező felhasználó visszafejtse az RMS-védelemmel ellátott tartalmat. Alkalmazás kizárásáról lásd a témakör [Alkalmazások kizárása](https://technet.microsoft.com/b68ae4b2-b9ba-44ae-90cb-c88df600ec86) című pontját.
 
-<span id="BKMK_4"></span>
 #### Tanúsítványok és licencek visszavonása a kiállító nyilvános kulcsa alapján
 
         ```
 
-<span id="BKMK_5"></span>
 #### Tanúsítványok és licencek visszavonása a kiállító azonosítója alapján
 
         ```
-| ![](images/Cc720208.note(WS.10).gif)Megjegyzés:                                                                                                                                                                   |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Az azonosítótípus megadásakor ügyeljen arra, hogy ne legyen kocsivissza karakter a GUID azonosító és a záró címke között. Ha véletlenül kocsivissza karakter kerül az említett helyre, az RMS-ügyfél nem tudja elemezni a visszavonási listát. |
+> [!NOTE]  
+> Az azonosítótípus megadásakor ügyeljen arra, hogy ne legyen kocsivissza karakter a GUID azonosító és a záró címke között. Ha véletlenül kocsivissza karakter kerül az említett helyre, az RMS-ügyfél nem tudja elemezni a visszavonási listát. 
 
-<span id="BKMK_6"></span>
 #### Tartalom visszavonása a tartalom azonosítója alapján
 
         ```
-| ![](images/Cc720208.note(WS.10).gif)Megjegyzés:                                                                                                                                                                   |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Az azonosítótípus megadásakor ügyeljen arra, hogy ne legyen kocsivissza karakter a GUID azonosító és a záró címke között. Ha véletlenül kocsivissza karakter kerül az említett helyre, az RMS-ügyfél nem tudja elemezni a visszavonási listát. |
+> [!NOTE]  
+> Az azonosítótípus megadásakor ügyeljen arra, hogy ne legyen kocsivissza karakter a GUID azonosító és a záró címke között. Ha véletlenül kocsivissza karakter kerül az említett helyre, az RMS-ügyfél nem tudja elemezni a visszavonási listát. 
 
-<span id="BKMK_10"></span>
 #### Résztvevők visszavonása Windows fiók alapján
 
         ```
-| ![](images/Cc720208.note(WS.10).gif)Megjegyzés:                                                                                                                                                                                        |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Az azonosítótípus megadásakor ügyeljen arra, hogy ne legyen kocsivissza karakter a Windows fiók biztonsági azonosítója és a záró címke között. Ha véletlenül kocsivissza karakter kerül az említett helyre, az RMS-ügyfél nem tudja elemezni a visszavonási listát. |
+> [!NOTE]  
+> Az azonosítótípus megadásakor ügyeljen arra, hogy ne legyen kocsivissza karakter a Windows fiók biztonsági azonosítója és a záró címke között. Ha véletlenül kocsivissza karakter kerül az említett helyre, az RMS-ügyfél nem tudja elemezni a visszavonási listát. 
 
-<span id="BKMK_7"></span>
 #### Résztvevők visszavonása Windows Live ID alapján
 
         ```
-| ![](images/Cc720208.note(WS.10).gif)Megjegyzés:                                                                                                                                                                   |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Az azonosítótípus megadásakor ügyeljen arra, hogy ne legyen kocsivissza karakter a PUID azonosító és a záró címke között. Ha véletlenül kocsivissza karakter kerül az említett helyre, az RMS-ügyfél nem tudja elemezni a visszavonási listát. |
+> [!NOTE]  
+> Az azonosítótípus megadásakor ügyeljen arra, hogy ne legyen kocsivissza karakter a PUID azonosító és a záró címke között. Ha véletlenül kocsivissza karakter kerül az említett helyre, az RMS-ügyfél nem tudja elemezni a visszavonási listát. 
 
-<span id="BKMK_8"></span>
 Aláírás beszúrása a visszavonási listába
 ----------------------------------------
 
@@ -145,19 +130,16 @@ A visszavonási listát unicode kódolású fájlként kell mentenie, hogy alá�
 
 4.  Ezután RLsigner.exe programmal szúrja be az aláírást a visszavonási listát tartalmazó fájlba. Ez a program az RMS része. Alapértelmezés szerint a %systemdrive%\\Program Files\\Windows Rights Management Services\\Tools könyvtárban található.
 
-| ![](images/Cc720208.note(WS.10).gif)Megjegyzés:           |
-|----------------------------------------------------------------------------------------|
-| Az RLsigner.exe program nem teszi lehetővé a szóközt tartalmazó fájlnevek használatát. |
+> [!NOTE]  
+> Az RLsigner.exe program nem teszi lehetővé a szóközt tartalmazó fájlnevek használatát. 
 
-<span id="BKMK_9"></span>
 Az RLsigner.exe használata
 --------------------------
 
 Az RLsigner.exe program a futtatásakor elsőként a kulcsfájlban megadott személyes kulcs alapján egy aláírást hoz létre. Ezután a visszavonási listát tartalmazó megadott fájl alapján egy kimeneti fájlt állít elő.
 
-| ![](images/Cc720208.Important(WS.10).gif)Fontos:                               |
-|-------------------------------------------------------------------------------------------------------------|
-| A visszavonási listát unicode kódolású fájlként kell mentenie az RLsigner.exe programmal való használathoz. |
+> [!IMPORTANT]  
+> A visszavonási listát unicode kódolású fájlként kell mentenie az RLsigner.exe programmal való használathoz. 
 
 Az RLsigner.exe programmal a visszavonási lista aláírásához írja be a parancssorba a következő parancsot:
 
@@ -168,6 +150,7 @@ A parancs paramétereit az alábbiak alapján adja meg:
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -199,9 +182,8 @@ A parancs paramétereit az alábbiak alapján adja meg:
 </tbody>
 </table>
   
-| ![](images/Cc720208.note(WS.10).gif)Megjegyzés:           |  
-|----------------------------------------------------------------------------------------|  
-| Az RLsigner.exe program nem teszi lehetővé a szóközt tartalmazó fájlnevek használatát. |
+> [!NOTE]  
+> Az RLsigner.exe program nem teszi lehetővé a szóközt tartalmazó fájlnevek használatát. 
   
 A következő példákból megismerheti, hogyan használhatja az RLsigner.exe programot a parancssorból különböző kriptográfiai szolgáltatókkal:
   
@@ -215,6 +197,7 @@ Az RLsigner.exe program visszatérési kódja a sikeres végrehajtást, illetve 
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

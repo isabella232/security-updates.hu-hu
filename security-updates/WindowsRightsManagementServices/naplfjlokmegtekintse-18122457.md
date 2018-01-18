@@ -16,6 +16,7 @@ A naplóbejegyzések átlagos mérete 300 bájt. Az alábbi táblázat a naplób
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
