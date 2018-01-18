@@ -11,9 +11,8 @@ Alapvető infrastruktúra kialakítása
 
 Az infrastruktúra kialakításának módja függ az RMS telepítésének rendszerkövetelményeitől, valamint az infrastruktúra kialakításának bevált módszereitől. Az RMS használatához szükséges alapvető kiszolgálóoldali környezet a következőkből áll: tartományvezérlő, adatbázis-kiszolgáló és legfelső szintű tanúsítási kiszolgálóként konfigurált RMS kiszolgáló. A következő témakörök bemutatják az infrastruktúra ezen összetevőinek kialakítását, valamint kiegészítő tudnivalókat is tartalmaznak az összetevők bevezetéséről.
 
-| ![](images/Cc720243.note(WS.10).gif)Megjegyzés:                                                                                                                                                                        |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Az RMS bevezetésének feltétele, hogy az RMS kiszolgálóval használni kívánt ügyfélszámítógépekre telepítve legyen az RMS ügyfélszoftvere. Az RMS ügyfélszoftvere letölthető a [Microsoft webhelyéről](http://go.microsoft.com/fwlink/?linkid=18134). |
+> [!NOTE]  
+> Az RMS bevezetésének feltétele, hogy az RMS kiszolgálóval használni kívánt ügyfélszámítógépekre telepítve legyen az RMS ügyfélszoftvere. Az RMS ügyfélszoftvere letölthető a [Microsoft webhelyéről](http://go.microsoft.com/fwlink/?linkid=18134). 
 
 A témakör tartalma:
 

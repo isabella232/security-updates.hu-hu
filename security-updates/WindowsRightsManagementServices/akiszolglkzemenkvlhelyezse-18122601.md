@@ -22,14 +22,12 @@ Kiszolgáló üzemen kívül helyezése előtt feltétlenül készítsen biztons
 Az adatbázisok biztonsági mentését követően eltávolíthatja a kiszolgálót. Az RMS kiszolgálók eltávolításának követelményeit a kiszolgálók szerepe és az RMS-telepítés topológiája határozza meg:
 
 -   **Egy kiszolgáló eltávolítása fürtből**. Ha az üzemen kívül helyezni kívánt RMS-kiszolgáló olyan fürt tagja, amelyben a többi RMS-kiszolgáló aktív marad, az adott RMS-kiszolgáló fürtből való eltávolításához előbb szüntesse meg, és távolítsa el az RMS-szolgáltatást az üzemen kívül helyezendő kiszolgálón, majd távolítsa el a hardvert a fürtből, végül archiválja az adatbázisokat.
-    | ![](images/Cc747568.note(WS.10).gif)Megjegyzés:                                                                                            |
-    |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | Az RMS eltávolítása előtt csak a legfelső szintű telepítési fürtben lévő kiszolgálókat kell megszüntetni. A licenckiszolgálóknál nem kell végrehajtani ezt a műveletet. |
+    > [!NOTE]  
+    > Az RMS eltávolítása előtt csak a legfelső szintű telepítési fürtben lévő kiszolgálókat kell megszüntetni. A licenckiszolgálóknál nem kell végrehajtani ezt a műveletet. 
 
 -   **Különálló kiszolgáló üzemen kívül helyezése**. Ha az üzemen kívül helyezni kívánt RMS-kiszolgáló különálló RMS-kiszolgáló (vagyis nem tagja egy több kiszolgálóból álló fürtnek), amelyet új kiszolgálóval kíván helyettesíteni, hajtsa végre a következő műveletet: szüntesse meg és távolítsa el a meglévő RMS-kiszolgálót, távolítsa el a hálózatból, majd ezt követően telepítse és létesítse az RMS-szolgáltatást az új kiszolgálón. Az új RMS-kiszolgálón adja meg azt az URL-címet és konfigurációs adatbázist, amelyet az üzemen kívül helyezett RMS-kiszolgáló használt. Ne feledkezzen el arról, hogy az új kiszolgáló telepítéséig és létesítéséig a felhasználók nem érhetik el az üzemen kívül helyezett kiszolgáló által közzétett tartalmat.
-    | ![](images/Cc747568.Important(WS.10).gif)Fontos:                                                                                                                                                                                                                |
-    |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | Ha a lecserélt RMS-kiszolgálón hardveres biztonsági modul működik, a biztonsági környezetet még az előtt át kell helyezni az új kiszolgálóra, mielőtt telepítené és létesítené rajta az RMS-szolgáltatást. Erről a hardveres biztonsági modulhoz mellékelt dokumentáció nyújt tájékoztatást. |
+    > [!IMPORTANT]  
+    > Ha a lecserélt RMS-kiszolgálón hardveres biztonsági modul működik, a biztonsági környezetet még az előtt át kell helyezni az új kiszolgálóra, mielőtt telepítené és létesítené rajta az RMS-szolgáltatást. Erről a hardveres biztonsági modulhoz mellékelt dokumentáció nyújt tájékoztatást. 
 
 -   **RMS-telepítés felváltása másik meglévő RMS-telepítéssel**. Egyes esetekben előfordulhat, hogy üzemen kívül kell helyeznie egy RMS-telepítést, és egy meglévő RMS-telepítéssel kell felváltania, például vállalategyesítésnél, ha mindkét vállalat futtatja az RMS szolgáltatást.
 

@@ -20,4 +20,5 @@ Az RMS beállítható úgy is, hogy feldolgozza a jogosult külső felhasználó
 A szakasz tartalma:
 
 -   [Használati licenc megszerzése](https://technet.microsoft.com/0b6cde34-418a-4dee-9d27-b65b93b535ac)
+
 -   [A használati licencek és a külső felhasználók](https://technet.microsoft.com/02db9bda-180e-438f-863d-26252083a471)

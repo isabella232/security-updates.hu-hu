@@ -37,9 +37,8 @@ A kiszolgálók tanúsítási és licencelési fürtbe történő felvétele alk
 -   Ha külön licenckiszolgálót létesít, a legfelső szintű tanúsítási kiszolgáló létesítéséhez hasonló módon meg kell adnia a konfigurációs adatbázist, az RMS szolgáltatásfiókját, a fürt URL-címét, valamint a személyes kulcs védelmével kapcsolatos információkat. Nem szükséges viszont megadni a kiszolgálói licencelői tanúsítvány visszavonási szabályzatát, ekkor ezt a szabályzatot a legfelső szintű tanúsítási kiszolgáló határozza meg.
 -   Ha egy kiszolgálót fürt tagjaként létesít, a létesítés során csak az RMS szolgáltatásfiókját, a konfigurációs adatbázist és a személyes kulcsot védő jelszót (itt használható a meglévő fürtével megegyező CSP és személyes kulcs is) kell megadni. Az azonos fürtbe tartozó kiszolgálók ugyanazt a kiszolgálói licencelői tanúsítványt és kiszolgálói kulcspárt használják.
 
-| ![](images/Cc720189.Important(WS.10).gif)Fontos:                                                                                                  |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Addig ne kezdje el az RMS szolgáltatást más kiszolgálókra telepíteni, amíg az első kiszolgálón üzembe nem helyezte a szolgáltatást, a telepítést és a létesítést is beleértve. |
+> [!IMPORTANT]  
+> Addig ne kezdje el az RMS szolgáltatást más kiszolgálókra telepíteni, amíg az első kiszolgálón üzembe nem helyezte a szolgáltatást, a telepítést és a létesítést is beleértve. 
 
 Az újabb kiszolgáló telepítése és létesítése után automatikusan tagjává válik a fürtnek. Ha viszont terheléselosztás is működik, akkor a terheléselosztó szoftvert be kell állítani, hogy az új kiszolgálóval is működjön.
 

@@ -21,9 +21,9 @@ A Windows Server 2003 rendszer 64 bites verziójával működő számítógépe
 
 Az alábbi táblázat azokat a bejegyzéseket tartalmazza, amelyeknek létrehozásával felülbírálhatók az Active Directory kapcsolatkészlet alapértelmezett beállításai. A táblázatban az alapértelmezett értékek vannak feltüntetve. Ha továbbiakat szeretne megtudni arról, hogy az RMS hogyan állítja össze a lekérdezéslistát, és hogyan használja ezeket a beállításokat, olvassa el „Az Active Directory-kapcsolatkészlet beállításainak optimalizálása” című témakört.
 
-###  
 
  
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -136,6 +136,5 @@ Az alábbi táblázat azokat a bejegyzéseket tartalmazza, amelyeknek létrehoz�
 </tbody>
 </table>
   
-| ![](images/Cc747660.Caution(WS.10).gif)Figyelmeztetés:                                                                                                                        |  
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| A rendszerleíró adatbázis nem megfelelő módosítása súlyos károkat okozhat a rendszerben. A rendszerleíró adatbázis módosítása előtt készítsen biztonsági másolatot a számítógépen tárolt fontos adatokról. |
+> [!CAUTION]  
+> A rendszerleíró adatbázis nem megfelelő módosítása súlyos károkat okozhat a rendszerben. A rendszerleíró adatbázis módosítása előtt készítsen biztonsági másolatot a számítógépen tárolt fontos adatokról. 

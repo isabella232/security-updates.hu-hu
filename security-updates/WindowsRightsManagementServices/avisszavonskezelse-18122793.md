@@ -16,7 +16,11 @@ Ez a témakör a visszavonási szabályzatok megadásának alapvető szempontjai
 A témakör tartalma:
 
 -   [Visszavonási szabályzatok definiálása](https://technet.microsoft.com/e2fffe9f-def7-439b-a8aa-43f8a065813d)
+
 -   [A visszavonás megvalósítása](https://technet.microsoft.com/4735f060-7197-4ae2-830a-f91bcc4de30a)
+
 -   [Visszavonási listák létrehozása](https://technet.microsoft.com/1ef75199-3344-4225-84de-a863a777696a)
+
 -   [A visszavonási listák alkalmazása](https://technet.microsoft.com/e331338b-66d4-45e4-8d3f-acccf2302ac4)
+
 -   [Kiszolgálói licencelői tanúsítványok visszavonása](https://technet.microsoft.com/8020861d-d196-4431-8282-044675ef5616)

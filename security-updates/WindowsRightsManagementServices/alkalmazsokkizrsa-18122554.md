@@ -32,9 +32,8 @@ Alkalmazások kizárása vagy a kizárás leállítása
 
     Ha törölni szeretne egy alkalmazást (vagy összetevőt) a kizárási listáról, jelölje ki a megfelelő fájlnevet, majd kattintson **A kijelölt alkalmazások törlése a kizárási listáról** elemre.
 
-    | ![](images/Cc720262.note(WS.10).gif)Megjegyzés:                                                                                                                                                                                                                        |
-    |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | Az RMS négy számjegyű, pontokkal elválasztott verziószámot (\#.\#.\#.\# ) igényel. Egyes alkalmazások azonban két vagy három számjegyből álló, ponttal elválasztott verziószámot adnak meg. Ilyenkor a .0 karakterek hozzáfűzésével alakíthatja át a verziószámot az RMS által igényelt formátumra. |
+    > [!NOTE]  
+    > Az RMS négy számjegyű, pontokkal elválasztott verziószámot (\#.\#.\#.\# ) igényel. Egyes alkalmazások azonban két vagy három számjegyből álló, ponttal elválasztott verziószámot adnak meg. Ilyenkor a .0 karakterek hozzáfűzésével alakíthatja át a verziószámot az RMS által igényelt formátumra. 
 
 #### Az alkalmazások kizárásának leállítása
 

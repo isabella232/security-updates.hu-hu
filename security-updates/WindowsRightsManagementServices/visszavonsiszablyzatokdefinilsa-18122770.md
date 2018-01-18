@@ -18,9 +18,8 @@ Mivel az RMS-telepítés legfelső szintű tanúsítási kiszolgálójának lice
 
 A Microsoft igénylési szolgáltatása mellett külső fél is kijelölhető egy RMS kiszolgáló licencelői tanúsítványának visszavonására. Ez a harmadik fél lehet egy külső entitás, illetve egy nyilvános vagy személyes kulcspár, amelyet a rendszergazda állít elő a szervezet nevében. A megadott külső fél személyes kulcsa aláírhat egy olyan visszavonási listát, amely visszavonja a kiszolgálói licencelői tanúsítványt. A harmadik fél megadása nyilvános kulcsával az RMS létesítése során történik. A kiszolgáló jogmegadási sablonjai úgy is definiálhatók, hogy lehetővé tegyék a külső felek számára az RMS-telepítéssel kiadott tartalom, alkalmazási jegyzékfájlok, licencek és tanúsítványok visszavonását. A további tudnivalókat lásd: „[A jogmegadási sablonok létrehozása és módosítása](https://technet.microsoft.com/6014176f-ef71-4d29-b3e3-da129c18563d)”.
 
-| ![](images/Cc747782.Important(WS.10).gif)Fontos:                                                                                                     |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Ha a legfelső szintű tanúsítási kiszolgáló licencelői tanúsítványának visszavonásához saját kulcspár előállítása mellett dönt, ügyeljen ennek biztonságos helyen való tárolására. |
+> [!IMPORTANT]  
+> Ha a legfelső szintű tanúsítási kiszolgáló licencelői tanúsítványának visszavonásához saját kulcspár előállítása mellett dönt, ügyeljen ennek biztonságos helyen való tárolására. 
 
 A kiszolgálói licencelői tanúsítvány visszavonása fontos döntés, mert ezzel az RMS-telepítéssel kiadott összes tanúsítvány és licenc érvénytelenné válik. A kiszolgálói licencelői tanúsítványok visszavonásáról a további tudnivalókat lásd: „[Kiszolgálói licencelői tanúsítványok visszavonása](https://technet.microsoft.com/8020861d-d196-4431-8282-044675ef5616)”.
 

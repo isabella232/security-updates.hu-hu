@@ -22,6 +22,7 @@ Mielőtt hozzálátna a konfiguráláshoz, tudnia kell a választ az alábbi ké
 A WSUS 3.0 SP2 szolgáltatás alapértelmezés szerint a Microsoft Update webhelyről tölti le a frissítéseket. Ha azonban proxykiszolgáló is működik a hálózaton, azt is beállíthatja, hogy a WSUS 3.0 SP2 a proxykiszolgálót használja. Ha vállalati tűzfal választja el egymástól a WSUS szolgáltatást és az internetet, lehetséges, hogy módosítani kell a tűzfal beállításait ahhoz, hogy a WSUS le tudja tölteni a frissítéseket.
 
  
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -64,6 +65,7 @@ A 3. lépésben a következő műveleteket kell végrehajtani:
     -   http://ntservicepack.microsoft.com
 
  
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -112,6 +114,7 @@ A következő két művelet feltételezi, hogy a konfigurálást a WSUS felügye
 -   A WSUS felügyeleti konzol elindításához mutasson a **Start** menü **Minden program** pontjára, majd a **Felügyeleti eszközök** pontra, és kattintson a **Microsoft Windows Server Update Services 3.0** parancsra.
 
  
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />

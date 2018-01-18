@@ -14,9 +14,15 @@ Ez a rész az RMS bevezetéséhez és kezeléséhez szolgál további tudnivaló
 A témakör tartalma:
 
 -   [Az RMS adatbázistáblái](https://technet.microsoft.com/a2598d74-c81f-4e1b-8839-1514cd054354)
+
 -   [Az RMS rendszerleíró kulcsainak beállításai](https://technet.microsoft.com/bdb5c787-1810-45e9-bbb3-d0c2c04ca282)
+
 -   [Az RMS teljesítményszámlálói](https://technet.microsoft.com/a2f4e30d-3c6f-4e74-bd11-8f2103f88b0c)
+
 -   [A rendszer figyelése a Microsoft Operations Manager segítségével](https://technet.microsoft.com/ce372598-7421-4f1f-b8eb-f62da26e85d1)
+
 -   [RMS – a jogok és az XrML](https://technet.microsoft.com/7eb5cdd1-cd48-4b2b-96b6-fc74f7b42e7f)
+
 -   [Az RMS kiszolgálószoftver telepítése parancssorból](https://technet.microsoft.com/b55b1e2a-dd14-4168-a37f-9cdedbec660b)
+
 -   [Az RMS további forrásai](https://technet.microsoft.com/8c41923b-e266-4a97-ae0e-10c9558b896a)
