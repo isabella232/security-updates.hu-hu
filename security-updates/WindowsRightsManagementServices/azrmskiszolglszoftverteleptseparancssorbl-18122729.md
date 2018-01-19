@@ -28,6 +28,7 @@ A következő táblázat a parancsok szintaxisát ismerteti.
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -63,6 +64,5 @@ A következő táblázat a parancsok szintaxisát ismerteti.
 </tbody>
 </table>
   
-| ![](images/Cc747733.note(WS.10).gif)Megjegyzés:                                                                                                                                                             |  
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| Bármelyik telepítési módszer választásakor biztosítani kell mindkét .msi fájl sikeres telepítését. Ha olyan hiba fordul elő, amely megakadályozza az MSDrmClient.msi telepítését, az RMClientBackCompat.msi fájlt nem szabad telepíteni. |
+> [!NOTE]  
+> Bármelyik telepítési módszer választásakor biztosítani kell mindkét .msi fájl sikeres telepítését. Ha olyan hiba fordul elő, amely megakadályozza az MSDrmClient.msi telepítését, az RMClientBackCompat.msi fájlt nem szabad telepíteni. 

@@ -14,6 +14,7 @@ Ha fürtben vezeti be az RMS szolgáltatást, feltétlenül gondolja át, hogyan
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -37,6 +38,7 @@ Ha fürtben vezeti be az RMS szolgáltatást, feltétlenül gondolja át, hogyan
 <tr class="odd">
 <td style="border:1px solid black;">Két olyan hálózati kártya, amelyek virtuális IP-címzés segítségével az extranetes és az intranetes kérelmeket egyaránt kiszolgálják.</td>
 <td style="border:1px solid black;">Ügyeljen arra, hogy minden olyan DNS-regisztráció, amely az extranet irányában közzéteszi a virtuális IP-címet, megtörténjen az intranet irányában is.
+<br/><br/>
 Ha nincs DNS-regisztráció az intranet oldalán, sikertelenek lesznek a használati licenc iránti belső kérelmek. Ha nem módosíthatók a DNS erőforrásrekordjai, a fürtbe tartozó minden kiszolgálón módosítani lehet az állomástáblát úgy, hogy a fürt URL-címét hozzárendelje a fürt virtuális IP-címéhez. A DNS-regisztrációnak még az RMS létesítése előtt meg kell történnie. Ha már létesítette az RMS szolgáltatást, előbb meg kell szüntetni, majd meg kell ismételni a létesítési folyamatot.</td>
 </tr>
 </tbody>

@@ -19,9 +19,9 @@ A teljesítmény viszonyítási alapjának megállapításához az RMS rendszert
 
 Az alábbi számadatok segítséget nyújtanak az RMS rendszerrel szembeni felhasználási követelmények megbecsléséhez a kapacitástervezés során.
 
-###  
 
  
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -63,9 +63,9 @@ Ezenkívül az Active Directory-lekérdezésekkel járó forgalom is hatással v
   
 A következő táblázatban az RMS-tranzakciók sávszélesség-felhasználásra vonatkozó adatai olvashatók, amelyek alapján felmérhető, hogy mekkora hatást fejt ki az Active Directory-lekérdezések forgalma az adott hálózatra.
   
-###  
 
  
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />

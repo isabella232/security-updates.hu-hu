@@ -22,8 +22,11 @@ Amikor egy RMS-kompatibilis alkalmazás használati licencet igényel, a kérele
 A fióktanúsítási folyamat a következő lépésekből áll:
 
 1.  Amikor egy felhasználó adott számítógépen először tesz közzé RMS-védelemmel ellátott tartalmat, vagy először próbál meg RMS-védelemmel ellátott tartalmat használni, az RMS-kompatibilis alkalmazás tartalomvédelmi fióktanúsítványt kérelmez a legfelső szintű tanúsítási kiszolgálón futó fióktanúsítási szolgáltatásától.
+
 2.  A fióktanúsítási szolgáltatás a Windows-hitelesítés segítségével hitelesíti a felhasználót.
+
 3.  A fióktanúsítási szolgáltatás a hitelesítő adatok alapján létrehoz a felhasználónak egy tartalomvédelmi fióktanúsítványt. Titkosítja a felhasználó személyes kulcsát az RMS-géptanúsítvány nyilvános kulcsával, majd a titkosított kulcsot elhelyezi a tanúsítványban. Ezután kiadja a tartalomvédelmi fióktanúsítványt a kérelmező alkalmazásnak.
+
 4.  Az alkalmazás a számítógépen vagy az eszközön tárolja a tartalomvédelmi fióktanúsítványt, így az rendelkezésre áll az ezt követő közzétételi vagy használati licenckérelmekhez.
 
 A tartalomvédelmi fióktanúsítvány kérelmezéséhez használt fióktanúsítási szolgáltatás az RMS ügyfélszoftverét futtató számítógép típusától függ. A szokásos asztali számítógépek a fióktanúsítási szolgáltatáshoz (certification.asmx) kapcsolódnak. Az RMS SP1 verzióban engedélyezett kiszolgálószolgáltatások a kiszolgálótanúsítási szolgáltatástól (ServeCertfication.asmx) kapják a tartalomvédelmi fióktanúsítványt. Az RMS SP1 verzióban engedélyezett mobil eszközök a mobil eszközök tanúsítási szolgáltatásától (MobileDeviceCertfication.asmx) kapják a tartalomvédelmi fióktanúsítványt. Az RMS SP 1 alapértelmezés szerinti telepítésénél csak a fióktanúsítási szolgáltatás van engedélyezve.

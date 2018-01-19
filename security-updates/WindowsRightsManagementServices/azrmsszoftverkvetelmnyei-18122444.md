@@ -11,9 +11,8 @@ Az RMS szoftverkövetelményei
 
 Az RMS kiszolgálók működéséhez szükséges szoftverfeltételeket a következő táblázat ismerteti.
 
-###  
 
- 
+<p> </p> 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -96,10 +95,9 @@ Az RMS nem a .NET Framework 2.0 verzióhoz lett kialakítva. A megengedett mell
   
 Az Active Directory, a Message Queuing és az IIS szolgáltatás részletes ismertetését lásd a Windows Server 2003 súgójában.
   
-| ![](images/Cc720201.Caution(WS.10).gif)Figyelmeztetés:                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |  
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| Az RMS kiszolgáló létesíthető az alapértelmezett webhelyen, illetve bármely olyan helyen, amelyet korábban definiált az IIS szolgáltatásban. Biztonsági szempontok miatt ezen a kiszolgálón nem tanácsos más webhelyet és szolgáltatást futtatni. Ellenkező esetben több alkalmazás és szolgáltatás futhat az RMS-szolgáltatással azonos fiókkal (különösképpen a Helyi rendszerfiókkal), ami azt a veszélyt rejti magában, hogy jogosulatlan műveleteket hajtanak végre személyes kulcsokkal. Ne létesítse az RMS kiszolgálót ugyanazon a webhelyen, amelyiken a Microsoft Office SharePoint Server 2007 fut. Az RMS nem használható Kerberos-hitelesítéssel. Amikor létesítik az RMS kiszolgálót egy webhelyen, a rendszer a letiltja Kerberos-hitelesítést azon a kiszolgálón. Ha az RMS nem lett az ASP.NET v1.1.4322 verzióra konfigurálva, nem történik naplózás a naplózási adatbázisban, ez adatveszteséget eredményez. |
-  
+> [!CAUTION]
+> Az RMS kiszolgáló létesíthető az alapértelmezett webhelyen, illetve bármely olyan helyen, amelyet korábban definiált az IIS szolgáltatásban. Biztonsági szempontok miatt ezen a kiszolgálón nem tanácsos más webhelyet és szolgáltatást futtatni. Ellenkező esetben több alkalmazás és szolgáltatás futhat az RMS-szolgáltatással azonos fiókkal (különösképpen a Helyi rendszerfiókkal), ami azt a veszélyt rejti magában, hogy jogosulatlan műveleteket hajtanak végre személyes kulcsokkal. Ne létesítse az RMS kiszolgálót ugyanazon a webhelyen, amelyiken a Microsoft Office SharePoint Server 2007 fut. Az RMS nem használható Kerberos-hitelesítéssel. Amikor létesítik az RMS kiszolgálót egy webhelyen, a rendszer a letiltja Kerberos-hitelesítést azon a kiszolgálón. Ha az RMS nem lett az ASP.NET v1.1.4322 verzióra konfigurálva, nem történik naplózás a naplózási adatbázisban, ez adatveszteséget eredményez.
+
 Lásd még  
 --------
   

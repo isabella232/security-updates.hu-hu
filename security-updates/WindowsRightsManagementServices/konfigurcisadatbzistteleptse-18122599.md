@@ -18,9 +18,8 @@ A konfigurációs adatbázis áttelepítésének elindítása előtt ellenőrizz
 -   Az RMS fürtben az adott adatbázist használó kiszolgálók létesítéséhez eredetileg használt fióknév és jelszó.
 -   Ha szoftver alapú titkosításszolgáltatót (CSP) használt az RMS titkos kulcsának tárolásához, a létesítés során az RMS titkos kulcsához eredetileg megadott jelszó. Ha hardveres biztonsági modult (HSM) használt az RMS titkos kulcsa jelszavának tárolásához, erre nincs szükség.
 
-| ![](images/Cc747607.note(WS.10).gif)Megjegyzés:                                                                                                                                          |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| A konfigurációs adatbázis áttelepítésekor nincs szükség új kiszolgálói licencelői tanúsítványra vagy kiszolgálói titkos kulcsra, mivel az RMS megtartja az eredeti konfigurációs adatbázisból származó beállításokat. |
+> [!NOTE]  
+> A konfigurációs adatbázis áttelepítésekor nincs szükség új kiszolgálói licencelői tanúsítványra vagy kiszolgálói titkos kulcsra, mivel az RMS megtartja az eredeti konfigurációs adatbázisból származó beállításokat. 
 
 Az adatbázis-kiszolgálón végzett bármely műveletet előtt biztonsági másolatot kell készítenie az RMS adatbázisairól. Ha ez nem lehetséges, kiszolgálói licencelői tanúsítványát mindenképpen exportálnia kell. A kiszolgálói licencelői tanúsítvány exportálásáról a további tudnivalókat lásd: [A kiszolgáló licencelői tanúsítványának exportálása fájlba](https://technet.microsoft.com/d683a629-71b3-4b11-932b-4ab0317334af). Ha hiba fordul elő az adatbázisok áttelepítésekor, az RMS új telepítésébe importálhatja a kiszolgálói licencelői tanúsítványt, és használhatja a korábbi telepítésben tartalomvédelemmel ellátott adatokat.
 
@@ -29,9 +28,8 @@ Konfigurációs adatbázis áttelepítéséhez hajtsa végre a következő lép�
 -   Frissítse az RMS konfigurációs adatbázisát, hogy az új adatbázis-kiszolgáló nevét tartalmazza.
 -   Frissítse a web.config fájlokat és a beállításjegyzéket az RMS fürt egyes kiszolgálóin, hogy az új adatbázis-kiszolgáló nevét használják
 
-| ![](images/Cc747607.Important(WS.10).gif)Fontos:                         |
-|-------------------------------------------------------------------------------------------------------|
-| Ez a témakör feltételezi, hogy az RMS adatbázisai már át lettek másolva az új adatbázis-kiszolgálóra. |
+> [!IMPORTANT]  
+> Ez a témakör feltételezi, hogy az RMS adatbázisai már át lettek másolva az új adatbázis-kiszolgálóra. 
 
 Frissítse az RMS konfigurációs adatbázisát, hogy az új adatbázis-kiszolgáló nevét használja
 -------------------------------------------------------------------------------------------
@@ -130,9 +128,8 @@ A web.config fájlok frissítése az RMS fürt egyes kiszolgálóin:
 
 Végül frissítse a beállításjegyzéket az RMS fürt egyes kiszolgálóin, hogy az új adatbázis-kiszolgáló nevét használják:
 
-| ![](images/Cc747607.Caution(WS.10).gif)Figyelmeztetés:                                                                                                     |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| A rendszerleíró adatbázis nem megfelelő módosítása súlyosan károsíthatja a rendszert. Mielőtt szerkeszti a rendszerleíró adatbázist, készítsen biztonsági másolatot a fontos adatokról. |
+> [!CAUTION]  
+> A rendszerleíró adatbázis nem megfelelő módosítása súlyosan károsíthatja a rendszert. Mielőtt szerkeszti a rendszerleíró adatbázist, készítsen biztonsági másolatot a fontos adatokról. 
 
 **A beállításjegyzék frissítése az RMS fürt egyes kiszolgálóin**
 1.  Jelentkezzen be az RMS fürt valamelyik kiszolgálójára a helyi Rendszergazdák csoport tagjaként.

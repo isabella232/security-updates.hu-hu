@@ -11,9 +11,8 @@ Az RMS rendszerleíró kulcsainak beállításai
 
 A rendszerleíró kulcsok módosításával különböző szempontokból tesztelhető a bevezetett rendszer, valamint kezelhető annak teljesítménye.
 
-| ![](images/Cc747740.Caution(WS.10).gif)Figyelmeztetés:                                                                                                                        |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| A rendszerleíró adatbázis nem megfelelő módosítása súlyos károkat okozhat a rendszerben. A rendszerleíró adatbázis módosítása előtt készítsen biztonsági másolatot a számítógépen tárolt fontos adatokról. |
+> [!CAUTION]
+> A rendszerleíró adatbázis nem megfelelő módosítása súlyos károkat okozhat a rendszerben. A rendszerleíró adatbázis módosítása előtt készítsen biztonsági másolatot a számítógépen tárolt fontos adatokról.
 
 A témakör tartalma:
 

@@ -13,13 +13,11 @@ A művelet végrehajtásához helyben kell bejelentkeznie a felügyeleti webhely
 
 A **Globális felügyelet** lap megnyitásához kattintson a **Start** gombra, és válassza a **Minden program**, a **Windows RMS**, majd a **Windows RMS felügyeleti webhely** parancsot.
 
-| ![](images/Cc747665.Warning(WS.10).gif)Figyelmeztetés:                            |
-|----------------------------------------------------------------------------------------------------------------|
-| A leszerelt kiszolgálókon nem állítható vissza a szabványos RMS-konfiguráció. Ez a művelet nem vonható vissza. |
+> [!WARNING]  
+> A leszerelt kiszolgálókon nem állítható vissza a szabványos RMS-konfiguráció. Ez a művelet nem vonható vissza. 
 
-| ![](images/Cc747665.Warning(WS.10).gif)Figyelmeztetés:                                                                                |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Az RMS leszerelése után újabb RMS példány csak akkor telepíthető, ha előbb a Programok telepítése és törlése segédprogrammal teljesen eltávolítja a szolgáltatást. |
+> [!WARNING]  
+> Az RMS leszerelése után újabb RMS példány csak akkor telepíthető, ha előbb a Programok telepítése és törlése segédprogrammal teljesen eltávolítja a szolgáltatást. 
 
 Az RMS leszerelése
 ------------------

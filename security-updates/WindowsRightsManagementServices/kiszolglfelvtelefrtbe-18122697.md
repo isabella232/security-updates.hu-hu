@@ -26,15 +26,13 @@ Kiszolgáló felvétele fürtbe
 
 2.  Keresse meg azt a webhelyet, amelyen létesíteni kívánja az RMS-szolgáltatást, majd kattintson a mellette látható **A kiszolgáló hozzáadása egy fürthöz** hivatkozásra. Megadhatja az alapértelmezés szerinti webhelyet, vagy választhatja az Internet Information Services (IIS) szolgáltatásban erre a célra létrehozott webhelyet is.
 
-    | ![](images/Cc747690.Warning(WS.10).gif)Figyelmeztetés:                                                                                                                                                                                                                                                                       |
-    |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | Nem támogatott megoldás, ha az RMS-szolgáltatást futtató kiszolgálón más webhelyek vagy szolgáltatások is futnak. Ez esetben ugyanis több alkalmazás és szolgáltatás futhat az RMS-szolgáltatással azonos fiókkal (különösképpen a Helyi rendszerfiókkal), ami azt a veszélyt rejti, hogy jogosulatlan műveleteket hajtanak végre a személyes kulcsokkal. |
+    > [!WARNING]  
+    > Nem támogatott megoldás, ha az RMS-szolgáltatást futtató kiszolgálón más webhelyek vagy szolgáltatások is futnak. Ez esetben ugyanis több alkalmazás és szolgáltatás futhat az RMS-szolgáltatással azonos fiókkal (különösképpen a Helyi rendszerfiókkal), ami azt a veszélyt rejti, hogy jogosulatlan műveleteket hajtanak végre a személyes kulcsokkal.
 
 3.  Az **RMS szolgáltatásfiókja** csoportban írja be az RMS szolgáltatásfiókjának nevét (tartománynév\\felhasználónév formátumban) és jelszavát. A szokásos műveletek többségénél ezzel a fiókkal fut majd az RMS. A fióknak tartományi fióknak kell lennie. A fürt összes kiszolgálójának futtatásához ugyanazt az RMS szolgáltatásfiókot kell használni.
 
-    | ![](images/Cc747690.Important(WS.10).gif)Fontos:                                                                                                                                                                                                                               |
-    |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | Biztonsági megfontolásokból célszerű különleges engedélyekkel nem rendelkező, külön felhasználói fiókot létrehozni a Windows RMS szolgáltatásfiókjaként való használatra. Az RMS-szolgáltatásfiók nem egyezhet meg a Windows RMS Service Pack 1 szervizcsomaggal telepítéséhez használt tartományi fiókkal. |
+    > [!IMPORTANT]  
+    > Biztonsági megfontolásokból célszerű különleges engedélyekkel nem rendelkező, külön felhasználói fiókot létrehozni a Windows RMS szolgáltatásfiókjaként való használatra. Az RMS-szolgáltatásfiók nem egyezhet meg a Windows RMS Service Pack 1 szervizcsomaggal telepítéséhez használt tartományi fiókkal.
 
 4.  A **Konfigurációs adatbázis** csoportban írja be az adatbázis-kiszolgáló nevét, valamint a fürt konfigurációs adatbázisának nevét. Az itt megadott adatbázis határozza meg, hogy melyik fürthöz csatlakozik a kiszolgáló.
 

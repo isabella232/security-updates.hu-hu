@@ -29,14 +29,13 @@ Tartalomvédelmi fióktanúsítványok kizárása
 4.  Válassza ki a kizárni kívánt fióktanúsítvány meghatározásának módját:
 
     -   Ha a fióktanúsítványt a felhasználónév alapján szeretné kizárni, kattintson **A kizárandó tartalomvédelmi fióktanúsítvány felhasználóneve** beállításra, írja be a kizárni kívánt felhasználó nevét (a *felhasználónév*@*tartománynév*.com formában), majd kattintson a **Hozzáadás** gombra. Ezt a beállítást az Active Directory felhasználói fiókkal rendelkező belső felhasználók fióktanúsítványának kizárásához használja.
+
     -   Ha a fióktanúsítványt annak nyilvános kulcsa alapján szeretné kizárni, kattintson **A kizárandó tartalomvédelmi fióktanúsítvány nyilvánoskulcs-karakterlánca** beállításra, írja be a megfelelő tartalomvédelmi fióktanúsítvány nyilvános kulcsát, majd kattintson a **Hozzáadás** gombra. Ezt a beállítást az Active Directory felhasználói fiókkal nem rendelkező külső felhasználók fióktanúsítványának kizárásához használja.
 
-    | ![](images/Cc747785.note(WS.10).gif)Megjegyzés:                                                                                                                                                                                                                                                                     |
-    |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | Ha törölni szeretne egy fióktanúsítványt a kizárási listáról, kattintson a listában a kizárt tartalomvédelmi fióktanúsítványra, majd **A kijelölt nyilvános kulcsok törlése a kizárási listáról** elemre. Az adott fióktanúsítvánnyal rendelkező felhasználó ezután kérhet licencet az RMS-védelemmel ellátott tartalomhoz az adott kiszolgálón. |
+    > [!NOTE]  
+    > Ha törölni szeretne egy fióktanúsítványt a kizárási listáról, kattintson a listában a kizárt tartalomvédelmi fióktanúsítványra, majd **A kijelölt nyilvános kulcsok törlése a kizárási listáról** elemre. Az adott fióktanúsítvánnyal rendelkező felhasználó ezután kérhet licencet az RMS-védelemmel ellátott tartalomhoz az adott kiszolgálón.
 
-    | ![](images/Cc747785.note(WS.10).gif)Megjegyzés:                   |
-    |------------------------------------------------------------------------------------------------|
-    | A tartalomvédelmi tanúsítványfiókok kizárásának letiltásához kattintson a **Letiltás** elemre. |
+    > [!NOTE]  
+    > A tartalomvédelmi tanúsítványfiókok kizárásának letiltásához kattintson a **Letiltás** elemre.
 
 Az eljárás végrehajtásáról a további tudnivalókat lásd: „[Tartalomvédelmi fióktanúsítványok kizárása](https://technet.microsoft.com/cba5e901-942c-4d06-9865-e6c4648c95e6)”.

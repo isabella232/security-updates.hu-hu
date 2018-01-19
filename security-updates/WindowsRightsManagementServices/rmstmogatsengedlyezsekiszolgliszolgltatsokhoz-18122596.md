@@ -12,7 +12,9 @@ RMS támogatás engedélyezése kiszolgálói szolgáltatásokhoz
 Az RMS szolgáltathatja a tartalomvédelmi fióktanúsítványokat és használati licenceket az RMS-kompatibilis kiszolgálói alkalmazások részére is. Van néhány dolog, amire figyelni kell a kiszolgálói szolgáltatások konfigurálásakor:
 
 -   A tulajdonosi hozzáférés-szabályozási listák (DACL) az RMS csatornákon alapértelmezésben a legbiztonságosabb beállításokat használják. Az RMS kiszolgálói szolgáltatások használatakor szükség van a DACL módosítására.
+
 -   Ha az RMS ügyfélszoftver Windows Server 2003 alapú kiszolgálóra lett telepítve, és az Internet Explorer fokozott biztonsági beállításai engedélyezettek, az RMS fürtöt fel kell venni az Internet Explorernek a megbízható helyek zónájában lévő URL-címek közé.
+
 -   Sok kiszolgálói szolgáltatás az Active Directory továbbfejlesztett címtárszolgáltatási funkcióját használja, ami csak akkor lehetséges, ha minden Active Directory tartományvezérlő a Windows Server 2003 operációs rendszeren fut. Ha használ ilyen kiszolgálói szolgáltatást (például a Microsoft Office SharePoint Server 2007 vagy a Microsoft Exchange Server 2007), ajánlatos, hogy minden tartományvezérlő a Windows Server 2003 rendszeren fusson, és a tartomány és az erdő Active Directory címtárának a működési szintje a Windows Server 2003 szintje legyen.
 
 Alapértelmezett tulajdonosi hozzáférés-szabályozási lista (DACL) a kiszolgálótanúsítási csatornán
@@ -26,14 +28,12 @@ Amikor az RMS létrehozza ezeket a fájlokat, a fájlok hozzáférés-szabályoz
 
 A csoport létrehozása után a DACL úgy módosítható a ServerCertification.asmx fájl részére, hogy engedélyezze a csoport Olvasás & Végrehajtás engedéllyel való ellátását a szolgáltatáson. Az RMS szolgáltatáscsoportot is fel kell vennie a DACL-listára Olvasás & Végrehajtás engedéllyel.
 
-| ![](images/Cc747593.note(WS.10).gif)Megjegyzés:                                                             |
-|------------------------------------------------------------------------------------------------------------------------------------------|
-| Ha a fürtben több RMS kiszolgáló van, az ServerCertification.asmx fájlhoz tartozó DACL módosítandó a fürtben lévő mindegyik kiszolgálón. |
+> [!NOTE]  
+> Ha a fürtben több RMS kiszolgáló van, az ServerCertification.asmx fájlhoz tartozó DACL módosítandó a fürtben lévő mindegyik kiszolgálón. 
 
 A Microsoft Exchange Server 2007 esetén az Exchange mindegyik hídfőkiszolgálójára vonatkozó Active Directory számítógépobjektumot fel kell venni a kiszolgálói szolgáltatások csoportba. Ha ez nem történik meg, az Exchange hídfőkiszolgáló nem lesz képes licenceket kérelmezni azoknak a felhasználóknak a nevében, akik az e-mailt kapták.
 
 Az Office SharePoint Server 2007 estén annak a kiszolgálónak az Active Directory számítógépobjektumát kell felvenni a kiszolgálói szolgáltatások csoportjába, amelyiken az Office SharePoint Server 2007 fut. Ha az Office SharePoint Server 2007 kiszolgálószoftver úgy lett beállítva, hogy az Active Directory címtárban alapértelmezett kiszolgálót használja, az RMS szolgáltatási csoportot és a kiszolgálói szolgáltatásokhoz létrehozott csoportot fel kell venni az Olvasás & Végrehajtás engedéllyel ellátott ServiceLocater.asmx fájlba.
 
-| ![](images/Cc747593.Important(WS.10).gif)Fontos:                                                                                                                                             |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| A ServerCertification.asmx és a ServiceLocater.asmx fájlhoz tartozó DACL módosítása után szükséges az Internet Information Services (IIS) újraindítása. Az IIS parancssorból az **iisreset** paranccsal állítható vissza. |
+> [!IMPORTANT]  
+> A ServerCertification.asmx és a ServiceLocater.asmx fájlhoz tartozó DACL módosítása után szükséges az Internet Information Services (IIS) újraindítása. Az IIS parancssorból az **iisreset** paranccsal állítható vissza. 

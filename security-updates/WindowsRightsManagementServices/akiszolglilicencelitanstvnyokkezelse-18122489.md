@@ -13,9 +13,9 @@ A kiszolgálói licencelői tanúsítványok megadott idő után lejárnak. Ez a
 
 Az RMS három eseményt jegyez be a Rendszer eseménynaplóba, ezeket figyelemmel kell kísérnie. Ezek az események tájékoztatják arról, hogy a kiszolgálói licencelői tanúsítvány megújítási dátuma közeleg, vagy már lejárt a tanúsítvány. A következő táblázat az események azonosítóját és nevét adja meg.
 
-###  
 
  
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />

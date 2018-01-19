@@ -11,9 +11,8 @@ Az Active Directoryban történő szolgáltatásészlelés felülbírálása
 
 Az RMS szolgáltatásai és ügyfelei először a helyi rendszerleíró adatbázisban keresik a szolgáltatások helyét. Ha a rendszerleíró adatbázis bizonyos kulcsai nem tartalmaznak értéket, az RMS szolgáltatásai és ügyfelei az Active Directoryban keresik a szolgáltatás kapcsolódási pontját (SCP). Ez azt jelenti, hogy ha beír meghatározott kulcsokat a kiszolgáló vagy az ügyfél rendszerleíró adatbázisába, felülbírálhatja az alapértelmezett, az Active Directoryban való észlelést eredményező beállítást.
 
-| ![](images/Cc747614.note(WS.10).gif)Megjegyzés:                                                                                                                 |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Ha az RMS legfelső szintű fürtje úgy van beállítva, hogy az SCP nincs közzétéve az Active Directoryban,ezeket a kulcsokat használhatja a megfelelő hely megadásához az RMS-ügyfelek számára. |
+> [!NOTE]  
+> Ha az RMS legfelső szintű fürtje úgy van beállítva, hogy az SCP nincs közzétéve az Active Directoryban,ezeket a kulcsokat használhatja a megfelelő hely megadásához az RMS-ügyfelek számára. 
 
 Ez a rész ezeket a rendszerleíró bejegyzéseket és létrehozásuk módját ismerteti.
 
@@ -44,6 +43,7 @@ A következő táblázat azokat a bejegyzéseket tartalmazza, amelyek létrehoz�
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -76,16 +76,17 @@ Az ügyféloldali szolgáltatásészlelés felülbírálása közzétételhez
   
 Ha a felhasználók a számítógépükről fogják közzétenni a tartalmat, a vállalatnál alkalmazott topológiának megfelelően felülbírálhatja a közzétételhez használt kiszolgálók helyét. A közzétételhez használt kiszolgálók helyét szokásos esetben az ügyfél az Active Directory segítségével keresi meg. Az ügyfélszámítógépeken megfelelő rendszerleíró kulcsok felvételével elérheti, hogy az ügyfelek a fenti módszer helyett az ezekben megadott URL-címeket fogják használni.
   
-| ![](images/Cc747614.note(WS.10).gif)Megjegyzés:                                                                                                                   |  
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| Az itt bemutatott felülbírálásokat önálló bejegyzés helyett kulcsként kell létrehozni. Ezeknek a kulcsoknak az értékét az egyes kulcsok alapértelmezés szerinti bejegyzésében kell létrehozni. |
+> [!NOTE]  
+> Az itt bemutatott felülbírálásokat önálló bejegyzés helyett kulcsként kell létrehozni. Ezeknek a kulcsoknak az értékét az egyes kulcsok alapértelmezés szerinti bejegyzésében kell létrehozni. 
   
 #### A beállításkulcsok ismertetése
   
 Az RMS fürt automatikus észlelésének felülbírálásához a következő beállításkulcsok használhatók.
   
 -   **Activation**. Ez a beállításkulcs a gépaktiválási szolgáltatás URL-címét adja meg. Ha a Service Pack 1 vagy újabb javítócsomaggal bővített RMS ügyfélszoftvert használ, ez a bejegyzés már nem szerepel.  
+
 -   **EnterprisePublishing**. Ez a beállításkulcs az ügyfél licenckérelmeinél használni kívánt RMS-telepítés URL-címét adja meg.  
+
 -   **CloudPublishing**. Ez a beállításkulcs a Microsoft által működtetett licencelési szolgáltatás URL-címét adja meg, amely akkor használható, ha az ügyfél nem fér hozzá egy RMS-telepítéshez, de az internetet eléri.
   
 #### A kulcsok részletei
@@ -99,6 +100,7 @@ A következő táblázat az RMS ügyfélszámítógépeken a szolgáltatásészl
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -133,9 +135,8 @@ A következő táblázat az RMS ügyfélszámítógépeken a szolgáltatásészl
   
 Azt javasoljuk, hogy a beállításkulcsok megadását a Systems Management Server vagy a Csoportházirend segítségével hajtsa végre annak biztosításához, hogy a vállalatnál az összes ügyfél a megfelelő közzétételi kiszolgálókat használja.
   
-| ![](images/Cc747614.Caution(WS.10).gif)Figyelmeztetés:                                                                                                     |  
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| A rendszerleíró adatbázis nem megfelelő módosítása súlyosan károsíthatja a rendszert. Mielőtt módosítaná a rendszerleíró adatbázist, készítsen biztonsági másolatot a fontos adatokról. |
+> [!CAUTION]  
+> A rendszerleíró adatbázis nem megfelelő módosítása súlyosan károsíthatja a rendszert. Mielőtt módosítaná a rendszerleíró adatbázist, készítsen biztonsági másolatot a fontos adatokról. 
   
 A megfelelő beállításkulcsok importálásához az RMS fürt egyes kiszolgálóira egy mintaként szolgáló beállításfájl (.reg) használható.
   

@@ -14,6 +14,7 @@ Az alábbi táblázatból kiolvasható, hogy a jogmegadási sablonokban kiválas
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

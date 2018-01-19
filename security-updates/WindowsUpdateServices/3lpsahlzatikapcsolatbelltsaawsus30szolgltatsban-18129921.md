@@ -21,9 +21,8 @@ Mielőtt hozzálátna a konfiguráláshoz, tudnia kell a választ az alábbi ké
 
 A szolgáltatás alapértelmezés szerint a Microsoft Update webhelyről tölti le a frissítéseket. Ha viszont proxykiszolgáló is működik a hálózaton, azt is beállíthatja, hogy a WSUS a proxykiszolgálót használja. Ha vállalati tűzfal választja el egymástól a WSUS szolgáltatást és az internetet, módosítani kellhet a tűzfal beállításait ahhoz, hogy a WSUS le tudja tölteni a frissítéseket.
 
-| ![](images/Cc708602.note(WS.10).gif)Megjegyzés:                                                                                                                                                    |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Habár a Microsoft Update webhelyről csak működő internetkapcsolattal lehet frissítéseket letölteni, a WSUS szolgáltatással olyan hálózatokra is importálhatók a szükséges frissítések, amelyek nem férnek hozzá az internethez. |
+> [!NOTE]  
+> Habár a Microsoft Update webhelyről csak működő internetkapcsolattal lehet frissítéseket letölteni, a WSUS szolgáltatással olyan hálózatokra is importálhatók a szükséges frissítések, amelyek nem férnek hozzá az internethez. 
 
 **Az 3. lépésben a következő műveleteket kell végrehajtani**:
 
@@ -48,9 +47,8 @@ A szolgáltatás alapértelmezés szerint a Microsoft Update webhelyről tölti 
     -   http://wustat.windows.com
     -   http://ntservicepack.microsoft.com
 
-| ![](images/Cc708602.note(WS.10).gif)Megjegyzés:                                                                                                                                                                                                                |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| A tűzfal beállítását célzó fenti műveletek a WSUS szolgáltatás és az internet közötti vállalati tűzfalra vonatkoznak. A WSUS-kiszolgálón nincs szükség a Windows tűzfal beállításainak módosítására, hiszen saját hálózati adatforgalmát teljes egészében a WSUS szolgáltatás kezdeményezi. |
+> [!NOTE]  
+> A tűzfal beállítását célzó fenti műveletek a WSUS szolgáltatás és az internet közötti vállalati tűzfalra vonatkoznak. A WSUS-kiszolgálón nincs szükség a Windows tűzfal beállításainak módosítására, hiszen saját hálózati adatforgalmát teljes egészében a WSUS szolgáltatás kezdeményezi. 
 
 Habár a Microsoft Update webhely és a WSUS szolgáltatás közötti kapcsolat megteremtéséhez a 80-as és a 443-as portnak nyitva kell lennie, egyéni port megadásával több WSUS-kiszolgáló is használhatja ugyanazt a portot.
 
@@ -81,9 +79,8 @@ A következő két művelet feltételezi, hogy a konfigurálást a WSUS felügye
 **A WSUS felügyeleti konzol elindítása**
 -   A WSUS felügyeleti konzol elindításához mutasson a **Start** menü **Minden program**, majd **Felügyeleti eszközök** pontjára, végül kattintson a **Microsoft Windows Server Update Services 3.0** parancsra.
 
-| ![](images/Cc708602.note(WS.10).gif)Megjegyzés:                                                                                                                                                                                                       |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| A WSUS-konzol összes szolgáltatását csak a WSUS-kiszolgáló WSUS-rendszergazdák csoportjának és helyi Rendszergazdák biztonsági csoportnak a tagjai használhatják. A WSUS-jelentéskészítők biztonsági csoport tagjainak ugyanakkor van olvasási engedélyük a felügyeleti konzolhoz. |
+> [!NOTE]  
+> A WSUS-konzol összes szolgáltatását csak a WSUS-kiszolgáló WSUS-rendszergazdák csoportjának és helyi Rendszergazdák biztonsági csoportnak a tagjai használhatják. A WSUS-jelentéskészítők biztonsági csoport tagjainak ugyanakkor van olvasási engedélyük a felügyeleti konzolhoz. 
 
 **Frissítési forrás és proxykiszolgáló megadása**
 1.  Kattintson a WSUS-konzol bal oldali panelén, a kiszolgáló neve alatt a **Beállítások**, majd a középső panelen a **Frissítés forrása és proxykiszolgáló** lehetőségre.

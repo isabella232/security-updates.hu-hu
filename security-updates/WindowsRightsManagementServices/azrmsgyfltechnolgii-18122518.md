@@ -14,6 +14,7 @@ Az RMS rendszerbe tartozó ügyfélszámítógépek az alábbi technológiákat 
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -56,7 +57,7 @@ Az RMS rendszerbe tartozó ügyfélszámítógépek az alábbi technológiákat 
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">Ügyfél licencelői tanúsítványok</td>
-<td style="border:1px solid black;">Lehetővé teszik a felhasználóknak, hogy olyankor is közzétehessenek RMS-védelemmel ellátott tartalmat, amikor nincsenek kapcsolatban a hálózattal.
+<td style="border:1px solid black;">Lehetővé teszik a felhasználóknak, hogy olyankor is közzétehessenek RMS-védelemmel ellátott tartalmat, amikor nincsenek kapcsolatban a hálózattal.<br/>
 (Nem kötelező)</td>
 <td style="border:1px solid black;">Az RMS közzétételi szolgáltatása</td>
 <td style="border:1px solid black;">Ügyfél-licencelői tanúsítványok</td>

@@ -19,6 +19,7 @@ A következő táblázat a számítógépek hardverazonosítóira vonatkozó ada
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -64,6 +65,7 @@ A következő táblázat a felhasználók Microsoft® .NET Passport adatairól t
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -103,6 +105,7 @@ A következő táblázat a tanúsítvánnyal ellátott felhasználók és a hozz
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -148,6 +151,7 @@ A következő táblázat a felhasználói adatokkal kapcsolatos információkat 
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -253,6 +257,7 @@ A következő táblázat a Windows által hitelesített és tanúsítvánnyal el
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />

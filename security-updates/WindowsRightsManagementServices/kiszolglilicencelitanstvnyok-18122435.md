@@ -18,6 +18,7 @@ Az alábbi táblázat azokat a jogokat tartalmazza, amelyeket a kiszolgálók sz
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -60,6 +61,5 @@ Az alábbi táblázat azokat a jogokat tartalmazza, amelyeket a kiszolgálók sz
 </tbody>
 </table>
   
-| ![](images/Cc720184.note(WS.10).gif)Megjegyzés:                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |  
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| Az RMS működésének nem feltétele külön licenckiszolgálók vagy licencelési fürtök megléte, de ilyenek segítségével csökkenthető a legfelső szintű tanúsítási fürtre érkező licenckérelmek száma. Az is indokolhatja licenckiszolgálók létesítését, hogy egyes szervezeti egységeknek közvetlen szabályozási lehetőségre van szükségük a védett tartalom közzétételére vonatkozóan. Ilyen például az az eset, amikor a vállalat egészére vonatkozó szabályokat a legfelső szintű tanúsítási kiszolgáló vagy fürt jogmegadási sablonjai tartalmazzák, de ezekben nem szerepelnek egy adott részlegnél megkövetelt jogok. Ebben az esetben a részleg külön licenckiszolgáló vagy licencelési fürt üzembe helyezése után tárolhatja saját jogmegadási sablonjait, és kezelheti a licenckérelmeket. |
+> [!NOTE]  
+> Az RMS működésének nem feltétele külön licenckiszolgálók vagy licencelési fürtök megléte, de ilyenek segítségével csökkenthető a legfelső szintű tanúsítási fürtre érkező licenckérelmek száma. Az is indokolhatja licenckiszolgálók létesítését, hogy egyes szervezeti egységeknek közvetlen szabályozási lehetőségre van szükségük a védett tartalom közzétételére vonatkozóan. Ilyen például az az eset, amikor a vállalat egészére vonatkozó szabályokat a legfelső szintű tanúsítási kiszolgáló vagy fürt jogmegadási sablonjai tartalmazzák, de ezekben nem szerepelnek egy adott részlegnél megkövetelt jogok. Ebben az esetben a részleg külön licenckiszolgáló vagy licencelési fürt üzembe helyezése után tárolhatja saját jogmegadási sablonjait, és kezelheti a licenckérelmeket. 
