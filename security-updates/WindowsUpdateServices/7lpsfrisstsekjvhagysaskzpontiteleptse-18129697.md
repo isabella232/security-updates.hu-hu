@@ -25,9 +25,8 @@ Az 7. lépésben a következő műveleteket kell végrehajtani:
 
 4.  A **Kijelölt frissítések jóváhagyási beállításainak csoportosítása** listában kattintson a tesztcsoport **Jóváhagyás** oszlopában látható **Telepítés** elemre, majd az **OK** gombra.
 
-| ![](images/Cc720504.note(WS.10).gif)Megjegyzés:                                                                                                                                                                                                                                                                                       |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| A frissítések jóváhagyása során számos más lehetőség is rendelkezésre áll, például határidő beállítása és a frissítések eltávolítása. Mindezekről a „Microsoft Windows Server Update Services Operations Guide” (Használati útmutató a Microsoft Windows Server Update Services szolgáltatáshoz) című (angol nyelvű) szakmai dokumentációban olvashat részletesen. |
+> [!NOTE]  
+> A frissítések jóváhagyása során számos más lehetőség is rendelkezésre áll, például határidő beállítása és a frissítések eltávolítása. Mindezekről a „Microsoft Windows Server Update Services Operations Guide” (Használati útmutató a Microsoft Windows Server Update Services szolgáltatáshoz) című (angol nyelvű) szakmai dokumentációban olvashat részletesen. 
 
 24 óra elteltével a WSUS jelentéskészítő szolgáltatásával meghatározható, hogy a rendszer sikeresen telepítette-e a frissítéseket a számítógépekre.
 

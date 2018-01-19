@@ -13,6 +13,5 @@ A létesítés során az RMS létrehozza a kiszolgáló személyes kulcsát. Az 
 
 Ha a kiszolgálót tartalomvédelemre használta, értesíteni kell a tartalom tulajdonosait, és a tartalmat újból közzé kell tenni az új személyes kulccsal ellátott RMS kiszolgáló használatával. A sérült személyes kulccsal védett tartalom minden példányát meg kell semmisíteni, mivel ez a védelem már nem tekinthető megfelelőnek.
 
-| ![](images/Cc747765.Important(WS.10).gif)Fontos:                                                                                                                                                                                              |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| A kiszolgálónak meg kell ismételnie a létesítési műveletet, függetlenül attól, hogy megtörtént-e az igénylése a Microsoft igénylési szolgáltatással. Ha csak ismételt igénylést próbál végrehajtani az RMS kiszolgálónál, a rendszer az előző személyes kulcsot használja. |
+> [!IMPORTANT]
+> A kiszolgálónak meg kell ismételnie a létesítési műveletet, függetlenül attól, hogy megtörtént-e az igénylése a Microsoft igénylési szolgáltatással. Ha csak ismételt igénylést próbál végrehajtani az RMS kiszolgálónál, a rendszer az előző személyes kulcsot használja.

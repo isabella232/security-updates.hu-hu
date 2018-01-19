@@ -25,9 +25,8 @@ IIS vroots
 
 The following virtual directories (vroots) are created in IIS (in the Default Web Site by default) for client-to-server synchronization, server to server synchronization, reporting, and client self-update.
 
-###  
 
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -147,6 +146,7 @@ You can use adsutil to find the paths for different Web services on your compute
 **W3SVC/***WebSiteID***/ROOT/SimpleAuthWebService**
 
  
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -189,9 +189,8 @@ These global properties can be retrieved with the following adsutil command:
 
 The properties listed below are a partial list.
 
-###  
 
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -597,9 +596,8 @@ These properties can be retrieved with the following adsutil command:
   
 The properties listed below comprise a partial list.
   
-###  
 
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -666,9 +664,8 @@ The properties listed below comprise a partial list.
 Properties of the API Remoting Web service  
 ------------------------------------------
   
-###  
 
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -787,9 +784,8 @@ Properties of the API Remoting Web service
 Properties of the Client Web service  
 ------------------------------------
   
-###  
 
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -908,9 +904,8 @@ Properties of the Client Web service
 Properties of the Downstream Server Authentication Web service  
 --------------------------------------------------------------
   
-###  
 
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -1029,9 +1024,8 @@ Properties of the Downstream Server Authentication Web service
 Properties of the Inventory Collection Web service  
 --------------------------------------------------
   
-###  
 
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -1150,9 +1144,8 @@ Properties of the Inventory Collection Web service
 Checking the properties of the Reporting Web service  
 ----------------------------------------------------
   
-###  
 
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -1271,9 +1264,8 @@ Checking the properties of the Reporting Web service
 Properties of the Selfupdate Web service  
 ----------------------------------------
   
-###  
 
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -1344,9 +1336,8 @@ Properties of the Selfupdate Web service
 Properties of the Server Synchronization Web service  
 ----------------------------------------------------
   
-###  
 
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -1465,9 +1456,8 @@ Properties of the Server Synchronization Web service
 Properties of the Simple Authorization Web service  
 --------------------------------------------------
   
-###  
 
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
