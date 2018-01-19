@@ -18,6 +18,5 @@ A WSUS 3.0 szolgáltatás teljes körű és hatékony megoldást kínál a friss
 
 Noha a WSUS 3.0 alkalmazás szolgáltatásokban bővelkedő frissítéskezelési megoldás is egyben, ez az útmutató csupán egyetlen végrehajtási módot ír le mindegyik művelet esetében. Ha egy adott feladat végrehajtására más módszer is kínálkozik, a lehetséges megoldásokra egy megjegyzés hívja fel a figyelmet.
 
-| ![](images/Cc708519.note(WS.10).gif)Megjegyzés:                                                                                                                  |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| A dokumentum másolata letölthető a [http://go.microsoft.com/fwlink/?LinkId=71190](http://go.microsoft.com/fwlink/?linkid=71190) címről (lehet, hogy a hivatkozás angol nyelvű anyagra mutat). |
+> [!Note]  
+> A dokumentum másolata letölthető a [http://go.microsoft.com/fwlink/?LinkId=71190](http://go.microsoft.com/fwlink/?linkid=71190) címről (lehet, hogy a hivatkozás angol nyelvű anyagra mutat). 

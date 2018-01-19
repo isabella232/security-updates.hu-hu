@@ -11,9 +11,8 @@ Windows Server Update Services – fontos fájl
 
 Ez a dokumentum a Windows Server Update Services (WSUS) programot érintő ismert problémákat írja le. Ajánlásokat és követelményeket is tartalmaz a WSUS telepítéséhez.
 
-| ![](images/Cc720505.note(WS.10).gif)Megjegyzés:                                                                         |
-|------------------------------------------------------------------------------------------------------------------------------------------------------|
-| A dokumentum letölthető a Microsoft letöltőközpontból: [http://go.microsoft.com/fwlink/?LinkId=48126](http://go.microsoft.com/fwlink/?linkid=48126). |
+> [!Note]  
+> A dokumentum letölthető a Microsoft letöltőközpontból: [http://go.microsoft.com/fwlink/?LinkId=48126](http://go.microsoft.com/fwlink/?linkid=48126). 
 
 A telepítés előkészítése
 ------------------------
@@ -51,7 +50,7 @@ A következő táblázat az egyes támogatott operációs rendszereken szükség
 
 ###  
 
- 
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -200,9 +199,8 @@ Ismert problémák
 
 Ha Windows 2000 Server rendszerű számítógépen működteti az Internet Information Services (IIS) szolgáltatást, akkor a Microsoft TechNet IIS Lockdown Tool lapjáról telepíteni kell az IIS Lockdown varázsló legújabb verzióját (amely tartalmazza az URLScan eszközt). Az IIS alapú kiszolgálók biztonsága érdekében a Microsoft feltétlenül ajánlja az eszköz telepítését. Az IIS Lockdown varázsló kikapcsolja az IIS szükségtelen szolgáltatásait, így csökkenti a biztonsági kockázatot.
 
-| ![](images/Cc720505.note(WS.10).gif)Megjegyzés:                                                                                                                                                                              |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| A WSUS telepítője nem telepíti ezeket az összetevőket. Ezek telepítését külön kell végrehajtani. Az IIS Lockdown telepítésére nincs szükség a Windows Server 2003 rendszerű számítógépeken, mert ez a funkció már be lett építve az operációs rendszerbe. |
+> [!Note]  
+> A WSUS telepítője nem telepíti ezeket az összetevőket. Ezek telepítését külön kell végrehajtani. Az IIS Lockdown telepítésére nincs szükség a Windows Server 2003 rendszerű számítógépeken, mert ez a funkció már be lett építve az operációs rendszerbe. 
 
 #### 2. probléma: A WSUS konfigurációjának közvetlen módosítása az adatbázisban nem támogatott
 
