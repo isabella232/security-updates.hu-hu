@@ -20,9 +20,8 @@ Az RMS naplózási adatbázisa értékes hibaelhárítási és statisztikai adat
 
 Ha hardveres biztonsági modullal védi az RMS személyes kulcsait, akkor a hardveres biztonsági modul konfigurációjáról is kell biztonsági másolatot készítenie. A hardveres biztonsági modul konfigurációjának biztonsági mentéséről és helyreállításáról a hardveres biztonsági modul dokumentációjából tájékozódhat.
 
-| ![](images/Cc747745.note(WS.10).gif)Megjegyzés:                                                                                                                                                                                                                                                                                |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Ha az RMS személyes kulcsainak titkosítására az alapértelmezettől különböző szoftveres kriptográfiai szolgáltatót választ, ügyeljen rá, hogy a szervezetnél megfelelő kulcskezelési eljárások legyenek foganatosítva (biztonsági mentés, visszaállítás), és csak akkor vegye igénybe a CSP-t az RMS szolgáltatáshoz, ha adva vannak az említett feltételek. |
+> [!NOTE]
+> Ha az RMS személyes kulcsainak titkosítására az alapértelmezettől különböző szoftveres kriptográfiai szolgáltatót választ, ügyeljen rá, hogy a szervezetnél megfelelő kulcskezelési eljárások legyenek foganatosítva (biztonsági mentés, visszaállítás), és csak akkor vegye igénybe a CSP-t az RMS szolgáltatáshoz, ha adva vannak az említett feltételek.
 
 Az RMS rendszer visszaállításának tervezése
 -------------------------------------------

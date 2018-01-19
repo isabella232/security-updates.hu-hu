@@ -13,10 +13,8 @@ A telepítés során az RMS létrehozza az RMS szolgáltatás nevű csoportot a 
 
 Az RMS-szolgáltatásfiókot bármikor megváltoztathatja. Ilyenkor az előzőleg megadott fiók automatikusan törlődik az RMS szolgáltatás csoportból, és az új fiók lesz a csoport tagja.
 
-| ![](images/Cc747736.Important(WS.10).gif)Fontos:                                                                                                                                                                                                                  |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Biztonsági megfontolásokból kifejezetten ajánljuk, hogy külön felhasználói fiókot hozzon létre az RMS szolgáltatásfiókjaként való használatra, és ezt a fiókot kizárólag az RMS szolgáltatásfiókjaként használja. Javasoljuk továbbá, hogy ennek a fióknak semmilyen egyéb engedélyt se adjon. |
+> [!IMPORTANT]
+> Biztonsági megfontolásokból kifejezetten ajánljuk, hogy külön felhasználói fiókot hozzon létre az RMS szolgáltatásfiókjaként való használatra, és ezt a fiókot kizárólag az RMS szolgáltatásfiókjaként használja. Javasoljuk továbbá, hogy ennek a fióknak semmilyen egyéb engedélyt se adjon.
 
-| ![](images/Cc747736.note(WS.10).gif)Megjegyzés:                                                          |
-|---------------------------------------------------------------------------------------------------------------------------------------|
-| Az RMS szolgáltatásfiók nem egyezhet meg a Service Pack 1 javítócsomaggal kiegészített RMS telepítéséhez használt tartományi fiókkal. |
+> [!NOTE]
+> Az RMS szolgáltatásfiók nem egyezhet meg a Service Pack 1 javítócsomaggal kiegészített RMS telepítéséhez használt tartományi fiókkal.

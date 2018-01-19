@@ -59,8 +59,10 @@ vagy
 
 1.  Töltse le és telepítse az RMS Administration Toolkit eszközkészletet. Az eszközkészlet letölthető a [Microsoft webhelyéről](http://go.microsoft.com/fwlink/?linkid=33841).
 2.  Nyissa meg a parancssori ablakot: ehhez válassza a **Start** menü **Futtatás** parancsát. A **Futtatás** párbeszédpanelen írja be **cmd** parancsot, majd kattintson az **OK** gombra.
-3.  A parancssori ablakban írja be a következő parancsot:
-    **ADSCPRegister.exeunregisterscp** &lt;*törlendő\_URL*&gt;
+3.  A parancssori ablakban írja be a következő parancsot:  
+
+    **ADSCPRegister.exeunregisterscp** &lt;*törlendő\_URL*&gt;  
+    
 4.  A &lt;*törlendő\_URL*&gt; helyére az RMS szolgáltatáskapcsolódási pontjának URL-címét írja, például https://ez\_a\_tart/\_wmcs/Certification.
 
 A fenti lépések végrehajtása után létesítheti a legfelső szintű tanúsítási kiszolgálót.

@@ -68,7 +68,7 @@ A 3. lépésben végrehajtotta a felsőbb rétegbeli kiszolgáló és a proxykis
 
 4.  Kattintson a **Befejezés** gombra.
 
- 
+	<p></p>
     <table style="border:1px solid black;">
     <colgroup>
     <col width="100%" />
