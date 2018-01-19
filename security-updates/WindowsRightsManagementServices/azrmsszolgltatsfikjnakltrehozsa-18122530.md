@@ -13,14 +13,12 @@ A telepítés során az RMS a helyi számítógépen létrehozza az **RMS szolg�
 
 Az RMS kiszolgálón történő létesítésekor az RMS szolgáltatásfiókjaként egy felhasználói fiókot ad meg. Az itt megadott fiók az RMS szolgáltatáscsoport tagjává válik, így megkapja a csoporthoz társított engedélyeket. A szokásos működés során az RMS a legtöbb esetben az RMS szolgáltatásfiókjával fut.
 
-| ![](images/Cc747546.note(WS.10).gif)Megjegyzés:                 |
-|----------------------------------------------------------------------------------------------|
-| Az RMS szolgáltatásfiókja nem egyezhet meg az RMS telepítéséhez használt tartományi fiókkal. |
+> [!NOTE]
+> Az RMS szolgáltatásfiókja nem egyezhet meg az RMS telepítéséhez használt tartományi fiókkal.
 
 Biztonsági megfontolásokból kifejezetten azt ajánljuk, hogy külön felhasználói fiókot hozzon létre az RMS szolgáltatásfiókjaként való használatra, és hogy ezt a fiókot semmilyen más célra se használja. Javasoljuk továbbá, hogy ennek a fióknak semmilyen egyéb engedélyt se adjon.
 
-| ![](images/Cc747546.Important(WS.10).gif)Fontos:                      |
-|----------------------------------------------------------------------------------------------------|
-| Ezt a külön felhasználói fiókot még a Windows RMS telepítése és létesítése előtt létre kell hozni. |
+> [!IMPORTANT]
+> Ezt a külön felhasználói fiókot még a Windows RMS telepítése és létesítése előtt létre kell hozni.
 
 Az RMS szolgáltatáscsoport engedélyeiről és az RMS futtatásához használható fiókokról a további tudnivalókat lásd a dokumentumgyűjtemény „RMS műszaki források” részében „Az RMS biztonsági modellje” témakörben.

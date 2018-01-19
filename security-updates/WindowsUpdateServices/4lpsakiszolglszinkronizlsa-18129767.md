@@ -13,9 +13,8 @@ A hálózati kapcsolat beállítását követően letölthetők a szükséges fr
 
 A szinkronizálás során a kiszolgáló kapcsolatot létesít a Microsoft Update webhellyel, majd megállapítja, hogy az utolsó szinkronizálás óta közzétettek-e új frissítéseket. Mivel a WSUS-kiszolgálót most először szinkronizálja, valamennyi frissítés letölthetőként jelenik meg, így jóvá is hagyható telepítésre.
 
-| ![](images/Cc708523.note(WS.10).gif)Megjegyzés:                                                                                                                                                                                                                                                                                                                  |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Ebben a részben az alapbeállításokkal történő szinkronizálásról lesz szó, ám a WSUS megfelelő beállításaival minimalizálható például a szinkronizáláshoz szükséges sávszélesség. További információt a „Deploying Microsoft Windows Server Update Services” (A Microsoft Windows Server Update Services szolgáltatás központi telepítése) című (angol nyelvű) szakmai dokumentáció tartalmaz. |
+> [!NOTE]  
+> Ebben a részben az alapbeállításokkal történő szinkronizálásról lesz szó, ám a WSUS megfelelő beállításaival minimalizálható például a szinkronizáláshoz szükséges sávszélesség. További információt a „Deploying Microsoft Windows Server Update Services” (A Microsoft Windows Server Update Services szolgáltatás központi telepítése) című (angol nyelvű) szakmai dokumentáció tartalmaz. 
 
 **A WSUS-kiszolgáló szinkronizálása**
 1.  A WSUS-konzol eszköztárán kattintson a **Beállítások** gombra, majd kattintson a **Szinkronizálási beállítások** hivatkozásra.

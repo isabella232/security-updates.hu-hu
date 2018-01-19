@@ -15,4 +15,4 @@ A legfelső szintű tanúsítási kiszolgáló vagy fürt konfigurációs adatb�
 
 Az RMS szolgáltatás csoport Execute (Végrehajtási) engedélyekkel rendelkezik az adatbázis tárolt eljárásaihoz.
 
-**Fontos   **Az MSDE 2000 csak tesztkörnyezetben használható az RMS adatbázisaihoz, mivel az MSDE 2000 semmilyen hálózati csatlakozófelületet sem támogat. Emellett az MSDE 2000 használati feltételei megtiltják az SQL Server ügyféleszközeinek használatát az MSDE 2000 adatbázisok kezelésére. Ezt a korlátozást figyelembe véve nem áll majd módjában megtekinteni a naplózott adatokat, sem módosítani a konfigurációs adatbázisban tárolt adatokat.
+**Fontos** Az MSDE 2000 csak tesztkörnyezetben használható az RMS adatbázisaihoz, mivel az MSDE 2000 semmilyen hálózati csatlakozófelületet sem támogat. Emellett az MSDE 2000 használati feltételei megtiltják az SQL Server ügyféleszközeinek használatát az MSDE 2000 adatbázisok kezelésére. Ezt a korlátozást figyelembe véve nem áll majd módjában megtekinteni a naplózott adatokat, sem módosítani a konfigurációs adatbázisban tárolt adatokat.

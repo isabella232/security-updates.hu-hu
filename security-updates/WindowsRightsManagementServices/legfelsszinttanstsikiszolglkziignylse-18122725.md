@@ -32,9 +32,8 @@ Legfelső szintű tanúsítási kiszolgáló kézi igénylése
 
 4.  Kattintson a **Mentés** gombra. Megjelenik a **Mentés másként** párbeszédpanel.
 
-    | ![](images/Cc747727.note(WS.10).gif)Megjegyzés:                                                                                               |
-    |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | A **Fájl letöltése** párbeszédpanelen kattintson a **Megnyitás** gombra. Ha a **Megnyitás** gombra kattint, egy hibaüzenet jelenik meg, és a kérelem fájl nem lesz mentve. |
+    > [!NOTE]  
+    > A **Fájl letöltése** párbeszédpanelen kattintson a **Megnyitás** gombra. Ha a **Megnyitás** gombra kattint, egy hibaüzenet jelenik meg, és a kérelem fájl nem lesz mentve.
 
 5.  Az igénylési kérelem fájlba exportálásához kattintson a **Mentés** gombra. A fájlt alapértelmezés szerint az asztalra menti a rendszer, és a *kiszolgáló\_neve*EnrollRequest.xml nevet kapja, ahol a *kiszolgáló\_neve* helyett az RMS-kiszolgáló neve szerepel. A fájl más helyre is menthető, ehhez a **Mentés helye** lenyitható listán adja meg a kívánt helyet. A **Fájlnév** mezőbe új nevet beírva az alapértelmezett fájlnév is módosítható.
 

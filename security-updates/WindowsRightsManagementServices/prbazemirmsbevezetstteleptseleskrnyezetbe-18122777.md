@@ -20,6 +20,7 @@ A következő lépések példaként szolgálnak, és az áttelepítési terv né
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -38,32 +39,39 @@ A következő lépések példaként szolgálnak, és az áttelepítési terv né
 <td style="border:1px solid black;">Próbaüzem</td>
 <td style="border:1px solid black;">Készítse el az RMS konfigurációs adatbázisának biztonsági másolatát.</td>
 <td style="border:1px solid black;">Ez lehetővé teszi a próbaüzemi kiszolgáló visszaállítását, ha ez szükségessé válik.
+<br/><br/>
 A konfigurációs adatbázis tartalmazza az RMS személyes kulcsát.
+<br/><br/>
 Ismernie kell a személyes kulcs jelszavát.</td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Próbaüzem</td>
 <td style="border:1px solid black;">Ha hardveres biztonsági modullal (HSM) védte az RMS személyes kulcsát, a gyártó által javasolt módon ennek konfigurációjáról is készítsen biztonsági másolatot.</td>
 <td style="border:1px solid black;">Az új kiszolgálón a HSM visszaállítására is sor fog kerülni.
+<br/><br/>
 Ügyeljen arra, hogy a HSM telepítéséhez és konfigurálásához szükséges valamennyi összetevő rendelkezésre álljon.</td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">Próbaüzem</td>
 <td style="border:1px solid black;">Exportálja a megbízható közzétételi tartományhoz tartozó fájlt.</td>
 <td style="border:1px solid black;">Ez lehetővé teszi más RMS kiszolgálónak az ezzel a kiszolgálóval létrehozott közzétételi licencek visszafejtését, valamint használati licencek kiállítását a védett tartalomhoz.
+<br/><br/>
 A megbízható közzétételi tartomány tartalmazza a kiszolgáló licencelői tanúsítványát, az RMS személyes kulcsát és az adott kiszolgálóval készített jogmegadási sablonokat.
+<br/><br/>
 A megbízható közzétételi tartományhoz tartozó fájl olyan XML fájl, amely a fájl létrehozásakor megadott nehezen feltörhető jelszóval van titkosítva. Erre a jelszóra szükség lesz a megbízható közzétételi tartományhoz tartozó fájl importálásakor is.</td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">Próbaüzem</td>
 <td style="border:1px solid black;">Exportálja a megbízható felhasználói tartományt.</td>
 <td style="border:1px solid black;">Ez lehetővé teszi más RMS kiszolgálónak használati licencek megadását olyan felhasználóknak, akik a tartalomvédelmi fióktanúsítványt (RAC) a próbaüzemi RMS kiszolgálótól kapták.
+<br/><br/>
 A megbízható felhasználói tartomány az adott kiszolgáló kiszolgálói licencelői tanúsítványának a másik RMS kiszolgálóra importálásával létesíthető.</td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">Éles környezet</td>
 <td style="border:1px solid black;">Készítse elő az új kiszolgálót a legfelső szintű tanúsítási kiszolgáló szerepre.</td>
 <td style="border:1px solid black;">Ellenőrizze az adatbázis-kiszolgáló elérhetőségét, valamint az IIS és a Message Queuing szolgáltatás telepítését.
+<br/><br/>
 Lehetőség szerint ugyanazt a kiszolgálónevet használja ennél a kiszolgálónál is.</td>
 </tr>
 <tr class="even">
@@ -80,6 +88,7 @@ Lehetőség szerint ugyanazt a kiszolgálónevet használja ennél a kiszolgál�
 <td style="border:1px solid black;">Éles környezet</td>
 <td style="border:1px solid black;">Új személyes kulcs megadásával létesítsen RMS szolgáltatást. Ha on-line igénylést használ, a létesítési eljárás során az interneten keresztül a Microsoft igénylési szolgáltatásához kapcsolódva megtörténik a kiszolgáló tanúsítványigénylése. Ha a kiszolgálóról nem létesíthető internetkapcsolat, off-line igénylést kell használni.</td>
 <td style="border:1px solid black;">Ha a kiszolgáló neve nem egyezik meg a próbaüzemi kiszolgáló nevével, a fürt URL-címét a próbaüzemi kiszolgáló URL-címére állíthatja be.
+<br/><br/>
 Ha ezt nem hajtja végre, URL-átirányítást kell létesítenie a korábbi fürt URL-címéről az új fürt URL-címére, hogy a már létező tartalomhoz használati licencet szerezhessenek a felhasználók.</td>
 </tr>
 <tr class="odd">
@@ -107,6 +116,7 @@ Emellett addig az RMS felügyeleti webhely oldalai sem érhetők el.</td>
 <td style="border:1px solid black;">Éles környezet</td>
 <td style="border:1px solid black;">Importálja a 4. lépésben exportált megbízható felhasználói tartományt.</td>
 <td style="border:1px solid black;">Ez lehetővé teszi a régi ügyfél-licencelői tanúsítványok és tartalomvédelmi fióktanúsítványok használatát.
+<br/><br/>
 Ha az áttelepítés során felhasználói fiókok erdők közötti áthelyezésére is sor kerül, ügyeljen a fiókok egyező SMTP proxybeállítására.</td>
 </tr>
 </tbody>

@@ -79,13 +79,11 @@ Az RMS a következő XrML formátumú tanúsítványokat és licenceket tárolja
     Fájlnév előtagja: EUL
     Hely: %USERPROFILE%\\Local Settings\\Application Data\\Microsoft\\DRM
 
-| ![](images/Cc747725.note(WS.10).gif)Megjegyzés:                                                                  |
-|-----------------------------------------------------------------------------------------------------------------------------------------------|
-| Minden felhasználói fiókhoz egyetlen géptanúsítvány, GIC-fájl és CLC-fájl tartozik, de az elért egyes tartalmaknak megfelelően több EUL-fájl. |
+> [!NOTE]
+> Minden felhasználói fiókhoz egyetlen géptanúsítvány, GIC-fájl és CLC-fájl tartozik, de az elért egyes tartalmaknak megfelelően több EUL-fájl.
 
-| ![](images/Cc747725.note(WS.10).gif)Megjegyzés:                               |
-|------------------------------------------------------------------------------------------------------------|
-| A Windows Vista® rendszerbe beépített RMS ügyfélnél a hely: %USERPROFILE%\\AppData\\Local\\Microsoft\\DRM. |
+> [!NOTE]
+> A Windows Vista® rendszerbe beépített RMS ügyfélnél a hely: %USERPROFILE%\\AppData\\Local\\Microsoft\\DRM.
 
 <span id="BKMK_17"></span>
 #### Hol tárolja a rendszer a gép személyes/nyilvános kulcspárját?

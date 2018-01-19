@@ -32,10 +32,15 @@ ahol az „&lt;útvonal&gt;” az a hely ahova a fájlokat kibontani kívánja.
 A parancs végrehajtása után a következő fájlok kerülnek a megadott könyvtárba:
 
 -   Bootstrap.exe
+
     A végrehajtható fájl ezt a fájlt használja a többi fájl telepítéséhez. A fájlra nincs szükség, ha az RMS SP2 ügyfélszoftver telepítése az SMS vagy a Csoportházirend segítségével történik.
+
 -   MSDrmClient.msi
+
     Ez az RMS SP2 ügyfélszoftverhez tartozó telepítési fájl. Ez a telepítés törölni fogja a számítógépről az RMS-ügyfélszoftver bármely korábbi verzióját. A program először az ügyfélszámítógépekre kell telepíteni.
+
 -   RMClientBackCompat.msi
+
     Ez a telepítési fájl azonosítja az új RMS SP2 ügyfélszoftvert az RMS-ügyfélszoftver előző verziójától függő RMS-kompatibilis alkalmazások számára (ilyen például a Microsoft Office Professional 2003 vagy a Microsoft Office System 2007), így a korábbi helyett az RMS SP2 ügyfél használható. Ezt a programot az MSDrmClient.msi sikeres telepítése után kell telepíteni az ügyfélszámítógépekre.
 
 > [!NOTE]  
@@ -68,31 +73,40 @@ Az RMS-ügyfél bevezetése az SMS használatával
     **General**:
 
     -   A **Command line** elemnél írja a következőt:
+
         `msiexec.exe /q ALLUSERS=2 /m MSIDGHOG /i "<file_name>.msi"`
-        | ![](images/Cc747749.note(WS.10).gif)Megjegyzés:                                                              |
-        |-------------------------------------------------------------------------------------------------------------------------------------------|
-        | Az MSIDGHOG véletlen érték. A &lt;fájlnév&gt; helyére írja annak a Windows Installer fájlnak a nevét, amelyet ez a csomag telepíteni fog. |
+
+        > [!NOTE]  
+        > Az MSIDGHOG véletlen érték. A &lt;fájlnév&gt; helyére írja annak a Windows Installer fájlnak a nevét, amelyet ez a csomag telepíteni fog.
 
     -   A **Run** tulajdonságnál válassza a **Hidden** beállítást.
+
     -   Az **After running** beállítása legyen **No action required**.
+
     -   A **Category** tulajdonságnál válassza az **Administrative Software** beállítást.
 
     **Requirements:**
 
     -   Az **Estimated disk space** mezőbe írja a **445 KB** értéket.
+
     -   A **Maximum allowed run time** tulajdonságnál válassza az **Unknown** beállítást.
+
     -   Jelölje be a **This program can run on any platform** négyzetet.
 
     **Environment:**
 
     -   A **Program can run** tulajdonságnál válassza a **Whether or not a user is logged on** beállítást.
+
     -   A **Run mode** beállítása legyen **Run with administrative rights**.
+
     -   A **Drive mode** tulajdonságnál válassza a **Runs with UNC name** beállítást.
 
     **Advanced:**
 
     -   Törölje a **Run another program first** négyzet jelölését.
+
     -   Törölje a **Suppress program notification** négyzet jelölését a **When the program is assigned to a computer** csoportban.
+
     -   Törölje a **Disable this program on computers where it is advertised** négyzet jelölését.
 
 5.  Az **Access Accounts and Distribution Points** tulajdonságnál válassza a szervezetnek megfelelő beállítást.
@@ -143,6 +157,30 @@ Az itt következő eljárás gyors útmutató azoknak a rendszergazdáknak, akik
 Frissítés előző verzióról
 -------------------------
 
-        ```
+Lehetőség van felügyelet nélküli telepítés használatára olyan parancsfájllal, amelyik ellenőrzi, hogy az RMS SP2 ügyfélszoftver telepítve lett-e. Ha nem lett telepítve az ügyfélszoftver, a parancsfájl vagy frissíti a létező ügyfélszoftvert, vagy telepíti az RMS SP2 ügyfélszoftvert. A parancsfájl a következő:
+
+```
+Set WshShell = CreateObject( "WScript.Shell" )
+Set objWindowsInstaller = Wscript.CreateObject("WindowsInstaller.Installer") 
+Set colProducts = objWindowsInstaller.Products 
+
+For Each product In colProducts 
+strProductName = objWindowsInstaller.ProductInfo (product, "ProductName")
+
+if strProductName = "Windows Rights Management Client with Service Pack 2" then
+strInstallFlag = "False"
+Exit For
+else
+strInstallFlag = "True"
+end if
+Next
+
+if strInstallFlag = "True" then
+objShell.run "WindowsRightsManagementServicesSP2-KB917275-Client-ENU.exe -override 1 /I MsDrmClient.msi REBOOT=ReallySuppress /q -override 2 /I RmClientBackCompat.msi REBOOT=ReallySuppress /q "
+else
+wscript.echo "Nincs szükség telepítésre"
+end if
+```
+
 > [!NOTE]  
-> Ez a parancsfájl nem működik a Windows Vista esetén, mert az RMS ügyfélszoftver már be van építve az operációs rendszerbe. 
+> Ez a parancsfájl nem működik a Windows Vista esetén, mert az RMS ügyfélszoftver már be van építve az operációs rendszerbe.

@@ -31,7 +31,9 @@ Megbízható felhasználói tartomány hozzáadása
 5.  Válasszon az alábbi beállítások közül:
 
     -   Ha a tartomány minden felhasználói fiókját megbízhatónak szeretné minősíteni, jelölje be a **Minden e-mail tartomány megbízható** beállítást.
+
         vagy
+
     -   Válassza a **Csak a megadott e-mail tartományok megbízhatók** beállítást, majd írja be a megbízható tartomány nevét (például pelda.com), majd kattintson a **Hozzáadás** gombra. Ennek hatására a tartomány felkerül a Megbízható e-mail tartományok listájára. Ha el szeretne távolítani egy nevet a listáról, jelölje azt ki, és kattintson az **Eltávolítás** gombra. Ha egy tartományt felvesz a listára, az annak minden altartományára is érvényes.
 
 6.  Ha olyan környezetben használja az RMS-szolgáltatást, ahol a csoporttagság behelyettesítése erdőhatárokon is átnyúlik, jelölje be **Az RM licencelés megbízható a felhasználói tartomány biztonsági azonosítói (SID) szempontjából** négyzetet.

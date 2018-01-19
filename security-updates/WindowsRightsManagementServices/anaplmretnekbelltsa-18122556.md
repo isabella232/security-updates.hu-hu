@@ -13,6 +13,5 @@ A naplózási szolgáltatás nagy mennyiségű adatot küld az SQL Server adatb�
 
 Ha azt észleli, hogy hamarosan nem lesz elegendő szabad lemezterület a naplózási adatbázis számára, másik kiszolgálóra helyezheti át az adatbázist „[A naplózási adatbázis áthelyezése](https://technet.microsoft.com/34ea8045-dc94-422e-9601-29927cfc1534)” című pontban leírtak szerint.
 
-| ![](images/Cc720271.Important(WS.10).gif)Fontos:                                                                                                                                                                                                                                   |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| A Rendszerfigyelő segítségével rendszeresen ellenőrizze a kimenő naplózási üzenetek várólistáját. Ha jelentős méretnövekedés tapasztalható, ellenőrizze, hogy helyesen működik-e a naplózási figyelőszolgáltatás. A Rendszerfigyelő használatáról a Windows Server 2003 súgójában kaphat további tájékoztatást. |
+> [!IMPORTANT]  
+> A Rendszerfigyelő segítségével rendszeresen ellenőrizze a kimenő naplózási üzenetek várólistáját. Ha jelentős méretnövekedés tapasztalható, ellenőrizze, hogy helyesen működik-e a naplózási figyelőszolgáltatás. A Rendszerfigyelő használatáról a Windows Server 2003 súgójában kaphat további tájékoztatást. 
