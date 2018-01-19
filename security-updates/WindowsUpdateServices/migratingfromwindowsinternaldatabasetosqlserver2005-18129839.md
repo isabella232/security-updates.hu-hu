@@ -39,26 +39,35 @@ Use the following steps to migrate the WSUS database from a Belső Windows-adatb
     -   Click **Start**, point to **Programs**, point to **Administrative Tools**, and then click **Services**.
     -   Right-click **IIS Admin Service**, and then click **Stop**.
     -   Right-click **Update Services**, and then click **Stop**.
-        ```
-1.  Attach **SUSDB** to the destination SQL instance.
-    -   In SQL Server Management Studio, under the instance node, right-click **Databases**, select **Properties**, and then click **Attach**.
-    -   In the **Attach Databases** box, under **Databases to attach**, browse to the location of the susdb.mdf file (by default this is **C:\\WSUS\\UpdateServicesDbFiles** if you installed Belső Windows-adatbázis), and then click **OK**.
-2.  Verify that NT AUTHORITY\\NETWORK SERVICE has login permissions to the SQL Server instance and to the WSUS database. If it does not, you will need to add it to both locations. This account should also be a member of the webService role on the WSUS database.
-    -   Verify permissions on the SQL Server instance. In SQL Server Management Studio, open the instance and select **Security**, then **Logins**. The NT AUTHORITY\\NETWORK SERVICE account should be listed as a login. If it is not, it should be added.
-    -   Verify permissions on the database. Right-click the database, select **Properties** and then click **Permissions**. The NT AUTHORITY\\NETWORK SERVICE account should be listed as a login. If it is not, it should be added.
-    -   Verify members of the webService role. Under the WSUS database, select Roles, then right-click webService and select Properties. The NT AUTHORITY\\NETWORK SERVICE account should be listed as a member of this role. If it is not, it should be added.
-3.  Edit the registry to point WSUS to the SQL instance that now holds SUSDB.
-    -   Click **Start**, click **Run**, type **regedit**, and then click **OK**.
-    -   Find the following key: **HKLM\\SOFTWARE\\Microsoft\\UpdateServices\\Server\\Setup\\SqlServerName**, and in the **Value** box, type **\[ServerName\]\\\[InstanceName\]**,and then click **OK**. If the instance name is the default instance, then simply type **\[ServerName\].**
-4.  Open **Services** and then start the **IIS Admin** service and **Update Services** service.
-    -   Click **Start**, point to **Programs**, point to **Administrative Tools**, and then click **Services**.
-    -   Right-click **IIS Admin Service**, and then click **Start**.
-    -   Right-click **Update Services**, and then click **Start**.
-5.  Verify that the database migration has been successful by opening the WSUS administrative console (click **Start**, click **Administrative Tools**, and then click **Microsoft Windows Server Update Services 3.0)**.
 
-| ![](images/Cc708558.note(WS.10).gif)Megjegyzés: |
-|------------------------------------------------------------------------------|
-| You might have to restart the server for these settings to take effect.      |
+3.  Detach the WSUS database (SUSDB) from the Belső Windows-adatbázis   instance. You will need to use the sqlcmd utility, which can be downloaded from Feature Pack for Microsoft SQL Server 2005 (http://go.microsoft.com/fwlink/?LinkId=70728). For more information about the sqlcmd utility, see sqlcmd Utility (http://go.microsoft.com/fwlink/?LinkId=81183). 
+
+    ```
+    sqlcmd -S np:\\.\pipe\MSSQL$MICROSOFT##SSEE\sql\query
+    use master
+    alter database SUSDB set single_user with rollback immediate
+    go
+    sp_detach_db SUSDB
+    go
+    ```
+    1.  Attach **SUSDB** to the destination SQL instance.
+        -   In SQL Server Management Studio, under the instance node, right-click **Databases**, select **Properties**, and then click **Attach**.
+        -   In the **Attach Databases** box, under **Databases to attach**, browse to the location of the susdb.mdf file (by default this is **C:\\WSUS\\UpdateServicesDbFiles** if you installed Belső Windows-adatbázis), and then click **OK**.
+    2.  Verify that NT AUTHORITY\\NETWORK SERVICE has login permissions to the SQL Server instance and to the WSUS database. If it does not, you will need to add it to both locations. This account should also be a member of the webService role on the WSUS database.
+        -   Verify permissions on the SQL Server instance. In SQL Server Management Studio, open the instance and select **Security**, then **Logins**. The NT AUTHORITY\\NETWORK SERVICE account should be listed as a login. If it is not, it should be added.
+        -   Verify permissions on the database. Right-click the database, select **Properties** and then click **Permissions**. The NT AUTHORITY\\NETWORK SERVICE account should be listed as a login. If it is not, it should be added.
+        -   Verify members of the webService role. Under the WSUS database, select Roles, then right-click webService and select Properties. The NT AUTHORITY\\NETWORK SERVICE account should be listed as a member of this role. If it is not, it should be added.
+    3.  Edit the registry to point WSUS to the SQL instance that now holds SUSDB.
+        -   Click **Start**, click **Run**, type **regedit**, and then click **OK**.
+        -   Find the following key: **HKLM\\SOFTWARE\\Microsoft\\UpdateServices\\Server\\Setup\\SqlServerName**, and in the **Value** box, type **\[ServerName\]\\\[InstanceName\]**,and then click **OK**. If the instance name is the default instance, then simply type **\[ServerName\].**
+    4.  Open **Services** and then start the **IIS Admin** service and **Update Services** service.
+        -   Click **Start**, point to **Programs**, point to **Administrative Tools**, and then click **Services**.
+        -   Right-click **IIS Admin Service**, and then click **Start**.
+        -   Right-click **Update Services**, and then click **Start**.
+    5.  Verify that the database migration has been successful by opening the WSUS administrative console (click **Start**, click **Administrative Tools**, and then click **Microsoft Windows Server Update Services 3.0)**.
+
+> [!NOTE]   
+> You might have to restart the server for these settings to take effect.      
 
 #### Migrating the WSUS database from a Windows Internal Database instance to a SQL Server 2005 instance on a remote server
 
@@ -90,7 +99,16 @@ This step will enable you to use the SQL Server Enterprise Manager on FE.
 -   Right-click **IIS Admin Service**, and then click **Stop**.
 -   Right-click **Update Services**, and then click **Stop**.
 
-        ```
+#### Step 3 [on FE]: Detach the WSUS database.
+
+```
+sqlcmd -S np:\\.\pipe\MSSQL$MICROSOFT##SSEE\sql\query 
+use master
+alter database SUSDB set single_user with rollback immediate
+go
+sp_detach_db ‘SUSDB’
+go
+```
 
 #### Step 4: Copy the SUSDB.mdf and SUSDB\_log.ldf files from FE to BE.
 
@@ -116,9 +134,8 @@ In this step, you edit the registry to point WSUS to the destination SQL instanc
 -   Find the following key: **HKLM\\SOFTWARE\\Microsoft\\UpdateServices\\Server\\Setup\\SqlServerName**
 -   In the **Value** data box, type **\[BEName\]\\\[InstanceName\]**, and then click **OK**. If the instance name is the default instance, then simply type **\[BEName\]**.
 
-| ![](images/Cc708558.note(WS.10).gif)Megjegyzés: |
-|------------------------------------------------------------------------------|
-| When typing \[BEName\], do not add the domain name before the name.          |
+> [!NOTE]   
+> When typing \[BEName\], do not add the domain name before the name.          
 
 #### Step 8 \[on FE\]: Start the IIS Admin service and the Update Services service.
 
@@ -130,9 +147,8 @@ In this step, you edit the registry to point WSUS to the destination SQL instanc
 
 Open the WSUS administrative console (click **Start**, click **Administrative Tools**, and then click **Microsoft Windows Server Update Services 3.0)**.
 
-| ![](images/Cc708558.note(WS.10).gif)Megjegyzés: |
-|------------------------------------------------------------------------------|
-| You might need to restart FE in order for these settings to take effect.     |
+> [!NOTE]   
+> You might need to restart FE in order for these settings to take effect.     
 
 For more information about the databases you can use with WSUS, see the following:
 

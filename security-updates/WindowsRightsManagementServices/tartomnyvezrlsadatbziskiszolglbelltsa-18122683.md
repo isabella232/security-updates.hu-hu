@@ -13,15 +13,15 @@ Csak azt követően lehet legfelső szintű tanúsítási kiszolgálót vagy lic
 
 A következő eljárás bemutatja, hogyan lehet kiszolgálóoldali tesztelés céljára elszigetelt hálózatban egyetlen számítógépet tartományvezérlőként és adatbázis-kiszolgálóként beállítani.
 
-| ![](images/Cc747681.note(WS.10).gif)Megjegyzés:                                                                                                                                                                                                                                                                                             |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| A példában az adatbázis-kiszolgáló a tartományvezérlőn fut. Éles környezetekben az az általános szabály, hogy tartományvezérlőn nem ajánlatos más összetevőket futtatni. A példában ugyanarra a számítógépre telepítjük az Active Directory szolgáltatást és az adatbázis-kiszolgálót, mert így a lehető legkevesebb számítógéppel kialakítható a teljes infrastruktúra. |
+> [!NOTE]  
+> A példában az adatbázis-kiszolgáló a tartományvezérlőn fut. Éles környezetekben az az általános szabály, hogy tartományvezérlőn nem ajánlatos más összetevőket futtatni. A példában ugyanarra a számítógépre telepítjük az Active Directory szolgáltatást és az adatbázis-kiszolgálót, mert így a lehető legkevesebb számítógéppel kialakítható a teljes infrastruktúra. 
 
 Ha adatbázis-kiszolgálóként az MSDE 2000 mellett dönt, ügyeljen arra, hogy ez semmilyen hálózati csatlakozófelületet sem támogat, és az MSDE 2000 használati feltételei megtiltják az SQL Server ügyféleszközeinek használatát az MSDE 2000 adatbázisok kezelésére. Ezt a korlátozást figyelembe véve nem áll majd módjában megtekinteni a naplózott adatokat, sem módosítani a konfigurációs adatbázisban tárolt adatokat. Emiatt az RMS adatbázisainak kezeléséhez az MSDE 2000 használata csak tesztkörnyezetben javasolt.
 
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -64,11 +64,16 @@ Ha adatbázis-kiszolgálóként az MSDE 2000 mellett dönt, ügyeljen arra, hogy
 <tr class="even">
 <td style="border:1px solid black;"> </td>
 <td style="border:1px solid black;">Miután elindult az Active Directory telepítővarázslója, a lépéseket végrehajtva hozzon létre egy új tartományt egy új erdőben. Az alábbiak kivételével mindenhol fogadja el az alapértelmezett beállításokat:
+<br/><br/>
 Adja meg a tartománynevet (például contoso.com).
+<br/><br/>
 Engedélyezze a varázslónak, hogy konfigurálja a számítógépen a DNS szolgáltatást.
+<br/><br/>
 Válassza a <strong>Csak Windows 2000 kiszolgálókkal kompatibilis engedélyek</strong> beállítást, ha az összes tartományvezérlőn Windows 2000 vagy újabb rendszer fut.
+<br/><br/>
 Adjon meg egy nehezen feltörhető jelszót a helyi rendszergazdának.</td>
 <td style="border:1px solid black;">Ha új tartományokra van szükség az RMS megvalósításához, az Active Directoryban állítsa be ezeket.
+<br/><br/>
 Minden fiókot mindig nehezen feltörhető jelszóval kell védeni.</td>
 </tr>
 <tr class="odd">
@@ -85,6 +90,7 @@ Megjegyzés: A Windows Server 2003 rendszeren a <strong>Tartomány üzemmódja<
 <tr class="odd">
 <td style="border:1px solid black;">Felhasználói fiókok</td>
 <td style="border:1px solid black;">Hozzon létre egy tartományi felhasználói fiókot az RMS szolgáltatásfiókjaként való használatra. Ez például a következő lehet: ContosoRMS@contoso.com. Nehezen feltörhető jelszót adjon meg. Feltétlenül adjon meg e-mail címet is a felhasználónak. Ha az e-mail cím nincs megadva az Active Directoryban, a felhasználó nem lesz képes licenceket és tanúsítványokat szerezni az RMS szolgáltatástól.
+<br/><br/>
 Megjegyzés: Az RMS szolgáltatásfiókja nem egyezhet meg az RMS telepítéséhez használt tartományi fiókkal.</td>
 <td style="border:1px solid black;">Hozzon létre külön fiókot az Active Directoryban az RMS szolgáltatásfiókjaként való használatra. E-mail címet is adjon meg. Ne adjon a fióknak semmilyen különleges engedélyt.</td>
 </tr>

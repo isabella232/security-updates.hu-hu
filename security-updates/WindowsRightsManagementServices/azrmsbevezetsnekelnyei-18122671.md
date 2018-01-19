@@ -16,10 +16,11 @@ A digitális tartalom sokféle formát ölthet: ide tartoznak a tájékoztató p
 A témakör tartalma:
 
 -   [A szervezeti információk sebezhetősége](#bkmk_2)
+
 -   [A hálózat fokozott védelme](#bkmk_3)
+
 -   [A digitális tartalom hatásosabb védelme](#bkmk_4)
 
-<span id="BKMK_2"></span>
 A szervezeti információk sebezhetősége
 --------------------------------------
 
@@ -30,7 +31,6 @@ A szervezetek sok és sokféle olyan tartalmat hoznak létre és használnak, am
 
 Az RMS bevezetése fontos részét alkothatja az ilyen sebezhető tartalom védelmére irányuló biztonsági stratégiának.
 
-<span id="BKMK_3"></span>
 A hálózat fokozott védelme
 --------------------------
 
@@ -44,7 +44,6 @@ A lopás és a helytelen kezelés okozta fenyegetés problémáján kívül a jo
 
 Az RMS rendszerhez hasonló átfogó, a digitális tartalom felhasználását a tartalom helyétől függetlenül hatékonyan szabályozni képes szoftveres megoldás híján a tartalom könnyűszerrel illetéktelen kézbe kerülhet, akár tisztességtelen úton, akár véletlenül.
 
-<span id="BKMK_4"></span>
 A digitális tartalom hatásosabb védelme
 ---------------------------------------
 
@@ -53,8 +52,11 @@ Hatásosabban kell védeni a digitális tartalmat. Az információ egyetlen form
 A szervezetek biztonsági stratégiájának elengedhetetlen részeként a hatásosabb adatvédelmi megoldásnak lehetővé kell tennie, hogy az egyszerű hozzáférés-vezérlésen túlmenően szabályozni lehessen a tartalom felhasználást és terjesztését is. A hatásosabb adatvédelmi megoldásnak:
 
 -   Elő kell segítenie, hogy a szervezet megvédje a vállalat intranetjén tárolt adatokat és dokumentumokat, és megakadályozza azok illetéktelen kézbe kerülését.
+
 -   Biztosítania kell a tartalom védelmét és módosítással szembeni ellenállóságát.
+
 -   Az előírt időben meg kell szüntetnie a tartalom használhatóságát még abban az esetben is, ha az extraneten át más szervezethez került.
+
 -   Eseménynapló formájában lehetővé kell tennie annak ellenőrzését, hogy ki fért hozzá és ki használta fel a tartalmat.
 
 Az RMS mindegyiket képes teljesíteni a fenti követelmények közül.

@@ -18,9 +18,15 @@ Az RMS részét alkotó tanúsítványok és licencek hierarchikusan kapcsolódn
 A szakasz tartalma:
 
 -   [Az RMS tanúsítványainak és licenceinek áttekintése](https://technet.microsoft.com/637ccfca-318e-4346-85b5-0945b058fb9c)
+
 -   [Kiszolgálói licencelői tanúsítványok](https://technet.microsoft.com/0b35fbcd-25a9-4587-898d-9a30fd1d3c5b)
+
 -   [Ügyfél-licencelői tanúsítványok](https://technet.microsoft.com/bfb36387-3e15-4cde-8b8f-482219569a64)
+
 -   [RMS géptanúsítványok](https://technet.microsoft.com/1841d53e-d01b-47c3-9d43-3805ceefed5a)
+
 -   [Tartalomvédelmi fióktanúsítványok](https://technet.microsoft.com/2ff315cc-211d-4e6e-85e8-56867c2abd94)
+
 -   [Közzétételi licencek](https://technet.microsoft.com/187228fc-370b-4e23-a53a-21bb296b84a1)
+
 -   [Használati licencek](https://technet.microsoft.com/6e609db3-49b3-4cac-a34c-8a96da627067)

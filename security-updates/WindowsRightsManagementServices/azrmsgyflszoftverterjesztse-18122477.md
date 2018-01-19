@@ -13,9 +13,8 @@ Az RMS ügyfélszoftver be van építve a Windows Vista® operációs rendszerb
 
 Az aktiválási eljárás kulcstárolót és géptanúsítványt létesít a jelenleg bejelentkezett felhasználóhoz. Az aktiválás helyi művelet, és nem igényel hálózati kapcsolatot. A sikeres aktiválás után, amikor kompatibilis alkalmazás először kér licenchasználatot, a felhasználó felhasználói tanúsítványhoz jut. Az RMS ügyfélszoftver a Csoportházirend, a Windows Update vagy rendszergazdai parancsfájl segítségével telepíthető a szervezet egyes ügyfélszámítógépeire.
 
-| ![](images/Cc720266.note(WS.10).gif)Megjegyzés:                                                                                                                                                                                                                                                               |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| A terjesztési módszertől függetlenül az RMS ügyfélszoftver az RMS kiszolgálóval történő kommunikációhoz portot használ, alapértelmezés szerint ez a 80-as vagy a 443-as port. Biztosítani kell, hogy az ügyfélszámítógép ezeken a portokon képes legyen kimeneti kérelmeket küldeni az RMS legfelső szintű és a csak licencelő fürtjeihez. |
+> [!NOTE]  
+> A terjesztési módszertől függetlenül az RMS ügyfélszoftver az RMS kiszolgálóval történő kommunikációhoz portot használ, alapértelmezés szerint ez a 80-as vagy a 443-as port. Biztosítani kell, hogy az ügyfélszámítógép ezeken a portokon képes legyen kimeneti kérelmeket küldeni az RMS legfelső szintű és a csak licencelő fürtjeihez. 
 
 **A Csoportházirend használata**
 
@@ -29,7 +28,13 @@ A Windows Update az RMS ügyfélszoftver telepítésének legegyszerűbb módjá
 
 Az ügyfélszoftver telepítése a legjobban úgy tartható kézben, hogy letölti a szoftvert, majd parancsfájl futtatásával a telepítési folyamat valamennyi lépésében meggyőződik annak épségéről. Ilyen parancsfájl megírható és indító parancsfájlként hozzárendelhető a Csoportházirend-objektumhoz (GPO). Ennél a módszernél nem szükséges, hogy a felhasználó helyi rendszergazda legyen a számítógépen, az RMS ügyfélszoftver pedig újraindításkor automatikusan telepítődik.
 
-        ```
+Az alábbi minta szemlélteti a parancsfájl felépítését:
+
+```
+Set WshShell = CreateObject( "WScript.Shell" )
+objShell.run "WindowsRightsManagementServicesSP2-KB917275-Client-ENU.exe -override 1 /I MsDrmClient.msi REBOOT=ReallySuppress /q -override 2 /I RmClientBackCompat.msi REBOOT=ReallySuppress /q"
+```
+
 Az RMS ügyfélszoftver Csoportházirend alkalmazásával való terjesztéséről az alapvető tudnivalókat [Az SMS vagy a Csoportházirend beállítása az ügyfelek központi telepítésére](https://technet.microsoft.com/9e37c27b-8cc1-40c6-adb7-0937aa64c8db) című rész tartalmazza.
 
 Az RMS ügyfélszoftver bevezetésének eljárását [Az RMS-ügyfél bevezetése](https://technet.microsoft.com/c84f1724-cf71-4385-9003-ff68bc23c927) című rész ismerteti.

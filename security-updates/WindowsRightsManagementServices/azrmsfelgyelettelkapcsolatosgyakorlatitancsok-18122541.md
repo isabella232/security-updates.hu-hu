@@ -12,9 +12,15 @@ Az RMS felügyelettel kapcsolatos gyakorlati tanácsok
 Az RMS felügyeleténél érdemes megfontolni a következő gyakorlati tanácsokat.
 
 -   **Ne futtasson más szolgáltatásokat az RMS kiszolgálókon**
+
     Ha az RMS szolgáltatáson kívül más szolgáltatásokat is futtat a kiszolgálókon, biztonsági problémákat eredményező ütközések fordulhatnak elő. Használjon teljesítményszámlálókat a szolgáltatás teljesítményének és az esetleges ütközések figyeléséhez.
+
 -   **Gyakran készítsen biztonsági másolatot a konfigurációs adatbázisokról**
+
     A konfigurációs adatbázisok az RMS működéséhez nélkülözhetetlen adatokat tárolnak. Emellett a legfelső szintű tanúsítási fürt konfigurációs adatbázisa tárolja a teljes telepítés kulcspárjait. Ha rendszeresen készít biztonsági másolatot, valamelyik adatbázis-kiszolgáló meghibásodása után rövid idő alatt ismét működőképessé tehető az RMS. A biztonsági másolatok rendszeres elkészítése mellett tesztelje ezek érvényességét külön tesztkörnyezetben való visszaállításukkal. A további tudnivalókat lásd a dokumentumgyűjtemény „RMS bevezetésének tervezése” részében „Az RMS rendszer biztonsági mentése és visszaállítása” témakörben.
+
 -   **Rendszeres időközönként tisztítsa meg a naplózási adatbázist**
+
 -   **A Microsoft Operations Manager (MOM) használatával figyelje az RMS kiszolgálót**
+
     A MOM és az RMS MOM kezelési csomag segítségével fogja be a kritikus eseményeket, vagy érzékelje a teljesítmény csökkenését, és ezekről küldjön értesítést.

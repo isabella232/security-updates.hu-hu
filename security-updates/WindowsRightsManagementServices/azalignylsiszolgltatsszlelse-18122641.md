@@ -23,6 +23,5 @@ Amikor a licenckiszolgáló az aligénylési szolgáltatáshoz küld kérelmet, 
 
 http://kiszolgálónév/\_wmcs/Certification/SubEnrollService.asmx
 
-| ![](images/Cc747641.note(WS.10).gif)Megjegyzés:                                                  |
-|-------------------------------------------------------------------------------------------------------------------------------|
-| Ha engedélyezte az SSL használatát az RMS kiszolgálón, akkor ezek az URL-címek a https:// kapcsolódási protokollt használják. |
+> [!NOTE]  
+> Ha engedélyezte az SSL használatát az RMS kiszolgálón, akkor ezek az URL-címek a https:// kapcsolódási protokollt használják. 

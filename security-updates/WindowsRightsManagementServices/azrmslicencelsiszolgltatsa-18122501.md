@@ -13,15 +13,15 @@ A licencelő szolgáltatás, amely a használati licenceket állítja ki, az RMS
 
 A licencelési szolgáltatás alkalmazásfájlja, a License.asmx, az IIS szolgáltatás Licensing virtuális könyvtárában található.
 
-| ![](images/Cc720278.note(WS.10).gif)Megjegyzés:                                                                                                                                                                                                                                                                                                                                                                                             |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Külön csak licencelési fürt üzembe helyezésével csökkenthető a legfelső szintű fürt által kiszolgálandó kérelmek száma. Egy osztály számára is üzembe helyezhető külön licenckiszolgáló vagy licencelési fürt, például azért, hogy az osztály saját jogmegadási sablonokat alakíthasson ki magának. Ezekről a kérdésekről a további tudnivalók a dokumentumgyűjtemény „RMS bevezetésének tervezése” részében „Az alapvető összetevők azonosítása” témakörben találhatók. |
+> [!NOTE]  
+> Külön csak licencelési fürt üzembe helyezésével csökkenthető a legfelső szintű fürt által kiszolgálandó kérelmek száma. Egy osztály számára is üzembe helyezhető külön licenckiszolgáló vagy licencelési fürt, például azért, hogy az osztály saját jogmegadási sablonokat alakíthasson ki magának. Ezekről a kérdésekről a további tudnivalók a dokumentumgyűjtemény „RMS bevezetésének tervezése” részében „Az alapvető összetevők azonosítása” témakörben találhatók. 
 
 A szolgáltatás alapértelmezett hozzáférési szabálygyűjteményét a következő táblázat szemlélteti:
 
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

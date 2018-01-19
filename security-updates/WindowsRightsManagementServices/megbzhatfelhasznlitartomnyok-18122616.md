@@ -13,9 +13,8 @@ Az RMS alapértelmezés szerint nem állít ki használati licencet olyan felhas
 
 Az RMS beállítható úgy, hogy az ilyen kéréseket is feldolgozza: ehhez importálni kell a másik felhasználói tartomány kiszolgálói licencelői tanúsítványát, és fel kell venni a tartományt a megbízható felhasználói tartományok listájára. Ezt követően azok a felhasználók, akiknek a megbízható felhasználói tartomány állította ki a fióktanúsítványát, ettől a telepítéstől is kérelmezhetnek használati licencet. A használati licencek feldolgozása ugyanúgy megy végbe, mint ha belső felhasználók nyújtották volna be őket.
 
-| ![](images/Cc747618.note(WS.10).gif)Megjegyzés:                                                                                 |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| A legfelső szintű tanúsítási fürt automatikusan szerepel az ugyanabba a telepítésbe tartozó RMS kiszolgálók megbízható felhasználói tartományainak listáján. |
+> [!NOTE]  
+> A legfelső szintű tanúsítási fürt automatikusan szerepel az ugyanabba a telepítésbe tartozó RMS kiszolgálók megbízható felhasználói tartományainak listáján. 
 
 Más tartományokba tartozó felhasználók számára is engedélyezheti védett tartalom megosztását. Ezt az alábbi példával mutatjuk be:
 
