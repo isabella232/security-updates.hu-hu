@@ -530,22 +530,22 @@ Compiled Templates&quot;</td>
 <tr class="even">
 <td style="border:1px solid black;">ApplicationDependencies</td>
 <td style="border:1px solid black;">(LIST) (6 Items)
-&quot;Active Server Pages;ASP&quot;
-&quot;Internet Data Connector;HTTPODBC&quot;
-&quot;Server Side Includes;SSINC&quot;
-&quot;WebDAV;WEBDAV&quot;
+&quot;Active Server Pages;ASP&quot;<br/>
+&quot;Internet Data Connector;HTTPODBC&quot;<br/>
+&quot;Server Side Includes;SSINC&quot;<br/>
+&quot;WebDAV;WEBDAV&quot;<br/>
 &quot;ASP.NET v1.1.4322;ASP.NET v1.1.4322&quot;</td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">WebSvcExtRestrictionList</td>
 <td style="border:1px solid black;">(LIST) (8 Items)
-&quot;0,*.dll&quot;
-&quot;0,*.exe&quot;&gt;
-&quot;0,&lt;windir&gt;\system32\inetsrv\asp.dll,0,ASP,Active Server Pages&quot;&gt;
+&quot;0,*.dll&quot;<br/>
+&quot;0,*.exe&quot;&gt;<br/>
+&quot;0,&lt;windir&gt;\system32\inetsrv\asp.dll,0,ASP,Active Server Pages&quot;&gt;<br/>
 &quot;0,&lt;windir&gt;\system32\inetsrv\httpodbc.dll,0,HTTPODBC,Internet Data
-Connector&quot;
-&quot;0,&lt;windir&gt;\system32\inetsrv\ssinc.dll,0,SSINC,Server Side Includes&quot;
-&quot;0,&lt;windir&gt;\system32\inetsrv\httpext.dll,0,WEBDAV,WebDAV&quot;&gt;
+Connector&quot;<br/>
+&quot;0,&lt;windir&gt;\system32\inetsrv\ssinc.dll,0,SSINC,Server Side Includes&quot;<br/>
+&quot;0,&lt;windir&gt;\system32\inetsrv\httpext.dll,0,WEBDAV,WebDAV&quot;&gt;<br/>
 &quot;1,&lt;windir&gt;\Microsoft.NET\Framework\v2.0.50727\aspnet_isapi.dll,0,ASP.NET
 v2.0.50727,ASP.NET v2.0.50727&quot;</td>
 </tr>
