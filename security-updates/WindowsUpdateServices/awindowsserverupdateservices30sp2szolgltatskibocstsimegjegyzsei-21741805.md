@@ -55,9 +55,23 @@ A szakasz a WSUS 3.0 SP2 telepítésének szoftver- és hardverkövetelményeit 
 -   A telepítéshez az alábbi operációs rendszerek valamelyike szükséges:
     -   Windows Server 2008 R2
     -   Windows Server 2008 SP1 vagy újabb verzió
-
-		> [!WARNING]  
-        > Ha a WSUS 3.0 SP2 kiszolgálót Windows Server 2008 rendszerre telepíti Windows Server 2008 R2 helyett, a Windows Server 2008 R2 rendszerre való frissítés sikertelen lesz. További információt talál az <a href="#bkmk_knownissues">Ismert problémák</a> szakaszban.
+ 
+        <table style="border:1px solid black;">
+        <colgroup>
+        <col width="100%" />
+        </colgroup>
+        <thead>
+        <tr class="header">
+        <th style="border:1px solid black;" ><img src="images/Dd939886.Warning(WS.10).gif" />Figyelmeztetés</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr class="odd">
+        <td style="border:1px solid black;">Ha a WSUS 3.0 SP2 kiszolgálót Windows Server 2008 rendszerre telepíti Windows Server 2008 R2 helyett, a Windows Server 2008 R2 rendszerre való frissítés sikertelen lesz. További információt talál az <a href="#bkmk_knownissues">Ismert problémák</a> szakaszban.
+        </td>
+        </tr>
+        </tbody>
+        </table>
  
 
     -   Windows Server 2003 SP1 vagy újabb verzió
@@ -77,10 +91,24 @@ A szakasz a WSUS 3.0 SP2 telepítésének szoftver- és hardverkövetelményeit 
 -   A Microsoft Report Viewer 2008 terjeszthető változata
 
  
-> [!IMPORTANT]  
-> A Windows Server 2008 R2 rendszerhez a WSUS 3.0 SP2 szükséges. Windows Server 2008 R2 rendszer telepítése esetén a WSUS 3.0 SP2 verziót ajánlott telepítenie. A WSUS 3.0 SP1 verzióját ne telepítse Windows Server 2008 R2 rendszeren.  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="border:1px solid black;" ><img src="images/Dd939886.Important(WS.10).gif" />Fontos</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="border:1px solid black;">A Windows Server 2008 R2 rendszerhez a WSUS 3.0 SP2 szükséges. Windows Server 2008 R2 rendszer telepítése esetén a WSUS 3.0 SP2 verziót ajánlott telepítenie. A WSUS 3.0 SP1 verzióját ne telepítse Windows Server 2008 R2 rendszeren.
 
 A WSUS 3.0 SP2 távoli SQL-konfigurációban nem támogatja az előtér-kiszolgálón futó terminálszolgáltatáson keresztüli használatot.
+</td>
+</tr>
+</tbody>
+</table>
  
 
 ### A WSUS felügyeleti konzol használatának szoftveres előfeltételei
@@ -100,8 +128,22 @@ Az alábbi lista a kiszolgáló alapszintű telepítéséhez szükséges minimá
 -   Legalább 20 GB (lehetőség szerint 30 GB) szabad lemezterület a tartalom tárolására szolgáló köteten
 
  
-> [!WARNING]  
-> A WSUS 3.0 SP2 nem telepíthető tömörített meghajtókra.
+<table style="border:1px solid black;">
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="border:1px solid black;" ><img src="images/Dd939886.Important(WS.10).gif" />Fontos</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="border:1px solid black;">A WSUS 3.0 SP2 nem telepíthető tömörített meghajtókra.
+</td>
+</tr>
+</tbody>
+</table>
  
 
 Előfeltételek és gyakorlati tanácsok a WSUS-kiszolgáló telepítéséhez
@@ -128,11 +170,25 @@ Ha legalább két, a 80-as porton keresztül elérhető webhellyel (például Wi
 Előfordulhat, hogy a WSUS 3.0 SP2 telepítésekor le kell tiltani a víruskereső programokat, és csak ezt követően lehet végrehajtani a telepítést. Miután letiltotta a víruskereső szoftvert, indítsa újra a számítógépet, mielőtt telepíti a WSUS szolgáltatást. A számítógép újraindításával megakadályozható, hogy a fájlok zárolva legyenek, amikor a telepítő hozzájuk szeretne férni. A telepítés befejezését követően ismét kapcsolja be a víruskereső szoftvert. A víruskereső szoftver letiltásának és visszakapcsolásának pontos lépéseiről a víruskereső szoftver forgalmazójának webhelyén találhat tájékoztatást.
 
  
-> [!CAUTION]  
-> Ez a megkerülő megoldás sérülékenyebbé teheti a számítógépet vagy a hálózatot a rosszindulatú felhasználók és a kártevő szoftverek, például vírusok támadásával szemben. Nem javasoljuk ezt a megoldást, de tájékoztatásul közöljük, hogy saját belátása szerint szükség esetén alkalmazni tudja, ezt azonban csak saját felelősségére teheti.
+<table style="border:1px solid black;">
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="border:1px solid black;" ><img src="images/Dd939886.Caution(WS.10).gif" />Vigyázat!</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="border:1px solid black;">Ez a megkerülő megoldás sérülékenyebbé teheti a számítógépet vagy a hálózatot a rosszindulatú felhasználók és a kártevő szoftverek, például vírusok támadásával szemben. Nem javasoljuk ezt a megoldást, de tájékoztatásul közöljük, hogy saját belátása szerint szükség esetén alkalmazni tudja, ezt azonban csak saját felelősségére teheti.
 
 A víruskereső szoftverek abban segítenek, hogy megvédhesse számítógépét a vírusoktól. Amíg a víruskereső program le van tiltva, ne töltsön le és ne nyisson meg fájlokat nem megbízhatónak vélt forrásból, ne látogasson nem megbízható webhelyekre, és ne nyisson meg e-mail mellékleteket.
-
+</td>
+</tr>
+</tbody>
+</table>
+ 
 
 ### Beágyazott eseményindítók az SQL Server alkalmazásban
 
@@ -230,14 +286,7 @@ Ha módosítja a számítógép nevét a WSUS 2.0 telepítése és a WSUS 3.0 SP
 
 Távolítsa el, majd adja újra hozzá az ASPNET és a WSUS-rendszergazdák csoportot. Ezután futtassa a frissítést.
 
-```
-msiexec /x {CEB5780F-1A70-44A9-850F-DE6C4F6AA8FB} callerid=ocsetup.exe
-```
-
-```
-msiexec /x {BDD79957-5801-4A2D-B09E-852E7FA64D01} callerid=ocsetup.exe
-```
-
+        ```
 
 ### Ha az MSDE adatbázis-kezelőről áttért az SQL Server 2008 vagy az SQL Server 2005 használatára a WSUS 2.0-s verziójában, módosítania kell egy beállításazonosító értékét
 
@@ -267,8 +316,9 @@ A telepítő parancssori paraméterei a WSUS 3.0 SP2 felügyelet nélküli telep
 
 A WSUS 3.0 SP2 telepítését felügyelet nélküli üzemmódban is elvégezheti a WSUS parancssori telepítőprogramjával. A táblázat a WSUS 3.0 SP2 parancssori telepítőjének paramétereit tartalmazza.
 
+###  
 
-<p></p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -306,8 +356,9 @@ A WSUS 3.0 SP2 telepítését felügyelet nélküli üzemmódban is elvégezheti
   
 A táblázat a WSUS 3.0 SP2 parancssori tulajdonságait tartalmazza.
   
+###  
 
-<p></p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -389,8 +440,22 @@ A táblázat a WSUS 3.0 SP2 parancssori tulajdonságait tartalmazza.
 WSUSSetup.exe /q DEFAULT\_WEBSITE=0 (telepítés csendes üzemmódban a 8530-as porton) WSUSSetup.exe /q /u (a WSUS eltávolítása)  
 ```
  
-> [!IMPORTANT]  
-> Ha csendes üzemmódban (/q) telepíti a WSUS 3.0 SP2 szolgáltatást, és a gépre nincs telepítve minden előfeltétel, a telepítő létrehoz egy WSUSPreReqCheck.xml nevű fájlt, amelyet a %TEMP% könyvtárban helyez el.
+<table style="border:1px solid black;">
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="border:1px solid black;" ><img src="images/Dd939886.Important(WS.10).gif" />Fontos</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="border:1px solid black;">Ha csendes üzemmódban (/q) telepíti a WSUS 3.0 SP2 szolgáltatást, és a gépre nincs telepítve minden előfeltétel, a telepítő létrehoz egy WSUSPreReqCheck.xml nevű fájlt, amelyet a %TEMP% könyvtárban helyez el.
+</td>
+</tr>
+</tbody>
+</table>
  
 
 <span id="BKMK_KnownIssues"></span>

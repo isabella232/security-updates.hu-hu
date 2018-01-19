@@ -35,8 +35,23 @@ Set up as many DNS host (A) resource records as there are planned WSUS servers.
 6.  Repeat this procedure for the rest of the planned WSUS servers.
 
  
-> [!IMPORTANT]  
-> Make sure that each of the planned WSUS servers has the same host name.
+<table style="border:1px solid black;">
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="border:1px solid black;" ><img src="images/Dd939865.Important(WS.10).gif" />Fontos</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="border:1px solid black;">Make sure that each of the planned WSUS servers has the same host name.
+</td>
+</tr>
+</tbody>
+</table>
+ 
 
 Step 3: Set up the DNS server for netmask ordering and round robin
 ------------------------------------------------------------------
@@ -49,8 +64,18 @@ Step 3: Set up the DNS server for netmask ordering and round robin
 3.  Click **OK**.
 
  
-> [!NOTE]  
-> With netmask ordering, you restrict name resolution to computers in the same subnet, if there are any. With round robin, if there are multiple name resolutions, the result that is returned will rotate through the list of available hosts. Therefore, if there is a subnet without a WSUS server, host name resolution for clients in that subnet will rotate through the list of WSUS servers in the other subnets.
+<table style="border:1px solid black;">
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="border:1px solid black;" ><img src="images/Dd939865.note(WS.10).gif" />Megjegyzés</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="border:1px solid black;">With netmask ordering, you restrict name resolution to computers in the same subnet, if there are any. With round robin, if there are multiple name resolutions, the result that is returned will rotate through the list of available hosts. Therefore, if there is a subnet without a WSUS server, host name resolution for clients in that subnet will rotate through the list of WSUS servers in the other subnets.
 </td>
 </tr>
 </tbody>

@@ -68,8 +68,24 @@ A 3. lépésben végrehajtotta a felsőbb rétegbeli kiszolgáló és a proxykis
 
 4.  Kattintson a **Befejezés** gombra.
 
-    > [!IMPORTANT]  
-    > Miközben a kiszolgáló szinkronizálást végez, nem lehet konfigurációs módosításokat végezni. Várjon, amíg a szinkronizálás befejeződik, és csak utána módosítsa a beállításokat.
+ 
+    <table style="border:1px solid black;">
+    <colgroup>
+    <col width="100%" />
+    </colgroup>
+    <thead>
+    <tr class="header">
+    <th style="border:1px solid black;" ><img src="images/Dd939924.Important(WS.10).gif" />Fontos</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td style="border:1px solid black;">Miközben a kiszolgáló szinkronizálást végez, nem lehet konfigurációs módosításokat végezni. Várjon, amíg a szinkronizálás befejeződik, és csak utána módosítsa a beállításokat.
+    </td>
+    </tr>
+    </tbody>
+    </table>
+ 
 
 A WSUS felügyeleti konzol használata esetén
 -------------------------------------------
