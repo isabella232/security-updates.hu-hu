@@ -41,8 +41,9 @@ A WSUS RTM frissítésekor a WSUS SP1 telepítője automatikusan biztonsági me
 **Az elegendő szabad hely megállapítása**
 1.  Nyissa meg a Windows Intézőt, és lépjen arra a mappára, amelyikben a WSUS adatbázis van tárolva. Alapértelmezésben a WSUS az adatbázist a következő helyre telepíti:
 
-    
-        ```
+    ```
+    <DriveLetter>:\WSUS\MSSQL$WSUS\Data\
+    ```
 2.  Tartsa lenyomva a **CTRL** billentyűt, és jelölje ki a **SUSDB.MDF** és a **SUSDB\_log.LDF** fájlt, majd kattintson az egér jobb oldali gombjával és válassza a **Tulajdonságok** parancsot.
 
 3.  A **Fájlok** párbeszédpanelen olvassa le a **Lemezterület** értékét. A lemezen legalább ennyi szabad helynek kell lenni a WSUS SP1 telepítéséhez.
@@ -67,13 +68,11 @@ A WSUS API (alkalmazásfejlesztői felület) meghívása ütközést okoz a WSUS
 
 A WSUS SP1 használatával történő frissítéskor lehet, hogy szükség van a vírusvédelmi programok kikapcsolására, hogy a frissítés sikeresen legyen végrehajtható. A vírusvédelmi szoftverek letiltása után és a frissítés, illetve a szervizcsomag telepítése előtt újra kell indítani a Windows kiszolgáló számítógépét. Ez az eljárás teszi lehetővé, hogy a frissítési folyamat által elérni szükséges fájlok ne legyenek zárolva. A telepítés befejezése után ne feledje ismét bekapcsolni a vírusvédelmi programot. A vírusvédelmi program letiltásához és ismételt engedélyezéséhez szükséges lépésekről a vírusvédelmi program gyártójának webhelyén tájékozódhat.
 
-| ![](images/Cc708486.Caution(WS.10).gif)Figyelmeztetés:                                                                                                                                                                                                                                                                               |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Ez a kerülő megoldás a számítógépét vagy a hálózatát sebezhetőbbé teszi a rosszindulatú felhasználókkal vagy a kártékony szoftverekkel, vírusokkal szemben. Mi nem ajánljuk ezt a kerülőutat, csak tájékoztatjuk ennek lehetőségéről, de ennek igénybe vétele a felhasználó felelőssége. Ezt a kerülőutat a felhasználók csak saját felelősségükre használhatják. |
+> [!Caution]  
+> Ez a kerülő megoldás a számítógépét vagy a hálózatát sebezhetőbbé teszi a rosszindulatú felhasználókkal vagy a kártékony szoftverekkel, vírusokkal szemben. Mi nem ajánljuk ezt a kerülőutat, csak tájékoztatjuk ennek lehetőségéről, de ennek igénybe vétele a felhasználó felelőssége. Ezt a kerülőutat a felhasználók csak saját felelősségükre használhatják. 
 
-| ![](images/Cc708486.note(WS.10).gif)Megjegyzés:                                                                                                                                                                                                                                                         |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| A vírusvédelmi programok úgy lettek kialakítva, hogy segítsék a számítógépet megvédeni a számítógépes vírusoktól. Amikor le van tiltva a vírusvédelem nem szabad letölteni vagy megnyitni olyan fájlokat, amelyek nem megbízható eredetűek, nem szabad látogatni nem megbízható webhelyeket, illetve megnyitni e-mail mellékleteket. |
+> [!Note]  
+> A vírusvédelmi programok úgy lettek kialakítva, hogy segítsék a számítógépet megvédeni a számítógépes vírusoktól. Amikor le van tiltva a vírusvédelem nem szabad letölteni vagy megnyitni olyan fájlokat, amelyek nem megbízható eredetűek, nem szabad látogatni nem megbízható webhelyeket, illetve megnyitni e-mail mellékleteket. 
 
 #### 6. probléma: Ha proxykiszolgálót használ, lehet, hogy az SP1 frissítés törli a proxy konfigurált felhasználónevét és jelszavát
 
@@ -147,10 +146,18 @@ Ha a számítógép nevét a WSUS RTM telepítése után és a WSUS SP1 verziór
 
 Az ASPNET és a WSUS Rendszergazdák csoportjának eltávolításához, majd ismételt felvételéhez a következő parancsfájlt kell használni. Majd a frissítést újra elindítani.
 
-        ```
-| ![](images/Cc708486.note(WS.10).gif)Megjegyzés:                 |
-|----------------------------------------------------------------------------------------------|
-| A &lt;Tartalommappa&gt; helyére az utolsó sorban a tartalomtároló elérési útját kell beírni. |
+```
+osql.exe -S %computername%\WSUS -E -Q "USE SUSDB DECLARE @asplogin varchar(200) SELECT @asplogin=name from sysusers WHERE name like '%ASPNET' EXEC sp_revokedbaccess @asplogin"
+osql.exe -S %computername%\WSUS -E -Q "USE SUSDB DECLARE @wsusadminslogin varchar(200) SELECT @wsusadminslogin=name from sysusers WHERE name like '%WSUS Administrators' EXEC sp_revokedbaccess @wsusadminslogin"
+
+osql.exe -S %computername%\WSUS -E -Q "USE SUSDB DECLARE @asplogin varchar(200) SELECT @asplogin=HOST_NAME()+'\ASPNET' EXEC sp_grantlogin @asplogin EXEC sp_grantdbaccess @asplogin EXEC sp_addrolemember webService,@asplogin"
+osql.exe -S %computername%\WSUS -E -Q "USE SUSDB DECLARE @wsusadminslogin varchar(200) SELECT @wsusadminslogin=HOST_NAME()+'\WSUS Administrators' EXEC sp_grantlogin @wsusadminslogin EXEC sp_grantdbaccess @wsusadminslogin EXEC sp_addrolemember webService,@wsusadminslogin"
+
+osql.exe -S %computername%\WSUS -E -Q "backup database SUSDB to disk=N'<ContentDirectory>\SUSDB.Dat' with init"
+```
+
+> [!Note]  
+> A &lt;Tartalommappa&gt; helyére az utolsó sorban a tartalomtároló elérési útját kell beírni. 
 
 A WSUS – Fontos tudnivalók eredeti tartalma
 -------------------------------------------
@@ -193,7 +200,7 @@ A következő táblázat ismerteti, hogy az egyes támogatott operációs rendsz
 
 ###  
 
- 
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -340,9 +347,8 @@ Ismert problémák
 
 Ha Windows 2000 Server rendszerű számítógépen működteti az Internet Information Services (IIS) szolgáltatást, akkor a Microsoft TechNet IIS Lockdown Tool lapjáról telepíteni kell az IIS Lockdown varázsló legújabb verzióját (amely tartalmazza az URLScan eszközt). Az IIS alapú kiszolgálók biztonsága érdekében a Microsoft feltétlenül ajánlja ezen eszköz telepítését. Az IIS Lockdown varázsló úgy működik, hogy kikapcsolja az IIS szükségtelen szolgáltatásait csökkentve ezzel a biztonsági kockázatot.
 
-| ![](images/Cc708486.note(WS.10).gif)Megjegyzés:                                                                                                                                                                                      |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| A WSUS telepítő nem telepíti ezeket az összetevőket. Ezek telepítését külön kell végrehajtani. Az IIS Lockdown telepítése nem szükséges a Windows Server 2003 verzióval működő számítógépeken, mert ez a funkció már be lett építve ebbe az operációs rendszerbe. |
+> [!Note]  
+> A WSUS telepítő nem telepíti ezeket az összetevőket. Ezek telepítését külön kell végrehajtani. Az IIS Lockdown telepítése nem szükséges a Windows Server 2003 verzióval működő számítógépeken, mert ez a funkció már be lett építve ebbe az operációs rendszerbe. 
 
 #### 2. probléma: A WSUS konfigurációjának közvetlen módosítása az adatbázisban nem támogatott
 
