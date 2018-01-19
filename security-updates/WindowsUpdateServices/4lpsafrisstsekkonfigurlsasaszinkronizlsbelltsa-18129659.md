@@ -54,9 +54,8 @@ A következő öt művelet bemutatja, hogyan lehet konfigurálni a frissítések
 
 Amikor befejezett minden, fent ismertetett konfigurálási műveletet, válassza a konfigurálás varázsló **Befejeződött** oldalát. Ha nem törli a jelet **A Windows Server Update Services felügyeleti beépülő moduljának elindítása** jelölőnégyzetből, elindíthatja a WSUS felügyeleti konzolt, továbbá elindíthatja az első szinkronizálást, ha bejelölve hagyja az **Első szinkronizálás elindítása** jelölőnégyzetet.
 
-| ![](images/Cc708447.note(WS.10).gif)Megjegyzés:                                                                                                         |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Miközben a kiszolgáló szinkronizálást végez, nem lehet konfigurációs módosításokat végezni. Várjon, amíg a szinkronizálás be nem fejeződik, és csak utána módosítsa a beállításokat. |
+> [!NOTE]  
+> Miközben a kiszolgáló szinkronizálást végez, nem lehet konfigurációs módosításokat végezni. Várjon, amíg a szinkronizálás be nem fejeződik, és csak utána módosítsa a beállításokat. 
 
 ![](images/Cc708447.3f774fd1-af87-47d8-8f50-a5d585687d70(WS.10).gif)
 
@@ -95,17 +94,15 @@ A hálózati kapcsolat beállítását követően letölthetők a szükséges fr
 
 A szinkronizálás során a kiszolgáló kapcsolatot létesít a Microsoft Update webhellyel, majd megállapítja, hogy közzétettek-e új frissítéseket a legutóbbi szinkronizálás óta. Mivel most először szinkronizálja a WSUS-kiszolgálót, valamennyi frissítés letölthetőként jelenik meg, így jóvá is hagyható telepítésre. Az első szinkronizálás meglehetősen hosszú ideig is tarthat.
 
-| ![](images/Cc708447.note(WS.10).gif)Megjegyzés:                                                                                                           |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Ebben a dokumentumban az alapbeállításokkal történő szinkronizálásról lesz szó, ám a WSUS megfelelő beállításaival minimalizálható például a szinkronizáláshoz szükséges sávszélesség. |
+> [!NOTE]  
+> Ebben a dokumentumban az alapbeállításokkal történő szinkronizálásról lesz szó, ám a WSUS megfelelő beállításaival minimalizálható például a szinkronizáláshoz szükséges sávszélesség. 
 
 **A WSUS-kiszolgáló szinkronizálása**
 1.  A WSUS felügyeleti konzolon válassza a **Szinkronizálások** lehetőséget.
 
 2.  Kattintson a jobb gombbal, vagy lépjen a jobb oldalon látható **Műveletek** ablaktáblára, majd kattintson a **Szinkronizálás most** parancsra.
 
-| ![](images/Cc708447.note(WS.10).gif)Megjegyzés:                                                                                                                                            |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Ha nem látható a **Műveletek** ablaktábla a konzol jobb oldalán, kattintson az eszköztáron a **Nézet** menüre, majd a **Testreszabás** parancsra, és ellenőrizze, hogy be van-e jelölve a **Munkaablak** jelölőnégyzet. |
+> [!NOTE]  
+> Ha nem látható a **Műveletek** ablaktábla a konzol jobb oldalán, kattintson az eszköztáron a **Nézet** menüre, majd a **Testreszabás** parancsra, és ellenőrizze, hogy be van-e jelölve a **Munkaablak** jelölőnégyzet. 
 
 A szinkronizálás befejezését követően a frissítések listájának megtekintéséhez kattintson a bal oldali ablaktábla **Frissítések** elemére.

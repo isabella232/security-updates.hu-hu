@@ -51,9 +51,8 @@ Ahhoz, hogy a WSUS kezelése során megtekinthesse a házirend-beállításokat,
 
 4.  Kattintson az **OK** gombra.
 
-| ![](images/Cc720532.note(WS.10).gif)Megjegyzés:                                                                                                                                  |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **A helyi rendszergazda adja meg a beállítást** lehetőség csak abban az esetben jelenik meg, ha az Automatikus frissítések szolgáltatás a WSUS szolgáltatással kompatibilis verzióra frissítette saját magát. |
+> [!NOTE]  
+> **A helyi rendszergazda adja meg a beállítást** lehetőség csak abban az esetben jelenik meg, ha az Automatikus frissítések szolgáltatás a WSUS szolgáltatással kompatibilis verzióra frissítette saját magát. 
 
 **Az ügyfélszámítógép beállítása a WSUS-kiszolgálóval létesítendő kapcsolat használatára**
 1.  Bontsa ki a Csoportházirendobjektum-szerkesztő modul konzoljának **Számítógép konfigurációja**, **Felügyeleti sablonok**, majd **Windows-összetevők** csomópontját, és kattintson a **Windows Update** mappára.
@@ -62,9 +61,8 @@ Ahhoz, hogy a WSUS kezelése során megtekinthesse a házirend-beállításokat,
 
 3.  Jelölje be az **Engedélyezve** választógombot, majd írja be ugyanazon WSUS-kiszolgáló HTTP alapú URL-címét az **Adja meg a frissítések keresését végző intranetes frissítési szolgáltatást** és az **Adja meg a statisztikát tároló intranetkiszolgálót** mezőbe (például *http://kiszolgálónév*), végül kattintson az **OK** gombra.
 
-| ![](images/Cc720532.note(WS.10).gif)Megjegyzés:                                                                                                                                                                                                                                                             |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Amennyiben a Helyi csoportházirend objektumot használja a számítógép WSUS-kiszolgálóval létesítendő kapcsolatának definiálására, a beállítás azonnal érvénybe lép, és a számítógép rövid időn belül megjelenik a WSUS szolgáltatás felügyeleti konzolján. Felgyorsíthatja a folyamatot, ha manuálisan elindítja a frissítések keresését. |
+> [!NOTE]  
+> Amennyiben a Helyi csoportházirend objektumot használja a számítógép WSUS-kiszolgálóval létesítendő kapcsolatának definiálására, a beállítás azonnal érvénybe lép, és a számítógép rövid időn belül megjelenik a WSUS szolgáltatás felügyeleti konzolján. Felgyorsíthatja a folyamatot, ha manuálisan elindítja a frissítések keresését. 
 
 Az adott ügyfélszámítógép beállítását követően a rendszer néhány perc elteltével megjeleníti a számítógépet a WSUS-konzol **Számítógépek** lapján. Tartományi csoportházirenddel beállított ügyfélszámítógépek esetén körülbelül húsz percre van szükség a Csoportházirend modulbeli beállítások frissítéséhez (tehát ennyi idő elteltével alkalmazza a rendszer az új házirend-beállításokat az ügyfélszámítógépen). A Csoportházirend modul alapértelmezés szerint kilencven percenként frissül a háttérben, a véletlenszerű eltolási érték pedig 0–30 perc. Ha rövidebb frissítési időközt szeretne beállítani, nyisson meg egy parancsablakot az ügyfélszámítógépen, és írja be a parancssorba a következőt: **gpupdate /force**.
 
