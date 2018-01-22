@@ -12,7 +12,9 @@ Az RMS bevezetésének előfeltételei és feladatlistái
 Az RMS telepítésének megkezdése előtt nézze át az RMS használatának technológiai előfeltételeit. A felsorolt technológiák mind az RMS szerves részét képezik, és ezek alapvető ismerete nélkülözhetetlen az RMS sikeres bevezetéséhez. Az itt következő feladatlisták segítséget nyújtanak az RMS bevezetésének és felügyeletének megtervezésében:
 
 -   [Technológiai előfeltételek](#bkmk_9)
+
 -   [Az RMS bevezetési feladatlistái](#bkmk_10)
+
 -   [Az RMS felügyeleti feladatlistái](#bkmk_14)
 
 Technológiai előfeltételek
@@ -35,7 +37,9 @@ Az RMS bevezetési feladatlistái
 Ez a szakasz a következő bevezetési műveletekhez kínál feladatlistát:
 
 -   [Egykiszolgálós telepítés bevezetése](#bkmk_11)
+
 -   [Legfelső szintű tanúsítási fürt és licencelési fürt bevezetése](#bkmk_12)
+
 -   [Az RMS bevezetése több erdőben](#bkmk_13)
 
 Az RMS bevezetéséről a további tudnivalókat lásd a dokumentumgyűjtemény következő témakörében: [RMS rendszer bevezetése](http://go.microsoft.com/fwlink/?linkid=42494).
@@ -194,8 +198,11 @@ Az RMS felügyeleti feladatlistái
 Ez a szakasz a következő felügyeleti műveletekhez kínál feladatlistát:
   
 -   [Jogmegadási sablon alkalmazása](#bkmk_15)  
+
 -   [Új RMS ügyfél bevezetése](#bkmk_16)  
+
 -   [Megbízható felhasználói tartomány felvétele](#bkmk_17)  
+
 -   [Megbízható közzétételi tartomány felvétele](#bkmk_18)
   
 Az RMS kezeléséről a további tudnivalókat lásd a dokumentumgyűjtemény [RMS kiszolgáló működtetése](http://go.microsoft.com/fwlink/?linkid=42495) című részében.

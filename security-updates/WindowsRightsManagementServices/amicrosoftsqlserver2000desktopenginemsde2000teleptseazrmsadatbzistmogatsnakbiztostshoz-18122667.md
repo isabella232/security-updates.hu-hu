@@ -24,11 +24,10 @@ A Microsoft SQL Server 2000 Desktop Engine (MSDE 2000) telepítése az RMS ada
 
 5.  A Microsoft SQL Server 2000 Desktop Engine alkalmazásnak az RMS szolgáltatással együttműködést lehetővé tevő beállításokkal való telepítéséhez írja be a következő parancsot, és a *jelszó* helyőrzőt cserélje le a kívánt erős jelszóra:
 
-    **Setup.exe /i setup\\sqlrun10.msi INSTANCENAME=RMS DISABLEAGENTSTARTUP=1 SAPWD=***jelszó*
+    **Setup.exe /i setup\\sqlrun10.msi INSTANCENAME=RMS DISABLEAGENTSTARTUP=1 SAPWD=** *jelszó*
 
-    | ![](images/Cc747667.Important(WS.10).gif)Fontos:                                                                                                                                                                         |
-    |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | Az MSDE szolgáltatást telepítése után kell elindítani. A szolgáltatás a **VezérlőpultSzolgáltatások** elemével indítható. A szolgáltatást érdemes automatikus indulásra konfigurálni, így az MSDE-adatbázis az RMS futtatásakor mindig elérhető lesz. |
+    > [!IMPORTANT]  
+    > Az MSDE szolgáltatást telepítése után kell elindítani. A szolgáltatás a **VezérlőpultSzolgáltatások** elemével indítható. A szolgáltatást érdemes automatikus indulásra konfigurálni, így az MSDE-adatbázis az RMS futtatásakor mindig elérhető lesz. 
 
 Az RMS-szolgáltatást csak az RMS konfigurációs adatbázisát kezelő adatbázis telepítése után létesítse a kiszolgálón.
 

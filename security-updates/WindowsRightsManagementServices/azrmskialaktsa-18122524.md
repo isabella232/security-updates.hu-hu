@@ -16,5 +16,7 @@ Az RMS telepítésének befejezése után a felügyeleti webhely **Globális fel
 A témakör tartalma:
 
 -   [Az RMS alkalmazása FIPS-kompatibilis rendszeren](https://technet.microsoft.com/720bdace-dcd8-431e-b0fa-01193782fe0b)
+
 -   [A tanúsítási és a licencelési szolgáltatás beállítása az első kiszolgálón](https://technet.microsoft.com/cce29a2f-984f-48ed-9187-0eb68286ec5b)
+
 -   [A tanúsítást és a licencelést biztosító kiszolgálók hozzáadása](https://technet.microsoft.com/089ceb62-2a96-444f-ab42-1d5deaabd0c3)

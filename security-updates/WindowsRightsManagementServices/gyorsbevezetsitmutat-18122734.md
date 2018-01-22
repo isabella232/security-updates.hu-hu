@@ -17,8 +17,11 @@ Az RMS működéséhez más összetevőkre is szükség van, amelyeket a szolgá
 
 1.  Konfiguráljon egy Windows Server 2003 operációs rendszert futtató számítógépet, majd csatlakoztassa a számítógépet egy Active Directory-tartományhoz. (Kisebb szervezeteknél, ahol csak egy kiszolgáló működik, ez a számítógép lehet az Active Directory tartományvezérlője is. Ebben az esetben viszont a számítógépen Windows Server 2003 Standard Edition, Windows Server 2003 Enterprise Edition vagy Windows Server 2003 Datacenter Edition operációs rendszernek kell futnia. Windows Server 2003 Web Edition rendszerrel működő számítógép nem lehet tartományvezérlő.)
 2.  Konfigurálja a kiszolgálót az **Alkalmazáskiszolgáló** szerepkörre. Ehhez kattintson a **Start** gombra, válassza a **Vezérlőpult** parancsot, majd kattintson duplán a **Programok telepítése és törlése** ikonra. A **Programok telepítése és törlése** párbeszédpanelen kattintson a **Windows-összetevők hozzáadása vagy eltávolítása** gombra, majd ellenőrizze, hogy az **Alkalmazáskiszolgáló** csoportban engedélyezve vannak-e a következő szolgáltatások:
+
     -   **ASP.NET**
+
     -   **Internet Information Services (IIS)**
+    
     -   **Üzenetsor-kezelés**
 
     Fogadja el mindegyik szolgáltatás alapértelmezett beállításait. Nincs szükség további konfigurálásra.
@@ -27,8 +30,11 @@ Az RMS működéséhez más összetevőkre is szükség van, amelyeket a szolgá
     -   Microsoft SQL Server 2000 Desktop Engine (MSDE 2000) Release A. Ennek helyi telepítésnek kell lennie. Az MSDE 2000 letölthető a [Microsoft webhelyéről](http://go.microsoft.com/fwlink/?linkid=17799) (http://go.microsoft.com/fwlink/?LinkID=17799).
 
     A Microsoft SQL Server Desktop Engine adatbázis-kezelőt csak tesztkörnyezetben ajánlott használni az RMS adatbázisaihoz, mivel a Microsoft SQL Server Desktop Engine nem tartalmazza a teljes vállalati rendszert átfogó adatbázisok működtetéséhez szükséges eszközöket. Emellett az MSDE nem támogatja a távoli hálózatkezelést sem, ezért az RMS szolgáltatással azonos kiszolgálóra kell telepíteni, és nem lehet további RMS kiszolgálókat felvenni az RMS fürtbe. A Microsoft SQL Server Desktop Engine használati feltételei megtiltják az SQL Server ügyféleszközeinek használatát a Microsoft SQL Server Desktop Engine adatbázisok kezeléséhez. E korlátozás miatt nem tudja elkészíteni az RMS konfigurációs adatbázisának biztonsági másolatát, illetve nem tudja azt visszaállítani, nem tudja megtekinteni a naplózott adatokat és közvetlenül módosítani a konfigurációs adatbázisban tárolt adatokat.
+
 4.  Döntse el, hogy milyen néven kapcsolódhassanak a felhasználók a szolgáltatáshoz az intraneten keresztül (például: http://tanusitas.contoso.com). Állítsa be a DNS (Domain Name System) szolgáltatásban, hogy ez az URL az RMS rendszert futtató számítógép IP-címének feleljen meg. Teljesen megadott DNS-tartománynevet kell használnia a fürt URL-címéhez, hogy a DNS más zónáinak felhasználói fel tudják oldani az RMS kiszolgálók IP-címét.
+
 5.  Hozzon létre rendszergazdai fiókot az RMS szolgáltatáshoz.
+
 6.  Ezzel készen áll az RMS SP1 telepítésére. Erről a lépésről a további tudnivalókat lásd a dokumentumgyűjtemény „RMS kiszolgáló működtetése” részében „A Service Pack 1 csomaggal frissített RMS telepítése” témakörben.
 
 **Gyakran használt választható szolgáltatások**
@@ -36,7 +42,9 @@ Az RMS működéséhez más összetevőkre is szükség van, amelyeket a szolgá
 A következő szolgáltatások nem kötelezőek, és ha használatuk mellett dönt, telepítésük és létesítésük előtt hajtsa végre a szükséges előkészítő lépéseket:
 
 -   Az RMS beállítható úgy, hogy hardveres biztonsági modulban tárolja a személyes kulcsokat. Ha hardveres biztonsági modult szeretne használni, ellenőrizze az illesztőprogramok helyes konfigurálását és a biztonsági világ definiálását.
+
 -   A létesítési eljárásban automatikusan letölthet egy kiszolgálói licencelői tanúsítványt, ha az RMS számítógépről elérhető az internet. Ha a szervezetnél proxykiszolgálón keresztül kapcsolódnak az internethez, ellenőrizze az Internet Explorer proxybeállításait (köztük az esetleges hitelesítési követelményeket), és későbbi használatra jegyezze fel ezeket.
+
 -   Ha tartományvezérlőn fog futni az RMS, és valamelyik felhasználói fiókot kívánja használni az RMS futtatásához, ellenőrizze, hogy a tartományvezérlő biztonsági házrendje engedélyezi-e a felhasználói fióknak a helyi bejelentkezést. A tartományvezérlő biztonsági házirendjének beállításáról a Windows Server 2003 súgója tartalmaz további tájékoztatást.
 
 **2. lépés – Az első RMS kiszolgáló létesítése**
@@ -44,21 +52,29 @@ A következő szolgáltatások nem kötelezőek, és ha használatuk mellett dö
 A létesítés az RMS szolgáltatást futtató webhely konfigurálását jelenti, így a felhasználók elkezdhetik használni a szolgáltatást. A szervezet legfelső szintű tanúsítási kiszolgálójának létesítését a következő lépésekkel hajthatja végre:
 
 1.  Jelentkezzen be a számítógépre helyi rendszergazdai jogokkal rendelkező tartományi felhasználóként. Ha tartományvezérlőre telepíti az RMS szolgáltatást, tartománygazdaként kell bejelentkezni.
+
 2.  Kattintson a **Start** gombra, és válassza a **Minden program**, a **Windows RMS**, végül a **Windows RMS felügyeleti webhely** parancsot. Ekkor a **Globális felügyelet** lap jelenik meg. Ezen a lapon a kiszolgálón elérhető webhelyek listája található.
+
 3.  Kattintson arra a webhelyre, amelyen létesítené szeretné az RMS szolgáltatást, majd kattintson az **RMS létesítése a webhelyen** hivatkozásra. A megnyíló oldal tetején **Az RMS legfelső szintű tanúsítási kiszolgáló létesítése** cím látható.
+
 4.  Írja be az oldal mezőibe a szervezet adatait.
+
     -   Írja be a **Fürt URL-címe** mezőbe azt a szolgáltatásnevet (például tanusitas.contoso.com), amelyet az előző eljárás 4. lépésében beállított. Ha SSL-titkosítást kíván használni a telepítésen, jelölje be a protokollok listáján a HTTPS protokollt. Ez az SSL engedélyezését jelenti, azonban nem követeli meg a használatát az RMS webszolgáltatásokhoz. Ezt külön, az IIS szolgáltatásban kell konfigurálni.
+
     -   Ha a kiszolgáló proxykiszolgálón keresztül kapcsolódik az internethez, az **RMS proxybeállításai** csoportba írja be azokat az adatokat, amelyeket Internet Explorerből az előző eljárásnál feljegyzett.
+
     -   A **Kiszolgáló internetes csatlakoztathatósága** területen válassza az **On-line** beállítást, ha a kiszolgálóval az interneten keresztül a Microsoft igénylési szolgáltatásához kíván kapcsolódni, és a létesítési eljárás során automatikusan kiszolgálói licencelői tanúsítványt kíván szerezni. A **Kapcsolat nélkül** beállítást akkor válassza, ha az RMS létesítése után kézzel kíván kapcsolódni a Microsoft igénylési szolgáltatásához a kiszolgálói licencelői tanúsítvány letöltéséhez és importálásához.
+
 5.  Kattintson a **Küldés** gombra.
     60-90 másodperc elteltével sikeresen befejeződik a konfigurálás. Ezt követően visszatérhet a **Globális felügyelet** oldalra, ahol felügyelheti az újonnan létesített RMS kiszolgálót.
+
 6.  A **Globális felügyelet** lapon válassza **A webhelyen működő RMS felügyelete** elemet: ekkor az RMS kiszolgáló **Felügyeleti kezdőlapja** jelenik meg.
     Ha a 4. lépésben a Kapcsolat nélkül beállítást választotta a Kiszolgáló internetes csatlakoztathatósága területen, a folytatás előtt hajtsa végre a „Legfelső szintű tanúsítási kiszolgáló kézi igénylése” eljárást.
+
 7.  A Felügyeleti kezdőlapon kattintson **Az RMS-szolgáltatás kapcsolódási pontja** hivatkozásra.
 
-| ![](images/Cc747735.note(WS.10).gif)Megjegyzés:                                                                                                                                                                                                                                                                                                                                       |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Az eljárás következő lépéséhez, a szolgáltatás csatlakozási pontjának regisztrálásához olyan tartományi fiók szükséges, amelynek engedélyei lehetővé teszik tárolóobjektum létrehozását az Active Directory-erdő Configuration tárolójában található Services tárolóban. A **Vállalati rendszergazdák** nevű előre megadott biztonsági csoport például olyan fiók, amely rendelkezik a szükséges jogosultságokkal. |
+> [!NOTE]  
+> Az eljárás következő lépéséhez, a szolgáltatás csatlakozási pontjának regisztrálásához olyan tartományi fiók szükséges, amelynek engedélyei lehetővé teszik tárolóobjektum létrehozását az Active Directory-erdő Configuration tárolójában található Services tárolóban. A **Vállalati rendszergazdák** nevű előre megadott biztonsági csoport például olyan fiók, amely rendelkezik a szükséges jogosultságokkal. 
 
 1.  Az **RMS-szolgáltatás kapcsolódási pontja** lapon kattintson az **URL-cím regisztrálása** gombra. Ez bejegyzi az RMS szolgáltatás kapcsolódási pontját az Active Directoryba, így az RMS-kompatibilis alkalmazások észlelni tudják az RMS licencelési, aktiválási proxy és tanúsítási szolgáltatásait.
 
@@ -67,7 +83,11 @@ A létesítés az RMS szolgáltatást futtató webhely konfigurálását jelenti
 Az RMS teljes körű használata előtt az ügyfélszámítógépekre telepítenie kell a Microsoft Windows tartalomvédelmi szolgáltatások ügyfélszoftverét és egy RMS-kompatibilis alkalmazást. A felhasználóknak az Active Directory-tartomány tagjainak kell lenniük, az ügyfélszámítógépeket pedig csatlakoztatni kell a tartományhoz. A tartományi felhasználóknak az Active Directoryban definiált e-mail címmel kell rendelkezniük. Az RMS tesztelése:
 
 1.  Jelentkezzen be érvényes tartományi felhasználóként az ügyfélszámítógépre.
+
 2.  Telepítse a Service Pack 1 csomaggal frissített RMS-ügyfelet.
+
 3.  Telepítsen egy RMS-kompatibilis alkalmazást.
+
 4.  Hozzon létre egy RMS-védelemmel ellátott fájlt, adjon mindenkinek csak olvasási jogot a fájlhoz, majd mentse a fájlt egy olyan megosztott mappába, amelyhez a felhasználók teljes hozzáféréssel rendelkeznek.
+
 5.  Jelentkezzen be más felhasználónévvel. Nyissa meg a fájlt, és próbálja meg módosítani. Nem tudja módosítani a fájlt, ha megfelelő az RMS telepítése.

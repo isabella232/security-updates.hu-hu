@@ -16,6 +16,7 @@ A tartományvezérlő telepítése és az adatbázis-kiszolgálók beállítása
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />

@@ -101,8 +101,11 @@ A konfigurációs adatbázist a következő eljárással állíthatja vissza a b
 4.  Ha a visszaállított adatbázis egy különálló legfelső szintű tanúsítási kiszolgálóhoz tartozik, a szolgáltatás újralétesítése előtt módosítsa a következő rendszerleíró kulcsot:
 
     -   A Windows Server 2003 rendszer 32 bites verziójával működő számítógépeken:
+
         `HKEY_LOCAL_MACHINE\Software\Microsoft\DRMS\1.0\`
+        
     -   A Windows Server 2003 rendszer 64 bites verziójával működő számítógépeken:
+
         `HKEY_LOCAL_MACHINE\Software\WOW6432Node\Microsoft\DRMS\1.0\`
 
     Hozza létre a következő, karaktersorozat típusú bejegyzést, és hagyja üresen értékét:
@@ -116,7 +119,9 @@ A konfigurációs adatbázist a következő eljárással állíthatja vissza a b
 6.  Hajtsa végre a megfelelő lépést:
 
     -   Ha nem fürt, hanem különálló kiszolgáló adatbázisát állítja vissza, keresse meg azt a webhelyet, amelyen létesíteni szeretné az RMS szolgáltatást, majd kattintson a mellette látható RMS létesítése a webhelyen hivatkozásra.
+
         vagy
+        
     -   Ha egy fürt adatbázisát állítja vissza, keresse meg azt a webhelyet, amelyen létesíteni szeretné az RMS szolgáltatást, majd kattintson a mellette látható Kiszolgáló hozzáadása fürthöz hivatkozásra.
 
 7.  Adja meg a kiszolgáló első létesítésekor használt RMS-szolgáltatásfiókot.

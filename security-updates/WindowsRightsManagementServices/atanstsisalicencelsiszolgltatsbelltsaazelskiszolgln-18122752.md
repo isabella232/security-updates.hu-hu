@@ -16,18 +16,16 @@ A további RMS kiszolgálók telepítéshez és a létesítéshez szükséges sz
 
 Az RMS telepítéséhez helyi rendszergazdai jogokkal rendelkező fiókkal kell bejelentkezni. Emellett egy tartományba is be kell jelentkezni egy érvényes tartományi fiókkal, hogy az Active Directory hitelesíthesse az RMS szolgáltatást. Ha olyan környezetben vezeti be az RMS szolgáltatást, amelyben az Active Directory tartomány működési szintje natív Windows 2000 működési szinten áll, előfordulhat, hogy az RMS nem tudja beolvasni az Active Directory-objektumok memberOf attribútumának értékét, amikor megpróbálja behelyettesíteni a csoportok tagságát. Az RMS akkor tudja olvasni a memberOf attribútumot, ha az RMS szolgáltatásfiókja olyan tartományi fiókot használ, amely tagja az adott erdőben működő, a Windows 2000 előtti rendszerekkel kompatibilis beépített hozzáférési csoportnak. Ha rejtett tagságú csoportokat vezetett be, akkor az RMS szolgáltatásfiókjánál olyan engedélyeket is meg adni, amelyek engedélyezik a rejtett tagság olvasását.
 
-| ![](images/Cc747756.note(WS.10).gif)Megjegyzés:                 |
-|----------------------------------------------------------------------------------------------|
-| Az RMS szolgáltatásfiókja nem egyezhet meg az RMS telepítéséhez használt tartományi fiókkal. |
+> [!NOTE]  
+> Az RMS szolgáltatásfiókja nem egyezhet meg az RMS telepítéséhez használt tartományi fiókkal. 
 
 Az első kiszolgáló telepítésének és létesítésének folyamata
 -----------------------------------------------------------
 
 Az RMS kiszolgáló bevezetése két lépésből áll. Először az RMS kiszolgálószoftverét, valamint az összes kiegészítő szoftvert (például IIS, Message Queuing és ASP.NET) kell telepíteni. A további tudnivalókat lásd a dokumentumgyűjtemény „RMS kiszolgáló működtetése” részében „A Service Pack 1 csomaggal frissített RMS telepítése” témakörben.
 
-| ![](images/Cc747756.note(WS.10).gif)Megjegyzés:                                                                                                               |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Az RMS telepítése parancssorból is végrehajtható. A további tudnivalókat lásd a dokumentumgyűjtemény „RMS kiszolgáló működtetése” részében „Az RMS telepítése a parancssorból” témakörben. |
+> [!NOTE]  
+> Az RMS telepítése parancssorból is végrehajtható. A további tudnivalókat lásd a dokumentumgyűjtemény „RMS kiszolgáló működtetése” részében „Az RMS telepítése a parancssorból” témakörben. 
 
 Miután telepítette az RMS szolgáltatást egy kiszolgálóra, létesítenie kell a szolgáltatást az adott kiszolgáló egyik webhelyén való használatra. A webhely létesítésekor a webhely számos beállítása módosul, és virtuális könyvtárak jönnek létre. Ezekről a változtatásokról a további tudnivalókat lásd a dokumentumgyűjtemény „RMS műszaki források” részében az „Internet Information Services” témakörben.
 
@@ -59,9 +57,8 @@ Ez az első kiszolgáló alkotja az RMS legfelső szintű telepítését. A legf
 
 A konfigurálás befejezése után regisztrálni kell a legfelső szintű tanúsítási fürt szolgáltatáskapcsolódási pontját az Active Directoryban, mert az RMS-kompatibilis ügyfelek csak így tudják észlelni a szolgáltatást. A további tudnivalókat lásd a dokumentumgyűjtemény „RMS kiszolgáló működtetése” részében „A szolgáltatás kapcsolódási pontjának regisztrálása” témakörben. Ha nincs regisztrálva a szolgáltatás kapcsolódási pontja, az ügyfél nem lesz használható az RMS szolgáltatással.
 
-| ![](images/Cc747756.Important(WS.10).gif)Fontos:                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Csak akkor kezdjen hozzá az RMS további kiszolgálókra telepítéséhez, ha az első kiszolgálón teljesen befejezte az RMS telepítését és létesítését. Az RMS a tartalomvédelmet a több erdőre kiterjedő tagsággal rendelkező Active Directory-csoportoknál is lehetővé teszi. Ha a szervezetben nincs több erdő, illetve több erdőre kiterjedő csoport, az RMS konfigurációs adatbázisában a **MaxCrossForestCalls** fürtszabályzat módosításával optimalizálhatja a használati licencek kiadási eljárásának teljesítményét a kiszolgálón. Ez a szabályzat azt adja meg, hogy egy csoport tagja hányszor léphet át erdők közötti határon. Az alapértelmezett érték 10. A 0 érték beállításához a következő SQL utasítás használható:`update DRMS_ClusterPolicies set PolicyData=0 where PolicyName='MaxCrossForestCalls'` |
+> [!IMPORTANT]  
+> Csak akkor kezdjen hozzá az RMS további kiszolgálókra telepítéséhez, ha az első kiszolgálón teljesen befejezte az RMS telepítését és létesítését. Az RMS a tartalomvédelmet a több erdőre kiterjedő tagsággal rendelkező Active Directory-csoportoknál is lehetővé teszi. Ha a szervezetben nincs több erdő, illetve több erdőre kiterjedő csoport, az RMS konfigurációs adatbázisában a **MaxCrossForestCalls** fürtszabályzat módosításával optimalizálhatja a használati licencek kiadási eljárásának teljesítményét a kiszolgálón. Ez a szabályzat azt adja meg, hogy egy csoport tagja hányszor léphet át erdők közötti határon. Az alapértelmezett érték 10. A 0 érték beállításához a következő SQL utasítás használható:`update DRMS_ClusterPolicies set PolicyData=0 where PolicyName='MaxCrossForestCalls'` 
 
 A következő témakörök részletesen ismertetik az RMS Globális felügyelet lapján végrehajtható műveletek lépéseit:
 

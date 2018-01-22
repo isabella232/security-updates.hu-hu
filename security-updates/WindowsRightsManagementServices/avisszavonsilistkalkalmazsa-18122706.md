@@ -19,10 +19,15 @@ Ha visszavonási listát előíró jogmegadási sablont szeretne használni, a v
 Szervezeti visszavonási lista bevezetését a következő lépésekkel hajthatja végre:
 
 1.  Másolja a visszavonási listát nyilvánosan elérhető webkiszolgálóra. Mivel a felhasználók a védett tartalmat a szervezeten kívül is használhatják, a választott helynek elérhetőnek kell lennie minden felhasználó számára, a hálózaton belülről és kívülről is.
+
     A visszavonási lista fájlnak az ügyfélszámítógépekre történő eljuttatása némi időt vesz igénybe. Így előfordulhat, hogy a felhasználók ügyfélszámítógépén még nem érhető el a visszavonási lista, amikor visszavonási listát igénylő dokumentumot kísérel meg megnyitni. Ha a visszavonási lista nem áll rendelkezésre az ügyfélszámítógépen, az RMS-kompatibilis alkalmazás letöltheti azt a használati licencben megadott helyről.
+
     Az ideális megoldás olyan parancsfájl készítése, amely naponta automatikusan aláírja és a megfelelő webhelyre másolja a visszavonási listát. Ezzel lehetőség szerint biztosítható, hogy a felhasználók lejárt visszavonási listájuk miatt ne legyenek elzárva a tartalom használatától. Ilyen parancsfájlra mutat be példát „A Visszavonási lista aláírása eszköz használata” című pont.
+
 2.  A jogmegadási sablonban adjon meg nullánál nagyobb értékű frissítési időközt a szervezeti visszavonási lista számára. Ez biztosítja a visszavonási lista kötelező használatát. Ha a lista frissítését csak alkalomszerűen, például biztonsági problémák felmerülésekor kívánja végrehajtani, a frissítési időközre nagyobb értéket választhat, így a parancsfájl és a házirend beállításainak megfelelően a visszavonási listát szükség szerint küldheti el az ügyfélszámítógépekre. A frissítési időköz beállításáról a „Visszavonási szabályzatok definiálása” című pontban olvashat. A jogmegadási sablonok konfigurálásáról a további tudnivalókat lásd: „A jogmegadási sablonok létrehozása és módosítása”.
+
 3.  A jogmegadási sablonban adja meg a visszavonási lista letöltési URL-címét.
+
 4.  A visszavonási listát a Csoportházirend, a Systems Management Server (SMS) vagy hasonló automatikus módszer segítségével is bevezetheti az ügyfélszámítógépeken.
 
 A Microsofttól származó visszavonási listák alkalmazása

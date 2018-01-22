@@ -16,6 +16,7 @@ Az alábbi táblázatban a REFRESH címkében használat paraméterek olvasható
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

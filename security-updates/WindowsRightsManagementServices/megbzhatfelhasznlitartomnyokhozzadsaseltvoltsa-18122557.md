@@ -16,8 +16,11 @@ A megbízható tartományokba meghatározott felhasználókat vagy csoportokat i
 A megbízható felhasználói tartományok a következőképpen kezelhetők:
 
 -   A külső felhasználók általános kezeléséhez felveheti a Microsoft® .NET Passport szolgáltatást a megbízható tartományok listájába. Ez lehetővé teszi, hogy a vállalatban működő RMS kiszolgáló feldolgozza a Microsoft .NET Passport szolgáltatás által kiállított tartalomvédelmi fióktanúsítványt tartalmazó licenckérelmeket.
+
 -   Más szervezetek RMS-telepítéséhez tartozó külső felhasználók megbízhatóvá nyilvánításához az adott szervezetet felveheti a megbízható felhasználói tartományok közé. Ez lehetővé teszi, hogy az RMS kiszolgáló feldolgozza a másik szervezet RMS kiszolgálója által kiállított tartalomvédelmi fióktanúsítványt tartalmazó licenckérelmeket.
+
 -   A saját szervezet másik Active Directory-erdőjében található felhasználóktól érkező licenckérelmek feldolgozásához az adott erdőben lévő RMS-telepítést ugyanígy felveheti a megbízható felhasználói tartományok listájára. Ez lehetővé teszi, hogy az aktuális erdőben lévő RMS kiszolgáló feldolgozza a másik erdő RMS kiszolgálója által kiállított tartalomvédelmi fióktanúsítványt tartalmazó licenckérelmeket.
+
 -   Mindegyik megbízható felhasználói tartománynál megadhatja a megbízható e-mail tartományokat. A megbízható Passport-tartományoknál megadhatja a nem megbízható e-mail felhasználókat, illetve tartományokat.
 
 Ha RMS-telepítést szeretne felvenni a megbízható felhasználói tartományok listájára, importálja a felvenni kívánt RMS-telepítés kiszolgálói licencelői tanúsítványát. Ehhez a rendszergazdának előbb exportálnia kell a kiszolgálói licencelői tanúsítványt a kiszolgálóról vagy a fürtből, majd el kell küldenie Önnek a tanúsítványt tartalmazó fájlt. A kapott fájlt ezután a megfelelő hely megadásával importálhatja. A fájl mentéséhez a bejelentkezett felhasználónak megfelelő engedélyekkel kell rendelkeznie a megosztott mappához. Megbízható felhasználói tartományok beállításakor a program nem továbbítja a személyes kulcs adatait.

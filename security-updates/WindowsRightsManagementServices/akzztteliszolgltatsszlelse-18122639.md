@@ -25,6 +25,5 @@ Ha az RMS azt észleli, hogy a tartalomvédelmi fióktanúsítvány a Windows-hi
 
 Ha az RMS azt észleli, hogy a tartalomvédelmi fióktanúsítvány a Microsoft® .NET Passport hitelesítő adatain alapul, a közzétételi szolgáltatás helye az RMS-védelemmel ellátott tartalomban megadott .NET Passport-fiók.
 
-| ![](images/Cc747580.note(WS.10).gif)Megjegyzés:                                                  |
-|-------------------------------------------------------------------------------------------------------------------------------|
-| Ha engedélyezte az SSL használatát az RMS kiszolgálón, akkor ezek az URL-címek a https:// kapcsolódási protokollt használják. |
+> [!NOTE]  
+> Ha engedélyezte az SSL használatát az RMS kiszolgálón, akkor ezek az URL-címek a https:// kapcsolódási protokollt használják. 

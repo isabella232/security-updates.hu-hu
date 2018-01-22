@@ -22,9 +22,15 @@ Ha a személyes kulcs szoftveres védelmét választja, védje az RMS személyes
 Az RMS rendszer megvalósításakor a következő beállításokat kell végrehajtani:
 
 -   A Windows rendszerben kövesse az NSA FIPS-kompatibilis kriptográfiára vonatkozó irányelveit.
+
 -   A FIPS-kompatibilis kriptográfiára kapcsolja be a helyi biztonsági házirend használatát.
+
 -   A fenti környezetben vezesse be az RMS SP1 ügyfeleket és kiszolgálókat.
+
 -   Engedélyezze a Transport Layer Security (TLS) protokollt az RMS kiszolgálón az Internet Information Services szolgáltatásban.
+
 -   Engedélyezze a Transport Layer Security (TLS) protokollt az ügyfelek Internet Explorer programjában.
+
 -   Engedélyezze az SQL Tabular Data Stream (TDS) protokollt, amelyet a Windows TLS/SSL biztonsági szolgáltató az SQL ügyfelek és az adatbázis-kiszolgálón lévő SQL Server között használ.
+
 -   Az SQL beállításánál írja elő a TSL/SSL használatát.

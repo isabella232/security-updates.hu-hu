@@ -13,9 +13,9 @@ Az RMS felügyeleti webhelye segítségével az RMS erőforrásai meglévő webh
 
 A létesítés során az RMS a következő táblázatban bemutatott felhasználói fiókokat használja.
 
-###  
 
  
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />

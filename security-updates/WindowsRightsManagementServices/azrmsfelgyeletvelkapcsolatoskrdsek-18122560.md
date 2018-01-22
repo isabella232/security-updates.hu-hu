@@ -13,13 +13,21 @@ Az RMS felügyeletével kapcsolatos kérdések
 ------------------------------------------
 
 -   [Mi a leghelyesebb módja a megfelelő dokumentumokra vonatkozó engedélyek visszavonásának, amikor egy felhasználó kilép a szervezettől?](#bkmk_1)
+
 -   [Az RMS-védelemmel ellátott tartalom közös használatához két szervezet közötti bizalmi kapcsolat kialakításakor igényel-e különös kezelést az átadott XrML licenctanúsítvány?](#bkmk_2)
+
 -   [Hogyan működik együtt az RMS a központi felhasználói profilokkal?](#bkmk_3)
+
 -   [Mikor válhat szükségessé az RMS leszerelése egy szervezetnél?](#bkmk_4)
+
 -   [Miből áll a leszerelési eljárás?](#bkmk_5)
+
 -   [Leszerelhető-e az RMS úgy, hogy csak néhány felhasználó állíthassa helyre a dokumentumokat?](#bkmk_6)
+
 -   [Mit jelent az alkalmazás könyvtárának elérhetetlenségére vonatkozó hibaüzenet?](#bkmk_7)
+
 -   [Használható-e nyomkövetés az RMS kiszolgálóval?](#bkmk_8)
+
 -   [Mit jelent az órák közötti eltérés és hogyan kezelhető?](#bkmk_9)
 
 #### Mi a leghelyesebb módja a megfelelő dokumentumokra vonatkozó engedélyek visszavonásának, amikor egy felhasználó kilép a szervezettől?
@@ -39,7 +47,9 @@ A felhasználók azonosításához használt tartalomvédelmi fióktanúsítván
 Az RMS leszerelése eltávolítja az RMS kiszolgálót az infrastruktúrából, és lehetővé teszi a felhasználóknak hogy RMS-védelem ellátott tartalmat védelem nélkül mentsék. Erre három alapvető okból kerülhet sor a szervezeteknél:
 
 -   Az architektúra egyszerűsítése, például kiszolgálók összevonása fürtbe.
+
 -   Próbaüzemi RMS-bevezetés áttelepítése éles környezetbe.
+
 -   RMS kiszolgálók egyesítése például vállalatok egyesítésekor.
 
 #### Miből áll a leszerelési eljárás?
@@ -59,6 +69,7 @@ Ez a hiba az RMS telepítése után az RMS felügyeleti webhelyének első megny
 A hibaüzenet általában akkor jelenik meg, ha az Internet Information Services (IIS) az IIS 5.0-s verzió elkülönítési üzemmódjában fut. A probléma megoldásához a következő eljárással tiltsa ezt a beállítást a kiszolgálón, és indítsa újra az IIS szolgáltatást.
 
 **Az IIS 5.0-s elkülönítési üzemmódjának tiltása**
+
 1.  Jelentkezzen be az RMS kiszolgálóra a helyi Rendszergazdák csoport tagjaként.
 
 2.  Mutasson a **Start** menü **Felügyeleti eszközök** pontjára, majd kattintson az **Internet Information Services (IIS) kezelője** parancsra.
@@ -78,8 +89,17 @@ A nyomkövetés a Web.config vagy a Machine.config fájl módosításával való
 **A nyomkövetés engedélyezése**
 1.  Nyissa meg a Machine.config vagy a Web.config fájlt, és vegye fel a következő sorokat a fájl &lt;system.diagnostics&gt; szakaszába:
 
-    
-        ```
+    ```
+        <system.diagnostics>
+        <switches>
+        <add name="Microsoft Windows Rights Management Services-Global" value="4" />
+        <add name="Microsoft Windows Rights Management Services-TimeStamps" value="1" /> 
+        <add name="Microsoft Windows Rights Management Services-Indents" value="0" /> 
+        </switches>
+        <trace autoflush="false" indentsize="4"/>
+        </system.diagnostics>
+    ```
+
 2.  Indítsa újra az IIS szolgáltatást az IISRESET paranccsal a parancssorból.
 
 3.  Miután hozzájutott a szükséges adatokhoz, törölje az 1. lépésben a .config fájlban elhelyezett sorokat.
@@ -96,6 +116,7 @@ Előfordulhat, hogy az egyik számítógép órája más időt mutat, mint a má
 A licencekben az érvényességi idő beállítása mindig a közzétevő órája szerint történik. Az órák közötti eltérés két esetben okozhat problémát a közzététel és a használat során:
 
 -   Amikor egy alkalmazás olyan közzétételi licenccel próbál meg használati licencet szerezni, amelynek az érvényességi ideje az RMS kiszolgáló órája szerint a múltban ért véget, vagy csak a jövőben kezdődik el. Ebben az esetben sikertelen lesz a kérelem. Ez megtörténhet végfelhasználókkal, amikor licencet kérelmeznek, valamint alkalmazásokkal, amikor előlicencet próbálnak meg kérelmezni egy dokumentumhoz (vagyis egy felhasználó nevében próbálnak meg licencet szerezni).
+
 -   Ha már lejárt (vagy még nem kezdődött el) a licenc érvényességi ideje, sikertelen lesz a használati licenc iránti kérelem. Más esetben csak a lejárt (vagy még nem érvényes) jogok nem lesznek használhatók.
 
 Ha például a közzétevő számítógép órája 15 percet késik a tartalmat felhasználó számítógépéhez képest, és a közzétevő egy 15 percig érvényes licencet készít, a felhasználó értéktelen használati licencet kap a kiszolgálótól, hiszen a tartalom megtekintésére adott jogok már lejártak.

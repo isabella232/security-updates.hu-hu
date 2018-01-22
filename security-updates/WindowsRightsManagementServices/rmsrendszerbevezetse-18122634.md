@@ -16,9 +16,15 @@ Ez a témakör az RMS bevezetéséhez nyújt segítséget megadva a megfelelő i
 **A témakör tartalma**
 
 -   [Felkészülés az RMS bevezetésére](https://technet.microsoft.com/74be4758-5a12-4346-a5c2-20d98235cd4b)
+
 -   [Az RMS ügyfélszoftver terjesztése](https://technet.microsoft.com/4b8dd930-4105-4e73-918c-12d2b05d5fb5)
+
 -   [Az RMS működéséhez szükséges infrastruktúra kialakítása](https://technet.microsoft.com/e5b874df-d5b5-4365-8dce-e98662b57270)
+
 -   [Az RMS kialakítása](https://technet.microsoft.com/2aa07e14-4f23-4387-8962-17f2a6b83d27)
+
 -   [Az RMS bevezetése több erdőben](https://technet.microsoft.com/d531dfdc-efff-4eb0-8d99-f1fd19d7a963)
+
 -   [Az RMS bevezetésének védelme](https://technet.microsoft.com/6de8b636-a824-4844-aefc-f26347abfc14)
+
 -   [Az RMS leszerelése](https://technet.microsoft.com/dbcacce7-434d-48a7-a11d-ef9690d78b44)

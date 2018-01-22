@@ -19,9 +19,8 @@ Ha a naplózási adatbázis túl nagy méretűre növekszik, bármikor áthelyez
     -   A LoggingDatabaseServer szabályzat értékét változtassa az új adatbázis-kiszolgáló nevére.
     -   A LoggingDatabaseName szabályzat értékét változtassa az új adatbázis nevére.
 
-    | ![](images/Cc720238.note(WS.10).gif)Megjegyzés:                                                                                                                                                                                                            |
-    |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | Az SQL Server Enterprise Manager nem kezeli a db\_variant mezőket, így ezt a programot nem használhatja a fenti művelet végrehajtásához. Az adatbázis áthelyezését az SQL Server egyik összetevőjével, a Query Analyzer eszközzel vagy más adatbázis-szerkesztő eszközzel végezheti el. |
+    > [!NOTE]  
+    > Az SQL Server Enterprise Manager nem kezeli a db\_variant mezőket, így ezt a programot nem használhatja a fenti művelet végrehajtásához. Az adatbázis áthelyezését az SQL Server egyik összetevőjével, a Query Analyzer eszközzel vagy más adatbázis-szerkesztő eszközzel végezheti el. 
 
 4.  Indítsa újra az IIS szolgáltatást a fürtbe tartozó valamennyi kiszolgálón.
 5.  Kapcsolja vissza a naplózást.

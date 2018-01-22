@@ -29,9 +29,8 @@ More Documentation
 WSUS Server Error Codes
 -----------------------
 
-###  
 
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -228,9 +227,8 @@ ALREADY_RUNNING</td>
 Windows Update Client Error Codes  
 ---------------------------------
   
-###  
 
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1431,9 +1429,8 @@ UNEXPECTED</td>
 BITS Error Codes  
 ----------------
   
-###  
 
- 
+<p></p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />

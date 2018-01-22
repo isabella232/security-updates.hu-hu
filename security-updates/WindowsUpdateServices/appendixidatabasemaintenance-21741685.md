@@ -15,5 +15,7 @@ The [WsusDBMaintenance](http://go.microsoft.com/fwlink/?linkid=87027) script (ht
 
 If you are using Belső Windows-adatbázis, you will need to use the **sqlcmd** utility. For more information about the **sqlcmd** utility, see [sqlcmd Utility](http://go.microsoft.com/fwlink/?linkid=81183) (http://go.microsoft.com/fwlink/?LinkId=81183).
 
-        ```
+```
+https://technet.microsoft.com/hu-hu/library/Dd939795(v=WS.10)
+```
 where *&lt;scriptLocation&gt;* is the directory where you have copied the WsusDBMaintenance script.

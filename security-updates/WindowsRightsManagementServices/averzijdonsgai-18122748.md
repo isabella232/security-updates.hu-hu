@@ -12,7 +12,11 @@ A verzió újdonságai
 A Service Pack 1 (SP1) javítócsomaggal frissített Tartalomvédelmi szolgáltatások (RMS) a következő újdonságokat tartalmazza:
 
 -   **RMS kiszolgáló igénylése a kiszolgáló internetkapcsolata nélkül**. Az előző verziónál az RMS kiszolgálónak internetkapcsolatra volt szüksége a Microsoft igénylési szolgáltatásának használatához és a legfelső szintű kiszolgálói licencelői tanúsítvány megszerzéséhez. Az RMS SP1 verzióban a legfelső szintű kiszolgálói licencelői tanúsítvány igénylése továbbra is a Microsoft igénylési szolgáltatásnál történik, de végrehajtható másik, internetkapcsolattal rendelkező számítógéppel is, majd a tanúsítvány az RMS kiszolgálóra importálható.
+
 -   **Az ügyfelek önaktiválása**. Az előző verziónál az ügyfélszámítógépek géptanúsítványait és kulcstárolóit a Microsoft aktiválási szolgáltatásról kellett letölteni. Az RMS SP1 verzióban nincs szükség a Microsoft aktiválási szolgáltatás elérésére.
+
 -   **Több ügyféltípus támogatása**. Ennél a verziónál az RMS kiszolgáló mobileszközökön és kiszolgálószolgáltatásokon lévő ügyfelek támogatására is használható. Az RMS kiszolgáló rendszergazdájaként eldöntheti, hogy biztosít-e tanúsítványt ezeknek az ügyfeleknek, amikor megkísérlik a szolgáltatások használatát.
+
 -   **Többnyelvű sablonok támogatása**. Az előző verziónál a sablonok az Internet Explorer nyelvi beállításán alapultak. Ebben a verzióban az RMS felügyeleti weblapján megadhatja a sablonok létrehozásához használandó nyelvet.
+
 -   **Az intelligens kártyák használatával végrehajtott ügyfél-hitelesítés támogatása**. Ennél a verziónál az RMS ügyfél intelligens kártyákon, x.509 tanúsítványokban tárolt hitelesítőadatokat használhat a felhasználói adatok hitelesítéséhez az RM -kiszolgálón, és így a tartalomvédelmi fióktanúsítványok (RAC) és használati licencek megszerzéséhez.

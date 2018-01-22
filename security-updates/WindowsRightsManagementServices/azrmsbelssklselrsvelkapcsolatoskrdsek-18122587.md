@@ -13,10 +13,15 @@ Az RMS belső és külső elérésével kapcsolatos kérdések
 -----------------------------------------------------
 
 -   [Milyen módosításokat kell végrehajtani a tűzfalon, hogy a külső ügyfelek elérhessék az RMS kiszolgálóit?](#bkmk_37)
+
 -   [Hogyan működik az extranetes kialakítás?](#bkmk_38)
+
 -   [Ha egy felhasználó a létrehozott, védelemmel ellátott tartalomhoz olyan valakinek ad jogot, aki nem fér hozzá az RMS telepítéséhez, használhatja-e a címzett a tartalmat?](#bkmk_39)
+
 -   [Ha a védelemmel ellátott e-mail üzenetek elküldéséhez az Outlook 2003 vagy Outlook 2007 programot használom, mire van szükségük a címzetteknek, hogy elolvashassák azokat?](#bkmk_40)
+
 -   [Ha a szervezetek saját RMS kiszolgálókkal rendelkeznek, hogyan cserélhetik ki a védelemmel ellátott tartalmat?](#bkmk_41)
+
 -   [Ha az RMS-védelemmel ellátott e-mail üzenetet olyan külső szervezetnek küldik, amelyben nem használják az Outlook programot, válaszolhat-e a címzett az üzenetre, ha azt az Internet Explorer tartalomvédelmi bővítménye segítségével olvassa el?](#bkmk_42)
 
 #### Milyen módosításokat kell végrehajtani a tűzfalon, hogy a külső ügyfelek elérhessék az RMS kiszolgálóit?
