@@ -1,11 +1,630 @@
 - name: Biztonság és frissítések
   href: index.md
   items:
+- name: WindowsRightsManagementServices
+  href: WindowsRightsManagementServices/WindowsRightsManagementServices.md
+  items:
+  - name: 18122432
+    href: ./WindowsRightsManagementServices/18122432.md
+  - name: 18122433
+    href: ./WindowsRightsManagementServices/18122433.md
+  - name: 18122434
+    href: ./WindowsRightsManagementServices/18122434.md
+  - name: 18122435
+    href: ./WindowsRightsManagementServices/18122435.md
+  - name: 18122436
+    href: ./WindowsRightsManagementServices/18122436.md
+  - name: 18122437
+    href: ./WindowsRightsManagementServices/18122437.md
+  - name: 18122438
+    href: ./WindowsRightsManagementServices/18122438.md
+  - name: 18122439
+    href: ./WindowsRightsManagementServices/18122439.md
+  - name: 18122441
+    href: ./WindowsRightsManagementServices/18122441.md
+  - name: 18122442
+    href: ./WindowsRightsManagementServices/18122442.md
+  - name: 18122443
+    href: ./WindowsRightsManagementServices/18122443.md
+  - name: 18122444
+    href: ./WindowsRightsManagementServices/18122444.md
+  - name: 18122445
+    href: ./WindowsRightsManagementServices/18122445.md
+  - name: 18122446
+    href: ./WindowsRightsManagementServices/18122446.md
+  - name: 18122447
+    href: ./WindowsRightsManagementServices/18122447.md
+  - name: 18122448
+    href: ./WindowsRightsManagementServices/18122448.md
+  - name: 18122450
+    href: ./WindowsRightsManagementServices/18122450.md
+  - name: 18122451
+    href: ./WindowsRightsManagementServices/18122451.md
+  - name: 18122452
+    href: ./WindowsRightsManagementServices/18122452.md
+  - name: 18122453
+    href: ./WindowsRightsManagementServices/18122453.md
+  - name: 18122454
+    href: ./WindowsRightsManagementServices/18122454.md
+  - name: 18122455
+    href: ./WindowsRightsManagementServices/18122455.md
+  - name: 18122456
+    href: ./WindowsRightsManagementServices/18122456.md
+  - name: 18122457
+    href: ./WindowsRightsManagementServices/18122457.md
+  - name: 18122458
+    href: ./WindowsRightsManagementServices/18122458.md
+  - name: 18122459
+    href: ./WindowsRightsManagementServices/18122459.md
+  - name: 18122460
+    href: ./WindowsRightsManagementServices/18122460.md
+  - name: 18122462
+    href: ./WindowsRightsManagementServices/18122462.md
+  - name: 18122464
+    href: ./WindowsRightsManagementServices/18122464.md
+  - name: 18122469
+    href: ./WindowsRightsManagementServices/18122469.md
+  - name: 18122470
+    href: ./WindowsRightsManagementServices/18122470.md
+  - name: 18122471
+    href: ./WindowsRightsManagementServices/18122471.md
+  - name: 18122472
+    href: ./WindowsRightsManagementServices/18122472.md
+  - name: 18122473
+    href: ./WindowsRightsManagementServices/18122473.md
+  - name: 18122474
+    href: ./WindowsRightsManagementServices/18122474.md
+  - name: 18122475
+    href: ./WindowsRightsManagementServices/18122475.md
+  - name: 18122476
+    href: ./WindowsRightsManagementServices/18122476.md
+  - name: 18122477
+    href: ./WindowsRightsManagementServices/18122477.md
+  - name: 18122478
+    href: ./WindowsRightsManagementServices/18122478.md
+  - name: 18122479
+    href: ./WindowsRightsManagementServices/18122479.md
+  - name: 18122480
+    href: ./WindowsRightsManagementServices/18122480.md
+  - name: 18122481
+    href: ./WindowsRightsManagementServices/18122481.md
+  - name: 18122482
+    href: ./WindowsRightsManagementServices/18122482.md
+  - name: 18122483
+    href: ./WindowsRightsManagementServices/18122483.md
+  - name: 18122484
+    href: ./WindowsRightsManagementServices/18122484.md
+  - name: 18122485
+    href: ./WindowsRightsManagementServices/18122485.md
+  - name: 18122486
+    href: ./WindowsRightsManagementServices/18122486.md
+  - name: 18122487
+    href: ./WindowsRightsManagementServices/18122487.md
+  - name: 18122488
+    href: ./WindowsRightsManagementServices/18122488.md
+  - name: 18122489
+    href: ./WindowsRightsManagementServices/18122489.md
+  - name: 18122490
+    href: ./WindowsRightsManagementServices/18122490.md
+  - name: 18122491
+    href: ./WindowsRightsManagementServices/18122491.md
+  - name: 18122492
+    href: ./WindowsRightsManagementServices/18122492.md
+  - name: 18122494
+    href: ./WindowsRightsManagementServices/18122494.md
+  - name: 18122495
+    href: ./WindowsRightsManagementServices/18122495.md
+  - name: 18122496
+    href: ./WindowsRightsManagementServices/18122496.md
+  - name: 18122497
+    href: ./WindowsRightsManagementServices/18122497.md
+  - name: 18122498
+    href: ./WindowsRightsManagementServices/18122498.md
+  - name: 18122499
+    href: ./WindowsRightsManagementServices/18122499.md
+  - name: 18122501
+    href: ./WindowsRightsManagementServices/18122501.md
+  - name: 18122502
+    href: ./WindowsRightsManagementServices/18122502.md
+  - name: 18122503
+    href: ./WindowsRightsManagementServices/18122503.md
+  - name: 18122504
+    href: ./WindowsRightsManagementServices/18122504.md
+  - name: 18122505
+    href: ./WindowsRightsManagementServices/18122505.md
+  - name: 18122506
+    href: ./WindowsRightsManagementServices/18122506.md
+  - name: 18122507
+    href: ./WindowsRightsManagementServices/18122507.md
+  - name: 18122511
+    href: ./WindowsRightsManagementServices/18122511.md
+  - name: 18122512
+    href: ./WindowsRightsManagementServices/18122512.md
+  - name: 18122513
+    href: ./WindowsRightsManagementServices/18122513.md
+  - name: 18122514
+    href: ./WindowsRightsManagementServices/18122514.md
+  - name: 18122516
+    href: ./WindowsRightsManagementServices/18122516.md
+  - name: 18122517
+    href: ./WindowsRightsManagementServices/18122517.md
+  - name: 18122518
+    href: ./WindowsRightsManagementServices/18122518.md
+  - name: 18122519
+    href: ./WindowsRightsManagementServices/18122519.md
+  - name: 18122520
+    href: ./WindowsRightsManagementServices/18122520.md
+  - name: 18122521
+    href: ./WindowsRightsManagementServices/18122521.md
+  - name: 18122522
+    href: ./WindowsRightsManagementServices/18122522.md
+  - name: 18122523
+    href: ./WindowsRightsManagementServices/18122523.md
+  - name: 18122524
+    href: ./WindowsRightsManagementServices/18122524.md
+  - name: 18122525
+    href: ./WindowsRightsManagementServices/18122525.md
+  - name: 18122526
+    href: ./WindowsRightsManagementServices/18122526.md
+  - name: 18122527
+    href: ./WindowsRightsManagementServices/18122527.md
+  - name: 18122528
+    href: ./WindowsRightsManagementServices/18122528.md
+  - name: 18122529
+    href: ./WindowsRightsManagementServices/18122529.md
+  - name: 18122530
+    href: ./WindowsRightsManagementServices/18122530.md
+  - name: 18122532
+    href: ./WindowsRightsManagementServices/18122532.md
+  - name: 18122533
+    href: ./WindowsRightsManagementServices/18122533.md
+  - name: 18122534
+    href: ./WindowsRightsManagementServices/18122534.md
+  - name: 18122535
+    href: ./WindowsRightsManagementServices/18122535.md
+  - name: 18122538
+    href: ./WindowsRightsManagementServices/18122538.md
+  - name: 18122539
+    href: ./WindowsRightsManagementServices/18122539.md
+  - name: 18122540
+    href: ./WindowsRightsManagementServices/18122540.md
+  - name: 18122541
+    href: ./WindowsRightsManagementServices/18122541.md
+  - name: 18122542
+    href: ./WindowsRightsManagementServices/18122542.md
+  - name: 18122545
+    href: ./WindowsRightsManagementServices/18122545.md
+  - name: 18122546
+    href: ./WindowsRightsManagementServices/18122546.md
+  - name: 18122547
+    href: ./WindowsRightsManagementServices/18122547.md
+  - name: 18122548
+    href: ./WindowsRightsManagementServices/18122548.md
+  - name: 18122549
+    href: ./WindowsRightsManagementServices/18122549.md
+  - name: 18122550
+    href: ./WindowsRightsManagementServices/18122550.md
+  - name: 18122551
+    href: ./WindowsRightsManagementServices/18122551.md
+  - name: 18122553
+    href: ./WindowsRightsManagementServices/18122553.md
+  - name: 18122554
+    href: ./WindowsRightsManagementServices/18122554.md
+  - name: 18122555
+    href: ./WindowsRightsManagementServices/18122555.md
+  - name: 18122556
+    href: ./WindowsRightsManagementServices/18122556.md
+  - name: 18122557
+    href: ./WindowsRightsManagementServices/18122557.md
+  - name: 18122558
+    href: ./WindowsRightsManagementServices/18122558.md
+  - name: 18122559
+    href: ./WindowsRightsManagementServices/18122559.md
+  - name: 18122560
+    href: ./WindowsRightsManagementServices/18122560.md
+  - name: 18122561
+    href: ./WindowsRightsManagementServices/18122561.md
+  - name: 18122562
+    href: ./WindowsRightsManagementServices/18122562.md
+  - name: 18122563
+    href: ./WindowsRightsManagementServices/18122563.md
+  - name: 18122564
+    href: ./WindowsRightsManagementServices/18122564.md
+  - name: 18122565
+    href: ./WindowsRightsManagementServices/18122565.md
+  - name: 18122566
+    href: ./WindowsRightsManagementServices/18122566.md
+  - name: 18122568
+    href: ./WindowsRightsManagementServices/18122568.md
+  - name: 18122569
+    href: ./WindowsRightsManagementServices/18122569.md
+  - name: 18122570
+    href: ./WindowsRightsManagementServices/18122570.md
+  - name: 18122571
+    href: ./WindowsRightsManagementServices/18122571.md
+  - name: 18122573
+    href: ./WindowsRightsManagementServices/18122573.md
+  - name: 18122574
+    href: ./WindowsRightsManagementServices/18122574.md
+  - name: 18122576
+    href: ./WindowsRightsManagementServices/18122576.md
+  - name: 18122577
+    href: ./WindowsRightsManagementServices/18122577.md
+  - name: 18122578
+    href: ./WindowsRightsManagementServices/18122578.md
+  - name: 18122579
+    href: ./WindowsRightsManagementServices/18122579.md
+  - name: 18122581
+    href: ./WindowsRightsManagementServices/18122581.md
+  - name: 18122582
+    href: ./WindowsRightsManagementServices/18122582.md
+  - name: 18122584
+    href: ./WindowsRightsManagementServices/18122584.md
+  - name: 18122585
+    href: ./WindowsRightsManagementServices/18122585.md
+  - name: 18122586
+    href: ./WindowsRightsManagementServices/18122586.md
+  - name: 18122587
+    href: ./WindowsRightsManagementServices/18122587.md
+  - name: 18122589
+    href: ./WindowsRightsManagementServices/18122589.md
+  - name: 18122591
+    href: ./WindowsRightsManagementServices/18122591.md
+  - name: 18122592
+    href: ./WindowsRightsManagementServices/18122592.md
+  - name: 18122593
+    href: ./WindowsRightsManagementServices/18122593.md
+  - name: 18122594
+    href: ./WindowsRightsManagementServices/18122594.md
+  - name: 18122595
+    href: ./WindowsRightsManagementServices/18122595.md
+  - name: 18122596
+    href: ./WindowsRightsManagementServices/18122596.md
+  - name: 18122598
+    href: ./WindowsRightsManagementServices/18122598.md
+  - name: 18122599
+    href: ./WindowsRightsManagementServices/18122599.md
+  - name: 18122601
+    href: ./WindowsRightsManagementServices/18122601.md
+  - name: 18122602
+    href: ./WindowsRightsManagementServices/18122602.md
+  - name: 18122604
+    href: ./WindowsRightsManagementServices/18122604.md
+  - name: 18122605
+    href: ./WindowsRightsManagementServices/18122605.md
+  - name: 18122606
+    href: ./WindowsRightsManagementServices/18122606.md
+  - name: 18122607
+    href: ./WindowsRightsManagementServices/18122607.md
+  - name: 18122608
+    href: ./WindowsRightsManagementServices/18122608.md
+  - name: 18122609
+    href: ./WindowsRightsManagementServices/18122609.md
+  - name: 18122610
+    href: ./WindowsRightsManagementServices/18122610.md
+  - name: 18122611
+    href: ./WindowsRightsManagementServices/18122611.md
+  - name: 18122612
+    href: ./WindowsRightsManagementServices/18122612.md
+  - name: 18122613
+    href: ./WindowsRightsManagementServices/18122613.md
+  - name: 18122614
+    href: ./WindowsRightsManagementServices/18122614.md
+  - name: 18122615
+    href: ./WindowsRightsManagementServices/18122615.md
+  - name: 18122616
+    href: ./WindowsRightsManagementServices/18122616.md
+  - name: 18122617
+    href: ./WindowsRightsManagementServices/18122617.md
+  - name: 18122618
+    href: ./WindowsRightsManagementServices/18122618.md
+  - name: 18122619
+    href: ./WindowsRightsManagementServices/18122619.md
+  - name: 18122620
+    href: ./WindowsRightsManagementServices/18122620.md
+  - name: 18122621
+    href: ./WindowsRightsManagementServices/18122621.md
+  - name: 18122622
+    href: ./WindowsRightsManagementServices/18122622.md
+  - name: 18122624
+    href: ./WindowsRightsManagementServices/18122624.md
+  - name: 18122626
+    href: ./WindowsRightsManagementServices/18122626.md
+  - name: 18122627
+    href: ./WindowsRightsManagementServices/18122627.md
+  - name: 18122628
+    href: ./WindowsRightsManagementServices/18122628.md
+  - name: 18122629
+    href: ./WindowsRightsManagementServices/18122629.md
+  - name: 18122630
+    href: ./WindowsRightsManagementServices/18122630.md
+  - name: 18122631
+    href: ./WindowsRightsManagementServices/18122631.md
+  - name: 18122634
+    href: ./WindowsRightsManagementServices/18122634.md
+  - name: 18122635
+    href: ./WindowsRightsManagementServices/18122635.md
+  - name: 18122637
+    href: ./WindowsRightsManagementServices/18122637.md
+  - name: 18122638
+    href: ./WindowsRightsManagementServices/18122638.md
+  - name: 18122639
+    href: ./WindowsRightsManagementServices/18122639.md
+  - name: 18122640
+    href: ./WindowsRightsManagementServices/18122640.md
+  - name: 18122641
+    href: ./WindowsRightsManagementServices/18122641.md
+  - name: 18122642
+    href: ./WindowsRightsManagementServices/18122642.md
+  - name: 18122643
+    href: ./WindowsRightsManagementServices/18122643.md
+  - name: 18122645
+    href: ./WindowsRightsManagementServices/18122645.md
+  - name: 18122646
+    href: ./WindowsRightsManagementServices/18122646.md
+  - name: 18122647
+    href: ./WindowsRightsManagementServices/18122647.md
+  - name: 18122648
+    href: ./WindowsRightsManagementServices/18122648.md
+  - name: 18122649
+    href: ./WindowsRightsManagementServices/18122649.md
+  - name: 18122650
+    href: ./WindowsRightsManagementServices/18122650.md
+  - name: 18122651
+    href: ./WindowsRightsManagementServices/18122651.md
+  - name: 18122652
+    href: ./WindowsRightsManagementServices/18122652.md
+  - name: 18122653
+    href: ./WindowsRightsManagementServices/18122653.md
+  - name: 18122654
+    href: ./WindowsRightsManagementServices/18122654.md
+  - name: 18122655
+    href: ./WindowsRightsManagementServices/18122655.md
+  - name: 18122656
+    href: ./WindowsRightsManagementServices/18122656.md
+  - name: 18122657
+    href: ./WindowsRightsManagementServices/18122657.md
+  - name: 18122658
+    href: ./WindowsRightsManagementServices/18122658.md
+  - name: 18122659
+    href: ./WindowsRightsManagementServices/18122659.md
+  - name: 18122660
+    href: ./WindowsRightsManagementServices/18122660.md
+  - name: 18122661
+    href: ./WindowsRightsManagementServices/18122661.md
+  - name: 18122662
+    href: ./WindowsRightsManagementServices/18122662.md
+  - name: 18122663
+    href: ./WindowsRightsManagementServices/18122663.md
+  - name: 18122664
+    href: ./WindowsRightsManagementServices/18122664.md
+  - name: 18122665
+    href: ./WindowsRightsManagementServices/18122665.md
+  - name: 18122666
+    href: ./WindowsRightsManagementServices/18122666.md
+  - name: 18122667
+    href: ./WindowsRightsManagementServices/18122667.md
+  - name: 18122670
+    href: ./WindowsRightsManagementServices/18122670.md
+  - name: 18122671
+    href: ./WindowsRightsManagementServices/18122671.md
+  - name: 18122672
+    href: ./WindowsRightsManagementServices/18122672.md
+  - name: 18122673
+    href: ./WindowsRightsManagementServices/18122673.md
+  - name: 18122674
+    href: ./WindowsRightsManagementServices/18122674.md
+  - name: 18122675
+    href: ./WindowsRightsManagementServices/18122675.md
+  - name: 18122676
+    href: ./WindowsRightsManagementServices/18122676.md
+  - name: 18122677
+    href: ./WindowsRightsManagementServices/18122677.md
+  - name: 18122678
+    href: ./WindowsRightsManagementServices/18122678.md
+  - name: 18122680
+    href: ./WindowsRightsManagementServices/18122680.md
+  - name: 18122681
+    href: ./WindowsRightsManagementServices/18122681.md
+  - name: 18122682
+    href: ./WindowsRightsManagementServices/18122682.md
+  - name: 18122683
+    href: ./WindowsRightsManagementServices/18122683.md
+  - name: 18122684
+    href: ./WindowsRightsManagementServices/18122684.md
+  - name: 18122685
+    href: ./WindowsRightsManagementServices/18122685.md
+  - name: 18122686
+    href: ./WindowsRightsManagementServices/18122686.md
+  - name: 18122687
+    href: ./WindowsRightsManagementServices/18122687.md
+  - name: 18122688
+    href: ./WindowsRightsManagementServices/18122688.md
+  - name: 18122689
+    href: ./WindowsRightsManagementServices/18122689.md
+  - name: 18122690
+    href: ./WindowsRightsManagementServices/18122690.md
+  - name: 18122691
+    href: ./WindowsRightsManagementServices/18122691.md
+  - name: 18122692
+    href: ./WindowsRightsManagementServices/18122692.md
+  - name: 18122694
+    href: ./WindowsRightsManagementServices/18122694.md
+  - name: 18122695
+    href: ./WindowsRightsManagementServices/18122695.md
+  - name: 18122696
+    href: ./WindowsRightsManagementServices/18122696.md
+  - name: 18122697
+    href: ./WindowsRightsManagementServices/18122697.md
+  - name: 18122698
+    href: ./WindowsRightsManagementServices/18122698.md
+  - name: 18122699
+    href: ./WindowsRightsManagementServices/18122699.md
+  - name: 18122701
+    href: ./WindowsRightsManagementServices/18122701.md
+  - name: 18122702
+    href: ./WindowsRightsManagementServices/18122702.md
+  - name: 18122703
+    href: ./WindowsRightsManagementServices/18122703.md
+  - name: 18122706
+    href: ./WindowsRightsManagementServices/18122706.md
+  - name: 18122707
+    href: ./WindowsRightsManagementServices/18122707.md
+  - name: 18122709
+    href: ./WindowsRightsManagementServices/18122709.md
+  - name: 18122710
+    href: ./WindowsRightsManagementServices/18122710.md
+  - name: 18122711
+    href: ./WindowsRightsManagementServices/18122711.md
+  - name: 18122712
+    href: ./WindowsRightsManagementServices/18122712.md
+  - name: 18122713
+    href: ./WindowsRightsManagementServices/18122713.md
+  - name: 18122714
+    href: ./WindowsRightsManagementServices/18122714.md
+  - name: 18122717
+    href: ./WindowsRightsManagementServices/18122717.md
+  - name: 18122718
+    href: ./WindowsRightsManagementServices/18122718.md
+  - name: 18122719
+    href: ./WindowsRightsManagementServices/18122719.md
+  - name: 18122720
+    href: ./WindowsRightsManagementServices/18122720.md
+  - name: 18122721
+    href: ./WindowsRightsManagementServices/18122721.md
+  - name: 18122722
+    href: ./WindowsRightsManagementServices/18122722.md
+  - name: 18122723
+    href: ./WindowsRightsManagementServices/18122723.md
+  - name: 18122724
+    href: ./WindowsRightsManagementServices/18122724.md
+  - name: 18122725
+    href: ./WindowsRightsManagementServices/18122725.md
+  - name: 18122726
+    href: ./WindowsRightsManagementServices/18122726.md
+  - name: 18122727
+    href: ./WindowsRightsManagementServices/18122727.md
+  - name: 18122728
+    href: ./WindowsRightsManagementServices/18122728.md
+  - name: 18122729
+    href: ./WindowsRightsManagementServices/18122729.md
+  - name: 18122730
+    href: ./WindowsRightsManagementServices/18122730.md
+  - name: 18122731
+    href: ./WindowsRightsManagementServices/18122731.md
+  - name: 18122732
+    href: ./WindowsRightsManagementServices/18122732.md
+  - name: 18122733
+    href: ./WindowsRightsManagementServices/18122733.md
+  - name: 18122734
+    href: ./WindowsRightsManagementServices/18122734.md
+  - name: 18122735
+    href: ./WindowsRightsManagementServices/18122735.md
+  - name: 18122736
+    href: ./WindowsRightsManagementServices/18122736.md
+  - name: 18122737
+    href: ./WindowsRightsManagementServices/18122737.md
+  - name: 18122738
+    href: ./WindowsRightsManagementServices/18122738.md
+  - name: 18122739
+    href: ./WindowsRightsManagementServices/18122739.md
+  - name: 18122740
+    href: ./WindowsRightsManagementServices/18122740.md
+  - name: 18122741
+    href: ./WindowsRightsManagementServices/18122741.md
+  - name: 18122742
+    href: ./WindowsRightsManagementServices/18122742.md
+  - name: 18122743
+    href: ./WindowsRightsManagementServices/18122743.md
+  - name: 18122744
+    href: ./WindowsRightsManagementServices/18122744.md
+  - name: 18122745
+    href: ./WindowsRightsManagementServices/18122745.md
+  - name: 18122747
+    href: ./WindowsRightsManagementServices/18122747.md
+  - name: 18122748
+    href: ./WindowsRightsManagementServices/18122748.md
+  - name: 18122749
+    href: ./WindowsRightsManagementServices/18122749.md
+  - name: 18122750
+    href: ./WindowsRightsManagementServices/18122750.md
+  - name: 18122751
+    href: ./WindowsRightsManagementServices/18122751.md
+  - name: 18122752
+    href: ./WindowsRightsManagementServices/18122752.md
+  - name: 18122753
+    href: ./WindowsRightsManagementServices/18122753.md
+  - name: 18122754
+    href: ./WindowsRightsManagementServices/18122754.md
+  - name: 18122755
+    href: ./WindowsRightsManagementServices/18122755.md
+  - name: 18122756
+    href: ./WindowsRightsManagementServices/18122756.md
+  - name: 18122758
+    href: ./WindowsRightsManagementServices/18122758.md
+  - name: 18122759
+    href: ./WindowsRightsManagementServices/18122759.md
+  - name: 18122760
+    href: ./WindowsRightsManagementServices/18122760.md
+  - name: 18122761
+    href: ./WindowsRightsManagementServices/18122761.md
+  - name: 18122762
+    href: ./WindowsRightsManagementServices/18122762.md
+  - name: 18122763
+    href: ./WindowsRightsManagementServices/18122763.md
+  - name: 18122764
+    href: ./WindowsRightsManagementServices/18122764.md
+  - name: 18122765
+    href: ./WindowsRightsManagementServices/18122765.md
+  - name: 18122768
+    href: ./WindowsRightsManagementServices/18122768.md
+  - name: 18122770
+    href: ./WindowsRightsManagementServices/18122770.md
+  - name: 18122771
+    href: ./WindowsRightsManagementServices/18122771.md
+  - name: 18122772
+    href: ./WindowsRightsManagementServices/18122772.md
+  - name: 18122773
+    href: ./WindowsRightsManagementServices/18122773.md
+  - name: 18122774
+    href: ./WindowsRightsManagementServices/18122774.md
+  - name: 18122777
+    href: ./WindowsRightsManagementServices/18122777.md
+  - name: 18122778
+    href: ./WindowsRightsManagementServices/18122778.md
+  - name: 18122779
+    href: ./WindowsRightsManagementServices/18122779.md
+  - name: 18122780
+    href: ./WindowsRightsManagementServices/18122780.md
+  - name: 18122781
+    href: ./WindowsRightsManagementServices/18122781.md
+  - name: 18122783
+    href: ./WindowsRightsManagementServices/18122783.md
+  - name: 18122785
+    href: ./WindowsRightsManagementServices/18122785.md
+  - name: 18122786
+    href: ./WindowsRightsManagementServices/18122786.md
+  - name: 18122787
+    href: ./WindowsRightsManagementServices/18122787.md
+  - name: 18122788
+    href: ./WindowsRightsManagementServices/18122788.md
+  - name: 18122789
+    href: ./WindowsRightsManagementServices/18122789.md
+  - name: 18122790
+    href: ./WindowsRightsManagementServices/18122790.md
+  - name: 18122791
+    href: ./WindowsRightsManagementServices/18122791.md
+  - name: 18122792
+    href: ./WindowsRightsManagementServices/18122792.md
+  - name: 18122793
+    href: ./WindowsRightsManagementServices/18122793.md
+  - name: 18122794
+    href: ./WindowsRightsManagementServices/18122794.md
 - name: Biztonsági tanácsadók
-  href: 
+  href: ./SecurityAdvisories/securityadvisories.md
   items:
   - name: 2012
-    href: 
+    href: ./SecurityAdvisories/2012/securityadvisories2012.md
     items:
     - name: 2719615
       href: ./SecurityAdvisories/2012/2719615
@@ -16,7 +635,7 @@
     - name: 2647518
       href: ./SecurityAdvisories/2012/2647518
   - name: 2011
-    href: 
+    href: ./SecurityAdvisories/2011/securityadvisories2011.md
     items:
     - name: 2659883
       href: ./SecurityAdvisories/2011/2659883
@@ -37,7 +656,7 @@
     - name: 2490606
       href: ./SecurityAdvisories/2011/2490606
   - name: 2010
-    href: 
+    href: ./SecurityAdvisories/2010/securityadvisories2010.md
     items:
     - name: 2488013
       href: ./SecurityAdvisories/2010/2488013
@@ -231,178 +850,6 @@
       href: ./SecurityAdvisories/2015/910550
     - name: 906267
       href: ./SecurityAdvisories/2015/906267
-- name: Biztonsági közlemények összefoglalója
-  href: 
-  items:
-  - name: 2012
-    href: ./SecurityBulletinSummaries/2012/2012bulletinsummaries.md
-    items:
-    - name: MS12-jun
-      href: ./SecurityBulletinSummaries/2012/MS12-jun.md
-    - name: MS12-may
-      href: ./SecurityBulletinSummaries/2012/MS12-may.md
-    - name: MS12-apr
-      href: ./SecurityBulletinSummaries/2012/MS12-apr.md
-    - name: MS12-mar
-      href: ./SecurityBulletinSummaries/2012/MS12-mar.md
-    - name: MS12-feb
-      href: ./SecurityBulletinSummaries/2012/MS12-feb.md
-    - name: MS12-jan
-      href: ./SecurityBulletinSummaries/2012/MS12-jan.md
-  - name: 2011
-    href: ./SecurityBulletinSummaries/2011/2011bulletinsummaries.md
-    items:
-    - name: MS11-dec
-      href: ./SecurityBulletinSummaries/2011/MS11-dec.md
-    - name: MS11-nov
-      href: ./SecurityBulletinSummaries/2011/MS11-nov.md
-    - name: MS11-oct
-      href: ./SecurityBulletinSummaries/2011/MS11-oct.md
-    - name: MS11-sep
-      href: ./SecurityBulletinSummaries/2011/MS11-sep.md
-    - name: MS11-aug
-      href: ./SecurityBulletinSummaries/2011/MS11-aug.md
-    - name: MS11-jul
-      href: ./SecurityBulletinSummaries/2011/MS11-jul.md
-    - name: MS11-jun
-      href: ./SecurityBulletinSummaries/2011/MS11-jun.md
-    - name: MS11-may
-      href: ./SecurityBulletinSummaries/2011/MS11-may.md
-    - name: MS11-apr
-      href: ./SecurityBulletinSummaries/2011/MS11-apr.md
-    - name: MS11-mar
-      href: ./SecurityBulletinSummaries/2011/MS11-mar.md
-    - name: MS11-feb
-      href: ./SecurityBulletinSummaries/2011/MS11-feb.md
-    - name: MS11-jan
-      href: ./SecurityBulletinSummaries/2011/MS11-jan.md
-  - name: 2010
-    href: ./SecurityBulletinSummaries/2010/2010bulletinsummaries.md
-    items:
-    - name: MS10-dec
-      href: ./SecurityBulletinSummaries/2010/MS10-dec.md
-    - name: MS10-nov
-      href: ./SecurityBulletinSummaries/2010/MS10-nov.md
-    - name: MS10-oct
-      href: ./SecurityBulletinSummaries/2010/MS10-oct.md
-    - name: MS10-sep
-      href: ./SecurityBulletinSummaries/2010/MS10-sep.md
-    - name: MS10-aug
-      href: ./SecurityBulletinSummaries/2010/MS10-aug.md
-    - name: MS10-jul
-      href: ./SecurityBulletinSummaries/2010/MS10-jul.md
-    - name: MS10-jun
-      href: ./SecurityBulletinSummaries/2010/MS10-jun.md
-    - name: MS10-may
-      href: ./SecurityBulletinSummaries/2010/MS10-may.md
-    - name: MS10-apr
-      href: ./SecurityBulletinSummaries/2010/MS10-apr.md
-    - name: MS10-mar
-      href: ./SecurityBulletinSummaries/2010/MS10-mar.md
-    - name: MS10-feb
-      href: ./SecurityBulletinSummaries/2010/MS10-feb.md
-    - name: MS10-jan
-      href: ./SecurityBulletinSummaries/2010/MS10-jan.md
-  - name: 2009
-    items:
-    - name: MS09-dec
-      href: ./SecurityBulletinSummaries/2009/MS09-dec.md
-    - name: MS09-nov
-      href: ./SecurityBulletinSummaries/2009/MS09-nov.md
-    - name: MS09-oct
-      href: ./SecurityBulletinSummaries/2009/MS09-oct.md
-    - name: MS09-sep
-      href: ./SecurityBulletinSummaries/2009/MS09-sep.md
-    - name: MS09-aug
-      href: ./SecurityBulletinSummaries/2009/MS09-aug.md
-    - name: MS09-jul
-      href: ./SecurityBulletinSummaries/2009/MS09-jul.md
-    - name: MS09-jun
-      href: ./SecurityBulletinSummaries/2009/MS09-jun.md
-    - name: MS09-may
-      href: ./SecurityBulletinSummaries/2009/MS09-may.md
-    - name: MS09-apr
-      href: ./SecurityBulletinSummaries/2009/MS09-apr.md
-    - name: MS09-mar
-      href: ./SecurityBulletinSummaries/2009/MS09-mar.md
-    - name: MS09-feb
-      href: ./SecurityBulletinSummaries/2009/MS09-feb.md
-    - name: MS09-jan
-      href: ./SecurityBulletinSummaries/2009/MS09-jan.md
-  - name: 2008
-    items:
-    - name: MS08-dec
-      href: ./SecurityBulletinSummaries/2008/MS08-dec.md
-    - name: MS08-nov
-      href: ./SecurityBulletinSummaries/2008/MS08-nov.md
-    - name: MS08-oct
-      href: ./SecurityBulletinSummaries/2008/MS08-oct.md
-    - name: MS08-sep
-      href: ./SecurityBulletinSummaries/2008/MS08-sep.md
-    - name: MS08-aug
-      href: ./SecurityBulletinSummaries/2008/MS08-aug.md
-    - name: MS08-jul
-      href: ./SecurityBulletinSummaries/2008/MS08-jul.md
-    - name: MS08-jun
-      href: ./SecurityBulletinSummaries/2008/MS08-jun.md
-    - name: MS08-apr
-      href: ./SecurityBulletinSummaries/2008/MS08-apr.md
-    - name: MS08-feb
-      href: ./SecurityBulletinSummaries/2008/MS08-feb.md
-    - name: MS08-jan
-      href: ./SecurityBulletinSummaries/2008/MS08-jan.md
-  - name: 2007
-    items:
-    - name: MS07-dec
-      href: ./SecurityBulletinSummaries/2007/MS07-dec.md
-    - name: MS07-nov
-      href: ./SecurityBulletinSummaries/2007/MS07-nov.md
-    - name: MS07-oct
-      href: ./SecurityBulletinSummaries/2007/MS07-oct.md
-    - name: MS07-sep
-      href: ./SecurityBulletinSummaries/2007/MS07-sep.md
-    - name: MS07-aug
-      href: ./SecurityBulletinSummaries/2007/MS07-aug.md
-    - name: MS07-jul
-      href: ./SecurityBulletinSummaries/2007/MS07-jul.md
-    - name: MS07-jun
-      href: ./SecurityBulletinSummaries/2007/MS07-jun.md
-    - name: MS07-may
-      href: ./SecurityBulletinSummaries/2007/MS07-may.md
-    - name: MS07-apr
-      href: ./SecurityBulletinSummaries/2007/MS07-apr.md
-    - name: MS07-mar
-      href: ./SecurityBulletinSummaries/2007/MS07-mar.md
-    - name: MS07-feb
-      href: ./SecurityBulletinSummaries/2007/MS07-feb.md
-    - name: MS07-jan
-      href: ./SecurityBulletinSummaries/2007/MS07-jan.md
-  - name: 2006
-    items:
-    - name: MS06-dec
-      href: ./SecurityBulletinSummaries/2006/MS06-dec.md
-    - name: MS06-nov
-      href: ./SecurityBulletinSummaries/2006/MS06-nov.md
-    - name: MS06-oct
-      href: ./SecurityBulletinSummaries/2006/MS06-oct.md
-    - name: MS06-sep
-      href: ./SecurityBulletinSummaries/2006/MS06-sep.md
-    - name: MS06-aug
-      href: ./SecurityBulletinSummaries/2006/MS06-aug.md
-    - name: MS06-jul
-      href: ./SecurityBulletinSummaries/2006/MS06-jul.md
-    - name: MS06-jun
-      href: ./SecurityBulletinSummaries/2006/MS06-jun.md
-    - name: MS06-may
-      href: ./SecurityBulletinSummaries/2006/MS06-may.md
-    - name: MS06-apr
-      href: ./SecurityBulletinSummaries/2006/MS06-apr.md
-    - name: MS06-mar
-      href: ./SecurityBulletinSummaries/2006/MS06-mar.md
-    - name: MS06-feb
-      href: ./SecurityBulletinSummaries/2006/MS06-feb.md
-    - name: MS06-jan
-      href: ./SecurityBulletinSummaries/2006/MS06-jan.md
 - name: Biztonsági közlemények 
   href: 
   items:
@@ -1468,16 +1915,175 @@
       href: ./SecurityAdvisories/2006/MS06-002
     - name: MS06-001
       href: ./SecurityAdvisories/2006/MS06-001
-- name: Acknowledgments
-  href: ./Acknowledgments/acknowledgments
+- name: Biztonsági közlemények összefoglalója
+  href: 
   items:
-  - name: 2017
-    href: ./Acknowledgments/2017/acknowledgments2017
-  - name: 2016
-    href: ./Acknowledgments/2016/acknowledgments2016
-  - name: 2015
-    href: ./Acknowledgments/2015/acknowledgments2015
-  - name: 2014
-    href: ./Acknowledgments/2014/acknowledgments2014
-- name: Glossary
-  href: ./Glossary/glossary
+  - name: 2012
+    href: ./SecurityBulletinSummaries/2012/2012bulletinsummaries.md
+    items:
+    - name: MS12-jun
+      href: ./SecurityBulletinSummaries/2012/MS12-jun.md
+    - name: MS12-may
+      href: ./SecurityBulletinSummaries/2012/MS12-may.md
+    - name: MS12-apr
+      href: ./SecurityBulletinSummaries/2012/MS12-apr.md
+    - name: MS12-mar
+      href: ./SecurityBulletinSummaries/2012/MS12-mar.md
+    - name: MS12-feb
+      href: ./SecurityBulletinSummaries/2012/MS12-feb.md
+    - name: MS12-jan
+      href: ./SecurityBulletinSummaries/2012/MS12-jan.md
+  - name: 2011
+    href: ./SecurityBulletinSummaries/2011/2011bulletinsummaries.md
+    items:
+    - name: MS11-dec
+      href: ./SecurityBulletinSummaries/2011/MS11-dec.md
+    - name: MS11-nov
+      href: ./SecurityBulletinSummaries/2011/MS11-nov.md
+    - name: MS11-oct
+      href: ./SecurityBulletinSummaries/2011/MS11-oct.md
+    - name: MS11-sep
+      href: ./SecurityBulletinSummaries/2011/MS11-sep.md
+    - name: MS11-aug
+      href: ./SecurityBulletinSummaries/2011/MS11-aug.md
+    - name: MS11-jul
+      href: ./SecurityBulletinSummaries/2011/MS11-jul.md
+    - name: MS11-jun
+      href: ./SecurityBulletinSummaries/2011/MS11-jun.md
+    - name: MS11-may
+      href: ./SecurityBulletinSummaries/2011/MS11-may.md
+    - name: MS11-apr
+      href: ./SecurityBulletinSummaries/2011/MS11-apr.md
+    - name: MS11-mar
+      href: ./SecurityBulletinSummaries/2011/MS11-mar.md
+    - name: MS11-feb
+      href: ./SecurityBulletinSummaries/2011/MS11-feb.md
+    - name: MS11-jan
+      href: ./SecurityBulletinSummaries/2011/MS11-jan.md
+  - name: 2010
+    href: ./SecurityBulletinSummaries/2010/2010bulletinsummaries.md
+    items:
+    - name: MS10-dec
+      href: ./SecurityBulletinSummaries/2010/MS10-dec.md
+    - name: MS10-nov
+      href: ./SecurityBulletinSummaries/2010/MS10-nov.md
+    - name: MS10-oct
+      href: ./SecurityBulletinSummaries/2010/MS10-oct.md
+    - name: MS10-sep
+      href: ./SecurityBulletinSummaries/2010/MS10-sep.md
+    - name: MS10-aug
+      href: ./SecurityBulletinSummaries/2010/MS10-aug.md
+    - name: MS10-jul
+      href: ./SecurityBulletinSummaries/2010/MS10-jul.md
+    - name: MS10-jun
+      href: ./SecurityBulletinSummaries/2010/MS10-jun.md
+    - name: MS10-may
+      href: ./SecurityBulletinSummaries/2010/MS10-may.md
+    - name: MS10-apr
+      href: ./SecurityBulletinSummaries/2010/MS10-apr.md
+    - name: MS10-mar
+      href: ./SecurityBulletinSummaries/2010/MS10-mar.md
+    - name: MS10-feb
+      href: ./SecurityBulletinSummaries/2010/MS10-feb.md
+    - name: MS10-jan
+      href: ./SecurityBulletinSummaries/2010/MS10-jan.md
+  - name: 2009
+    items:
+    - name: MS09-dec
+      href: ./SecurityBulletinSummaries/2009/MS09-dec.md
+    - name: MS09-nov
+      href: ./SecurityBulletinSummaries/2009/MS09-nov.md
+    - name: MS09-oct
+      href: ./SecurityBulletinSummaries/2009/MS09-oct.md
+    - name: MS09-sep
+      href: ./SecurityBulletinSummaries/2009/MS09-sep.md
+    - name: MS09-aug
+      href: ./SecurityBulletinSummaries/2009/MS09-aug.md
+    - name: MS09-jul
+      href: ./SecurityBulletinSummaries/2009/MS09-jul.md
+    - name: MS09-jun
+      href: ./SecurityBulletinSummaries/2009/MS09-jun.md
+    - name: MS09-may
+      href: ./SecurityBulletinSummaries/2009/MS09-may.md
+    - name: MS09-apr
+      href: ./SecurityBulletinSummaries/2009/MS09-apr.md
+    - name: MS09-mar
+      href: ./SecurityBulletinSummaries/2009/MS09-mar.md
+    - name: MS09-feb
+      href: ./SecurityBulletinSummaries/2009/MS09-feb.md
+    - name: MS09-jan
+      href: ./SecurityBulletinSummaries/2009/MS09-jan.md
+  - name: 2008
+    items:
+    - name: MS08-dec
+      href: ./SecurityBulletinSummaries/2008/MS08-dec.md
+    - name: MS08-nov
+      href: ./SecurityBulletinSummaries/2008/MS08-nov.md
+    - name: MS08-oct
+      href: ./SecurityBulletinSummaries/2008/MS08-oct.md
+    - name: MS08-sep
+      href: ./SecurityBulletinSummaries/2008/MS08-sep.md
+    - name: MS08-aug
+      href: ./SecurityBulletinSummaries/2008/MS08-aug.md
+    - name: MS08-jul
+      href: ./SecurityBulletinSummaries/2008/MS08-jul.md
+    - name: MS08-jun
+      href: ./SecurityBulletinSummaries/2008/MS08-jun.md
+    - name: MS08-apr
+      href: ./SecurityBulletinSummaries/2008/MS08-apr.md
+    - name: MS08-feb
+      href: ./SecurityBulletinSummaries/2008/MS08-feb.md
+    - name: MS08-jan
+      href: ./SecurityBulletinSummaries/2008/MS08-jan.md
+  - name: 2007
+    items:
+    - name: MS07-dec
+      href: ./SecurityBulletinSummaries/2007/MS07-dec.md
+    - name: MS07-nov
+      href: ./SecurityBulletinSummaries/2007/MS07-nov.md
+    - name: MS07-oct
+      href: ./SecurityBulletinSummaries/2007/MS07-oct.md
+    - name: MS07-sep
+      href: ./SecurityBulletinSummaries/2007/MS07-sep.md
+    - name: MS07-aug
+      href: ./SecurityBulletinSummaries/2007/MS07-aug.md
+    - name: MS07-jul
+      href: ./SecurityBulletinSummaries/2007/MS07-jul.md
+    - name: MS07-jun
+      href: ./SecurityBulletinSummaries/2007/MS07-jun.md
+    - name: MS07-may
+      href: ./SecurityBulletinSummaries/2007/MS07-may.md
+    - name: MS07-apr
+      href: ./SecurityBulletinSummaries/2007/MS07-apr.md
+    - name: MS07-mar
+      href: ./SecurityBulletinSummaries/2007/MS07-mar.md
+    - name: MS07-feb
+      href: ./SecurityBulletinSummaries/2007/MS07-feb.md
+    - name: MS07-jan
+      href: ./SecurityBulletinSummaries/2007/MS07-jan.md
+  - name: 2006
+    items:
+    - name: MS06-dec
+      href: ./SecurityBulletinSummaries/2006/MS06-dec.md
+    - name: MS06-nov
+      href: ./SecurityBulletinSummaries/2006/MS06-nov.md
+    - name: MS06-oct
+      href: ./SecurityBulletinSummaries/2006/MS06-oct.md
+    - name: MS06-sep
+      href: ./SecurityBulletinSummaries/2006/MS06-sep.md
+    - name: MS06-aug
+      href: ./SecurityBulletinSummaries/2006/MS06-aug.md
+    - name: MS06-jul
+      href: ./SecurityBulletinSummaries/2006/MS06-jul.md
+    - name: MS06-jun
+      href: ./SecurityBulletinSummaries/2006/MS06-jun.md
+    - name: MS06-may
+      href: ./SecurityBulletinSummaries/2006/MS06-may.md
+    - name: MS06-apr
+      href: ./SecurityBulletinSummaries/2006/MS06-apr.md
+    - name: MS06-mar
+      href: ./SecurityBulletinSummaries/2006/MS06-mar.md
+    - name: MS06-feb
+      href: ./SecurityBulletinSummaries/2006/MS06-feb.md
+    - name: MS06-jan
+      href: ./SecurityBulletinSummaries/2006/MS06-jan.md
