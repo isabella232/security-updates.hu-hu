@@ -4,6 +4,8 @@ Title: 'Microsoft biztonsági közlemény - összefoglalás, február 2010'
 ms:assetid: 'ms10-feb'
 ms:contentKeyID: 61227741
 ms:mtpsurl: 'https://technet.microsoft.com/hu-HU/library/ms10-feb(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

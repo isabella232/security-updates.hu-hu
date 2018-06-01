@@ -4,6 +4,8 @@ Title: 'Microsoft biztonsági közlemény - összefoglalás, április 2008'
 ms:assetid: 'ms08-apr'
 ms:contentKeyID: 61227716
 ms:mtpsurl: 'https://technet.microsoft.com/hu-HU/library/ms08-apr(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

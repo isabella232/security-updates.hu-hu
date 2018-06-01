@@ -4,6 +4,8 @@ Title: 'A Microsoft biztonsági közleményei – összefoglalás, 2011. októbe
 ms:assetid: 'ms11-oct'
 ms:contentKeyID: 61227760
 ms:mtpsurl: 'https://technet.microsoft.com/hu-HU/library/ms11-oct(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

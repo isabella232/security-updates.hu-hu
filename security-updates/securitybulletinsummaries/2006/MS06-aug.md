@@ -4,6 +4,8 @@ Title: 'Microsoft biztonsági közlemény - összefoglalás, augusztus 2006'
 ms:assetid: 'ms06-aug'
 ms:contentKeyID: 61227693
 ms:mtpsurl: 'https://technet.microsoft.com/hu-HU/library/ms06-aug(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

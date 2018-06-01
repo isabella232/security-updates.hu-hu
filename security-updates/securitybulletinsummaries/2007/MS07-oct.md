@@ -4,6 +4,8 @@ Title: 'Microsoft biztonsági közlemény - összefoglalás, október 2007'
 ms:assetid: 'ms07-oct'
 ms:contentKeyID: 61227714
 ms:mtpsurl: 'https://technet.microsoft.com/hu-HU/library/ms07-oct(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

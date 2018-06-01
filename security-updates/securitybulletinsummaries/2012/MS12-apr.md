@@ -4,6 +4,8 @@ Title: 'A Microsoft biztonsági közleményei - összefoglalás, 2012. április'
 ms:assetid: 'ms12-apr'
 ms:contentKeyID: 61227763
 ms:mtpsurl: 'https://technet.microsoft.com/hu-HU/library/ms12-apr(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

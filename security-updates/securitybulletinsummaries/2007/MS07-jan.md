@@ -4,6 +4,8 @@ Title: 'Microsoft biztonsági közlemény - összefoglalás, január 2007'
 ms:assetid: 'ms07-jan'
 ms:contentKeyID: 61227708
 ms:mtpsurl: 'https://technet.microsoft.com/hu-HU/library/ms07-jan(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

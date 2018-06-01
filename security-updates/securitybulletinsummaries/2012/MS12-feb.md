@@ -4,6 +4,8 @@ Title: 'A Microsoft biztonsági közleményei - összefoglalás, 2012. február'
 ms:assetid: 'ms12-feb'
 ms:contentKeyID: 61227764
 ms:mtpsurl: 'https://technet.microsoft.com/hu-HU/library/ms12-feb(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

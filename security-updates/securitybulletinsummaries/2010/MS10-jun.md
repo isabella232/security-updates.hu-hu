@@ -4,6 +4,8 @@ Title: 'A Microsoft biztonsági közleményei - összefoglalás, 2010. június'
 ms:assetid: 'ms10-jun'
 ms:contentKeyID: 61227744
 ms:mtpsurl: 'https://technet.microsoft.com/hu-HU/library/ms10-jun(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

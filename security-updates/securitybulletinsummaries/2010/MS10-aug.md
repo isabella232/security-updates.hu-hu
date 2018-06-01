@@ -4,6 +4,8 @@ Title: 'Microsoft biztonsági közlemény - összefoglalás, augusztus 2010'
 ms:assetid: 'ms10-aug'
 ms:contentKeyID: 61227739
 ms:mtpsurl: 'https://technet.microsoft.com/hu-HU/library/ms10-aug(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

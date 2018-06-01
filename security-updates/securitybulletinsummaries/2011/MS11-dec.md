@@ -4,6 +4,8 @@ Title: 'A Microsoft biztonsági közleményei – összefoglalás, 2011. decembe
 ms:assetid: 'ms11-dec'
 ms:contentKeyID: 61227752
 ms:mtpsurl: 'https://technet.microsoft.com/hu-HU/library/ms11-dec(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

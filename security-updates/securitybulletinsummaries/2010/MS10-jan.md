@@ -4,6 +4,8 @@ Title: 'Microsoft biztonsági közlemény - összefoglalás, január 2010'
 ms:assetid: 'ms10-jan'
 ms:contentKeyID: 61227742
 ms:mtpsurl: 'https://technet.microsoft.com/hu-HU/library/ms10-jan(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

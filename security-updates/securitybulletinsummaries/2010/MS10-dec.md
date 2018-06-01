@@ -4,6 +4,8 @@ Title: Microsoft Security Bulletin Summary for december 2010
 ms:assetid: 'ms10-dec'
 ms:contentKeyID: 61227740
 ms:mtpsurl: 'https://technet.microsoft.com/hu-HU/library/ms10-dec(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

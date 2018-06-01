@@ -4,6 +4,8 @@ Title: Microsoft Security Bulletin Summary for január 2011
 ms:assetid: 'ms11-jan'
 ms:contentKeyID: 61227754
 ms:mtpsurl: 'https://technet.microsoft.com/hu-HU/library/ms11-jan(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

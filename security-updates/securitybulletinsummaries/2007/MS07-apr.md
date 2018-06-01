@@ -4,6 +4,8 @@ Title: 'Microsoft biztonsági közlemény - összefoglalás, április 2007'
 ms:assetid: 'ms07-apr'
 ms:contentKeyID: 61227704
 ms:mtpsurl: 'https://technet.microsoft.com/hu-HU/library/ms07-apr(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

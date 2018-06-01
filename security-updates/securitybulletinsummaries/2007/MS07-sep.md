@@ -4,6 +4,8 @@ Title: 'Microsoft biztonsági közlemény - összefoglalás, szeptember 2007'
 ms:assetid: 'ms07-sep'
 ms:contentKeyID: 61227715
 ms:mtpsurl: 'https://technet.microsoft.com/hu-HU/library/ms07-sep(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

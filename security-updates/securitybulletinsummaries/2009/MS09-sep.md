@@ -4,6 +4,8 @@ Title: 'Microsoft biztonsági közlemény - összefoglalás, szeptember 2009'
 ms:assetid: 'ms09-sep'
 ms:contentKeyID: 61227737
 ms:mtpsurl: 'https://technet.microsoft.com/hu-HU/library/ms09-sep(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

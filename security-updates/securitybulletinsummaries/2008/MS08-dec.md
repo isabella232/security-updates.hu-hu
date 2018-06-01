@@ -4,6 +4,8 @@ Title: 'Microsoft biztonsági közlemény - összefoglalás, december 2008'
 ms:assetid: 'ms08-dec'
 ms:contentKeyID: 61227718
 ms:mtpsurl: 'https://technet.microsoft.com/hu-HU/library/ms08-dec(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

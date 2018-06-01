@@ -4,6 +4,8 @@ Title: 'Microsoft biztonsági közlemény - összefoglalás, február 2006'
 ms:assetid: 'ms06-feb'
 ms:contentKeyID: 61227695
 ms:mtpsurl: 'https://technet.microsoft.com/hu-HU/library/ms06-feb(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary
