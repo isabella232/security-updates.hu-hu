@@ -4,6 +4,8 @@ Title: 'Microsoft biztonsági közlemény - összefoglalás, december 2009'
 ms:assetid: 'ms09-dec'
 ms:contentKeyID: 61227728
 ms:mtpsurl: 'https://technet.microsoft.com/hu-HU/library/ms09-dec(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

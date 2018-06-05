@@ -4,6 +4,8 @@ Title: 'Microsoft biztonsági közlemény - összefoglalás, szeptember 2008'
 ms:assetid: 'ms08-sep'
 ms:contentKeyID: 61227725
 ms:mtpsurl: 'https://technet.microsoft.com/hu-HU/library/ms08-sep(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

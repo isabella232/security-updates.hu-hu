@@ -4,6 +4,8 @@ Title: 'Microsoft biztonsági közlemény - összefoglalás, december 2007'
 ms:assetid: 'ms07-dec'
 ms:contentKeyID: 61227706
 ms:mtpsurl: 'https://technet.microsoft.com/hu-HU/library/ms07-dec(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

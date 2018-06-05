@@ -4,6 +4,8 @@ Title: 'Microsoft biztonsági közlemény - összefoglalás, november 2007'
 ms:assetid: 'ms07-nov'
 ms:contentKeyID: 61227713
 ms:mtpsurl: 'https://technet.microsoft.com/hu-HU/library/ms07-nov(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

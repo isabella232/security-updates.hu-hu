@@ -4,6 +4,8 @@ Title: 'Microsoft biztonsági közlemény - összefoglalás, április 2009'
 ms:assetid: 'ms09-apr'
 ms:contentKeyID: 61227726
 ms:mtpsurl: 'https://technet.microsoft.com/hu-HU/library/ms09-apr(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

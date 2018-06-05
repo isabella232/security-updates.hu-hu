@@ -4,6 +4,8 @@ Title: 'Microsoft biztonsági közlemény - összefoglalás, március 2006'
 ms:assetid: 'ms06-mar'
 ms:contentKeyID: 61227699
 ms:mtpsurl: 'https://technet.microsoft.com/hu-HU/library/ms06-mar(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

@@ -4,6 +4,8 @@ Title: 'A Microsoft biztonsági közleményei - összefoglalás, 2011. június'
 ms:assetid: 'ms11-jun'
 ms:contentKeyID: 61227756
 ms:mtpsurl: 'https://technet.microsoft.com/hu-HU/library/ms11-jun(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

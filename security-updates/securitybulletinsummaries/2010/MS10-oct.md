@@ -4,6 +4,8 @@ Title: 'A Microsoft biztonsági közleményei – összefoglalás, 2010. októbe
 ms:assetid: 'ms10-oct'
 ms:contentKeyID: 61227748
 ms:mtpsurl: 'https://technet.microsoft.com/hu-HU/library/ms10-oct(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

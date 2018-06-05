@@ -4,6 +4,8 @@ Title: 'A Microsoft biztonsági közleményei - összefoglalás, 2012. január'
 ms:assetid: 'ms12-jan'
 ms:contentKeyID: 61227765
 ms:mtpsurl: 'https://technet.microsoft.com/hu-HU/library/ms12-jan(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

@@ -4,6 +4,8 @@ Title: 'Microsoft biztonsági közlemény - összefoglalás, december 2006'
 ms:assetid: 'ms06-dec'
 ms:contentKeyID: 61227694
 ms:mtpsurl: 'https://technet.microsoft.com/hu-HU/library/ms06-dec(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

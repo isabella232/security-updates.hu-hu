@@ -4,6 +4,8 @@ Title: Microsoft Security Bulletin Summary for november 2010
 ms:assetid: 'ms10-nov'
 ms:contentKeyID: 61227747
 ms:mtpsurl: 'https://technet.microsoft.com/hu-HU/library/ms10-nov(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

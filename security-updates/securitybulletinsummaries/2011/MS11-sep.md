@@ -4,6 +4,8 @@ Title: 'Microsoft biztonsági közlemény - összefoglalás, 2011. szeptember'
 ms:assetid: 'ms11-sep'
 ms:contentKeyID: 61227762
 ms:mtpsurl: 'https://technet.microsoft.com/hu-HU/library/ms11-sep(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

@@ -4,6 +4,8 @@ Title: 'Microsoft biztonsági közlemény - összefoglalás, november 2008'
 ms:assetid: 'ms08-nov'
 ms:contentKeyID: 61227723
 ms:mtpsurl: 'https://technet.microsoft.com/hu-HU/library/ms08-nov(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

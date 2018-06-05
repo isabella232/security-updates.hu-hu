@@ -4,6 +4,8 @@ Title: 'A Microsoft biztonsági közleményei – összefoglalás, 2011. auguszt
 ms:assetid: 'ms11-aug'
 ms:contentKeyID: 61227751
 ms:mtpsurl: 'https://technet.microsoft.com/hu-HU/library/ms11-aug(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary

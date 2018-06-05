@@ -4,6 +4,8 @@ Title: 'Microsoft biztonsági közlemény - összefoglalás, október 2006'
 ms:assetid: 'ms06-oct'
 ms:contentKeyID: 61227702
 ms:mtpsurl: 'https://technet.microsoft.com/hu-HU/library/ms06-oct(v=Security.10)'
+author: SharonSears
+ms.author: SharonSears
 ---
 
 Security Bulletin Summary
